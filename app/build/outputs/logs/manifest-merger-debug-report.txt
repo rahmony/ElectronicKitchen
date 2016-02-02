@@ -1,0 +1,39 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\RaHmOnY\AndroidStudioProjects\ElectronicKitchen\app\src\main\AndroidManifest.xml:1:1-13:12
+	package
+		ADDED from C:\Users\RaHmOnY\AndroidStudioProjects\ElectronicKitchen\app\src\main\AndroidManifest.xml:2:5-44
+		INJECTED from C:\Users\RaHmOnY\AndroidStudioProjects\ElectronicKitchen\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\RaHmOnY\AndroidStudioProjects\ElectronicKitchen\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\RaHmOnY\AndroidStudioProjects\ElectronicKitchen\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\RaHmOnY\AndroidStudioProjects\ElectronicKitchen\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\RaHmOnY\AndroidStudioProjects\ElectronicKitchen\app\src\main\AndroidManifest.xml:1:11-69
+	android:versionCode
+		INJECTED from C:\Users\RaHmOnY\AndroidStudioProjects\ElectronicKitchen\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\RaHmOnY\AndroidStudioProjects\ElectronicKitchen\app\src\main\AndroidManifest.xml
+application
+ADDED from C:\Users\RaHmOnY\AndroidStudioProjects\ElectronicKitchen\app\src\main\AndroidManifest.xml:4:5-11:19
+MERGED from [com.android.support:appcompat-v7:23.1.1] C:\Users\RaHmOnY\AndroidStudioProjects\ElectronicKitchen\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\RaHmOnY\AndroidStudioProjects\ElectronicKitchen\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
+	android:label
+		ADDED from C:\Users\RaHmOnY\AndroidStudioProjects\ElectronicKitchen\app\src\main\AndroidManifest.xml:7:9-41
+	android:supportsRtl
+		ADDED from C:\Users\RaHmOnY\AndroidStudioProjects\ElectronicKitchen\app\src\main\AndroidManifest.xml:8:9-35
+	android:allowBackup
+		ADDED from C:\Users\RaHmOnY\AndroidStudioProjects\ElectronicKitchen\app\src\main\AndroidManifest.xml:5:9-35
+	android:icon
+		ADDED from C:\Users\RaHmOnY\AndroidStudioProjects\ElectronicKitchen\app\src\main\AndroidManifest.xml:6:9-43
+	android:theme
+		ADDED from C:\Users\RaHmOnY\AndroidStudioProjects\ElectronicKitchen\app\src\main\AndroidManifest.xml:9:9-40
+uses-sdk
+INJECTED from C:\Users\RaHmOnY\AndroidStudioProjects\ElectronicKitchen\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:23.1.1] C:\Users\RaHmOnY\AndroidStudioProjects\ElectronicKitchen\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\RaHmOnY\AndroidStudioProjects\ElectronicKitchen\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
+	android:targetSdkVersion
+		INJECTED from C:\Users\RaHmOnY\AndroidStudioProjects\ElectronicKitchen\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\RaHmOnY\AndroidStudioProjects\ElectronicKitchen\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\RaHmOnY\AndroidStudioProjects\ElectronicKitchen\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\RaHmOnY\AndroidStudioProjects\ElectronicKitchen\app\src\main\AndroidManifest.xml
