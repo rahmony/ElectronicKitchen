@@ -21,6 +21,7 @@
 	<string name="address"> العنوان </string>
 	<string name="share_location"> مشاركة الموقع </string>
 	<string name="password"> كلمة المرور </string>
+	<string name="bands_agree"> اوافق على الشروط والاحكام</string>
 	<string name="confirm"> تأكيد </string>
 	<string name="cancel"> الغاء</string>
 
