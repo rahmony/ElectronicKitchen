@@ -2,14 +2,30 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#edf4ef"
+    android:background="#faf9f9"
     android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:background="#f1baba"
+        android:clickable="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/sin_up"
+            android:id="@+id/text_sin_up"
+            android:layout_gravity="center" />
+    </FrameLayout>
 
     <LinearLayout
         android:orientation="horizontal"
         android:layout_width="match_parent"
         android:layout_height="51dp"
-        android:weightSum="1">
+        android:weightSum="1"
+        android:background="#c9c9c9">
 
         <EditText
             android:layout_width="wrap_content"
@@ -27,11 +43,13 @@
             android:textColor="#d25454"
             android:textSize="15dp" />
     </LinearLayout>
+
     <LinearLayout
         android:orientation="horizontal"
         android:layout_width="match_parent"
         android:layout_height="51dp"
-        android:weightSum="1">
+        android:weightSum="1"
+        android:background="#c9c9c9">
 
         <EditText
             android:layout_width="wrap_content"
@@ -53,7 +71,8 @@
         android:orientation="horizontal"
         android:layout_width="match_parent"
         android:layout_height="52dp"
-        android:weightSum="1">
+        android:weightSum="1"
+        android:background="#c9c9c9">
 
         <EditText
             android:layout_width="wrap_content"
@@ -74,7 +93,8 @@
         android:orientation="horizontal"
         android:layout_width="match_parent"
         android:layout_height="51dp"
-        android:weightSum="1">
+        android:weightSum="1"
+        android:background="#c9c9c9">
 
         <EditText
             android:layout_width="wrap_content"
@@ -95,7 +115,8 @@
         android:orientation="horizontal"
         android:layout_width="match_parent"
         android:layout_height="51dp"
-        android:weightSum="1">
+        android:weightSum="1"
+        android:background="#c9c9c9">
 
         <EditText
             android:layout_width="wrap_content"
@@ -117,7 +138,8 @@
         android:orientation="horizontal"
         android:layout_width="match_parent"
         android:layout_height="52dp"
-        android:weightSum="1">
+        android:weightSum="1"
+        android:background="#c9c9c9">
 
         <EditText
             android:layout_width="wrap_content"
@@ -139,7 +161,8 @@
         android:orientation="horizontal"
         android:layout_width="match_parent"
         android:layout_height="68dp"
-        android:weightSum="1">
+        android:weightSum="1"
+        android:background="#c9c9c9">
 
         <LinearLayout
             android:orientation="horizontal"
@@ -196,15 +219,8 @@
 
     <FrameLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
-
-        <Button
-            android:layout_width="128dp"
-            android:layout_height="wrap_content"
-            android:text="@string/confirm"
-            android:id="@+id/btn_confirm"
-            android:layout_gravity="right|bottom"
-            android:background="#088d3d" />
+        android:layout_height="match_parent"
+        android:background="#c9c9c9">
 
         <Button
             android:layout_width="133dp"
@@ -221,12 +237,21 @@
             android:layout_gravity="right|center_vertical" />
 
         <Button
-            android:layout_width="wrap_content"
+            android:layout_width="119dp"
+            android:layout_height="wrap_content"
+            android:text="@string/confirm"
+            android:id="@+id/btn_confirm"
+            android:layout_gravity="right|bottom"
+            android:background="#088d3d" />
+
+        <Button
+            android:layout_width="117dp"
             android:layout_height="wrap_content"
             android:text="@string/share_location"
             android:id="@+id/btn_share_location"
             android:background="#61bcc6"
-            android:layout_gravity="center_horizontal|top" />
+            android:layout_gravity="center_horizontal|top"
+            android:textSize="15dp" />
     </FrameLayout>
 
 
