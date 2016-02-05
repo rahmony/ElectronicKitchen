@@ -11,7 +11,7 @@ public class CostumerActivity extends AppCompatActivity implements TabHost.OnTab
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_customer);
+        setContentView(R.layout.activity_costumer);
         mTab=(TabHost)findViewById(R.id.tabHost);
         mTab.setup();
         TabHost.TabSpec spec=mTab.newTabSpec("tag1");
@@ -23,9 +23,6 @@ public class CostumerActivity extends AppCompatActivity implements TabHost.OnTab
         spec.setIndicator("طلباتي");
         spec.setContent(R.id.tab2);
         mTab.addTab(spec);
-
-        spec=mTab.newTabSpec("tag3");
-        spec.setIndicator("Outgoing");
 
         mTab.setOnTabChangedListener(this);
     }

@@ -598,10 +598,10 @@ int id btnImage_store_right 0x7f0c009c
 int id btn_cancel 0x7f0c008c
 int id btn_confirm 0x7f0c008e
 int id btn_customer_enter 0x7f0c0078
-int id btn_driver_enter 0x7f0c0079
+int id btn_driver_enter 0x7f0c007a
 int id btn_edit_profile 0x7f0c009a
 int id btn_login 0x7f0c0076
-int id btn_seller_enter 0x7f0c007a
+int id btn_seller_enter 0x7f0c0079
 int id btn_share_location 0x7f0c008f
 int id buttonPanel 0x7f0c0046
 int id cancel_action 0x7f0c00a7
@@ -782,7 +782,7 @@ int layout abc_screen_toolbar 0x7f040015
 int layout abc_search_dropdown_item_icons_2line 0x7f040016
 int layout abc_search_view 0x7f040017
 int layout abc_select_dialog_material 0x7f040018
-int layout activity_customer 0x7f040019
+int layout activity_costumer 0x7f040019
 int layout activity_login 0x7f04001a
 int layout activity_main 0x7f04001b
 int layout activity_main_page 0x7f04001c
@@ -899,8 +899,9 @@ int string store_following 0x7f060053
 int string store_name 0x7f060054
 int string store_products 0x7f060055
 int string stores_browsing 0x7f060056
-int string title_activity_main_page3 0x7f060057
-int string title_activity_store3 0x7f060058
+int string title_activity_costumer3 0x7f060057
+int string title_activity_main_page3 0x7f060058
+int string title_activity_store3 0x7f060059
 int style AlertDialog_AppCompat 0x7f09007f
 int style AlertDialog_AppCompat_Light 0x7f090080
 int style Animation_AppCompat_Dialog 0x7f090081

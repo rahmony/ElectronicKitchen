@@ -2269,10 +2269,10 @@ containing a value of this type.
         public static final int btn_cancel=0x7f0c008c;
         public static final int btn_confirm=0x7f0c008e;
         public static final int btn_customer_enter=0x7f0c0078;
-        public static final int btn_driver_enter=0x7f0c0079;
+        public static final int btn_driver_enter=0x7f0c007a;
         public static final int btn_edit_profile=0x7f0c009a;
         public static final int btn_login=0x7f0c0076;
-        public static final int btn_seller_enter=0x7f0c007a;
+        public static final int btn_seller_enter=0x7f0c0079;
         public static final int btn_share_location=0x7f0c008f;
         public static final int buttonPanel=0x7f0c0046;
         public static final int cancel_action=0x7f0c00a7;
@@ -2457,7 +2457,7 @@ containing a value of this type.
         public static final int abc_search_dropdown_item_icons_2line=0x7f040016;
         public static final int abc_search_view=0x7f040017;
         public static final int abc_select_dialog_material=0x7f040018;
-        public static final int activity_customer=0x7f040019;
+        public static final int activity_costumer=0x7f040019;
         public static final int activity_login=0x7f04001a;
         public static final int activity_main=0x7f04001b;
         public static final int activity_main_page=0x7f04001c;
@@ -2578,8 +2578,9 @@ containing a value of this type.
         public static final int store_name=0x7f060054;
         public static final int store_products=0x7f060055;
         public static final int stores_browsing=0x7f060056;
-        public static final int title_activity_main_page3=0x7f060057;
-        public static final int title_activity_store3=0x7f060058;
+        public static final int title_activity_costumer3=0x7f060057;
+        public static final int title_activity_main_page3=0x7f060058;
+        public static final int title_activity_store3=0x7f060059;
     }
     public static final class style {
         public static final int AlertDialog_AppCompat=0x7f09007f;

@@ -34,11 +34,9 @@
 
         <activity
             android:name="net.rahmony.electronickitchen.MainPageActivity"
-            android:label="@string/title_activity_main_page3"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name="net.rahmony.electronickitchen.StoreActivity"
-            android:label="@string/title_activity_store3"
             android:theme="@style/AppTheme.NoActionBar" />
     </application>
 
