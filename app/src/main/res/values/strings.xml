@@ -31,4 +31,11 @@
 	<string name="driver_enter">االدخول كسائق</string>
 
 
+	<string name="store_name">اسم المتجر</string>
+	<string name="store_description">الـــــوصـــف</string>
+	<string name="edit_profile"> تعديل بيانات المتجر</string>
+	<string name="store_followers">المتابعين</string>
+	<string name="store_following">المٌتابعون</string>
+	<string name="store_posts">المنتجات</string>
+
 </resources>
