@@ -3,20 +3,66 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:columnCount="1"
-    android:rowCount="7">
+    android:rowCount="5">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_row="0"
+        android:layout_column="0">
+
+        <TabHost
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/tabHost2">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TabWidget
+                    android:id="@android:id/tabs"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"></TabWidget>
+
+                <FrameLayout
+                    android:id="@android:id/tabcontent"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:id="@+id/linearLayout"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:orientation="horizontal"></LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/linearLayout2"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:orientation="horizontal"></LinearLayout>
+
+                </FrameLayout>
+            </LinearLayout>
+        </TabHost>
+    </LinearLayout>
 
     <LinearLayout
         android:orientation="horizontal"
         android:layout_width="match_parent"
         android:layout_height="41dp"
-        android:background="#d86161">
+        android:background="#d86161"
+        android:layout_column="0"
+        android:layout_row="1">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:text="@string/store_name"
-            android:id="@+id/textView"
+            android:id="@+id/text_store_name"
             android:layout_row="1"
             android:layout_column="1"
             android:layout_weight="1"
@@ -27,7 +73,7 @@
     <GridLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_row="1"
+        android:layout_row="2"
         android:layout_column="0"
         android:rowCount="3"
         android:columnCount="2">
@@ -43,7 +89,7 @@
             <ImageView
                 android:layout_width="101dp"
                 android:layout_height="100dp"
-                android:id="@+id/imageView"
+                android:id="@+id/image_store"
                 android:src="@drawable/ic_launcher"
                 android:layout_row="0"
                 android:layout_column="0" />
@@ -62,7 +108,7 @@
                 android:layout_width="80dp"
                 android:layout_height="20dp"
                 android:text="@string/store_followers"
-                android:id="@+id/textView3"
+                android:id="@+id/text_store_followers"
                 android:layout_row="0"
                 android:layout_column="0"
                 android:layout_gravity="center_horizontal"
@@ -72,7 +118,7 @@
                 android:layout_width="89dp"
                 android:layout_height="20dp"
                 android:text="@string/store_following"
-                android:id="@+id/textView5"
+                android:id="@+id/text_store_following"
                 android:layout_row="0"
                 android:layout_column="1"
                 android:layout_gravity="center_horizontal"
@@ -81,8 +127,8 @@
             <TextView
                 android:layout_width="104dp"
                 android:layout_height="30dp"
-                android:text="@string/store_posts"
-                android:id="@+id/textView6"
+                android:text="@string/store_products"
+                android:id="@+id/text_store_products"
                 android:layout_row="0"
                 android:layout_column="2"
                 android:gravity="center_horizontal" />
@@ -91,7 +137,7 @@
                 android:layout_width="30dp"
                 android:layout_height="wrap_content"
                 android:text="000"
-                android:id="@+id/textView7"
+                android:id="@+id/text_store_followers_number"
                 android:layout_row="1"
                 android:layout_column="0"
                 android:gravity="center_horizontal|right"
@@ -101,7 +147,7 @@
                 android:layout_width="30dp"
                 android:layout_height="wrap_content"
                 android:text="000"
-                android:id="@+id/textView8"
+                android:id="@+id/text_store_following_number"
                 android:layout_row="1"
                 android:layout_column="1"
                 android:layout_gravity="center_horizontal"
@@ -111,7 +157,7 @@
                 android:layout_width="30dp"
                 android:layout_height="wrap_content"
                 android:text="000"
-                android:id="@+id/textView4"
+                android:id="@+id/text_store_products_number"
                 android:layout_row="1"
                 android:layout_column="2"
                 android:layout_gravity="center_horizontal" />
@@ -120,7 +166,7 @@
                 android:layout_width="222dp"
                 android:layout_height="27dp"
                 android:text="@string/edit_profile"
-                android:id="@+id/button"
+                android:id="@+id/btn_edit_profile"
                 android:textSize="15dp"
                 android:layout_row="2"
                 android:layout_column="0"
@@ -136,14 +182,16 @@
         android:orientation="horizontal"
         android:layout_width="match_parent"
         android:layout_height="35dp"
-        android:background="#edd4d4">
+        android:background="#edd4d4"
+        android:layout_row="3"
+        android:layout_column="0">
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:text="@string/store_description"
-            android:id="@+id/textView2"
+            android:id="@+id/text_store_description"
             android:textSize="14dp"
             android:gravity="center_vertical|center_horizontal" />
     </LinearLayout>
@@ -152,98 +200,21 @@
         android:orientation="horizontal"
         android:layout_width="match_parent"
         android:layout_height="46dp"
-        android:layout_row="3"
-        android:layout_column="0">
-
-        <ImageButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/imageButton"
-            android:src="@drawable/ic_launcher"
-            android:layout_weight="1" />
-        <ImageButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/imageButton2"
-            android:src="@drawable/ic_launcher"
-            android:layout_weight="1" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:orientation="horizontal"
-        android:layout_width="match_parent"
-        android:layout_height="99dp"
         android:layout_row="4"
         android:layout_column="0">
 
-        <ImageView
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:id="@+id/imageView4"
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnImage_store_right"
             android:src="@drawable/ic_launcher"
             android:layout_weight="1" />
-        <ImageView
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:id="@+id/imageView5"
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnImage_store_left"
             android:src="@drawable/ic_launcher"
             android:layout_weight="1" />
-        <ImageView
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:id="@+id/imageView6"
-            android:src="@drawable/ic_launcher"
-            android:layout_weight="1" />
-
     </LinearLayout>
-
-    <LinearLayout
-        android:orientation="horizontal"
-        android:layout_width="match_parent"
-        android:layout_height="99dp"
-        android:layout_row="5"
-        android:layout_column="0"> <ImageView
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:id="@+id/imageView7"
-        android:src="@drawable/ic_launcher"
-        android:layout_weight="1" />
-        <ImageView
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:id="@+id/imageView8"
-            android:src="@drawable/ic_launcher"
-            android:layout_weight="1" />
-        <ImageView
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:id="@+id/imageView9"
-            android:src="@drawable/ic_launcher"
-            android:layout_weight="1" /></LinearLayout
-        >
-
-    <LinearLayout
-        android:orientation="horizontal"
-        android:layout_width="match_parent"
-        android:layout_height="99dp"
-        android:layout_row="6"
-        android:layout_column="0"> <ImageView
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:id="@+id/imageView10"
-        android:src="@drawable/ic_launcher"
-        android:layout_weight="1" />
-        <ImageView
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:id="@+id/imageView11"
-            android:src="@drawable/ic_launcher"
-            android:layout_weight="1" />
-        <ImageView
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:id="@+id/imageView12"
-            android:src="@drawable/ic_launcher"
-            android:layout_weight="1" /></LinearLayout>
 
 </GridLayout>

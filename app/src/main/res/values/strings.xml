@@ -36,6 +36,6 @@
 	<string name="edit_profile"> تعديل بيانات المتجر</string>
 	<string name="store_followers">المتابعين</string>
 	<string name="store_following">المٌتابعون</string>
-	<string name="store_posts">المنتجات</string>
+	<string name="store_products">المنتجات</string>
 
 </resources>

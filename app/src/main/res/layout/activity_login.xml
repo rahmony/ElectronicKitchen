@@ -29,7 +29,7 @@
         <ImageView
             android:layout_width="93dp"
             android:layout_height="93dp"
-            android:id="@+id/image_logo"
+            android:id="@+id/image_login"
             android:src="@drawable/ic_launcher"
             android:layout_gravity="center" />
     </FrameLayout>
