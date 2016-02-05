@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:orientation="vertical" android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
     android:weightSum="1"
     android:background="#d8d7d7">
-
-    <FrameLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"></FrameLayout>
 
     <FrameLayout
         android:orientation="horizontal"
@@ -36,6 +32,37 @@
         android:layout_height="wrap_content"
         android:layout_weight="0.20">
 
+    </FrameLayout>
+
+    <FrameLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.08">
+
+        <Button
+            android:layout_width="201dp"
+            android:layout_height="wrap_content"
+            android:text="الدخول كـ زبون"
+            android:id="@+id/btn_customer_enter"
+            android:layout_above="@+id/btn_seller_enter"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:textSize="25dp"
+            android:background="#470e4582"
+            android:textColor="#030303"
+            android:layout_gravity="center_horizontal|top"
+            android:onClick="onCostumerClick" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.41">
+
         <Button
             android:layout_width="201dp"
             android:layout_height="wrap_content"
@@ -51,13 +78,6 @@
             android:background="#470e4582"
             android:textColor="#050505"
             android:layout_gravity="center" />
-    </FrameLayout>
-
-    <FrameLayout
-        android:orientation="horizontal"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="0.08">
 
         <Button
             android:layout_width="201dp"
@@ -73,29 +93,8 @@
             android:textSize="25dp"
             android:background="#470e4582"
             android:textColor="#131312"
-            android:layout_gravity="center_horizontal|bottom" />
-    </FrameLayout>
-
-    <FrameLayout
-        android:orientation="horizontal"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="0.41">
-
-        <Button
-            android:layout_width="201dp"
-            android:layout_height="wrap_content"
-            android:text="الدخول كـ زبون"
-            android:id="@+id/btn_customer_enter"
-            android:layout_above="@+id/btn_seller_enter"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentRight="true"
-            android:layout_alignParentEnd="true"
-            android:textSize="25dp"
-            android:background="#470e4582"
-            android:textColor="#030303"
-            android:layout_gravity="center" />
+            android:layout_gravity="center_horizontal|top"
+            android:onClick="onSellerClick" />
 
     </FrameLayout>
 </LinearLayout>

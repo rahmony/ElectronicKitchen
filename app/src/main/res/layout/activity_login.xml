@@ -103,22 +103,8 @@
 
     <FrameLayout
         android:layout_width="match_parent"
-        android:layout_height="53dp"></FrameLayout>
-
-    <FrameLayout
-        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="0.28">
-
-        <Button
-            android:layout_width="114dp"
-            android:layout_height="wrap_content"
-            android:text="@string/log_in"
-            android:id="@+id/btn_login"
-            android:layout_gravity="center_horizontal|top"
-            android:textSize="15dp"
-            android:textColor="#000000"
-            android:background="#3eae0b" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -127,6 +113,17 @@
             android:text="@string/login_sign_up"
             android:id="@+id/tv_costumer_page_enterWay"
             android:layout_gravity="center_horizontal|bottom" />
+
+        <Button
+            android:layout_width="114dp"
+            android:layout_height="wrap_content"
+            android:text="@string/log_in"
+            android:id="@+id/btn_login"
+            android:layout_gravity="center"
+            android:textSize="15sp"
+            android:textColor="#000000"
+            android:background="#3eae0b"
+            android:onClick="onLoginClick" />
     </FrameLayout>
 
 </LinearLayout>

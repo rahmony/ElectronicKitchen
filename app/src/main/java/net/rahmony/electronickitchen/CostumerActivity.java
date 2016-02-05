@@ -5,7 +5,7 @@ import android.os.Bundle;
 import android.widget.TabHost;
 import android.widget.Toast;
 
-public class CustomerActivity extends AppCompatActivity implements TabHost.OnTabChangeListener {
+public class CostumerActivity extends AppCompatActivity implements TabHost.OnTabChangeListener {
 
     TabHost mTab;
     @Override

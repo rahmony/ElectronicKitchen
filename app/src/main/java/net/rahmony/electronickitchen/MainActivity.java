@@ -18,13 +18,10 @@ public class MainActivity extends AppCompatActivity {
 
 
         mImage = (ImageView) findViewById(R.id.image_logo);
-        mImage.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
-                startActivity(new Intent(MainActivity.this ,LoginActivity.class));
-            }
-        });
 
-
-
+    }
+    public void onImageClick(View v) {
+        Intent intent = new Intent(MainActivity.this, LoginActivity.class);
+        startActivity(intent);
     }
 }

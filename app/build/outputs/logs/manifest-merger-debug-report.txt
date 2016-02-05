@@ -1,10 +1,10 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\Androidprojects\ElectronicKitchen\app\src\main\AndroidManifest.xml:1:1-30:12
+ADDED from D:\Androidprojects\ElectronicKitchen\app\src\main\AndroidManifest.xml:2:1-39:12
 	xmlns:android
-		ADDED from D:\Androidprojects\ElectronicKitchen\app\src\main\AndroidManifest.xml:1:11-69
+		ADDED from D:\Androidprojects\ElectronicKitchen\app\src\main\AndroidManifest.xml:2:11-69
 	package
-		ADDED from D:\Androidprojects\ElectronicKitchen\app\src\main\AndroidManifest.xml:2:5-44
+		ADDED from D:\Androidprojects\ElectronicKitchen\app\src\main\AndroidManifest.xml:3:5-44
 		INJECTED from D:\Androidprojects\ElectronicKitchen\app\src\main\AndroidManifest.xml
 		INJECTED from D:\Androidprojects\ElectronicKitchen\app\src\main\AndroidManifest.xml
 	android:versionName
@@ -14,22 +14,27 @@ ADDED from D:\Androidprojects\ElectronicKitchen\app\src\main\AndroidManifest.xml
 		INJECTED from D:\Androidprojects\ElectronicKitchen\app\src\main\AndroidManifest.xml
 		INJECTED from D:\Androidprojects\ElectronicKitchen\app\src\main\AndroidManifest.xml
 application
-ADDED from D:\Androidprojects\ElectronicKitchen\app\src\main\AndroidManifest.xml:4:5-28:19
+ADDED from D:\Androidprojects\ElectronicKitchen\app\src\main\AndroidManifest.xml:5:5-37:19
 MERGED from [com.android.support:appcompat-v7:23.1.1] D:\Androidprojects\ElectronicKitchen\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:support-v4:23.1.1] D:\Androidprojects\ElectronicKitchen\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.gms:play-services-appindexing:8.1.0] D:\Androidprojects\ElectronicKitchen\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\8.1.0\AndroidManifest.xml:19:5-20
 MERGED from [com.google.android.gms:play-services-basement:8.1.0] D:\Androidprojects\ElectronicKitchen\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\AndroidManifest.xml:20:5-24:19
 MERGED from [com.android.support:support-v4:23.1.1] D:\Androidprojects\ElectronicKitchen\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:23.1.1] D:\Androidprojects\ElectronicKitchen\app\build\intermediates\exploded-aar\com.android.support\design\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:23.1.1] D:\Androidprojects\ElectronicKitchen\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.1] D:\Androidprojects\ElectronicKitchen\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.1] D:\Androidprojects\ElectronicKitchen\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.1] D:\Androidprojects\ElectronicKitchen\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
 	android:supportsRtl
-		ADDED from D:\Androidprojects\ElectronicKitchen\app\src\main\AndroidManifest.xml:8:9-35
+		ADDED from D:\Androidprojects\ElectronicKitchen\app\src\main\AndroidManifest.xml:9:9-35
 	android:label
-		ADDED from D:\Androidprojects\ElectronicKitchen\app\src\main\AndroidManifest.xml:7:9-41
+		ADDED from D:\Androidprojects\ElectronicKitchen\app\src\main\AndroidManifest.xml:8:9-41
 	android:allowBackup
-		ADDED from D:\Androidprojects\ElectronicKitchen\app\src\main\AndroidManifest.xml:5:9-35
+		ADDED from D:\Androidprojects\ElectronicKitchen\app\src\main\AndroidManifest.xml:6:9-35
 	android:icon
-		ADDED from D:\Androidprojects\ElectronicKitchen\app\src\main\AndroidManifest.xml:6:9-43
+		ADDED from D:\Androidprojects\ElectronicKitchen\app\src\main\AndroidManifest.xml:7:9-43
 	android:theme
-		ADDED from D:\Androidprojects\ElectronicKitchen\app\src\main\AndroidManifest.xml:9:9-40
+		ADDED from D:\Androidprojects\ElectronicKitchen\app\src\main\AndroidManifest.xml:10:9-40
 activity#net.rahmony.electronickitchen.MainActivity
 ADDED from D:\Androidprojects\ElectronicKitchen\app\src\main\AndroidManifest.xml:11:9-17:20
 	android:name
@@ -52,23 +57,45 @@ activity#net.rahmony.electronickitchen.SignUpActivity
 ADDED from D:\Androidprojects\ElectronicKitchen\app\src\main\AndroidManifest.xml:19:9-52
 	android:name
 		ADDED from D:\Androidprojects\ElectronicKitchen\app\src\main\AndroidManifest.xml:19:19-49
-activity#net.rahmony.electronickitchen.CustomerActivity
-ADDED from D:\Androidprojects\ElectronicKitchen\app\src\main\AndroidManifest.xml:20:9-53
+activity#net.rahmony.electronickitchen.CostumerActivity
+ADDED from D:\Androidprojects\ElectronicKitchen\app\src\main\AndroidManifest.xml:20:9-54
 	android:name
 		ADDED from D:\Androidprojects\ElectronicKitchen\app\src\main\AndroidManifest.xml:20:19-51
 meta-data#com.google.android.gms.version
-ADDED from D:\Androidprojects\ElectronicKitchen\app\src\main\AndroidManifest.xml:23:9-25:69
+ADDED from D:\Androidprojects\ElectronicKitchen\app\src\main\AndroidManifest.xml:25:9-27:69
 MERGED from [com.google.android.gms:play-services-basement:8.1.0] D:\Androidprojects\ElectronicKitchen\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\AndroidManifest.xml:21:9-23:69
 	android:name
-		ADDED from D:\Androidprojects\ElectronicKitchen\app\src\main\AndroidManifest.xml:24:13-58
+		ADDED from D:\Androidprojects\ElectronicKitchen\app\src\main\AndroidManifest.xml:26:13-58
 	android:value
-		ADDED from D:\Androidprojects\ElectronicKitchen\app\src\main\AndroidManifest.xml:25:13-66
+		ADDED from D:\Androidprojects\ElectronicKitchen\app\src\main\AndroidManifest.xml:27:13-66
+activity#net.rahmony.electronickitchen.MainPageActivity
+ADDED from D:\Androidprojects\ElectronicKitchen\app\src\main\AndroidManifest.xml:29:9-32:59
+	android:label
+		ADDED from D:\Androidprojects\ElectronicKitchen\app\src\main\AndroidManifest.xml:31:13-62
+	android:theme
+		ADDED from D:\Androidprojects\ElectronicKitchen\app\src\main\AndroidManifest.xml:32:13-56
+	android:name
+		ADDED from D:\Androidprojects\ElectronicKitchen\app\src\main\AndroidManifest.xml:30:13-45
+activity#net.rahmony.electronickitchen.StoreActivity
+ADDED from D:\Androidprojects\ElectronicKitchen\app\src\main\AndroidManifest.xml:33:9-36:68
+	android:label
+		ADDED from D:\Androidprojects\ElectronicKitchen\app\src\main\AndroidManifest.xml:35:13-58
+	android:theme
+		ADDED from D:\Androidprojects\ElectronicKitchen\app\src\main\AndroidManifest.xml:36:13-56
+	android:name
+		ADDED from D:\Androidprojects\ElectronicKitchen\app\src\main\AndroidManifest.xml:34:13-42
 uses-sdk
 INJECTED from D:\Androidprojects\ElectronicKitchen\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:appcompat-v7:23.1.1] D:\Androidprojects\ElectronicKitchen\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:support-v4:23.1.1] D:\Androidprojects\ElectronicKitchen\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
 MERGED from [com.google.android.gms:play-services-appindexing:8.1.0] D:\Androidprojects\ElectronicKitchen\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\8.1.0\AndroidManifest.xml:18:5-42
 MERGED from [com.google.android.gms:play-services-basement:8.1.0] D:\Androidprojects\ElectronicKitchen\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.1.1] D:\Androidprojects\ElectronicKitchen\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:design:23.1.1] D:\Androidprojects\ElectronicKitchen\app\build\intermediates\exploded-aar\com.android.support\design\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:23.1.1] D:\Androidprojects\ElectronicKitchen\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.1] D:\Androidprojects\ElectronicKitchen\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:23.1.1] D:\Androidprojects\ElectronicKitchen\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.1] D:\Androidprojects\ElectronicKitchen\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:support-v4:23.1.1] D:\Androidprojects\ElectronicKitchen\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
 	android:targetSdkVersion
 		INJECTED from D:\Androidprojects\ElectronicKitchen\app\src\main\AndroidManifest.xml
