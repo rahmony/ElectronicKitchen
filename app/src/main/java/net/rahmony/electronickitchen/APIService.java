@@ -9,15 +9,18 @@ import retrofit.http.*;
 public interface APIService {
 
 
-    @GET("items")
-    Call<Results> loadItems();
+    @GET("getAllUsers")
+    Call<Results> getAllUsers();
 
-    @POST("items")
-    Call<Results> insertItem(@Body User user);
+    @POST("signup")
+    Call<Results> signup(@Body User user);
 
+
+    // need to review and amend
     @PUT("items")
     Call<Results> updateItem(@Body User user);
 
+    // need to review and amend
     @DELETE("items/delete/{id}")
     Call<Results> deleteItem(@Path("id") String id);
 
