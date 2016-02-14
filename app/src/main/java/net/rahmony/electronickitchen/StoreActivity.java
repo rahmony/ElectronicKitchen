@@ -9,6 +9,8 @@ import android.view.View;
 import android.widget.TabHost;
 import android.widget.Toast;
 
+//Todo: Redesign this interface - unacceptable
+
 public class StoreActivity extends AppCompatActivity implements TabHost.OnTabChangeListener{
     TabHost mTab;
     @Override
