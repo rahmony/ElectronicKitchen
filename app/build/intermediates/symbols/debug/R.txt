@@ -671,9 +671,9 @@ int id progress_circular 0x7f0c0006
 int id progress_horizontal 0x7f0c0007
 int id radio 0x7f0c0056
 int id radioButton_bands_agree 0x7f0c008f
-int id radioButton_jeddah 0x7f0c008c
+int id radioButton_jeddah 0x7f0c008d
 int id radioButton_madina 0x7f0c008b
-int id radioButton_makka 0x7f0c008d
+int id radioButton_makka 0x7f0c008c
 int id right 0x7f0c0023
 int id screen 0x7f0c0027
 int id scroll 0x7f0c0018

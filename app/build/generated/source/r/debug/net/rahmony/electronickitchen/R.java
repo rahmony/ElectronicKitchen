@@ -2342,9 +2342,9 @@ containing a value of this type.
         public static final int progress_horizontal=0x7f0c0007;
         public static final int radio=0x7f0c0056;
         public static final int radioButton_bands_agree=0x7f0c008f;
-        public static final int radioButton_jeddah=0x7f0c008c;
+        public static final int radioButton_jeddah=0x7f0c008d;
         public static final int radioButton_madina=0x7f0c008b;
-        public static final int radioButton_makka=0x7f0c008d;
+        public static final int radioButton_makka=0x7f0c008c;
         public static final int right=0x7f0c0023;
         public static final int screen=0x7f0c0027;
         public static final int scroll=0x7f0c0018;
