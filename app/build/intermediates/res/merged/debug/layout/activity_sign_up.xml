@@ -12,6 +12,7 @@
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="@string/sin_up"
         android:id="@+id/text_sin_up"
+        android:textColor="#7d0f6ace"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="18dp" />
@@ -22,6 +23,7 @@
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:text="@string/first_name"
         android:id="@+id/text_first_name"
+        android:textColor="#7d0f6ace"
         android:layout_below="@+id/text_sin_up"
         android:layout_alignParentEnd="true"
         android:layout_marginTop="18dp"
@@ -43,6 +45,7 @@
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:text="@string/last_name"
         android:id="@+id/text_last_name"
+        android:textColor="#7d0f6ace"
         android:layout_below="@+id/text_first_name"
         android:layout_alignParentEnd="true"
         android:layout_marginTop="18dp"
@@ -64,6 +67,7 @@
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:text="@string/email"
         android:id="@+id/text_email"
+        android:textColor="#7d0f6ace"
         android:layout_below="@+id/text_last_name"
         android:layout_alignParentEnd="true"
         android:layout_marginTop="18dp"
@@ -84,6 +88,7 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:text="@string/phone_number"
+        android:textColor="#7d0f6ace"
         android:id="@+id/text_phone_number"
         android:layout_below="@+id/text_email"
         android:layout_alignParentEnd="true"
@@ -106,6 +111,7 @@
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:text="@string/address"
         android:id="@+id/text_address"
+        android:textColor="#7d0f6ace"
         android:layout_below="@+id/text_phone_number"
         android:layout_alignParentEnd="true"
         android:layout_marginTop="18dp"
@@ -125,6 +131,7 @@
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:text="@string/password"
         android:id="@+id/text_password"
+        android:textColor="#7d0f6ace"
         android:layout_below="@+id/text_address"
         android:layout_alignParentEnd="true"
         android:layout_marginTop="18dp"
@@ -146,6 +153,7 @@
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:text="@string/city"
         android:id="@+id/text_city"
+        android:textColor="#7d0f6ace"
         android:layout_below="@+id/text_password"
         android:layout_alignParentEnd="true"
         android:layout_marginTop="18dp"
@@ -189,6 +197,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/share_location"
+        android:background="#470e4582"
+        android:textColor="#050505"
         android:id="@+id/btn_share_location"
         android:layout_below="@+id/radioButton_madina"
         android:layout_alignStart="@+id/text_sin_up"
@@ -208,21 +218,27 @@
         android:layout_height="wrap_content"
         android:text="@string/confirm"
         android:id="@+id/btn_confirm"
+        android:background="#470e4582"
+        android:textColor="#050505"
         android:layout_alignParentBottom="true"
         android:layout_alignParentEnd="true"
         android:layout_toEndOf="@+id/btn_share_location"
         android:layout_alignStart="@+id/radioButton_bands_agree"
-        android:layout_marginTop="18dp" />
+        android:layout_marginTop="18dp"
+        android:layout_marginLeft="5dp" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/cancel"
         android:id="@+id/btn_cancel"
+        android:background="#470e4582"
+        android:textColor="#050505"
         android:layout_alignBottom="@+id/btn_confirm"
         android:layout_alignParentStart="true"
         android:layout_toStartOf="@+id/btn_confirm"
-        android:layout_marginTop="18dp" />
+        android:layout_marginTop="18dp"
+        android:layout_marginRight="5dp" />
 
 
 </RelativeLayout>
