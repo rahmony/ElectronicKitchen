@@ -27,8 +27,8 @@
 
     <string name="enter_way">طريقة دخول التطبيق</string>
     <string name="costumer_enter">الدخول كزبون</string>
-    <string name="seller_enter">االدخول كبائع</string>
-    <string name="driver_enter">االدخول كسائق</string>
+    <string name="seller_enter">الدخول كبائع</string>
+    <string name="driver_enter">الدخول كسائق</string>
 
 
     <string name="store_name">اسم المتجر</string>

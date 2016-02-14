@@ -2268,7 +2268,7 @@ containing a value of this type.
         public static final int btn_customer_enter=0x7f0c0079;
         public static final int btn_driver_enter=0x7f0c007b;
         public static final int btn_edit_profile=0x7f0c009b;
-        public static final int btn_login=0x7f0c0076;
+        public static final int btn_login=0x7f0c0074;
         public static final int btn_seller_enter=0x7f0c007a;
         public static final int btn_share_location=0x7f0c008d;
         public static final int buttonPanel=0x7f0c0046;
@@ -2291,6 +2291,7 @@ containing a value of this type.
         public static final int design_menu_item_text=0x7f0c00a4;
         public static final int design_navigation_view=0x7f0c00a3;
         public static final int disableHome=0x7f0c000e;
+        public static final int ed_login_password=0x7f0c0073;
         public static final int edit_query=0x7f0c005e;
         public static final int end=0x7f0c0020;
         public static final int end_padder=0x7f0c00b3;
@@ -2300,8 +2301,7 @@ containing a value of this type.
         public static final int et_email=0x7f0c0082;
         public static final int et_first_name=0x7f0c007e;
         public static final int et_last_name=0x7f0c0080;
-        public static final int et_login_email=0x7f0c0070;
-        public static final int et_login_password=0x7f0c0072;
+        public static final int et_login_email=0x7f0c0071;
         public static final int et_password=0x7f0c0088;
         public static final int et_phone_number=0x7f0c0084;
         public static final int exitUntilCollapsed=0x7f0c0017;
@@ -2393,9 +2393,10 @@ containing a value of this type.
         public static final int text_email=0x7f0c0081;
         public static final int text_first_name=0x7f0c007d;
         public static final int text_last_name=0x7f0c007f;
-        public static final int text_login_email=0x7f0c0071;
-        public static final int text_login_forgot_password=0x7f0c0074;
-        public static final int text_login_password=0x7f0c0073;
+        public static final int text_login_email=0x7f0c0070;
+        public static final int text_login_forgot_password=0x7f0c0075;
+        public static final int text_login_password=0x7f0c0072;
+        public static final int text_login_sinup=0x7f0c0076;
         public static final int text_password=0x7f0c0087;
         public static final int text_phone_number=0x7f0c0083;
         public static final int text_sin_up=0x7f0c007c;
@@ -2413,7 +2414,6 @@ containing a value of this type.
         public static final int top=0x7f0c0025;
         public static final int topPanel=0x7f0c0049;
         public static final int tv_costumer_page_enterWay=0x7f0c0078;
-        public static final int tv_login=0x7f0c0075;
         public static final int up=0x7f0c0009;
         public static final int useLogo=0x7f0c0014;
         public static final int view_offset_helper=0x7f0c000a;
