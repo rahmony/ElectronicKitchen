@@ -5,45 +5,28 @@
     android:weightSum="1"
     android:background="#d8d7d7">
 
-    <FrameLayout
-        android:orientation="horizontal"
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:background="#f1baba"
-        android:clickable="true">
+
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="43dp"
             android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="طريقة دخول التطبيق"
+            android:text="@string/enter_way"
             android:id="@+id/tv_costumer_page_enterWay"
             android:textSize="20dp"
             android:layout_above="@+id/btn_customer_enter"
             android:layout_alignParentRight="true"
             android:layout_alignParentEnd="true"
             android:layout_marginBottom="43dp"
-            android:layout_gravity="center_horizontal|top" />
-    </FrameLayout>
+            android:layout_gravity="center_horizontal|top"
+            android:layout_marginTop="43dp" />
 
-    <FrameLayout
-        android:orientation="horizontal"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="0.20">
 
-    </FrameLayout>
-
-    <FrameLayout
-        android:orientation="horizontal"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="0.08">
 
         <Button
-            android:layout_width="201dp"
+            android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:text="الدخول كـ زبون"
+            android:text="@string/costumer_enter"
             android:id="@+id/btn_customer_enter"
             android:layout_above="@+id/btn_seller_enter"
             android:layout_alignParentLeft="true"
@@ -53,48 +36,41 @@
             android:textSize="25dp"
             android:background="#470e4582"
             android:textColor="#030303"
-            android:layout_gravity="center_horizontal|top"
-            android:onClick="onCostumerClick" />
-    </FrameLayout>
+            android:layout_gravity="center_horizontal|top" />
 
-    <FrameLayout
-        android:orientation="horizontal"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="0.41">
 
         <Button
-            android:layout_width="201dp"
+            android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:text="الدخول كـ سائق"
+            android:text="@string/seller_enter"
+            android:id="@+id/btn_seller_enter"
+            android:layout_centerVertical="true"
+            android:layout_alignLeft="@+id/btn_customer_enter"
+            android:layout_alignStart="@+id/btn_customer_enter"
+            android:layout_marginTop="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:textSize="25dp"
+            android:background="#470e4582"
+            android:textColor="#131312"
+            android:layout_gravity="center_horizontal|top" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/driver_enter"
             android:id="@+id/btn_driver_enter"
             android:layout_below="@+id/btn_seller_enter"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
             android:layout_alignParentRight="true"
             android:layout_alignParentEnd="true"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="30dp"
             android:textSize="25dp"
             android:background="#470e4582"
             android:textColor="#050505"
             android:layout_gravity="center" />
 
-        <Button
-            android:layout_width="201dp"
-            android:layout_height="wrap_content"
-            android:text="الدخول كـ بائع"
-            android:id="@+id/btn_seller_enter"
-            android:layout_centerVertical="true"
-            android:layout_alignLeft="@+id/btn_customer_enter"
-            android:layout_alignStart="@+id/btn_customer_enter"
-            android:layout_marginTop="20dp"
-            android:layout_alignParentRight="true"
-            android:layout_alignParentEnd="true"
-            android:textSize="25dp"
-            android:background="#470e4582"
-            android:textColor="#131312"
-            android:layout_gravity="center_horizontal|top"
-            android:onClick="onSellerClick" />
 
-    </FrameLayout>
+
 </LinearLayout>

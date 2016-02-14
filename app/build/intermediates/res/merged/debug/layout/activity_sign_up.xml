@@ -1,253 +1,228 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#faf9f9"
     android:orientation="vertical">
 
-    <FrameLayout
-        android:layout_width="match_parent"
-        android:layout_height="46dp"
-        android:background="#f1baba"
-        android:clickable="true">
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="@string/sin_up"
-            android:id="@+id/text_sin_up"
-            android:layout_gravity="center" />
-    </FrameLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/sin_up"
+        android:id="@+id/text_sin_up"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp" />
 
-    <LinearLayout
-        android:orientation="horizontal"
-        android:layout_width="match_parent"
-        android:layout_height="51dp"
-        android:weightSum="1"
-        android:background="#c9c9c9">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/first_name"
+        android:id="@+id/text_first_name"
+        android:layout_below="@+id/text_sin_up"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="18dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="10dp" />
 
-        <EditText
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_first_name"
+        android:layout_alignBottom="@+id/text_first_name"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@+id/text_first_name"
+        android:layout_marginLeft="10dp" />
 
-            android:id="@+id/et_first_name"
-            android:layout_weight="0.77" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/last_name"
+        android:id="@+id/text_last_name"
+        android:layout_below="@+id/text_first_name"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="18dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="10dp" />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/first_name"
-            android:id="@+id/text_first_name"
-            android:layout_weight="0.20"
-            android:textColor="#d25454"
-            android:textSize="15dp" />
-    </LinearLayout>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_last_name"
+        android:layout_alignBottom="@+id/text_last_name"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@+id/text_last_name"
+        android:layout_marginLeft="10dp" />
 
-    <LinearLayout
-        android:orientation="horizontal"
-        android:layout_width="match_parent"
-        android:layout_height="51dp"
-        android:weightSum="1"
-        android:background="#c9c9c9">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/email"
+        android:id="@+id/text_email"
+        android:layout_below="@+id/text_last_name"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="18dp"
+        android:layout_marginRight="10dp" />
 
-        <EditText
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/et_email"
+        android:layout_alignBottom="@+id/text_email"
+        android:layout_alignStart="@+id/et_last_name"
+        android:layout_toStartOf="@+id/text_email" />
 
-            android:id="@+id/et_last_name"
-            android:layout_weight="0.76" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/phone_number"
+        android:id="@+id/text_phone_number"
+        android:layout_below="@+id/text_email"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="18dp"
+        android:layout_marginRight="10dp" />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/last_name"
-            android:id="@+id/text_last_name"
-            android:layout_weight="0.20"
-            android:textColor="#d25454"
-            android:textSize="15dp" />
-    </LinearLayout>
-    <LinearLayout
-        android:orientation="horizontal"
-        android:layout_width="match_parent"
-        android:layout_height="52dp"
-        android:weightSum="1"
-        android:background="#c9c9c9">
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:ems="10"
+        android:id="@+id/et_phone_number"
+        android:layout_alignBottom="@+id/text_phone_number"
+        android:layout_alignStart="@+id/et_email"
+        android:layout_toStartOf="@+id/text_last_name" />
 
-        <EditText
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/address"
+        android:id="@+id/text_address"
+        android:layout_below="@+id/text_phone_number"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="18dp"
+        android:layout_marginRight="10dp" />
 
-            android:id="@+id/et_email"
-            android:layout_weight="0.84" />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_address"
+        android:layout_alignBottom="@+id/text_address"
+        android:layout_alignStart="@+id/et_phone_number"
+        android:layout_alignEnd="@+id/et_first_name" />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/email"
-            android:id="@+id/text_email"
-            android:layout_weight="0.12"
-            android:textColor="#d25454"/>
-    </LinearLayout>
-    <LinearLayout
-        android:orientation="horizontal"
-        android:layout_width="match_parent"
-        android:layout_height="51dp"
-        android:weightSum="1"
-        android:background="#c9c9c9">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/password"
+        android:id="@+id/text_password"
+        android:layout_below="@+id/text_address"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="18dp"
+        android:layout_marginRight="10dp" />
 
-        <EditText
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/et_password"
+        android:layout_alignBottom="@+id/text_password"
+        android:layout_alignStart="@+id/et_address"
+        android:layout_alignEnd="@+id/et_address" />
 
-            android:id="@+id/et_phone_number"
-            android:layout_weight="0.77" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/city"
+        android:id="@+id/text_city"
+        android:layout_below="@+id/text_password"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="18dp"
+        android:layout_marginRight="10dp" />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/phone_number"
-            android:id="@+id/text_phone_number"
-            android:layout_weight="0.19"
-            android:textColor="#d25454"/>
-    </LinearLayout>
-    <LinearLayout
-        android:orientation="horizontal"
-        android:layout_width="match_parent"
-        android:layout_height="51dp"
-        android:weightSum="1"
-        android:background="#c9c9c9">
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_password"
+        android:orientation="horizontal">
 
-        <EditText
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+    </RadioGroup>
 
-            android:id="@+id/et_address"
-            android:layout_weight="0.72"
-            />
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/madina"
+        android:id="@+id/radioButton_madina"
+        android:layout_alignBottom="@+id/text_city"
+        android:layout_alignEnd="@+id/et_password"
+        android:layout_marginLeft="10dp" />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/address"
-            android:id="@+id/text_address"
-            android:layout_weight="0.23"
-            android:textColor="#d25454"/>
-    </LinearLayout>
-    <LinearLayout
-        android:orientation="horizontal"
-        android:layout_width="match_parent"
-        android:layout_height="52dp"
-        android:weightSum="1"
-        android:background="#c9c9c9">
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/jeddah"
+        android:id="@+id/radioButton_jeddah"
+        android:layout_alignTop="@+id/radioButton_madina"
+        android:layout_toStartOf="@+id/radioButton_madina" />
 
-        <EditText
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/makka"
+        android:id="@+id/radioButton_makka"
+        android:layout_alignTop="@+id/radioButton_jeddah"
+        android:layout_toStartOf="@+id/radioButton_jeddah"
+        android:layout_marginRight="10dp" />
 
-            android:id="@+id/et_password"
-            android:layout_weight="0.78" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/share_location"
+        android:id="@+id/btn_share_location"
+        android:layout_below="@+id/radioButton_madina"
+        android:layout_alignStart="@+id/text_sin_up"
+        android:layout_marginTop="18dp" />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/password"
-            android:id="@+id/text_password"
-            android:layout_weight="0.16"
-            android:textColor="#d25454"/>
-    </LinearLayout>
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bands_agree"
+        android:id="@+id/radioButton_bands_agree"
+        android:layout_below="@+id/btn_share_location"
+        android:layout_alignEnd="@+id/text_city"
+        android:layout_marginTop="18dp" />
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/confirm"
+        android:id="@+id/btn_confirm"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@+id/btn_share_location"
+        android:layout_alignStart="@+id/radioButton_bands_agree"
+        android:layout_marginTop="18dp" />
 
-    <LinearLayout
-        android:orientation="horizontal"
-        android:layout_width="match_parent"
-        android:layout_height="68dp"
-        android:weightSum="1"
-        android:background="#c9c9c9">
-
-
-        <LinearLayout
-            android:orientation="horizontal"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
-
-
-
-            <RadioButton
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/jeddah"
-                android:id="@+id/radioButton_jeddah"
-                android:textSize="15dp"
-                android:layout_weight="0.38" />
-
-            <RadioButton
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/madina"
-                android:id="@+id/radioButton_madina"
-                android:textSize="15dp"
-                android:layout_weight="0.19"
-                android:checked="false" />
-
-
-
-            <RadioButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/makka"
-            android:id="@+id/radioButton_makka"
-            android:textSize="15dp" />
-
-        </LinearLayout>
-
-        <TextView
-            android:layout_width="130dp"
-            android:layout_height="wrap_content"
-            android:text="@string/city"
-            android:id="@+id/text_city"
-            android:textColor="#d25454"
-            android:gravity="right" />
-
-    </LinearLayout>
-
-
-    <FrameLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="#c9c9c9">
-
-        <Button
-            android:layout_width="133dp"
-            android:layout_height="wrap_content"
-            android:text="@string/cancel"
-            android:id="@+id/btn_cancel"
-            android:layout_gravity="left|bottom" />
-
-        <RadioButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/bands_agree"
-            android:id="@+id/radioButton_bands_agree"
-            android:layout_gravity="right|center_vertical" />
-
-        <Button
-            android:layout_width="119dp"
-            android:layout_height="wrap_content"
-            android:text="@string/confirm"
-            android:id="@+id/btn_confirm"
-            android:layout_gravity="right|bottom"
-            android:background="#088d3d" />
-
-        <Button
-            android:layout_width="117dp"
-            android:layout_height="wrap_content"
-            android:text="@string/share_location"
-            android:id="@+id/btn_share_location"
-            android:background="#61bcc6"
-            android:layout_gravity="center_horizontal|top"
-            android:textSize="15dp" />
-    </FrameLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cancel"
+        android:id="@+id/btn_cancel"
+        android:layout_alignBottom="@+id/btn_confirm"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@+id/btn_confirm"
+        android:layout_marginTop="18dp" />
 
 
-</LinearLayout>
+</RelativeLayout>
