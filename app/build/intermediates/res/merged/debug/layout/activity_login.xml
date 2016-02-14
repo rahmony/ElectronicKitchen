@@ -111,7 +111,7 @@
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:text="@string/login_sign_up"
-            android:id="@+id/tv_costumer_page_enterWay"
+            android:id="@+id/tv_login"
             android:layout_gravity="center_horizontal|bottom" />
 
         <Button

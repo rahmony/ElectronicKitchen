@@ -53,8 +53,7 @@
             android:textSize="25dp"
             android:background="#470e4582"
             android:textColor="#030303"
-            android:layout_gravity="center_horizontal|top"
-            android:onClick="onCostumerClick" />
+            android:layout_gravity="center_horizontal|top" />
     </FrameLayout>
 
     <FrameLayout
@@ -93,8 +92,7 @@
             android:textSize="25dp"
             android:background="#470e4582"
             android:textColor="#131312"
-            android:layout_gravity="center_horizontal|top"
-            android:onClick="onSellerClick" />
+            android:layout_gravity="center_horizontal|top" />
 
     </FrameLayout>
 </LinearLayout>

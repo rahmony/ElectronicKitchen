@@ -6,7 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
 
-// RaHmOnY
+
 
 public class MainActivity extends AppCompatActivity {
 
@@ -18,10 +18,15 @@ public class MainActivity extends AppCompatActivity {
 
 
         mImage = (ImageView) findViewById(R.id.image_logo);
+        mImage.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, LoginActivity.class);
+                startActivity(intent);
+            }
+        });
+
 
     }
-    public void onImageClick(View v) {
-        Intent intent = new Intent(MainActivity.this, LoginActivity.class);
-        startActivity(intent);
-    }
+
 }

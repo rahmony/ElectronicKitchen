@@ -157,6 +157,7 @@
             android:textColor="#d25454"/>
     </LinearLayout>
 
+
     <LinearLayout
         android:orientation="horizontal"
         android:layout_width="match_parent"
@@ -164,10 +165,13 @@
         android:weightSum="1"
         android:background="#c9c9c9">
 
+
         <LinearLayout
             android:orientation="horizontal"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
+
+
 
             <RadioButton
                 android:layout_width="wrap_content"
@@ -176,12 +180,6 @@
                 android:id="@+id/radioButton_jeddah"
                 android:textSize="15dp"
                 android:layout_weight="0.38" />
-        </LinearLayout>
-
-        <LinearLayout
-            android:orientation="horizontal"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
 
             <RadioButton
                 android:layout_width="wrap_content"
@@ -191,21 +189,17 @@
                 android:textSize="15dp"
                 android:layout_weight="0.19"
                 android:checked="false" />
-        </LinearLayout>
 
-        <LinearLayout
-            android:orientation="horizontal"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
 
-        </LinearLayout>
 
-        <RadioButton
+            <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/makka"
             android:id="@+id/radioButton_makka"
             android:textSize="15dp" />
+
+        </LinearLayout>
 
         <TextView
             android:layout_width="130dp"
@@ -216,6 +210,7 @@
             android:gravity="right" />
 
     </LinearLayout>
+
 
     <FrameLayout
         android:layout_width="match_parent"
