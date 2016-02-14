@@ -11,7 +11,7 @@ import android.widget.Toast;
 
 public class LoginActivity extends AppCompatActivity {
 
-    private TextView mTv_login , mText_login_forgot_password;
+    private TextView mText_login_sinup , mText_login_forgot_password;
     private Button mBtn_login;
 
     @Override
@@ -19,8 +19,8 @@ public class LoginActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
-        mTv_login = (TextView)findViewById(R.id.tv_login);
-        mTv_login.setOnClickListener(new View.OnClickListener() {
+        mText_login_sinup = (TextView)findViewById(R.id.text_login_sinup);
+        mText_login_sinup.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(LoginActivity.this, SignUpActivity.class);
