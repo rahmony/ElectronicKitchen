@@ -163,18 +163,20 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/et_password"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp"
+        android:id="@+id/myRadioGroup"
+        android:checkedButton="@+id/radioButton_madina">
 
-    </RadioGroup>
 
-    <RadioButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/madina"
-        android:id="@+id/radioButton_madina"
-        android:layout_alignBottom="@+id/text_city"
-        android:layout_alignEnd="@+id/et_password"
-        android:layout_marginLeft="10dp" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/makka"
+            android:id="@+id/radioButton_makka"
+            android:layout_alignTop="@+id/radioButton_jeddah"
+            android:layout_toStartOf="@+id/radioButton_jeddah"
+            android:layout_marginRight="10dp" />
 
     <RadioButton
         android:layout_width="wrap_content"
@@ -184,14 +186,18 @@
         android:layout_alignTop="@+id/radioButton_madina"
         android:layout_toStartOf="@+id/radioButton_madina" />
 
-    <RadioButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/makka"
-        android:id="@+id/radioButton_makka"
-        android:layout_alignTop="@+id/radioButton_jeddah"
-        android:layout_toStartOf="@+id/radioButton_jeddah"
-        android:layout_marginRight="10dp" />
+
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/madina"
+            android:id="@+id/radioButton_madina"
+            android:layout_alignBottom="@+id/text_city"
+            android:layout_alignEnd="@+id/et_password"
+            android:layout_marginLeft="10dp" />
+
+    </RadioGroup>
 
     <Button
         android:layout_width="wrap_content"
@@ -200,7 +206,7 @@
         android:background="#470e4582"
         android:textColor="#050505"
         android:id="@+id/btn_share_location"
-        android:layout_below="@+id/radioButton_madina"
+        android:layout_below="@+id/myRadioGroup"
         android:layout_alignStart="@+id/text_sin_up"
         android:layout_marginTop="18dp" />
 
