@@ -41,6 +41,9 @@
         <activity
             android:name="net.rahmony.electronickitchen.StoreActivity"
             android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="net.rahmony.electronickitchen.CostumerProductActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
     </application>
 
 </manifest>

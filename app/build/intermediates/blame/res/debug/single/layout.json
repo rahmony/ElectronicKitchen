@@ -1,5 +1,9 @@
 [
     {
+        "merged": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_customer_product.xml",
+        "source": "D:\\Androidprojects\\ElectronicKitchen\\app\\src\\main\\res\\layout\\activity_customer_product.xml"
+    },
+    {
         "merged": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_cancel_action.xml",
         "source": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_media_cancel_action.xml"
     },
