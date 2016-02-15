@@ -93,5 +93,9 @@ public class StoreActivity extends AppCompatActivity implements TabHost.OnTabCha
         }
 
     }
+    public void onEditClick(View view){
+        Toast.makeText(getBaseContext(),"Hello Motherfucker",Toast.LENGTH_LONG).show();
+
+    }
 
 }
