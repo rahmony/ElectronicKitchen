@@ -22,7 +22,7 @@ public class StoreActivity extends AppCompatActivity implements TabHost.OnTabCha
     TabHost mTab;
     ImageButton mbtnImage_store_left;
     ImageView mImage_store;
-    static final int mCamRequest = 1;
+    static final int mCamRequest = 2;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -47,14 +47,13 @@ public class StoreActivity extends AppCompatActivity implements TabHost.OnTabCha
 
 
     public  void onClick(View view){
-
-
         //the event for taking image
         Intent camera_intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
 
         //pass the file that comes from getFile() to the camera_intent object by using extra method.
         File file = getFile();
         camera_intent.putExtra(MediaStore.EXTRA_OUTPUT, Uri.fromFile(file));
+        //start the intent
         startActivityForResult(camera_intent, mCamRequest);
 
     }
@@ -74,6 +73,7 @@ public class StoreActivity extends AppCompatActivity implements TabHost.OnTabCha
         return imageFile;
     }
 
+    //this method will take the capture pic from the folder camera_app and put in the activity
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         String path = "sdcard/camera_app/cam_image.jpg";
