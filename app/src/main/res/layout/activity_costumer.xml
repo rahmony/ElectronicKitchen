@@ -33,27 +33,21 @@
                     android:id="@+id/tab1"
                     android:layout_width="fill_parent"
                     android:layout_height="fill_parent"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    android:onClick="Tap_1_Onclick">
 
-                    <TextView
+                    <ListView
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Missed Calls"
-                        android:textSize="36sp"/>
-
+                        android:layout_height="513dp"
+                        android:id="@+id/listView_stores" />
                 </LinearLayout>
 
                 <LinearLayout
                     android:id="@+id/tab2"
                     android:layout_width="fill_parent"
                     android:layout_height="fill_parent"
-                    android:orientation="vertical">
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Incoming Calls"
-                        android:textSize="36sp"/>
-                </LinearLayout>
+                    android:orientation="vertical"
+                    android:onClick="Tap_2_Onclick"></LinearLayout>
 
 
             </FrameLayout>

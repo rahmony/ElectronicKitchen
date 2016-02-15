@@ -3,7 +3,7 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:columnCount="1"
-    android:rowCount="2">
+    android:rowCount="1">
 
     <TabHost
         android:layout_width="match_parent"
@@ -31,15 +31,16 @@
                     android:layout_height="fill_parent"
                     android:orientation="horizontal"
                     android:columnCount="1"
-                    android:rowCount="5">
+                    android:rowCount="4">
 
                     <LinearLayout
                         android:orientation="horizontal"
                         android:layout_width="match_parent"
-                        android:layout_height="41dp"
-                        android:background="#d86161"
+                        android:layout_height="wrap_content"
+                        android:background="#7d0f6ace"
                         android:layout_column="0"
-                        android:layout_row="1">
+                        android:layout_row="0"
+                        android:baselineAligned="true">
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -57,10 +58,10 @@
 
                     <GridLayout
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_row="2"
+                        android:layout_height="90dp"
+                        android:layout_row="1"
                         android:layout_column="0"
-                        android:rowCount="3"
+                        android:rowCount="2"
                         android:columnCount="2">
 
                         <GridLayout
@@ -72,136 +73,67 @@
                             android:layout_column="0">
 
                             <ImageView
-                                android:layout_width="101dp"
-                                android:layout_height="100dp"
+                                android:layout_width="90dp"
+                                android:layout_height="90dp"
                                 android:id="@+id/image_store"
                                 android:src="@drawable/ic_launcher"
                                 android:layout_row="0"
                                 android:layout_column="0" />
                         </GridLayout>
 
-                        <GridLayout
-                            android:layout_width="270dp"
-                            android:layout_height="wrap_content"
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="272dp"
+                            android:layout_height="match_parent"
                             android:layout_column="1"
                             android:layout_row="0"
-                            android:columnCount="4"
-                            android:rowCount="3"
-                            android:background="#91d5caca"
-                            android:layout_gravity="center_vertical">
+                            android:weightSum="1">
 
                             <TextView
-                                android:layout_width="80dp"
-                                android:layout_height="17dp"
-                                android:text="@string/store_followers"
-                                android:id="@+id/text_store_followers"
-                                android:layout_row="0"
-                                android:layout_column="0"
-                                android:layout_gravity="center_horizontal"
-                                android:gravity="center_horizontal" />
-
-                            <TextView
-                                android:layout_width="89dp"
-                                android:layout_height="17dp"
-                                android:text="@string/store_following"
-                                android:id="@+id/text_store_following"
-                                android:layout_row="0"
+                                android:layout_width="wrap_content"
+                                android:layout_height="96dp"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:text="@string/store_description"
+                                android:id="@+id/text_store_description"
+                                android:textSize="14dp"
                                 android:layout_column="1"
-                                android:layout_gravity="center_horizontal"
-                                android:gravity="center_horizontal" />
-
-                            <TextView
-                                android:layout_width="70dp"
-                                android:layout_height="17dp"
-                                android:text="@string/store_products"
-                                android:id="@+id/text_store_products"
                                 android:layout_row="0"
-                                android:layout_column="2"
-                                android:gravity="center_horizontal"
-                                android:layout_columnSpan="2" />
-
-                            <TextView
-                                android:layout_width="30dp"
-                                android:layout_height="wrap_content"
-                                android:text="000"
-                                android:id="@+id/text_store_followers_number"
-                                android:layout_row="1"
-                                android:layout_column="0"
-                                android:layout_gravity="center_horizontal" />
-
-                            <TextView
-                                android:layout_width="30dp"
-                                android:layout_height="wrap_content"
-                                android:text="000"
-                                android:id="@+id/text_store_following_number"
-                                android:layout_row="1"
-                                android:layout_column="1"
-                                android:layout_gravity="center_horizontal" />
-
-                            <TextView
-                                android:layout_width="30dp"
-                                android:layout_height="wrap_content"
-                                android:text="000"
-                                android:id="@+id/text_store_products_number"
-                                android:layout_row="1"
-                                android:layout_column="2"
-                                android:layout_gravity="center_horizontal"
-                                android:layout_columnSpan="2" />
-
-                            <Button
-                                android:layout_width="222dp"
-                                android:layout_height="27dp"
-                                android:text="@string/edit_profile"
-                                android:id="@+id/btn_edit_profile"
-                                android:textSize="13dp"
-                                android:layout_row="2"
-                                android:layout_column="0"
-                                android:background="#d7d5d5"
-                                android:layout_gravity="center_horizontal"
-                                android:layout_columnSpan="4" />
-
-                        </GridLayout>
+                                android:layout_weight="1.05"
+                                android:gravity="center" />
+                        </LinearLayout>
 
                     </GridLayout>
 
                     <LinearLayout
                         android:orientation="horizontal"
                         android:layout_width="match_parent"
-                        android:layout_height="35dp"
-                        android:background="#edd4d4"
-                        android:layout_row="3"
-                        android:layout_column="0">
-
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:textAppearance="?android:attr/textAppearanceMedium"
-                            android:text="@string/store_description"
-                            android:id="@+id/text_store_description"
-                            android:textSize="14dp"
-                            android:gravity="center_vertical|center_horizontal" />
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:orientation="horizontal"
-                        android:layout_width="match_parent"
-                        android:layout_height="46dp"
-                        android:layout_row="4"
-                        android:layout_column="0">
+                        android:layout_height="54dp"
+                        android:layout_row="2"
+                        android:layout_column="0"
+                        android:background="#7d0f6ace"
+                        android:baselineAligned="true">
 
                         <ImageButton
                             android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
+                            android:layout_height="match_parent"
                             android:id="@+id/btnImage_store_right"
                             android:src="@drawable/ic_launcher"
-                            android:layout_weight="1" />
+                            android:layout_marginLeft="50dp" />
                         <ImageButton
                             android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
+                            android:layout_height="match_parent"
                             android:id="@+id/btnImage_store_left"
                             android:src="@drawable/ic_launcher"
-                            android:layout_weight="1" />
+                            android:adjustViewBounds="false"
+                            android:layout_marginLeft="85dp" />
                     </LinearLayout>
+
+                    <ListView
+                        android:layout_width="match_parent"
+                        android:layout_height="361dp"
+                        android:id="@+id/listView_product"
+                        android:layout_row="3"
+                        android:layout_column="0" />
                 </GridLayout>
 
                 <LinearLayout

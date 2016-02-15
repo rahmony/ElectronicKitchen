@@ -38,6 +38,10 @@
             android:name=".StoreActivity"
 
             android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CostumerProductActivity"
+
+            android:theme="@style/AppTheme.NoActionBar" />
 
     </application>
 

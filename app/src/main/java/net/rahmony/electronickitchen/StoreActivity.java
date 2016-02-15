@@ -9,7 +9,6 @@ import android.view.View;
 import android.widget.TabHost;
 import android.widget.Toast;
 
-//Todo: Redesign this interface - unacceptable
 
 public class StoreActivity extends AppCompatActivity implements TabHost.OnTabChangeListener{
     TabHost mTab;
@@ -27,7 +26,7 @@ public class StoreActivity extends AppCompatActivity implements TabHost.OnTabCha
         mTab.addTab(spec);
 
         spec=mTab.newTabSpec("tag2");
-        spec.setIndicator("طلباتي");
+        spec.setIndicator("وصلكم طلب");
         spec.setContent(R.id.tab_store_2);
         mTab.addTab(spec);
 
