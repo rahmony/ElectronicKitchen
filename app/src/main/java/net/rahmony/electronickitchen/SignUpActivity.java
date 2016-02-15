@@ -17,7 +17,7 @@ public class SignUpActivity extends AppCompatActivity {
     private Button mBtn_confirm, mBtn_cancel;
     private EditText mEt_first_name , mEt_last_name , mEt_email , mEt_phone_number , mEt_password , mEt_address ;
     private RadioButton mRadioButton_madina, mRadioButton_jeddah, mRadioButton_makka;
-    private RadioGroup mMyRadioGroup;
+   // private RadioGroup mMyRadioGroup;
 
 
     @Override
@@ -38,7 +38,7 @@ public class SignUpActivity extends AppCompatActivity {
         mRadioButton_madina = (RadioButton) findViewById(R.id.radioButton_madina);
         mRadioButton_jeddah = (RadioButton) findViewById(R.id.radioButton_jeddah);
         mRadioButton_makka = (RadioButton) findViewById(R.id.radioButton_makka);
-        mMyRadioGroup = (RadioGroup) findViewById(R.id.myRadioGroup);
+       // mMyRadioGroup = (RadioGroup) findViewById(R.id.myRadioGroup);
 
         final Retrofit retrofit = new Retrofit.Builder()
                 .baseUrl("http://rahmony.net/api/")
@@ -61,7 +61,7 @@ public class SignUpActivity extends AppCompatActivity {
 
                 user.setLat("0");
                 user.setLon("0");
-
+/*
                 int selectedId = mMyRadioGroup.getCheckedRadioButtonId();
                 if(selectedId == mRadioButton_makka.getId()) {
                    user.setCity("makka");
@@ -71,7 +71,7 @@ public class SignUpActivity extends AppCompatActivity {
                     user.setCity("madina");
                 }
 
-
+*/
                 Call<Results> reg = apiService.signup(user);
 
                 reg.enqueue(new Callback<Results>() {
