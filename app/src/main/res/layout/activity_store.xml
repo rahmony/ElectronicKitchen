@@ -40,7 +40,9 @@
                         android:background="#7d0f6ace"
                         android:layout_column="0"
                         android:layout_row="0"
-                        android:baselineAligned="true">
+                        android:baselineAligned="true"
+                        android:layout_columnSpan="0"
+                        android:layout_rowSpan="1">
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -79,7 +81,11 @@
                                 android:src="@drawable/ic_launcher"
                                 android:layout_row="0"
                                 android:layout_column="0"
-                                android:onClick="onClick" />
+                                android:onClick="onClick"
+                                android:cropToPadding="false"
+                                android:focusable="false"
+                                android:focusableInTouchMode="false"
+                                android:nestedScrollingEnabled="false" />
                         </GridLayout>
 
                         <LinearLayout
@@ -121,15 +127,9 @@
                             android:id="@+id/btnImage_store_left"
                             android:src="@mipmap/camera_logo"
                             android:adjustViewBounds="false"
-                            android:layout_marginLeft="85dp"
-                            android:layout_weight="0.13" />
+                            android:layout_weight="0"
+                            android:layout_marginLeft="150dp" />
 
-                        <ImageButton
-                            android:layout_width="wrap_content"
-                            android:layout_height="match_parent"
-                            android:id="@+id/btnImage_store_right"
-                            android:src="@drawable/ic_launcher"
-                            android:layout_marginLeft="50dp" />
                     </LinearLayout>
 
                     <ListView
