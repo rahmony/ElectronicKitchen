@@ -2264,8 +2264,8 @@ containing a value of this type.
         public static final int always=0x7f0c0034;
         public static final int beginning=0x7f0c0030;
         public static final int bottom=0x7f0c001c;
-        public static final int btnImage_store_left=0x7f0c0099;
-        public static final int btnImage_store_right=0x7f0c0098;
+        public static final int btnImage_store_left=0x7f0c0098;
+        public static final int btnImage_store_right=0x7f0c0099;
         public static final int btn_cancel=0x7f0c0092;
         public static final int btn_confirm=0x7f0c0091;
         public static final int btn_customer_enter=0x7f0c007a;
@@ -2486,7 +2486,8 @@ containing a value of this type.
         public static final int support_simple_spinner_dropdown_item=0x7f040036;
     }
     public static final class mipmap {
-        public static final int ic_launcher=0x7f030000;
+        public static final int camera_logo=0x7f030000;
+        public static final int ic_launcher=0x7f030001;
     }
     public static final class string {
         public static final int abc_action_bar_home_description=0x7f060000;
