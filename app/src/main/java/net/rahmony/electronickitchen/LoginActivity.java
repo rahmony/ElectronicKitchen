@@ -45,6 +45,7 @@ public class LoginActivity extends AppCompatActivity {
             }
         });
 
+
         mBtn_login = (Button)findViewById(R.id.btn_login);
         mBtn_login.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -75,6 +76,11 @@ public class LoginActivity extends AppCompatActivity {
     }
 });
 
+
+
+
+
+        
         mText_login_forgot_password = (TextView)findViewById(R.id.text_login_forgot_password);
         mText_login_forgot_password.setOnClickListener(new View.OnClickListener() {
             @Override
