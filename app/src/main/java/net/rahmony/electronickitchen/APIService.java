@@ -15,6 +15,10 @@ public interface APIService {
     @POST("signup")
     Call<Results> signup(@Body User user);
 
+    @POST("singin")
+    Call<Results> login(@Field("Email") String email,
+                         @Field("Password") String password);
+
 
     // need to review and amend
     @PUT("items")

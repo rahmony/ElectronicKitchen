@@ -206,7 +206,7 @@
         android:layout_height="match_parent">
 
         <Button
-            android:layout_width="191dp"
+            android:layout_width="202dp"
             android:layout_height="37dp"
             android:text="@string/confirm"
             android:id="@+id/btn_confirm"
@@ -215,7 +215,7 @@
             android:textColor="#050505"/>
 
         <Button
-            android:layout_width="170dp"
+            android:layout_width="164dp"
             android:layout_height="38dp"
             android:text="@string/cancel"
             android:id="@+id/btn_cancel"
