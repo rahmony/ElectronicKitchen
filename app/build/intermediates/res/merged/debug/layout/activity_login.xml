@@ -9,7 +9,7 @@
         android:layout_width="match_parent"
         android:layout_height="58dp"
         android:layout_gravity="center_horizontal"
-        android:background="#470e4582">
+        android:background="#7d0f6ace">
 
         <TextView
             android:layout_width="wrap_content"
@@ -40,7 +40,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:weightSum="1"
-        android:background="#470e4582">
+        android:background="#7d0f6ace">
 
         <EditText
             android:layout_width="204dp"
@@ -59,7 +59,8 @@
             android:layout_gravity="right|center_vertical"
             android:textSize="15dp"
             android:textIsSelectable="true"
-            android:layout_weight="0.68" />
+            android:layout_weight="0.68"
+            android:gravity="center" />
 
     </LinearLayout>
 
@@ -68,7 +69,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:weightSum="1"
-        android:background="#470e4582">
+        android:background="#7d0f6ace">
 
         <EditText
             android:layout_width="204dp"
@@ -89,7 +90,8 @@
             android:textColor="#050505"
             android:textSize="15dp"
             android:textIsSelectable="true"
-            android:layout_weight="0.74" />
+            android:layout_weight="0.74"
+            android:gravity="center" />
     </LinearLayout>
 
     <FrameLayout
@@ -124,7 +126,7 @@
             android:textSize="15dp"
             android:background="#470e4582"
             android:textColor="#050505"
-             />
+            android:enabled="false" />
 
         <TextView
             android:layout_width="wrap_content"

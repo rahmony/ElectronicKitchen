@@ -38,7 +38,7 @@ public class SignUpActivity extends AppCompatActivity {
         mRadioButton_madina = (RadioButton) findViewById(R.id.radioButton_madina);
         mRadioButton_jeddah = (RadioButton) findViewById(R.id.radioButton_jeddah);
         mRadioButton_makka = (RadioButton) findViewById(R.id.radioButton_makka);
-        mMyRadioGroup = (RadioGroup) findViewById(R.id.myRadioGroup);
+       mMyRadioGroup = (RadioGroup) findViewById(R.id.myRadioGroup);
 
         final Retrofit retrofit = new Retrofit.Builder()
                 .baseUrl("http://rahmony.net/api/")

@@ -1,254 +1,247 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#faf9f9"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:columnCount="1"
+    android:rowCount="4">
 
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:layout_gravity="center_horizontal"
+        android:background="#7d0f6ace"
+        android:layout_column="0"
+        android:layout_row="0"
+        android:clickable="true">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="@string/sin_up"
-        android:id="@+id/text_sin_up"
-        android:textColor="#7d0f6ace"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="18dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/sin_up"
+            android:id="@+id/text_app_name"
+            android:textColor="#050505"
+            android:layout_gravity="center" />
+    </FrameLayout>
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="@string/first_name"
-        android:id="@+id/text_first_name"
-        android:textColor="#7d0f6ace"
-        android:layout_below="@+id/text_sin_up"
-        android:layout_alignParentEnd="true"
-        android:layout_marginTop="18dp"
-        android:layout_marginLeft="24dp"
-        android:layout_marginRight="10dp" />
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="274dp"
+        android:layout_column="0"
+        android:layout_row="1"
+        android:columnCount="2"
+        android:rowCount="6">
 
-    <EditText
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/et_first_name"
-        android:layout_alignBottom="@+id/text_first_name"
-        android:layout_alignParentStart="true"
-        android:layout_toStartOf="@+id/text_first_name"
-        android:layout_marginLeft="10dp"
-        android:layout_alignEnd="@+id/text_sin_up" />
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_first_name"
+            android:layout_weight="1.00"
+            android:layout_column="0"
+            android:layout_row="0" />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="@string/last_name"
-        android:id="@+id/text_last_name"
-        android:textColor="#7d0f6ace"
-        android:layout_below="@+id/text_first_name"
-        android:layout_alignParentEnd="true"
-        android:layout_marginTop="18dp"
-        android:layout_marginLeft="24dp"
-        android:layout_marginRight="10dp" />
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:text="@string/first_name"
+            android:id="@+id/text_first_name"
+            android:layout_weight="0.90"
+            android:textSize="15dp"
+            android:layout_column="1"
+            android:layout_row="0" />
 
-    <EditText
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/et_last_name"
-        android:layout_alignBottom="@+id/text_last_name"
-        android:layout_alignParentStart="true"
-        android:layout_toStartOf="@+id/text_last_name"
-        android:layout_marginLeft="10dp"
-        android:layout_alignEnd="@+id/text_sin_up" />
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="@string/email"
-        android:id="@+id/text_email"
-        android:textColor="#7d0f6ace"
-        android:layout_below="@+id/text_last_name"
-        android:layout_alignParentEnd="true"
-        android:layout_marginTop="18dp"
-        android:layout_marginRight="10dp" />
+            android:id="@+id/et_last_name"
+            android:layout_weight="1" />
 
-    <EditText
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:inputType="textEmailAddress"
-        android:ems="10"
-        android:id="@+id/et_email"
-        android:layout_alignBottom="@+id/text_email"
-        android:layout_alignStart="@+id/et_last_name"
-        android:layout_toStartOf="@+id/text_email"
-        android:layout_alignEnd="@+id/et_last_name" />
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:text="@string/last_name"
+            android:id="@+id/text_last_name"
+            android:layout_weight="1"
+            android:textSize="15dp" />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="@string/phone_number"
-        android:textColor="#7d0f6ace"
-        android:id="@+id/text_phone_number"
-        android:layout_below="@+id/text_email"
-        android:layout_alignParentEnd="true"
-        android:layout_marginTop="18dp"
-        android:layout_marginRight="10dp" />
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
 
-    <EditText
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:inputType="phone"
-        android:ems="10"
-        android:id="@+id/et_phone_number"
-        android:layout_alignBottom="@+id/text_phone_number"
-        android:layout_alignStart="@+id/et_email"
-        android:layout_toStartOf="@+id/text_last_name"
-        android:layout_alignEnd="@+id/et_email" />
+            android:id="@+id/et_email"
+            android:layout_weight="1" />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="@string/address"
-        android:id="@+id/text_address"
-        android:textColor="#7d0f6ace"
-        android:layout_below="@+id/text_phone_number"
-        android:layout_alignParentEnd="true"
-        android:layout_marginTop="18dp"
-        android:layout_marginRight="10dp" />
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:text="@string/email"
+            android:id="@+id/text_email"
+            android:layout_weight="1" />
 
-    <EditText
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/et_address"
-        android:layout_alignBottom="@+id/text_address"
-        android:layout_alignStart="@+id/et_phone_number"
-        android:layout_alignEnd="@+id/et_phone_number" />
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="@string/password"
-        android:id="@+id/text_password"
-        android:textColor="#7d0f6ace"
-        android:layout_below="@+id/text_address"
-        android:layout_alignParentEnd="true"
-        android:layout_marginTop="18dp"
-        android:layout_marginRight="10dp" />
+            android:id="@+id/et_phone_number"
+            android:layout_weight="1" />
 
-    <EditText
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:inputType="textPassword"
-        android:ems="10"
-        android:id="@+id/et_password"
-        android:layout_alignBottom="@+id/text_password"
-        android:layout_alignStart="@+id/et_address"
-        android:layout_alignEnd="@+id/et_address" />
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:text="@string/phone_number"
+            android:id="@+id/text_phone_number"
+            android:layout_weight="1" />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="@string/city"
-        android:id="@+id/text_city"
-        android:textColor="#7d0f6ace"
-        android:layout_below="@+id/text_password"
-        android:layout_alignParentEnd="true"
-        android:layout_marginTop="18dp"
-        android:layout_marginRight="10dp" />
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
 
-    <RadioGroup
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/et_password"
+            android:id="@+id/et_address"
+            android:layout_weight="1"
+            />
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:text="@string/address"
+            android:id="@+id/text_address"
+            android:layout_weight="1" />
+
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+
+            android:id="@+id/et_password"
+            android:layout_weight="1" />
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:text="@string/password"
+            android:id="@+id/text_password"
+            android:layout_weight="1" />
+    </GridLayout>
+
+    <LinearLayout
         android:orientation="horizontal"
-        android:layout_marginTop="15dp"
-        android:id="@+id/myRadioGroup"
-        android:checkedButton="@+id/radioButton_madina">
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:weightSum="1"
+        android:layout_column="0"
+        android:layout_row="2">
 
-
-        <RadioButton
+        <RadioGroup
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/makka"
-            android:id="@+id/radioButton_makka"
-            android:layout_alignTop="@+id/radioButton_jeddah"
-            android:layout_toStartOf="@+id/radioButton_jeddah"
-            android:layout_marginRight="10dp" />
+            android:layout_weight="0.29"
+            android:orientation="horizontal"
+            android:weightSum="1"
+            android:id="@+id/myRadioGroup">
 
-    <RadioButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/jeddah"
-        android:id="@+id/radioButton_jeddah"
-        android:layout_alignTop="@+id/radioButton_madina"
-        android:layout_toStartOf="@+id/radioButton_madina" />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/makka"
+                android:id="@+id/radioButton_makka"
+                android:textSize="15dp" />
 
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/madina"
+                android:id="@+id/radioButton_madina"
+                android:textSize="15dp"
+                android:checked="false" />
 
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/jeddah"
+                android:id="@+id/radioButton_jeddah"
+                android:textSize="15dp" />
 
-        <RadioButton
-            android:layout_width="wrap_content"
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="81dp"
+            android:layout_height="30dp"
+            android:text="@string/city"
+            android:id="@+id/text_city"
+            android:layout_weight="1"
+            android:gravity="center" />
+
+    </LinearLayout>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="148dp"
+        android:layout_column="0"
+        android:layout_row="3"
+        android:rowCount="2"
+        android:columnCount="1">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="91dp"
+            android:layout_column="0"
+            android:layout_row="0">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/bands_agree"
+                android:id="@+id/radioButton_bands_agree"
+                android:layout_row="1"
+                android:layout_column="1"
+                android:layout_gravity="center_horizontal" />
+
+            <Button
+                android:layout_width="176dp"
+                android:layout_height="38dp"
+                android:text="@string/share_location"
+                android:id="@+id/btn_share_location"
+                android:background="#470e4582"
+                android:textColor="#050505"
+                android:layout_row="0"
+                android:layout_column="1"
+                android:gravity="center"
+                android:layout_gravity="center_horizontal" />
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/madina"
-            android:id="@+id/radioButton_madina"
-            android:layout_alignBottom="@+id/text_city"
-            android:layout_alignEnd="@+id/et_password"
-            android:layout_marginLeft="10dp" />
+            android:layout_column="0"
+            android:layout_row="1">
 
-    </RadioGroup>
+            <Button
+                android:layout_width="137dp"
+                android:layout_height="wrap_content"
+                android:text="@string/confirm"
+                android:id="@+id/btn_confirm"
+                android:background="#470e4582"
+                android:textColor="#050505"
+                android:layout_row="1"
+                android:layout_column="2"
+                android:layout_weight="0.11"
+                android:layout_gravity="right|center_vertical" />
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/share_location"
-        android:background="#470e4582"
-        android:textColor="#050505"
-        android:id="@+id/btn_share_location"
-        android:layout_below="@+id/myRadioGroup"
-        android:layout_alignStart="@+id/text_sin_up"
-        android:layout_marginTop="18dp" />
+            <Button
+                android:layout_width="137dp"
+                android:layout_height="wrap_content"
+                android:text="@string/cancel"
+                android:id="@+id/btn_cancel"
+                android:background="#470e4582"
+                android:textColor="#050505"
+                android:layout_row="1"
+                android:layout_column="0"
+                android:layout_gravity="left|center_vertical" />
+        </FrameLayout>
 
-    <RadioButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/bands_agree"
-        android:id="@+id/radioButton_bands_agree"
-        android:layout_below="@+id/btn_share_location"
-        android:layout_alignEnd="@+id/text_city"
-        android:layout_marginTop="18dp" />
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/confirm"
-        android:id="@+id/btn_confirm"
-        android:background="#470e4582"
-        android:textColor="#050505"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentEnd="true"
-        android:layout_toEndOf="@+id/btn_share_location"
-        android:layout_alignStart="@+id/radioButton_bands_agree"
-        android:layout_marginTop="18dp"
-        android:layout_marginLeft="5dp" />
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/cancel"
-        android:id="@+id/btn_cancel"
-        android:background="#470e4582"
-        android:textColor="#050505"
-        android:layout_alignBottom="@+id/btn_confirm"
-        android:layout_alignParentStart="true"
-        android:layout_toStartOf="@+id/btn_confirm"
-        android:layout_marginTop="18dp"
-        android:layout_marginRight="5dp" />
+    </GridLayout>
 
 
-</RelativeLayout>
+</GridLayout>
