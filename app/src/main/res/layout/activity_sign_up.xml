@@ -169,7 +169,7 @@
             android:layout_height="30dp"
             android:text="@string/city"
             android:id="@+id/text_city"
-            android:layout_weight="1"
+            android:layout_weight="0.54"
             android:gravity="center" />
 
     </LinearLayout>
