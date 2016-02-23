@@ -126,7 +126,7 @@
             android:textSize="15dp"
             android:background="#470e4582"
             android:textColor="#050505"
-            android:enabled="false" />
+            android:enabled="true" />
 
         <TextView
             android:layout_width="wrap_content"

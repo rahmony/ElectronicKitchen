@@ -51,19 +51,24 @@ public class LoginActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
+
+
                 APIService apiService = retrofit.create(APIService.class);
-                Call<Results > reg = apiService.login(mEt_email.getText().toString() , mEt_password.getText().toString());
+                User user = new User();
+                user.setEmail(mEt_email.getText().toString());
+                user.setPassword(mEt_password.getText().toString());
+
+                Call<Results > reg = apiService.login(user);
+
 
                 reg.enqueue(new Callback<Results>() {
-
                     @Override
                     public void onResponse(Response<Results> response, Retrofit retrofit) {
-                        if (response.body().getMessage().equalsIgnoreCase("LogIn successfull")) {
-                            startActivity(new Intent(LoginActivity.this, MainPageActivity.class));
+                       if(response.message().equalsIgnoreCase("ok"))
+                           startActivity(new Intent(LoginActivity.this , MainPageActivity.class));
+                        else
+                           Toast.makeText(getBaseContext() , "Wrong Email or Password !!" , Toast.LENGTH_LONG).show();
 
-                        } else {
-                            Toast.makeText(getBaseContext(), response.body().getMessage(), Toast.LENGTH_LONG).show();
-                        }
                     }
 
                     @Override
@@ -73,14 +78,17 @@ public class LoginActivity extends AppCompatActivity {
                     }
 
                 });
+
     }
+
+
 });
 
 
 
 
 
-        
+
         mText_login_forgot_password = (TextView)findViewById(R.id.text_login_forgot_password);
         mText_login_forgot_password.setOnClickListener(new View.OnClickListener() {
             @Override
