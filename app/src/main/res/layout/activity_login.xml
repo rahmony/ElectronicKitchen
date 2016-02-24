@@ -3,7 +3,7 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:weightSum="1"
-    >
+    android:background="#ffffff">
 
     <FrameLayout
         android:layout_width="match_parent"
@@ -32,7 +32,8 @@
             android:layout_height="108dp"
             android:id="@+id/image_logo"
             android:src="@drawable/icon12"
-            android:layout_gravity="center" />
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp" />
     </FrameLayout>
 
     <LinearLayout
@@ -40,7 +41,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:weightSum="1"
-        android:background="#420f6ace">
+        android:background="#420f6ace"
+        android:layout_marginTop="20dp">
 
         <EditText
             android:layout_width="204dp"
@@ -98,7 +100,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:layout_weight="0.13">
+        android:layout_weight="0.13"
+        android:layout_marginTop="5dp">
 
         <TextView
             android:layout_width="wrap_content"
@@ -106,7 +109,7 @@
             android:text="@string/login_forgot_password"
             android:id="@+id/text_login_forgot_password"
             android:layout_gravity="center_horizontal|bottom"
-            android:textColor="#000505" />
+            android:textColor="#f17f7f7f" />
     </FrameLayout>
 
     <FrameLayout

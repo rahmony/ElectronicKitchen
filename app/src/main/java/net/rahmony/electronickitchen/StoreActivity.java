@@ -45,6 +45,14 @@ public class StoreActivity extends AppCompatActivity implements TabHost.OnTabCha
 
     }
 
+    public void onClicky(View view){
+
+
+        Intent intent = new Intent(StoreActivity.this, Product_Activity.class);
+        startActivity(intent);
+
+    }
+
 
     public  void onClick(View view){
         //the event for taking image

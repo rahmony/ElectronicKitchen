@@ -21,7 +21,7 @@
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:text="@string/sin_up"
             android:id="@+id/text_app_name"
-            android:textColor="#050505"
+            android:textColor="#ffffff"
             android:layout_gravity="center" />
     </FrameLayout>
 
@@ -49,7 +49,8 @@
             android:layout_weight="0.90"
             android:textSize="15dp"
             android:layout_column="1"
-            android:layout_row="0" />
+            android:layout_row="0"
+            android:textColor="#000000" />
 
         <EditText
             android:layout_width="250dp"
@@ -64,7 +65,8 @@
             android:text="@string/last_name"
             android:id="@+id/text_last_name"
             android:layout_weight="1"
-            android:textSize="15dp" />
+            android:textSize="15dp"
+            android:textColor="#000000" />
 
         <EditText
             android:layout_width="250dp"
@@ -78,7 +80,8 @@
             android:layout_height="30dp"
             android:text="@string/email"
             android:id="@+id/text_email"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            android:textColor="#000000" />
 
         <EditText
             android:layout_width="250dp"
@@ -92,7 +95,8 @@
             android:layout_height="30dp"
             android:text="@string/phone_number"
             android:id="@+id/text_phone_number"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            android:textColor="#000000" />
 
         <EditText
             android:layout_width="250dp"
@@ -107,7 +111,8 @@
             android:layout_height="30dp"
             android:text="@string/address"
             android:id="@+id/text_address"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            android:textColor="#000000" />
 
         <EditText
             android:layout_width="250dp"
@@ -121,7 +126,8 @@
             android:layout_height="30dp"
             android:text="@string/password"
             android:id="@+id/text_password"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            android:textColor="#000000" />
     </GridLayout>
 
     <LinearLayout
@@ -145,7 +151,8 @@
                 android:layout_height="wrap_content"
                 android:text="@string/makka"
                 android:id="@+id/radioButton_makka"
-                android:textSize="15dp" />
+                android:textSize="15dp"
+                android:textColor="#000000" />
 
             <RadioButton
                 android:layout_width="wrap_content"
@@ -153,14 +160,16 @@
                 android:text="@string/madina"
                 android:id="@+id/radioButton_madina"
                 android:textSize="15dp"
-                android:checked="false" />
+                android:checked="false"
+                android:textColor="#000000" />
 
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/jeddah"
                 android:id="@+id/radioButton_jeddah"
-                android:textSize="15dp" />
+                android:textSize="15dp"
+                android:textColor="#000000" />
 
         </RadioGroup>
 
@@ -170,7 +179,8 @@
             android:text="@string/city"
             android:id="@+id/text_city"
             android:layout_weight="0.54"
-            android:gravity="center" />
+            android:gravity="center"
+            android:textColor="#000000" />
 
     </LinearLayout>
 
@@ -196,7 +206,8 @@
                 android:id="@+id/radioButton_bands_agree"
                 android:layout_row="1"
                 android:layout_column="1"
-                android:layout_gravity="center_horizontal" />
+                android:layout_gravity="center_horizontal"
+                android:textColor="#000000" />
 
             <Button
                 android:layout_width="176dp"

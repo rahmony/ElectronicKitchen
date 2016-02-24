@@ -18,6 +18,9 @@ public interface APIService {
     @POST("login")
     Call<Results> login(@Body User user);
 
+    @POST("create_store")
+    Call<Results>  create_store (@Body User user);
+
 
     // need to review and amend
     @PUT("items")

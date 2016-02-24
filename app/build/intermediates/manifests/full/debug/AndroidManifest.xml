@@ -10,7 +10,7 @@
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-<!--     Camera permission for the store activity -->
+    <!-- Camera permission for the store activity -->
     <uses-permission android:name="android.permission.CAMERA" />
 
     <uses-feature android:name="android.hardware.camera2" />
@@ -50,6 +50,9 @@
         <activity
             android:name="net.rahmony.electronickitchen.CostumerProductActivity"
             android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="rahmony.net.Product_Activity" />
+        <activity android:name="net.rahmony.electronickitchen.Product_Activity" >
+        </activity>
     </application>
 
 </manifest>
