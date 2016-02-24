@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">المطبخ الألكتروني </string>
+    <string name="app_name"> المطبخ الالكتروني </string>
     <string name="login_email">  البريد الالكتروني   </string>
     <string name="login_password">  كلمة المرور </string>
     <string name="login_forgot_password">  نسيت كلمة المرور </string>

@@ -9,7 +9,7 @@
         android:layout_width="match_parent"
         android:layout_height="58dp"
         android:layout_gravity="center_horizontal"
-        android:background="#7d0f6ace">
+        android:background="#420f6ace">
 
         <TextView
             android:layout_width="wrap_content"
@@ -17,7 +17,7 @@
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:text="@string/log_in"
             android:id="@+id/text_app_name"
-            android:textColor="#050505"
+            android:textColor="#ffffff"
             android:layout_gravity="center" />
     </FrameLayout>
 
@@ -28,10 +28,10 @@
         android:layout_weight="0.14">
 
         <ImageView
-            android:layout_width="93dp"
-            android:layout_height="93dp"
+            android:layout_width="150dp"
+            android:layout_height="108dp"
             android:id="@+id/image_logo"
-            android:src="@drawable/ic_launcher"
+            android:src="@drawable/icon12"
             android:layout_gravity="center" />
     </FrameLayout>
 
@@ -40,7 +40,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:weightSum="1"
-        android:background="#7d0f6ace">
+        android:background="#420f6ace">
 
         <EditText
             android:layout_width="204dp"
@@ -69,7 +69,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:weightSum="1"
-        android:background="#7d0f6ace">
+        android:background="#420f6ace">
 
         <EditText
             android:layout_width="204dp"
@@ -105,17 +105,15 @@
             android:layout_height="wrap_content"
             android:text="@string/login_forgot_password"
             android:id="@+id/text_login_forgot_password"
-            android:layout_gravity="center_horizontal|bottom" />
+            android:layout_gravity="center_horizontal|bottom"
+            android:textColor="#000505" />
     </FrameLayout>
 
     <FrameLayout
         android:layout_width="match_parent"
-        android:layout_height="53dp"></FrameLayout>
-
-    <FrameLayout
-        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="0.28">
+        android:layout_weight="0.28"
+        android:layout_marginTop="60dp">
 
         <Button
             android:layout_width="114dp"

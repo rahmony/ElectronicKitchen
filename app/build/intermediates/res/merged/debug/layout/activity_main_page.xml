@@ -11,7 +11,7 @@
             android:layout_height="43dp"
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:text="@string/enter_way"
-            android:textColor="#7d0f6ace"
+            android:textColor="#7e0f6ace"
             android:id="@+id/tv_costumer_page_enterWay"
             android:textSize="20dp"
             android:layout_above="@+id/btn_customer_enter"
@@ -34,8 +34,8 @@
             android:layout_alignParentRight="true"
             android:layout_alignParentEnd="true"
             android:textSize="25dp"
-            android:background="#470e4582"
-            android:textColor="#030303"
+            android:background="#420f6ace"
+            android:textColor="#fbf9f9"
             android:layout_gravity="center_horizontal|top" />
 
 
@@ -51,8 +51,8 @@
             android:layout_alignParentRight="true"
             android:layout_alignParentEnd="true"
             android:textSize="25dp"
-            android:background="#470e4582"
-            android:textColor="#131312"
+            android:background="#420f6ace"
+            android:textColor="#ffffff"
             android:layout_gravity="center_horizontal|top" />
 
         <Button
@@ -67,8 +67,8 @@
             android:layout_alignParentEnd="true"
             android:layout_marginTop="30dp"
             android:textSize="25dp"
-            android:background="#470e4582"
-            android:textColor="#050505"
+            android:background="#420f6ace"
+            android:textColor="#fefcfc"
             android:layout_gravity="center" />
 
 
