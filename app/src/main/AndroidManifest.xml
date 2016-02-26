@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="net.rahmony.electronickitchen" >
+    package="net.rahmony.electronickitchen">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
@@ -16,8 +16,8 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme" >
-        <activity android:name=".MainActivity" >
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -45,8 +45,8 @@
             android:name=".CostumerProductActivity"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name="rahmony.net.Product_Activity" />
-        <activity android:name=".Product_Activity" >
-        </activity>
+        <activity android:name=".Product_Activity"></activity>
+        <activity android:name=".CreateStoreActivity"></activity>
     </application>
 
 </manifest>

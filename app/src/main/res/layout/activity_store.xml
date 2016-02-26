@@ -2,7 +2,7 @@
 <GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:columnCount="2"
+    android:columnCount="1"
     android:rowCount="1">
 
     <TabHost
@@ -36,7 +36,8 @@
                     <LinearLayout
                         android:orientation="horizontal"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        android:layout_height="33dp"
+                        android:background="#7d0f6ace"
                         android:layout_column="0"
                         android:layout_row="0"
                         android:baselineAligned="true"
@@ -53,8 +54,7 @@
                             android:layout_column="1"
                             android:layout_weight="1"
                             android:layout_gravity="center_vertical"
-                            android:gravity="center_horizontal"
-                            android:background="#420f6ace" />
+                            android:gravity="center_horizontal" />
 
                     </LinearLayout>
 
@@ -63,20 +63,20 @@
                         android:layout_height="90dp"
                         android:layout_row="1"
                         android:layout_column="0"
-                        android:rowCount="2"
-                        android:columnCount="2">
+                        android:rowCount="1"
+                        android:columnCount="1">
 
-                        <GridLayout
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:columnCount="1"
-                            android:rowCount="1"
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_column="0"
                             android:layout_row="0"
-                            android:layout_column="0">
+                            android:weightSum="1">
 
                             <ImageView
-                                android:layout_width="90dp"
-                                android:layout_height="90dp"
+                                android:layout_width="99dp"
+                                android:layout_height="match_parent"
                                 android:id="@+id/image_store"
                                 android:src="@drawable/ic_launcher"
                                 android:layout_row="0"
@@ -85,53 +85,37 @@
                                 android:cropToPadding="false"
                                 android:focusable="false"
                                 android:focusableInTouchMode="false"
-                                android:nestedScrollingEnabled="false" />
-                        </GridLayout>
-
-                        <LinearLayout
-                            android:orientation="horizontal"
-                            android:layout_width="272dp"
-                            android:layout_height="match_parent"
-                            android:layout_column="1"
-                            android:layout_row="0"
-                            android:weightSum="1">
+                                android:nestedScrollingEnabled="false"
+                                android:layout_weight="0.1" />
 
                             <TextView
                                 android:layout_width="wrap_content"
-                                android:layout_height="96dp"
+                                android:layout_height="match_parent"
                                 android:textAppearance="?android:attr/textAppearanceMedium"
                                 android:text="@string/store_description"
                                 android:id="@+id/text_store_description"
                                 android:textSize="14dp"
                                 android:layout_column="1"
                                 android:layout_row="0"
-                                android:layout_weight="1.05"
+                                android:layout_weight="0.90"
+                                android:autoText="false"
+                                android:editable="false"
+                                android:enabled="false"
                                 android:gravity="center" />
+
                         </LinearLayout>
 
                     </GridLayout>
 
                     <LinearLayout
-                        android:orientation="horizontal"
+                        android:orientation="vertical"
                         android:layout_width="match_parent"
-                        android:layout_height="54dp"
+                        android:layout_height="40dp"
                         android:layout_row="2"
                         android:layout_column="0"
-                        android:background="#420f6ace"
+                        android:background="#7d0f6ace"
                         android:baselineAligned="true"
                         android:weightSum="1">
-
-                        <Button
-                            style="?android:attr/buttonStyleSmall"
-                            android:layout_width="65dp"
-                            android:layout_height="wrap_content"
-                            android:text="إنشاء منتج"
-                            android:id="@+id/btn_create_product"
-                            android:layout_marginTop="5dp"
-                            android:layout_marginBottom="5dp"
-                            android:layout_marginLeft="70dp"
-                            android:onClick="onClicky"
-                            android:background="#dbdbdb" />
 
                         <ImageButton
                             android:layout_width="wrap_content"
@@ -139,9 +123,10 @@
                             android:id="@+id/btnImage_store_left"
                             android:src="@mipmap/camera_logo"
                             android:adjustViewBounds="false"
-                            android:layout_weight="0"
-                            android:layout_marginLeft="100dp"
-                            android:onClick="onClick" />
+                            android:cropToPadding="false"
+                            android:baselineAlignBottom="false"
+                            android:focusable="false"
+                            android:layout_gravity="center_horizontal" />
 
                     </LinearLayout>
 

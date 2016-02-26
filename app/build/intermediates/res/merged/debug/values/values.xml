@@ -342,6 +342,8 @@
     <string name="share_location"> مشاركة الموقع </string>
     <string name="sin_up"> إنشاء حساب جديد  </string>
     <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="store_create">إنشــاء</string>
+    <string name="store_creation">إنشــاء المتجر</string>
     <string name="store_description">الـــــوصـــف</string>
     <string name="store_followers">المتابعين</string>
     <string name="store_following">المٌتابعون</string>

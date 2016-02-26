@@ -41,5 +41,8 @@
     <string name="title_activity_store3">StoreActivity3</string>
     <string name="title_activity_costumer3">CostumerActivity3</string>
 
+    <string name="store_create">إنشــاء</string>
+    <string name="store_creation">إنشــاء المتجر</string>
+
 
 </resources>
