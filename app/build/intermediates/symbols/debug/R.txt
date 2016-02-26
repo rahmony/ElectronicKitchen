@@ -569,8 +569,7 @@ int drawable common_ic_googleplayservices 0x7f020046
 int drawable design_fab_background 0x7f020047
 int drawable design_snackbar_background 0x7f020048
 int drawable ic_launcher 0x7f020049
-int drawable icon12 0x7f02004a
-int drawable notification_template_icon_bg 0x7f02004b
+int drawable notification_template_icon_bg 0x7f02004a
 int id action0 0x7f0c00ac
 int id action_bar 0x7f0c005c
 int id action_bar_activity_content 0x7f0c0000
