@@ -19,7 +19,7 @@ public interface APIService {
     Call<Results> login(@Body User user);
 
     @POST("create_store")
-    Call<Results>  create_store (@Body User user);
+    Call<Results>  create_store(@Body Store store);
 
 
     // need to review and amend
