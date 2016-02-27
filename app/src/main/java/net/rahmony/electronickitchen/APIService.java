@@ -21,7 +21,14 @@ public interface APIService {
     @POST("createStore")
     Call<Results>  createStore(@Body Store store);
 
+    @GET("getAllStores")
+    Call<Results> getAllStores();
 
+
+
+
+
+    
     // need to review and amend
     @PUT("items")
     Call<Results> updateItem(@Body User user);
