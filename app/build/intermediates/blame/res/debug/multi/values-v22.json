@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen111\\app\\build\\intermediates\\res\\merged\\debug\\values-v22\\values-v22.xml",
+        "outputFile": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\values-v22\\values-v22.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 125
                 },
                 "from": {
-                    "file": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen111\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-v22\\values-v22.xml",
+                    "file": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-v22\\values-v22.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -30,7 +30,7 @@
                     "endOffset": 212
                 },
                 "from": {
-                    "file": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen111\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-v22\\values-v22.xml",
+                    "file": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-v22\\values-v22.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -50,7 +50,7 @@
                     "endOffset": 393
                 },
                 "from": {
-                    "file": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen111\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-v22\\values-v22.xml",
+                    "file": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-v22\\values-v22.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -71,7 +71,7 @@
                     "endOffset": 586
                 },
                 "from": {
-                    "file": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen111\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-v22\\values-v22.xml",
+                    "file": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-v22\\values-v22.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -170,7 +170,7 @@
         ]
     },
     {
-        "outputFile": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\values-v22\\values-v22.xml",
+        "outputFile": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen111\\app\\build\\intermediates\\res\\merged\\debug\\values-v22\\values-v22.xml",
         "map": [
             {
                 "to": {
@@ -181,7 +181,7 @@
                     "endOffset": 125
                 },
                 "from": {
-                    "file": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-v22\\values-v22.xml",
+                    "file": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen111\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-v22\\values-v22.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -200,7 +200,7 @@
                     "endOffset": 212
                 },
                 "from": {
-                    "file": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-v22\\values-v22.xml",
+                    "file": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen111\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-v22\\values-v22.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -220,7 +220,7 @@
                     "endOffset": 393
                 },
                 "from": {
-                    "file": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-v22\\values-v22.xml",
+                    "file": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen111\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-v22\\values-v22.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -241,7 +241,7 @@
                     "endOffset": 586
                 },
                 "from": {
-                    "file": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-v22\\values-v22.xml",
+                    "file": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen111\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-v22\\values-v22.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
