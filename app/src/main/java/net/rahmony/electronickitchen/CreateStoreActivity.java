@@ -1,5 +1,6 @@
 package net.rahmony.electronickitchen;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -38,16 +39,23 @@ public class CreateStoreActivity extends AppCompatActivity {
         store.setStoreDescription(mEt_store_create_store_description.getText().toString());
 
 
-        Call<Results> reg =  apiService.create_store(store);
+        Call<Results> reg =  apiService.createStore(store);
 
         reg.enqueue(new Callback<Results>(){
 
 
             @Override
             public void onResponse(Response<Results> response, Retrofit retrofit) {
+                if(response.message().equalsIgnoreCase("ok")){
                 Toast.makeText(getBaseContext(), " Store Created! ", Toast.LENGTH_LONG).show();
-                finish();
+                    startActivity(new Intent(CreateStoreActivity.this, StoreActivity.class));
+                finish();}
+
+                else{
+                Toast.makeText(getBaseContext() , "Store Name is Already existed !!" , Toast.LENGTH_LONG).show();}
+
             }
+
 
             @Override
             public void onFailure(Throwable t) {

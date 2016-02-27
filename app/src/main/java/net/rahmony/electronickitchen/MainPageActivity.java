@@ -31,7 +31,7 @@ public class MainPageActivity extends AppCompatActivity {
         mBtn_seller_enter.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainPageActivity.this, StoreActivity.class);
+                Intent intent = new Intent(MainPageActivity.this, CreateStoreActivity.class);
                 startActivity(intent);
             }
         });
