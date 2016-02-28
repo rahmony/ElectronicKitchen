@@ -59,8 +59,8 @@ public class SignUpActivity extends AppCompatActivity {
                 user.setPassword(mEt_password.getText().toString());
                 user.setAddress(mEt_address.getText().toString());
 
-                user.setLat("0");
-                user.setLon("0");
+                user.setLat(0);
+                user.setLon(0);
 
                 int selectedId = mMyRadioGroup.getCheckedRadioButtonId();
                 if(selectedId == mRadioButton_makka.getId()) {

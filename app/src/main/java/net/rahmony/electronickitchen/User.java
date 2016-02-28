@@ -12,8 +12,8 @@ public class User {
     private String Password ;
     private String City ;
     private String Address ;
-    private String Lon ;
-    private String Lat ;
+    private float Lon ;
+    private float Lat ;
 
     public String getFirstName() {
         return FirstName;
@@ -67,23 +67,26 @@ public class User {
         return Address;
     }
 
-    public void setAddress(String address) {
-        Address = address;
-    }
-
-    public String getLon() {
+    public float getLon() {
         return Lon;
     }
 
-    public void setLon(String lon) {
+    public void setLon(float lon) {
         Lon = lon;
     }
 
-    public String getLat() {
+    public float getLat() {
         return Lat;
     }
 
-    public void setLat(String lat) {
+    public void setLat(float lat) {
         Lat = lat;
     }
+
+    public void setAddress(String address) {
+        Address = address;
+
+    }
+
+
 }

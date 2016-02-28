@@ -16,7 +16,7 @@ public interface APIService {
     Call<Results> signup(@Body User user);
 
     @POST("login")
-    Call<Results> login(@Body User user);
+    Call<LogInResult> login(@Body User user);
 
     @POST("createStore")
     Call<Results>  createStore(@Body Store store);
@@ -28,7 +28,7 @@ public interface APIService {
 
 
 
-    
+
     // need to review and amend
     @PUT("items")
     Call<Results> updateItem(@Body User user);
