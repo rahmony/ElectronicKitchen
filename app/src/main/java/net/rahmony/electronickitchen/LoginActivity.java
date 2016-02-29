@@ -84,6 +84,7 @@ public class LoginActivity extends AppCompatActivity {
 
                                         if (response.message().equalsIgnoreCase("ok")) {
 
+                                            user.setID(response.body().getID());
                                             user.setFirstName(response.body().getFirstName());
                                             user.setLastName(response.body().getLastName());
                                             user.setEmail(response.body().getEmail());

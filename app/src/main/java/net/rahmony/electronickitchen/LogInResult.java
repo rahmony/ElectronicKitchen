@@ -11,12 +11,25 @@ public class LogInResult implements Parcelable {
 
 
     private String msg;
+    private int ID;
     private String firstName ;
     private String lastName ;
     private String email ;
     private String phoneNumber ;
     private String city ;
     private String address ;
+    private float lon ;
+    private float lat ;
+
+
+    public int getID() {
+        return ID;
+    }
+
+    public void setID(int ID) {
+        this.ID = ID;
+    }
+
 
     public String getEmail() {
         return email;
@@ -26,8 +39,6 @@ public class LogInResult implements Parcelable {
         this.email = email;
     }
 
-    private float lon ;
-    private float lat ;
 
     public String getLastName() {
         return lastName;

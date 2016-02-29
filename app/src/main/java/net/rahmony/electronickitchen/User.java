@@ -5,6 +5,7 @@ package net.rahmony.electronickitchen;
  */
 public class User {
 
+    private int ID;
     private String FirstName ;
     private String LastName ;
     private String Email ;
@@ -17,6 +18,14 @@ public class User {
 
     public String getFirstName() {
         return FirstName;
+    }
+
+    public int getID() {
+        return ID;
+    }
+
+    public void setID(int ID) {
+        this.ID = ID;
     }
 
     public void setFirstName(String firstName) {
