@@ -67,9 +67,7 @@ public class CostumerActivity extends AppCompatActivity implements TabHost.OnTab
                         @Override
                         public void onResponse(Response<StoreResult> response, Retrofit retrofit) {
                             Toast.makeText(getBaseContext(), "here " , Toast.LENGTH_LONG).show();
-
-
-
+                            
 
                         }
 
