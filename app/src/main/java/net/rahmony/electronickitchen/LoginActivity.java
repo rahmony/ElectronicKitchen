@@ -13,13 +13,7 @@ import android.widget.Toast;
 import com.google.android.gms.appindexing.Action;
 import com.google.android.gms.appindexing.AppIndex;
 import com.google.android.gms.common.api.GoogleApiClient;
-import com.google.gson.Gson;
-import com.google.gson.JsonElement;
-import com.google.gson.JsonObject;
-import com.google.gson.JsonParser;
-import com.google.gson.stream.JsonReader;
 
-import java.io.StringReader;
 
 import retrofit.Call;
 import retrofit.Callback;
@@ -47,30 +41,27 @@ public class LoginActivity extends AppCompatActivity {
         mEt_email = (EditText) findViewById(R.id.et_login_email);
         mEt_password = (EditText) findViewById(R.id.et_login_password);
 
-        final Retrofit retrofit = new Retrofit.Builder()
-                .baseUrl("http://rahmony.net/api/")
-                .addConverterFactory(GsonConverterFactory.create())
-                .build();
+        // ATTENTION: This was auto-generated to implement the App Indexing API.
+        // See https://g.co/AppIndexing/AndroidStudio for more information.
+        client = new GoogleApiClient.Builder(this).addApi(AppIndex.API).build();
+    }
+
+       //-----------------------------*************************************************************************************-------------------------//
+    //--------------------------****************************************** On Click Method **************************************--------------------------//
+//--------------------------**********************************************************************************************************-------------------------//
+    public void onClick(View view) {
 
 
-        mText_login_sinup = (TextView) findViewById(R.id.text_login_sinup);
-        mText_login_sinup.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(LoginActivity.this, SignUpActivity.class);
-                startActivity(intent);
-            }
-        });
-
-
-        mBtn_login = (Button) findViewById(R.id.btn_login);
-        mBtn_login.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-
+        switch (view.getId()){
+      // -------------------------------------------------Case Button for Login if CLICKED!-------------------------------------//
+            case R.id.btn_login:
+                Retrofit retrofit = new Retrofit.Builder()
+                        .baseUrl("http://rahmony.net/api/")
+                        .addConverterFactory(GsonConverterFactory.create())
+                        .build();
 
                 APIService apiService = retrofit.create(APIService.class);
-              final  User user = new User();
+                final  User user = new User();
                 user.setEmail(mEt_email.getText().toString());
                 user.setPassword(mEt_password.getText().toString());
 
@@ -114,24 +105,34 @@ public class LoginActivity extends AppCompatActivity {
                                 }
                             }
                 );
+                break;
 
-            }
+      //------------------------------------------case for btn login FINISHED!------------------------------------------------//
 
-
-        });
-
-
-        mText_login_forgot_password = (TextView) findViewById(R.id.text_login_forgot_password);
-        mText_login_forgot_password.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
+      // *****************************************case if text forgot password CLICKED!**************************************//
+            case R.id.text_login_forgot_password:
                 Toast.makeText(getBaseContext(), "Unavailable ", Toast.LENGTH_LONG).show();
-            }
-        });
-        // ATTENTION: This was auto-generated to implement the App Indexing API.
-        // See https://g.co/AppIndexing/AndroidStudio for more information.
-        client = new GoogleApiClient.Builder(this).addApi(AppIndex.API).build();
+
+                break;
+      //------------------------------------------case for text forgot password  FINISHED!------------------------------------//
+
+      // ***************************************** case if text signup ***************************************************** //
+            case R.id.text_login_signup:
+                startActivity(new Intent(LoginActivity.this, SignUpActivity.class));
+                break;
+      //------------------------------------------case for text signup  FINISHED!--------------------------------------------//
+        }
+
+
+
+
     }
+           //---------------------------------------------------METHOD onClick FINISHED!---------------------------------------------------------//
+       //-----------------------------***************************************************************************************-------------------------//
+    //--------------------------***********************************************************************************************--------------------------//
+//--------------------------**********************************************************************************************************-----------------------//
+
+
 
     @Override
     public void onStart() {
