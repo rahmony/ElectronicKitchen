@@ -41,6 +41,9 @@ public class LoginActivity extends AppCompatActivity {
         mEt_email = (EditText) findViewById(R.id.et_login_email);
         mEt_password = (EditText) findViewById(R.id.et_login_password);
 
+        // ATTENTION: This was auto-generated to implement the App Indexing API.
+        // See https://g.co/AppIndexing/AndroidStudio for more information.
+        client = new GoogleApiClient.Builder(this).addApi(AppIndex.API).build();
     }
 
        //-----------------------------*************************************************************************************-------------------------//
@@ -108,9 +111,6 @@ public class LoginActivity extends AppCompatActivity {
       // *****************************************case if text forgot password CLICKED!**************************************//
             case R.id.text_login_forgot_password:
                 Toast.makeText(getBaseContext(), "Unavailable ", Toast.LENGTH_LONG).show();
-                // ATTENTION: This was auto-generated to implement the App Indexing API.
-                // See https://g.co/AppIndexing/AndroidStudio for more information.
-               // client = new GoogleApiClient.Builder(this).addApi(AppIndex.API).build();
 
       //------------------------------------------case for text forgot password  FINISHED!------------------------------------//
 
