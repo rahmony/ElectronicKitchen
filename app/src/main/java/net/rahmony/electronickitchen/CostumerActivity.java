@@ -11,9 +11,13 @@ import android.widget.TabHost;
 import android.widget.Toast;
 
 import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
 import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonParser;
+
+import org.json.JSONArray;
+import org.json.JSONException;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -29,8 +33,8 @@ public class CostumerActivity extends AppCompatActivity implements TabHost.OnTab
     TabHost mTab;
     ListView mListView_stores;
 
-    private String [] stores = {"rahmony" ,"khailed"};
 
+   String [] list = {"rahmony" ,"khalid"};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -50,6 +54,7 @@ public class CostumerActivity extends AppCompatActivity implements TabHost.OnTab
 
         // TODO: 3/1/2016 I can't get the data retrieved from the server !!
 
+
         final Retrofit retrofit = new Retrofit.Builder()
                 .baseUrl("http://rahmony.net/api/")
                 .addConverterFactory(GsonConverterFactory.create())
@@ -61,7 +66,11 @@ public class CostumerActivity extends AppCompatActivity implements TabHost.OnTab
         reg.enqueue(new Callback<StoreResult>() {
                         @Override
                         public void onResponse(Response<StoreResult> response, Retrofit retrofit) {
-                            Toast.makeText(getBaseContext(),"here", Toast.LENGTH_LONG).show();
+                            Toast.makeText(getBaseContext(), "here " , Toast.LENGTH_LONG).show();
+
+
+
+
                         }
 
                         @Override
@@ -74,7 +83,7 @@ public class CostumerActivity extends AppCompatActivity implements TabHost.OnTab
 
 
 
-        ArrayAdapter adapter = new ArrayAdapter(getBaseContext(), android.R.layout.simple_list_item_1, stores);
+        ArrayAdapter adapter = new ArrayAdapter(getBaseContext(), android.R.layout.simple_list_item_1,list );
         mListView_stores.setAdapter(adapter);
 
 
