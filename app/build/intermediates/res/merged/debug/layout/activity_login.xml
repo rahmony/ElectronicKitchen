@@ -109,7 +109,8 @@
             android:text="@string/login_forgot_password"
             android:id="@+id/text_login_forgot_password"
             android:layout_gravity="center_horizontal|bottom"
-            android:textColor="#f17f7f7f" />
+            android:textColor="#f17f7f7f"
+            android:onClick="onClick" />
     </FrameLayout>
 
     <FrameLayout
@@ -127,15 +128,17 @@
             android:textSize="15dp"
             android:background="#470e4582"
             android:textColor="#050505"
-            android:enabled="true" />
+            android:enabled="true"
+            android:onClick="onClick" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:text="@string/login_sign_up"
-            android:id="@+id/text_login_sinup"
-            android:layout_gravity="center_horizontal|bottom" />
+            android:id="@+id/text_login_signup"
+            android:layout_gravity="center_horizontal|bottom"
+            android:onClick="onClick" />
     </FrameLayout>
 
 </LinearLayout>
