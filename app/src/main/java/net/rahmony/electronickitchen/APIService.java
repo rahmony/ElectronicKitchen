@@ -1,5 +1,7 @@
 package net.rahmony.electronickitchen;
 
+import java.util.List;
+
 import retrofit.*;
 import retrofit.http.*;
 
@@ -22,10 +24,7 @@ public interface APIService {
     Call<Results>  createStore(@Body Store store);
 
     @GET("getAllStores")
-    Call<Results> getAllStores();
-
-
-
+    Call<StoreResult> getAllStores();
 
 
 

@@ -12,7 +12,9 @@
         android:text="مرحبا"
         android:id="@+id/text_userName"
         android:layout_gravity="right"
-        android:layout_marginTop="20dp" />
+        android:layout_marginTop="20dp"
+        android:textColor="#7e0f6ace"
+        android:textSize="20dp" />
 
     <TextView
             android:layout_width="wrap_content"
