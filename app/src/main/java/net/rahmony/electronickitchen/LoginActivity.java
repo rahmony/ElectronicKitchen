@@ -105,6 +105,7 @@ public class LoginActivity extends AppCompatActivity {
                                 }
                             }
                 );
+                break;
 
       //------------------------------------------case for btn login FINISHED!------------------------------------------------//
 
@@ -112,11 +113,13 @@ public class LoginActivity extends AppCompatActivity {
             case R.id.text_login_forgot_password:
                 Toast.makeText(getBaseContext(), "Unavailable ", Toast.LENGTH_LONG).show();
 
+                break;
       //------------------------------------------case for text forgot password  FINISHED!------------------------------------//
 
       // ***************************************** case if text signup ***************************************************** //
             case R.id.text_login_signup:
                 startActivity(new Intent(LoginActivity.this, SignUpActivity.class));
+                break;
       //------------------------------------------case for text signup  FINISHED!--------------------------------------------//
         }
 

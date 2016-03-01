@@ -112,8 +112,8 @@
       <file leaf-file-name="LoginActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/net/rahmony/electronickitchen/LoginActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.45579794">
-              <caret line="106" column="18" selection-start-line="106" selection-start-column="18" selection-end-line="106" selection-end-column="18" />
+            <state vertical-scroll-proportion="0.6119403">
+              <caret line="108" column="0" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -2264,7 +2264,13 @@
       <option name="project" value="LOCAL" />
       <updated>1456825633001</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Fixing bug in LoginActivity">
+      <created>1456827221416</created>
+      <option name="number" value="00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1456827221416</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TodoView">
@@ -2375,7 +2381,8 @@
     <MESSAGE value="Creation Store" />
     <MESSAGE value="up date" />
     <MESSAGE value="Added onClick method to LoginActivity instead of ActionListener" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added onClick method to LoginActivity instead of ActionListener" />
+    <MESSAGE value="Fixing bug in LoginActivity" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixing bug in LoginActivity" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -2820,8 +2827,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/net/rahmony/electronickitchen/LoginActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.45579794">
-          <caret line="106" column="18" selection-start-line="106" selection-start-column="18" selection-end-line="106" selection-end-column="18" />
+        <state vertical-scroll-proportion="0.6119403">
+          <caret line="108" column="0" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
