@@ -30,11 +30,6 @@ public class CostumerActivity extends AppCompatActivity implements TabHost.OnTab
 
     TabHost mTab;
     ListView mListView_stores;
-    private Button btn_store1;
-    private Button btn_store2;
-
-
-
 
 
     @Override
@@ -45,8 +40,6 @@ public class CostumerActivity extends AppCompatActivity implements TabHost.OnTab
         mListView_stores=(ListView)findViewById(R.id.listView_stores);
 
 
-        btn_store1 = (Button) findViewById(R.id.button);
-        btn_store2 = (Button) findViewById(R.id.button2);
         mTab=(TabHost)findViewById(R.id.tabHost);
         mTab.setup();
         TabHost.TabSpec spec=mTab.newTabSpec("tag1");
@@ -65,6 +58,7 @@ public class CostumerActivity extends AppCompatActivity implements TabHost.OnTab
         Call<List<StoreResult>> reg = apiService.getAllStores();
 
 
+
         reg.enqueue(new Callback<List<StoreResult>>() {
             @Override
             public void onResponse(Response<List<StoreResult>> response, Retrofit retrofit) {
@@ -76,15 +70,15 @@ public class CostumerActivity extends AppCompatActivity implements TabHost.OnTab
                 // }
                 //   i need you guys to merge it with the buttons creations loop ..
 
-                if (arrayList != null) {
-                        String x = arrayList.get(0).getStoreName();
-                        String y = arrayList.get(1).getStoreName();
-                        btn_store1.setText(x);
-                        btn_store2.setText(y);
-                        Toast.makeText(getBaseContext(),   " I Did It ^^ ", Toast.LENGTH_LONG).show();
+                String [] store = new String[arrayList.size()];
+                for(int i = 0 ; i < arrayList.size() ; i++) {
+                    if (arrayList != null) {
+                         store[i] = arrayList.get(i).getStoreName();
 
+                    }
+                    ArrayAdapter arr=new ArrayAdapter(getBaseContext(),android.R.layout.simple_list_item_1,store);
+                    mListView_stores.setAdapter(arr);
                 }
-
 
                     }
 

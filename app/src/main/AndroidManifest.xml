@@ -44,7 +44,6 @@
         <activity
             android:name=".CostumerProductActivity"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name="rahmony.net.Product_Activity" />
         <activity android:name=".Product_Activity"></activity>
         <activity android:name=".CreateStoreActivity"></activity>
     </application>

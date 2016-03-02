@@ -50,7 +50,6 @@
         <activity
             android:name="net.rahmony.electronickitchen.CostumerProductActivity"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name="rahmony.net.Product_Activity" />
         <activity android:name="net.rahmony.electronickitchen.Product_Activity" />
         <activity android:name="net.rahmony.electronickitchen.CreateStoreActivity" />
     </application>
