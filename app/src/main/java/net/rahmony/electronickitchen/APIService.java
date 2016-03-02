@@ -24,7 +24,7 @@ public interface APIService {
     Call<Results>  createStore(@Body Store store);
 
     @GET("getAllStores")
-    Call<StoreResult> getAllStores();
+    Call<List<StoreResult>> getAllStores();
 
 
 

@@ -1,23 +1,19 @@
 package net.rahmony.electronickitchen;
 
-import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.View;
-import android.widget.AdapterView;
+import android.util.Log;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.ListView;
 import android.widget.TabHost;
 import android.widget.Toast;
 
 import com.google.gson.Gson;
-import com.google.gson.GsonBuilder;
-import com.google.gson.JsonArray;
-import com.google.gson.JsonElement;
-import com.google.gson.JsonParser;
+import com.google.gson.reflect.TypeToken;
 
 import org.json.JSONArray;
-import org.json.JSONException;
+import org.json.JSONObject;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -32,19 +28,23 @@ public class CostumerActivity extends AppCompatActivity implements TabHost.OnTab
 
     TabHost mTab;
     ListView mListView_stores;
+    private Button btn_store1;
+    private Button btn_store2;
 
 
-   String [] list = {"rahmony" ,"khalid"};
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_costumer);
 
+
         mListView_stores=(ListView)findViewById(R.id.listView_stores);
 
 
-
+        btn_store1 = (Button) findViewById(R.id.button);
+        btn_store2 = (Button) findViewById(R.id.button2);
         mTab=(TabHost)findViewById(R.id.tabHost);
         mTab.setup();
         TabHost.TabSpec spec=mTab.newTabSpec("tag1");
@@ -52,7 +52,7 @@ public class CostumerActivity extends AppCompatActivity implements TabHost.OnTab
         spec.setContent(R.id.tab1);
         mTab.addTab(spec);
 
-        // TODO: 3/1/2016 I can't get the data retrieved from the server !!
+        // TODO: 3/1/2016 You can get the data retrieved from the server !!       ^^
 
 
         final Retrofit retrofit = new Retrofit.Builder()
@@ -60,16 +60,32 @@ public class CostumerActivity extends AppCompatActivity implements TabHost.OnTab
                 .addConverterFactory(GsonConverterFactory.create())
                 .build();
         APIService apiService = retrofit.create(APIService.class);
-        Call<StoreResult> reg = apiService.getAllStores();
+        Call<List<StoreResult>> reg = apiService.getAllStores();
 
 
-        reg.enqueue(new Callback<StoreResult>() {
-                        @Override
-                        public void onResponse(Response<StoreResult> response, Retrofit retrofit) {
-                            Toast.makeText(getBaseContext(), "here " , Toast.LENGTH_LONG).show();
-                            
+        reg.enqueue(new Callback<List<StoreResult>>() {
+            @Override
+            public void onResponse(Response<List<StoreResult>> response, Retrofit retrofit) {
 
-                        }
+                ArrayList<StoreResult> arrayList = (ArrayList)response.body();
+                // as much as Available Stores get their Names ^^ .
+                // for (int i ; i<arrayList.size();i++){
+                //   arraylist.get(i).getStoreName();
+                // }
+                //   i need you guys to merge it with the buttons creations loop ..
+
+                if (arrayList != null) {
+                        String x = arrayList.get(0).getStoreName();
+                        String y = arrayList.get(1).getStoreName();
+                        btn_store1.setText(x);
+                        btn_store2.setText(y);
+                        Toast.makeText(getBaseContext(),   " I Did It ^^ ", Toast.LENGTH_LONG).show();
+
+                }
+
+
+                    }
+
 
                         @Override
                         public void onFailure(Throwable t) {
@@ -81,9 +97,6 @@ public class CostumerActivity extends AppCompatActivity implements TabHost.OnTab
 
 
 
-        ArrayAdapter adapter = new ArrayAdapter(getBaseContext(), android.R.layout.simple_list_item_1,list );
-        mListView_stores.setAdapter(adapter);
-
 
 
         spec=mTab.newTabSpec("tag2");
@@ -93,6 +106,10 @@ public class CostumerActivity extends AppCompatActivity implements TabHost.OnTab
 
         mTab.setOnTabChangedListener(this);
     }
+
+
+
+
 
     @Override
     public void onTabChanged(String tabId) {
