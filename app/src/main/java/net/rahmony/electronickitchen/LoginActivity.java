@@ -44,7 +44,7 @@ public class LoginActivity extends AppCompatActivity {
         mEt_email = (EditText) findViewById(R.id.et_login_email);
         mEt_password = (EditText) findViewById(R.id.et_login_password);
         LoginImage = (ImageView) findViewById(R.id.image_logo);
-        Glide.with(this).load("http://mombasket.com/Mobile/images/mobile_login_icon.PNG").into(LoginImage);
+        //Glide.with(this).load("http://mombasket.com/Mobile/images/mobile_login_icon.PNG").into(LoginImage);
 
         // ATTENTION: This was auto-generated to implement the App Indexing API.
         // See https://g.co/AppIndexing/AndroidStudio for more information.
@@ -90,7 +90,7 @@ public class LoginActivity extends AppCompatActivity {
                                             user.setLon(response.body().getLon());
                                             user.setLat(response.body().getLat());
 
-                                            startActivity(new Intent(LoginActivity.this , MainPageActivity.class).putExtra("userName" , user.getFirstName() + " " + user.getLastName()));
+                                            startActivity(new Intent(LoginActivity.this , MainPageActivity.class).putExtra("userName" , user.getFirstName() + "  " + user.getLastName()));
 
                                         }
 

@@ -31,6 +31,7 @@
             android:layout_width="150dp"
             android:layout_height="108dp"
             android:id="@+id/image_logo"
+            android:src="@drawable/ic_mobile_login_icon"
             android:layout_gravity="center"
             android:layout_marginTop="10dp" />
     </FrameLayout>

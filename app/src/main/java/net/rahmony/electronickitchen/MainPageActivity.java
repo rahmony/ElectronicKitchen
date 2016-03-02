@@ -23,7 +23,7 @@ public class MainPageActivity extends AppCompatActivity {
 
             mText_userName = (TextView)findViewById(R.id.text_userName);
            String welcome =  mText_userName.getText().toString();
-            mText_userName.setText(extras.getString("userName") + " " + welcome);
+            mText_userName.setText(extras.getString("userName") + "   " + welcome);
 
         mBtn_customer_enter = (Button) findViewById(R.id.btn_customer_enter);
         mBtn_customer_enter.setOnClickListener(new View.OnClickListener() {
