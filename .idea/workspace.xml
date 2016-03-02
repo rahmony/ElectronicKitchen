@@ -55,42 +55,25 @@
     </layouts>
   </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="No Filters" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a94ea227-f6f1-420f-9744-351b5b9fcf22" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_android_musical.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_mobile_login_icon.PNG" />
-      <change type="DELETED" beforePath="C:\Users\RaHmOnY\AndroidStudioProjects\ElectronicKitchen\.idea\libraries\appcompat_v7_23_1_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\RaHmOnY\AndroidStudioProjects\ElectronicKitchen\.idea\libraries\converter_gson_2_0_0_beta2.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\RaHmOnY\AndroidStudioProjects\ElectronicKitchen\.idea\libraries\design_23_1_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\RaHmOnY\AndroidStudioProjects\ElectronicKitchen\.idea\libraries\gson_2_3_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\RaHmOnY\AndroidStudioProjects\ElectronicKitchen\.idea\libraries\okhttp_2_5_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\RaHmOnY\AndroidStudioProjects\ElectronicKitchen\.idea\libraries\okio_1_6_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\RaHmOnY\AndroidStudioProjects\ElectronicKitchen\.idea\libraries\play_services_appindexing_8_1_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\RaHmOnY\AndroidStudioProjects\ElectronicKitchen\.idea\libraries\play_services_basement_8_1_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\RaHmOnY\AndroidStudioProjects\ElectronicKitchen\.idea\libraries\recyclerview_v7_23_1_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\RaHmOnY\AndroidStudioProjects\ElectronicKitchen\.idea\libraries\retrofit_2_0_0_beta2.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\RaHmOnY\AndroidStudioProjects\ElectronicKitchen\.idea\libraries\support_annotations_23_1_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\RaHmOnY\AndroidStudioProjects\ElectronicKitchen\.idea\libraries\support_v4_23_1_1.xml" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_store.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/list_store.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/cache.properties.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug.ap_" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/net/rahmony/electronickitchen/LoginActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/net/rahmony/electronickitchen/LoginActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/net/rahmony/electronickitchen/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/net/rahmony/electronickitchen/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/net/rahmony/electronickitchen/MainPageActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/net/rahmony/electronickitchen/MainPageActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/net/rahmony/electronickitchen/CostumerActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/net/rahmony/electronickitchen/CostumerActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/v7/appcompat/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/v7/appcompat/R.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/net/rahmony/electronickitchen/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/net/rahmony/electronickitchen/R.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/symbols/debug/R.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/symbols/debug/R.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/activity_login.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/activity_login.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/activity_main.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/activity_main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main_page.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main_page.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/net/rahmony/electronickitchen/StoreResult.java" afterPath="$PROJECT_DIR$/app/src/main/java/net/rahmony/electronickitchen/StoreResult.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/activity_main_page.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/activity_main_page.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/layout.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/layout.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merger.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merger.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -122,12 +105,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="CostumerActivity.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CostumerActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/net/rahmony/electronickitchen/CostumerActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+            <state vertical-scroll-proportion="-0.16972478">
+              <caret line="120" column="0" selection-start-line="120" selection-start-column="0" selection-end-line="120" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StoreResult.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/net/rahmony/electronickitchen/StoreResult.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="22" column="41" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
+              <folding>
+                <element signature="e#418#419#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -168,26 +163,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/net/rahmony/electronickitchen/MainActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="activity_main.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
           <provider selected="true" editor-type-id="text-editor">
@@ -211,13 +186,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoginActivity.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LoginActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/net/rahmony/electronickitchen/LoginActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.28899083">
-              <caret line="92" column="161" selection-start-line="92" selection-start-column="161" selection-end-line="92" selection-end-column="161" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
               <folding />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="list_store.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/list_store.xml">
+          <provider editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+          <provider selected="true" editor-type-id="android-designer">
+            <state />
           </provider>
         </entry>
       </file>
@@ -1870,19 +1858,20 @@
         <option value="$PROJECT_DIR$/app/src/main/java/net/rahmony/electronickitchen/LogInResult.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/net/rahmony/electronickitchen/CostumerProductActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/net/rahmony/electronickitchen/APIService.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/net/rahmony/electronickitchen/StoreResult.java" />
         <option value="$PROJECT_DIR$/app/build.gradle" />
         <option value="$PROJECT_DIR$/app/src/main/java/net/rahmony/electronickitchen/StoreActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_store.xml" />
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_costumer.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/net/rahmony/electronickitchen/CostumerActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/net/rahmony/electronickitchen/MainActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main_page.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/net/rahmony/electronickitchen/MainPageActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/net/rahmony/electronickitchen/LoginActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/net/rahmony/electronickitchen/StoreResult.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/net/rahmony/electronickitchen/CostumerActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/list_store.xml" />
       </list>
     </option>
   </component>
@@ -2078,6 +2067,7 @@
   </component>
   <component name="RecentsManager">
     <key name="android.template.packageName">
+      <recent name="layout" />
       <recent name="net.rahmony.electronickitchen" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -2418,7 +2408,13 @@
       <option name="project" value="LOCAL" />
       <updated>1456938157911</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="some change !! 2">
+      <created>1456940695023</created>
+      <option name="number" value="00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1456940695023</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TodoView">
@@ -2532,21 +2528,14 @@
     <MESSAGE value="Fixing bug in LoginActivity" />
     <MESSAGE value="Fixing a Fucking  Json's Bugg!!" />
     <MESSAGE value="some change !!" />
-    <option name="LAST_COMMIT_MESSAGE" value="some change !!" />
+    <MESSAGE value="some change !! 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="some change !! 2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/net/rahmony/electronickitchen/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_costumer.xml">
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -2806,13 +2795,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/net/rahmony/electronickitchen/StoreResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_customer_product.xml">
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -2887,14 +2869,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/net/rahmony/electronickitchen/CostumerActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/net/rahmony/electronickitchen/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -2944,6 +2918,14 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/net/rahmony/electronickitchen/LoginActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main_page.xml">
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -2963,10 +2945,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/net/rahmony/electronickitchen/LoginActivity.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/net/rahmony/electronickitchen/StoreResult.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.28899083">
-          <caret line="92" column="161" selection-start-line="92" selection-start-column="161" selection-end-line="92" selection-end-column="161" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="41" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
+          <folding>
+            <element signature="e#418#419#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/list_store.xml">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/net/rahmony/electronickitchen/CostumerActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.16972478">
+          <caret line="120" column="0" selection-start-line="120" selection-start-column="0" selection-end-line="120" selection-end-column="0" />
           <folding />
         </state>
       </provider>

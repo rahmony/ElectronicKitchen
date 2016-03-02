@@ -1,13 +1,19 @@
 package net.rahmony.electronickitchen;
 
+import android.content.Context;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TabHost;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
@@ -16,6 +22,7 @@ import com.google.gson.reflect.TypeToken;
 
 import org.json.JSONArray;
 import org.json.JSONObject;
+import org.parceler.transfuse.annotations.SystemService;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -30,6 +37,10 @@ public class CostumerActivity extends AppCompatActivity implements TabHost.OnTab
 
     TabHost mTab;
     ListView mListView_stores;
+
+
+    ArrayList list_storeName = new ArrayList();
+    ArrayList list_storeDescription = new ArrayList();
 
 
     @Override
@@ -70,13 +81,17 @@ public class CostumerActivity extends AppCompatActivity implements TabHost.OnTab
                 // }
                 //   i need you guys to merge it with the buttons creations loop ..
 
-                String [] store = new String[arrayList.size()];
+                String [] storeName = new String[arrayList.size()];
+                String [] storeDescription = new String[arrayList.size()];
                 for(int i = 0 ; i < arrayList.size() ; i++) {
                     if (arrayList != null) {
-                         store[i] = arrayList.get(i).getStoreName();
+                        storeName[i] = arrayList.get(i).getStoreName();
+                        list_storeName.add(i,arrayList.get(i).getStoreName());
+                        storeDescription[i] = arrayList.get(i).getStoreDescription();
+                        list_storeDescription.add(i,arrayList.get(i).getStoreDescription());
 
                     }
-                    ArrayAdapter arr=new ArrayAdapter(getBaseContext(),android.R.layout.simple_list_item_1,store);
+                    myAdapter arr=new myAdapter(getBaseContext(),android.R.layout.simple_list_item_1,storeName);
                     mListView_stores.setAdapter(arr);
                 }
 
@@ -101,6 +116,10 @@ public class CostumerActivity extends AppCompatActivity implements TabHost.OnTab
         mTab.addTab(spec);
 
         mTab.setOnTabChangedListener(this);
+
+
+
+
     }
 
 
@@ -120,9 +139,36 @@ public class CostumerActivity extends AppCompatActivity implements TabHost.OnTab
         }
 
 
+
     }
 
 
+
+
+
+    public class myAdapter extends ArrayAdapter<String>
+    {
+
+        public myAdapter(Context context, int resource, String[] objects) {
+            super(context, resource, objects);
+        }
+
+        @Override
+        public View getView(int position , View convertView , ViewGroup parent)
+        {
+
+            LayoutInflater inflater = (LayoutInflater) getSystemService(LAYOUT_INFLATER_SERVICE);
+            View v =  inflater.inflate(R.layout.list_store, parent, false);
+
+            TextView mText_storeName = (TextView)v.findViewById(R.id.text_StoreName);
+            mText_storeName.setText(list_storeName.get(position).toString());
+
+            TextView mText_storeDescription = (TextView)v.findViewById(R.id.text_StoreDescription);
+            mText_storeDescription.setText(list_storeDescription.get(position).toString());
+
+            return v;
+        }
+    }
 
 }
 

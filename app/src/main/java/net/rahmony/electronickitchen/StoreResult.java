@@ -9,6 +9,7 @@ package net.rahmony.electronickitchen;
 public class StoreResult {
 
     private String StoreName;
+    private  String StoreDescription;
 
 
     public String getStoreName() {
@@ -19,4 +20,11 @@ public class StoreResult {
         StoreName = storeName;
     }
 
+    public String getStoreDescription() {
+        return StoreDescription;
+    }
+
+    public void setStoreDescription(String storeDescription) {
+        StoreDescription = storeDescription;
+    }
 }

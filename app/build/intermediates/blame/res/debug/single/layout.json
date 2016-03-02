@@ -68,6 +68,10 @@
         "source": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.1.1\\res\\layout\\design_layout_snackbar_include.xml"
     },
     {
+        "merged": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_store.xml",
+        "source": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\src\\main\\res\\layout\\list_store.xml"
+    },
+    {
         "merged": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
         "source": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
