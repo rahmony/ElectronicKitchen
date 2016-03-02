@@ -33,7 +33,7 @@ import retrofit.GsonConverterFactory;
 import retrofit.Response;
 import retrofit.Retrofit;
 
-public class CostumerActivity extends AppCompatActivity implements TabHost.OnTabChangeListener{
+public class CostumerActivity extends AppCompatActivity implements TabHost.OnTabChangeListener , AdapterView.OnItemClickListener  {
 
     TabHost mTab;
     ListView mListView_stores;
@@ -58,7 +58,6 @@ public class CostumerActivity extends AppCompatActivity implements TabHost.OnTab
         spec.setContent(R.id.tab1);
         mTab.addTab(spec);
 
-        // TODO: 3/1/2016 You can get the data retrieved from the server !!       ^^
 
 
         final Retrofit retrofit = new Retrofit.Builder()
@@ -93,6 +92,7 @@ public class CostumerActivity extends AppCompatActivity implements TabHost.OnTab
                     }
                     myAdapter arr=new myAdapter(getBaseContext(),android.R.layout.simple_list_item_1,storeName);
                     mListView_stores.setAdapter(arr);
+
                 }
 
                     }
@@ -116,6 +116,7 @@ public class CostumerActivity extends AppCompatActivity implements TabHost.OnTab
         mTab.addTab(spec);
 
         mTab.setOnTabChangedListener(this);
+        mListView_stores.setOnItemClickListener(this);
 
 
 
@@ -142,8 +143,12 @@ public class CostumerActivity extends AppCompatActivity implements TabHost.OnTab
 
     }
 
+    @Override
+    public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
 
+        Toast.makeText(this,list_storeName.get(position).toString(),Toast.LENGTH_LONG).show();
 
+    }
 
 
     public class myAdapter extends ArrayAdapter<String>
@@ -168,6 +173,8 @@ public class CostumerActivity extends AppCompatActivity implements TabHost.OnTab
 
             return v;
         }
+
+
     }
 
 }
