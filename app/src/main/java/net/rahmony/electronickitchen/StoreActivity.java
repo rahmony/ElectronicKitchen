@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.graphics.drawable.Drawable;
 import android.net.Uri;
 import android.os.Bundle;
+import android.os.Environment;
 import android.provider.MediaStore;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -14,6 +15,8 @@ import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TabHost;
 import android.widget.Toast;
+
+import com.bumptech.glide.Glide;
 
 import java.io.File;
 
@@ -52,6 +55,18 @@ public class StoreActivity extends AppCompatActivity implements TabHost.OnTabCha
         startActivity(intent);
 
     }
+
+
+    public  void onClickme (View view ){
+
+        File file = new File(Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DCIM), "64861-200.png");
+
+        Glide.with(this).load(file).into(mImage_store);
+
+
+    }
+
+
 
 
     public  void onClick(View view){

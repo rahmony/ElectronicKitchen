@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
 
+import com.bumptech.glide.Glide;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -17,7 +18,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
 
-        mImage = (ImageView) findViewById(R.id.image_logo);
+        mImage= (ImageView) findViewById(R.id.image_logo);
+        Glide.with(this).load("http://androidadn.com/wp-content/uploads/sites/18/2013/02/android-musical2.jpg").into(mImage);
         mImage.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

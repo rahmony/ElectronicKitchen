@@ -126,7 +126,8 @@
                             android:cropToPadding="false"
                             android:baselineAlignBottom="false"
                             android:focusable="false"
-                            android:layout_gravity="center_horizontal" />
+                            android:layout_gravity="center_horizontal"
+                            android:onClick="onClickme" />
 
                     </LinearLayout>
 
