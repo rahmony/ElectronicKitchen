@@ -90,8 +90,16 @@ public class LoginActivity extends AppCompatActivity {
                                             user.setLon(response.body().getLon());
                                             user.setLat(response.body().getLat());
 
-                                            startActivity(new Intent(LoginActivity.this , MainPageActivity.class).putExtra("userName" , user.getFirstName() + "  " + user.getLastName()));
+                                            Intent intent = new Intent(LoginActivity.this , MainPageActivity.class);
+                                            intent.putExtra("id",user.getID() );
+                                            intent.putExtra("userName" , user.getFirstName() + "  " + user.getLastName());
+                                            intent.putExtra( "email" , user.getEmail() );
+                                            intent.putExtra("phoneNumber" , user.getPhoneNumber() );
+                                            intent.putExtra("address" , user.getAddress());
+                                            intent.putExtra( "lon" , user.getLon() );
+                                            intent.putExtra( "lat" , user.getLat());
 
+                                            startActivity(intent);
                                         }
 
                                         else
