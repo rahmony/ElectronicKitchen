@@ -18,12 +18,12 @@ public class StoreResult implements Parcelable {
     private String msg;
 
     protected StoreResult(Parcel in) {
-        Store_ID = in.readInt();
-        StoreName = in.readString();
-        Image = in.readInt();
-        StoreDescription = in.readString();
-        Available = in.readString();
-        Seller_ID = in.readInt();
+        store_ID = in.readInt();
+        storeName = in.readString();
+        image = in.readInt();
+        storeDescription = in.readString();
+        available = in.readString();
+        seller_ID = in.readInt();
         msg = in.readString();
     }
 
@@ -39,8 +39,6 @@ public class StoreResult implements Parcelable {
         }
     };
 
-    public int getStoreID(){return Store_ID;}
-    public void setStoreID(int Store_ID){this.Store_ID = Store_ID;}
     public int getStoreID(){return store_ID;}
     public void setStoreID(int store_ID){this.store_ID = store_ID;}
 
