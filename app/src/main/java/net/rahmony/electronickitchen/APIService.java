@@ -1,5 +1,11 @@
 package net.rahmony.electronickitchen;
 
+import net.rahmony.electronickitchen.Data.LogInResult;
+import net.rahmony.electronickitchen.Data.Results;
+import net.rahmony.electronickitchen.Data.Store;
+import net.rahmony.electronickitchen.Data.StoreResult;
+import net.rahmony.electronickitchen.Data.User;
+
 import java.util.List;
 
 import retrofit.*;
@@ -26,6 +32,8 @@ public interface APIService {
     @GET("getAllStores")
     Call<List<StoreResult>> getAllStores();
 
+    @POST("hasStore")
+    Call<StoreResult> hasStore(@Body Store store);
 
 
     // need to review and amend

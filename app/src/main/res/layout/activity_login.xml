@@ -131,14 +131,21 @@
             android:enabled="true"
             android:onClick="onClick" />
 
+    </FrameLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceMedium"
             android:text="@string/login_sign_up"
             android:id="@+id/text_login_signup"
             android:layout_gravity="center_horizontal|bottom"
             android:onClick="onClick" />
-    </FrameLayout>
+    </LinearLayout>
 
 </LinearLayout>

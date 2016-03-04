@@ -47,7 +47,8 @@
             android:textSize="25dp"
             android:background="#420f6ace"
             android:textColor="#fbf9f9"
-            android:layout_gravity="center_horizontal|top" />
+            android:layout_gravity="center_horizontal|top"
+            android:onClick="onClick" />
 
 
         <Button
@@ -64,7 +65,8 @@
             android:textSize="25dp"
             android:background="#420f6ace"
             android:textColor="#ffffff"
-            android:layout_gravity="center_horizontal|top" />
+            android:layout_gravity="center_horizontal|top"
+            android:onClick="onClick" />
 
         <Button
             android:layout_width="fill_parent"
@@ -80,7 +82,8 @@
             android:textSize="25dp"
             android:background="#420f6ace"
             android:textColor="#fefcfc"
-            android:layout_gravity="center" />
+            android:layout_gravity="center"
+            android:onClick="onClick" />
 
 
 </LinearLayout>
