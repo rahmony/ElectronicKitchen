@@ -1,5 +1,6 @@
 package net.rahmony.electronickitchen.ClassActivity;
 
+import android.content.Context;
 import android.content.Intent;
 import android.graphics.drawable.Drawable;
 import android.net.Uri;
@@ -7,21 +8,43 @@ import android.os.Bundle;
 import android.os.Environment;
 import android.provider.MediaStore;
 import android.support.v7.app.AppCompatActivity;
+import android.view.LayoutInflater;
 import android.view.View;
+import android.view.ViewGroup;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
 import android.widget.ImageButton;
 import android.widget.ImageView;
+import android.widget.ListView;
 import android.widget.TabHost;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
 
+import net.rahmony.electronickitchen.APIService;
+import net.rahmony.electronickitchen.Data.Product;
+import net.rahmony.electronickitchen.Data.Store;
 import net.rahmony.electronickitchen.R;
 
 import java.io.File;
+import java.util.ArrayList;
+import java.util.List;
+
+import retrofit.Call;
+import retrofit.Callback;
+import retrofit.GsonConverterFactory;
+import retrofit.Response;
+import retrofit.Retrofit;
 
 
-public class StoreActivity extends AppCompatActivity implements TabHost.OnTabChangeListener{
+public class StoreActivity extends AppCompatActivity implements TabHost.OnTabChangeListener , AdapterView.OnItemClickListener {
+
+
+    ArrayList list_productName = new ArrayList();
+    ArrayList list_productPrice = new ArrayList();
+
+    ListView mListView_product;
     TabHost mTab;
     ImageButton mbtnImage_store_left;
     ImageView mImage_store;
@@ -53,7 +76,55 @@ public class StoreActivity extends AppCompatActivity implements TabHost.OnTabCha
 
         System.out.print(extras.getString("storeName"));
 
+
+
+
+
+        final Retrofit retrofit = new Retrofit.Builder()
+                .baseUrl("http://rahmony.net/api/")
+                .addConverterFactory(GsonConverterFactory.create())
+                .build();
+        APIService apiService = retrofit.create(APIService.class);
+        Call<List<Product>> reg = apiService.getAllProducts();
+
+
+
+        reg.enqueue(new Callback<List<Product>>() {
+                        @Override
+                        public void onResponse(Response<List<Product>> response, Retrofit retrofit) {
+
+                            ArrayList<Product> arrayList = (ArrayList) response.body();
+
+                            String[] productName = new String[arrayList.size()];
+                            String[] productPrice = new String[arrayList.size()];
+                            for (int i = 0; i < arrayList.size(); i++) {
+                                if (arrayList != null) {
+                                    productName[i] = arrayList.get(i).getProductName();
+                                    list_productName.add(i, arrayList.get(i).getProductName());
+                                    productPrice[i] = arrayList.get(i).getPrice()+"";
+                                    list_productPrice.add(i, arrayList.get(i).getPrice());
+
+                                }
+                                myAdapter arr = new myAdapter(getBaseContext(), android.R.layout.simple_list_item_1, productName);
+                                mListView_product.setAdapter(arr);
+
+                            }
+
+                        }
+
+
+                        @Override
+                        public void onFailure(Throwable t) {
+                            Toast.makeText(getBaseContext(), " Oops! An error occurred  + The Throwble is " + t.getMessage().toString(), Toast.LENGTH_LONG).show();
+
+                        }
+                    }
+        );
+
+
     }
+
+
 
     public void onClicky(View view){
 
@@ -125,6 +196,42 @@ public class StoreActivity extends AppCompatActivity implements TabHost.OnTabCha
     }
     public void onEditClick(View view){
         Toast.makeText(getBaseContext(),"Hello Motherfucker",Toast.LENGTH_LONG).show();
+
+    }
+
+
+    @Override
+    public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+
+        Toast.makeText(this,list_productName.get(position).toString(),Toast.LENGTH_LONG).show();
+
+    }
+    public class myAdapter extends ArrayAdapter<String>
+    {
+
+        public myAdapter(Context context, int resource, String[] objects) {
+            super(context, resource, objects);
+        }
+
+
+        @Override
+        public View getView(int position , View convertView , ViewGroup parent)
+        {
+
+            LayoutInflater inflater = (LayoutInflater) getSystemService(LAYOUT_INFLATER_SERVICE);
+            View v =  inflater.inflate(R.layout.list_product, parent, false);
+
+            TextView mText_storeName = (TextView)v.findViewById(R.id.text_StoreName);
+            mText_storeName.setText(list_productName.get(position).toString());
+
+            TextView mText_storeDescription = (TextView)v.findViewById(R.id.text_StoreDescription);
+            mText_storeDescription.setText(list_productPrice.get(position).toString());
+
+
+
+            return v;
+        }
+
 
     }
 

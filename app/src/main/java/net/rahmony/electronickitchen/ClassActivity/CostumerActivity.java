@@ -152,6 +152,7 @@ public class CostumerActivity extends AppCompatActivity implements TabHost.OnTab
             super(context, resource, objects);
         }
 
+
         @Override
         public View getView(int position , View convertView , ViewGroup parent)
         {
@@ -164,6 +165,8 @@ public class CostumerActivity extends AppCompatActivity implements TabHost.OnTab
 
             TextView mText_storeDescription = (TextView)v.findViewById(R.id.text_StoreDescription);
             mText_storeDescription.setText(list_storeDescription.get(position).toString());
+
+
 
             return v;
         }
