@@ -11,15 +11,11 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.bumptech.glide.Glide;
 import com.google.android.gms.appindexing.Action;
 import com.google.android.gms.appindexing.AppIndex;
 import com.google.android.gms.common.api.GoogleApiClient;
 
-
-import net.rahmony.electronickitchen.APIService;
-import net.rahmony.electronickitchen.Data.LogInResult;
-import net.rahmony.electronickitchen.R;
-import net.rahmony.electronickitchen.Data.User;
 
 import retrofit.Call;
 import retrofit.Callback;
@@ -70,7 +66,7 @@ public class LoginActivity extends AppCompatActivity {
                         .build();
 
                 APIService apiService = retrofit.create(APIService.class);
-                final User user = new User();
+                final  User user = new User();
                 user.setEmail(mEt_email.getText().toString());
                 user.setPassword(mEt_password.getText().toString());
 
@@ -94,11 +90,16 @@ public class LoginActivity extends AppCompatActivity {
                                             user.setLon(response.body().getLon());
                                             user.setLat(response.body().getLat());
 
+                                            Intent intent = new Intent(LoginActivity.this , MainPageActivity.class);
+                                            intent.putExtra("id",user.getID() );
+                                            intent.putExtra("userName" , user.getFirstName() + "  " + user.getLastName());
+                                            intent.putExtra( "email" , user.getEmail() );
+                                            intent.putExtra("phoneNumber" , user.getPhoneNumber() );
+                                            intent.putExtra("address" , user.getAddress());
+                                            intent.putExtra( "lon" , user.getLon() );
+                                            intent.putExtra( "lat" , user.getLat());
 
-                                                      startActivity(new Intent(LoginActivity.this, MainPageActivity.class).putExtra("userID", (int)user.getID())
-                                                              .putExtra("userName", user.getFirstName() + "  " + user.getLastName()));
-
-
+                                            startActivity(intent);
                                         }
 
                                         else
