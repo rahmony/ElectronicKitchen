@@ -6,6 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
 
 
 import com.google.android.gms.appindexing.AppIndex;
@@ -106,7 +107,7 @@ public class MainPageActivity extends AppCompatActivity {
 
 
                         }
-                        if(response.message().equalsIgnoreCase("unauthorized")){
+                       else if(response.message().equalsIgnoreCase("Unauthorized")){
 
                             Bundle extra = getIntent().getExtras();
                             Intent intent = new Intent(MainPageActivity.this ,CreateStoreActivity.class);
@@ -122,11 +123,14 @@ public class MainPageActivity extends AppCompatActivity {
 
 
                         }
+
+                        else Toast.makeText(getBaseContext() ,"No response" , Toast.LENGTH_LONG).show();
+
                     }
 
                     @Override
                     public void onFailure(Throwable t) {
-                        startActivity(new Intent(MainPageActivity.this, CreateStoreActivity.class));
+                        Toast.makeText(getBaseContext() , t.getMessage().toString() , Toast.LENGTH_LONG).show();
                     }
                 });
 

@@ -30,7 +30,7 @@ public interface APIService {
     Call<StoreResult>  createStore(@Body Store store);
 
     @GET("getAllStores")
-    Call<List<StoreResult>> getAllStores();
+    Call<List<Store>> getAllStores();
 
     @POST("hasStore")
     Call<StoreResult> hasStore(@Body Store store);
