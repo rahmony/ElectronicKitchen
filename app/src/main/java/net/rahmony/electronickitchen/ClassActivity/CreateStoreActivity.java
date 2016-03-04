@@ -10,6 +10,7 @@ import android.widget.Toast;
 import net.rahmony.electronickitchen.APIService;
 import net.rahmony.electronickitchen.Data.Results;
 import net.rahmony.electronickitchen.Data.Store;
+import net.rahmony.electronickitchen.Data.StoreResult;
 import net.rahmony.electronickitchen.R;
 
 import retrofit.Call;
@@ -41,30 +42,61 @@ public class CreateStoreActivity extends AppCompatActivity {
         mEt_store_create_store_name= (EditText) findViewById(R.id.et_store_create_store_name);
         mEt_store_create_store_description= (EditText) findViewById(R.id.et_store_create_store_description);
 
+        final Bundle extra = getIntent().getExtras();
+
         APIService apiService = retrofit.create(APIService.class);
-        Store store = new Store();
+
+        final Store store = new Store();
+
         store.setStoreName(mEt_store_create_store_name.getText().toString());
         store.setStoreDescription(mEt_store_create_store_description.getText().toString());
+        store.setSeller_ID(extra.getInt("id"));
 
 
 
-        //the probelm is here now
-        //final Bundle extras = getIntent().getExtras();
-       // int seller_ID =  extras.getInt("userID");
-       // store.setSeller_ID(seller_ID);
 
 
 
-        Call<Results> reg =  apiService.createStore(store);
 
-        reg.enqueue(new Callback<Results>(){
+
+        Call<StoreResult> reg =  apiService.createStore(store);
+
+        reg.enqueue(new Callback<StoreResult>(){
 
 
             @Override
-            public void onResponse(Response<Results> response, Retrofit retrofit) {
-                Toast.makeText(getBaseContext(), " Store Created! ", Toast.LENGTH_LONG).show();
+            public void onResponse(Response<StoreResult> response, Retrofit retrofit) {
+                if (response.message().equalsIgnoreCase("ok")) {
+                    Toast.makeText(getBaseContext(), " Store Created! ", Toast.LENGTH_LONG).show();
 
-                finish();
+                    Intent intent = new Intent(CreateStoreActivity.this, StoreActivity.class);
+
+                    store.setStoreID(response.body().getStoreID());
+                    store.setStoreName(response.body().getStoreName());
+                    store.setImage(response.body().getImage());
+                    store.setStoreDescription(response.body().getStoreDescription());
+                    store.setAvailable(response.body().getAvailable());
+                    store.setSeller_ID(response.body().getSeller_ID());
+
+                    intent.putExtra("Store_ID",store.getStoreID());
+                    intent.putExtra("storeName", store.getStoreName());
+                    intent.putExtra("image", store.getImage());
+                    intent.putExtra("storeDescription", store.getStoreDescription());
+                    intent.putExtra("available", store.getAvailable());
+                    intent.putExtra("Seller_ID", store.getSeller_ID());
+
+                    intent.putExtra("id", extra.getInt("id"));
+                    intent.putExtra("userName", extra.getString("userName"));
+                    intent.putExtra("email", extra.getString("email"));
+                    intent.putExtra("phoneNumber", extra.getString("phoneNumber"));
+                    intent.putExtra("address", extra.getString("address"));
+                    intent.putExtra("lon", extra.getFloat("lon"));
+                    intent.putExtra("lat", extra.getFloat("lat"));
+                    startActivity(intent);
+                    finish();
+                }if(response.message().equalsIgnoreCase("unauthorized")){
+                    Toast.makeText(getBaseContext(), " Store name existed!", Toast.LENGTH_LONG).show();
+                }
             }
 
             @Override

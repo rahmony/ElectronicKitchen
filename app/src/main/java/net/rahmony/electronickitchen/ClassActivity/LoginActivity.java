@@ -17,6 +17,11 @@ import com.google.android.gms.appindexing.AppIndex;
 import com.google.android.gms.common.api.GoogleApiClient;
 
 
+import net.rahmony.electronickitchen.APIService;
+import net.rahmony.electronickitchen.Data.LogInResult;
+import net.rahmony.electronickitchen.Data.User;
+import net.rahmony.electronickitchen.R;
+
 import retrofit.Call;
 import retrofit.Callback;
 import retrofit.GsonConverterFactory;

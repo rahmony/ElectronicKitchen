@@ -27,7 +27,7 @@ public interface APIService {
     Call<LogInResult> login(@Body User user);
 
     @POST("createStore")
-    Call<Results>  createStore(@Body Store store);
+    Call<StoreResult>  createStore(@Body Store store);
 
     @GET("getAllStores")
     Call<List<StoreResult>> getAllStores();

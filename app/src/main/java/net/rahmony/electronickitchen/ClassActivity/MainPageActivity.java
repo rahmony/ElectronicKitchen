@@ -66,7 +66,7 @@ public class MainPageActivity extends AppCompatActivity {
 
 
 
-                int seller_ID =  extras.getInt("userID");
+                int seller_ID =  extras.getInt("id");
                 store.setSeller_ID(seller_ID);
 
                 Call<StoreResult> reg = apiService.hasStore(store);
@@ -77,6 +77,9 @@ public class MainPageActivity extends AppCompatActivity {
 
 
                         if (response.message().equalsIgnoreCase("ok")) {
+                            Bundle extra = getIntent().getExtras();
+                            Intent intent = new Intent(MainPageActivity.this ,StoreActivity.class);
+
                             store.setStoreID(response.body().getStoreID());
                             store.setStoreName(response.body().getStoreName());
                             store.setImage(response.body().getImage());
@@ -84,14 +87,39 @@ public class MainPageActivity extends AppCompatActivity {
                             store.setAvailable(response.body().getAvailable());
                             store.setSeller_ID(response.body().getSeller_ID());
 
+                            intent.putExtra("Store_ID",store.getStoreID());
+                            intent.putExtra("storeName", store.getStoreName());
+                            intent.putExtra("image", store.getImage());
+                            intent.putExtra("storeDescription", store.getStoreDescription());
+                            intent.putExtra("available", store.getAvailable());
+                            intent.putExtra("Seller_ID", store.getSeller_ID());
 
-                            startActivity(new Intent(MainPageActivity.this, StoreActivity.class).putExtra("storeName",store.getStoreName()));
+
+                            intent.putExtra("id",extra.getInt("id"));
+                            intent.putExtra("userName", extra.getString("userName"));
+                            intent.putExtra("email", extra.getString("email"));
+                            intent.putExtra("phoneNumber", extra.getString("phoneNumber"));
+                            intent.putExtra("address", extra.getString("address"));
+                            intent.putExtra("lon", extra.getFloat("lon"));
+                            intent.putExtra("lat", extra.getFloat("lat"));
+                            startActivity(intent);
 
 
                         }
                         if(response.message().equalsIgnoreCase("unauthorized")){
 
-                            startActivity(new Intent(MainPageActivity.this, CreateStoreActivity.class));
+                            Bundle extra = getIntent().getExtras();
+                            Intent intent = new Intent(MainPageActivity.this ,CreateStoreActivity.class);
+
+                            intent.putExtra("id",extra.getInt("id"));
+                            intent.putExtra("userName", extra.getString("userName"));
+                            intent.putExtra("email", extra.getString("email"));
+                            intent.putExtra("phoneNumber", extra.getString("phoneNumber"));
+                            intent.putExtra("address", extra.getString("address"));
+                            intent.putExtra("lon", extra.getFloat("lon"));
+                            intent.putExtra("lat", extra.getFloat("lat"));
+                            startActivity(intent);
+
 
                         }
                     }

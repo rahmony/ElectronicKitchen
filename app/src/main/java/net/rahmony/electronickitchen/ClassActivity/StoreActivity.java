@@ -50,7 +50,9 @@ public class StoreActivity extends AppCompatActivity implements TabHost.OnTabCha
         Bundle extras = getIntent().getExtras();
         mStoreName = (TextView) findViewById(R.id.text_store_name);
         mStoreName.setText(extras.getString("storeName"));
+
         System.out.print(extras.getString("storeName"));
+
     }
 
     public void onClicky(View view){
