@@ -14,6 +14,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import net.rahmony.electronickitchen.APIService;
+import net.rahmony.electronickitchen.Data.Store;
 import net.rahmony.electronickitchen.Data.StoreResult;
 import net.rahmony.electronickitchen.R;
 
@@ -58,15 +59,15 @@ public class CostumerActivity extends AppCompatActivity implements TabHost.OnTab
                 .addConverterFactory(GsonConverterFactory.create())
                 .build();
         APIService apiService = retrofit.create(APIService.class);
-        Call<List<StoreResult>> reg = apiService.getAllStores();
+        Call<List<Store>> reg = apiService.getAllStores();
 
 
 
-        reg.enqueue(new Callback<List<StoreResult>>() {
+        reg.enqueue(new Callback<List<Store>>() {
             @Override
-            public void onResponse(Response<List<StoreResult>> response, Retrofit retrofit) {
+            public void onResponse(Response<List<Store>> response, Retrofit retrofit) {
 
-                ArrayList<StoreResult> arrayList = (ArrayList)response.body();
+                ArrayList<Store> arrayList = (ArrayList)response.body();
                 // as much as Available Stores get their Names ^^ .
                 // for (int i ; i<arrayList.size();i++){
                 //   arraylist.get(i).getStoreName();
