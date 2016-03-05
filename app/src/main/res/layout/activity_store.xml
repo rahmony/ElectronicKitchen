@@ -127,7 +127,7 @@
                             android:baselineAlignBottom="false"
                             android:focusable="false"
                             android:layout_gravity="center_horizontal"
-                            android:onClick="onClickme" />
+                            android:onClick="onClick_addProduct" />
 
                     </LinearLayout>
 
@@ -136,7 +136,10 @@
                         android:layout_height="361dp"
                         android:id="@+id/listView_product"
                         android:layout_row="3"
-                        android:layout_column="0" />
+                        android:layout_column="0" >
+
+                    </ListView>
+
                 </GridLayout>
 
                 <GridLayout

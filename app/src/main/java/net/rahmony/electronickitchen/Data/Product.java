@@ -9,7 +9,6 @@ public class Product {
     private String ProductName;
     private int Price;
     private String Description;
-    private String Available;
     private String Extras;
     private int Store_ID;
     private String msg;
@@ -47,13 +46,6 @@ public class Product {
         Description = description;
     }
 
-    public String getAvailable() {
-        return Available;
-    }
-
-    public void setAvailable(String available) {
-        Available = available;
-    }
 
     public String getExtras() {
         return Extras;

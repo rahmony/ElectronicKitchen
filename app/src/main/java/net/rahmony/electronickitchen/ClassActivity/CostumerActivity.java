@@ -84,11 +84,12 @@ public class CostumerActivity extends AppCompatActivity implements TabHost.OnTab
                         list_storeDescription.add(i,arrayList.get(i).getStoreDescription());
 
                     }
-                    myAdapter arr=new myAdapter(getBaseContext(),android.R.layout.simple_list_item_1,storeName);
-                    mListView_stores.setAdapter(arr);
+
 
                 }
 
+                myAdapter arr=new myAdapter(getBaseContext(),android.R.layout.simple_list_item_1,storeName);
+                mListView_stores.setAdapter(arr);
                     }
 
 

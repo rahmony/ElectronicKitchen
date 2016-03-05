@@ -51,7 +51,7 @@ public class MainPageActivity extends AppCompatActivity {
 
             mText_userName = (TextView)findViewById(R.id.text_userName);
             String welcome =  mText_userName.getText().toString();
-            mText_userName.setText(extras.getString("userName") + "   " + welcome);
+            mText_userName.setText(extras.getString("UserName") + "   " + welcome);
 
     }
     public void onClick(View view){
@@ -63,7 +63,7 @@ public class MainPageActivity extends AppCompatActivity {
 
                 User userCostumer = new User();
                 final Bundle extrasCostumer = getIntent().getExtras();
-                int Costumer_ID =  extrasCostumer.getInt("id");
+                int Costumer_ID =  extrasCostumer.getInt("ID");
 
                 Retrofit retrofitCostumer = new Retrofit.Builder()
                         .baseUrl("http://rahmony.net/api/")
@@ -78,7 +78,7 @@ public class MainPageActivity extends AppCompatActivity {
                     @Override
                     public void onResponse(Response<LogInResult> response, Retrofit retrofit) {
                         if(response.message().equalsIgnoreCase("ok")){
-                            Toast.makeText(getBaseContext() , "Seller Added!" , Toast.LENGTH_LONG).show();
+                            Toast.makeText(getBaseContext() , "Costumer Added!" , Toast.LENGTH_LONG).show();
                         }
                     }
 
@@ -99,7 +99,7 @@ public class MainPageActivity extends AppCompatActivity {
                 final Store store = new Store();
                 User userSeller = new User();
                 final Bundle extrasSeller = getIntent().getExtras();
-                int Seller_ID =  extrasSeller.getInt("id");
+                int Seller_ID =  extrasSeller.getInt("ID");
 
                 Retrofit retrofitSeller = new Retrofit.Builder()
                         .baseUrl("http://rahmony.net/api/")
@@ -138,7 +138,7 @@ public class MainPageActivity extends AppCompatActivity {
                             Bundle extra = getIntent().getExtras();
                             Intent intent = new Intent(MainPageActivity.this ,StoreActivity.class);
 
-                            store.setStoreID(response.body().getStoreID());
+                            store.setStoreID(response.body().getStore_ID());
                             store.setStoreName(response.body().getStoreName());
                             store.setImage(response.body().getImage());
                             store.setStoreDescription(response.body().getStoreDescription());
@@ -146,20 +146,20 @@ public class MainPageActivity extends AppCompatActivity {
                             store.setSeller_ID(response.body().getSeller_ID());
 
                             intent.putExtra("Store_ID",store.getStoreID());
-                            intent.putExtra("storeName", store.getStoreName());
-                            intent.putExtra("image", store.getImage());
-                            intent.putExtra("storeDescription", store.getStoreDescription());
-                            intent.putExtra("available", store.getAvailable());
+                            intent.putExtra("StoreName", store.getStoreName());
+                            intent.putExtra("Image", store.getImage());
+                            intent.putExtra("StoreDescription", store.getStoreDescription());
+                            intent.putExtra("Available", store.getAvailable());
                             intent.putExtra("Seller_ID", store.getSeller_ID());
 
 
-                            intent.putExtra("id",extra.getInt("id"));
-                            intent.putExtra("userName", extra.getString("userName"));
-                            intent.putExtra("email", extra.getString("email"));
-                            intent.putExtra("phoneNumber", extra.getString("phoneNumber"));
-                            intent.putExtra("address", extra.getString("address"));
-                            intent.putExtra("lon", extra.getFloat("lon"));
-                            intent.putExtra("lat", extra.getFloat("lat"));
+                            intent.putExtra("ID",extra.getInt("ID"));
+                            intent.putExtra("UserName", extra.getString("UserName"));
+                            intent.putExtra("Email", extra.getString("Email"));
+                            intent.putExtra("PhoneNumber", extra.getString("PhoneNumber"));
+                            intent.putExtra("Address", extra.getString("Address"));
+                            intent.putExtra("Lon", extra.getFloat("Lon"));
+                            intent.putExtra("Lat", extra.getFloat("Lat"));
                             startActivity(intent);
 
 
@@ -169,13 +169,13 @@ public class MainPageActivity extends AppCompatActivity {
                             Bundle extra = getIntent().getExtras();
                             Intent intent = new Intent(MainPageActivity.this ,CreateStoreActivity.class);
 
-                            intent.putExtra("id",extra.getInt("id"));
-                            intent.putExtra("userName", extra.getString("userName"));
-                            intent.putExtra("email", extra.getString("email"));
-                            intent.putExtra("phoneNumber", extra.getString("phoneNumber"));
-                            intent.putExtra("address", extra.getString("address"));
-                            intent.putExtra("lon", extra.getFloat("lon"));
-                            intent.putExtra("lat", extra.getFloat("lat"));
+                            intent.putExtra("ID",extra.getInt("ID"));
+                            intent.putExtra("UserName", extra.getString("UserName"));
+                            intent.putExtra("Email", extra.getString("Email"));
+                            intent.putExtra("PhoneNumber", extra.getString("PhoneNumber"));
+                            intent.putExtra("Address", extra.getString("Address"));
+                            intent.putExtra("Lon", extra.getFloat("Lon"));
+                            intent.putExtra("Lat", extra.getFloat("Lat"));
                             startActivity(intent);
 
 
@@ -198,7 +198,7 @@ public class MainPageActivity extends AppCompatActivity {
 
                 User userDriver = new User();
                 final Bundle extrasDriver = getIntent().getExtras();
-                int Driver_ID =  extrasDriver.getInt("id");
+                int Driver_ID =  extrasDriver.getInt("ID");
 
                 Retrofit retrofitDriver = new Retrofit.Builder()
                         .baseUrl("http://rahmony.net/api/")

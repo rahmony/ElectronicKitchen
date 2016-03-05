@@ -50,11 +50,7 @@ public class CreateStoreActivity extends AppCompatActivity {
 
         store.setStoreName(mEt_store_create_store_name.getText().toString());
         store.setStoreDescription(mEt_store_create_store_description.getText().toString());
-        store.setSeller_ID(extra.getInt("id"));
-
-
-
-
+        store.setSeller_ID(extra.getInt("ID"));
 
 
 
@@ -71,7 +67,7 @@ public class CreateStoreActivity extends AppCompatActivity {
 
                     Intent intent = new Intent(CreateStoreActivity.this, StoreActivity.class);
 
-                    store.setStoreID(response.body().getStoreID());
+                    store.setStoreID(response.body().getStore_ID());
                     store.setStoreName(response.body().getStoreName());
                     store.setImage(response.body().getImage());
                     store.setStoreDescription(response.body().getStoreDescription());
@@ -79,19 +75,19 @@ public class CreateStoreActivity extends AppCompatActivity {
                     store.setSeller_ID(response.body().getSeller_ID());
 
                     intent.putExtra("Store_ID",store.getStoreID());
-                    intent.putExtra("storeName", store.getStoreName());
-                    intent.putExtra("image", store.getImage());
-                    intent.putExtra("storeDescription", store.getStoreDescription());
-                    intent.putExtra("available", store.getAvailable());
+                    intent.putExtra("StoreName", store.getStoreName());
+                    intent.putExtra("Image", store.getImage());
+                    intent.putExtra("StoreDescription", store.getStoreDescription());
+                    intent.putExtra("Available", store.getAvailable());
                     intent.putExtra("Seller_ID", store.getSeller_ID());
 
-                    intent.putExtra("id", extra.getInt("id"));
-                    intent.putExtra("userName", extra.getString("userName"));
-                    intent.putExtra("email", extra.getString("email"));
-                    intent.putExtra("phoneNumber", extra.getString("phoneNumber"));
-                    intent.putExtra("address", extra.getString("address"));
-                    intent.putExtra("lon", extra.getFloat("lon"));
-                    intent.putExtra("lat", extra.getFloat("lat"));
+                    intent.putExtra("ID", extra.getInt("ID"));
+                    intent.putExtra("UserName", extra.getString("UserName"));
+                    intent.putExtra("Email", extra.getString("Email"));
+                    intent.putExtra("PhoneNumber", extra.getString("PhoneNumber"));
+                    intent.putExtra("Address", extra.getString("Address"));
+                    intent.putExtra("Lon", extra.getFloat("Lon"));
+                    intent.putExtra("Lat", extra.getFloat("Lat"));
                     startActivity(intent);
                     finish();
                 }if(response.message().equalsIgnoreCase("unauthorized")){

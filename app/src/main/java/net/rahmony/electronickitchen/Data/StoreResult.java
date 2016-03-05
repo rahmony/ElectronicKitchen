@@ -9,21 +9,21 @@ import android.os.Parcelable;
  */
 public class StoreResult implements Parcelable {
 
-    private int store_ID;
-    private String storeName;
-    private int image;
-    private String storeDescription;
-    private String available;
-    private int seller_ID;
+    private int Store_ID;
+    private String StoreName;
+    private int Image;
+    private String StoreDescription;
+    private String Available;
+    private int Seller_ID;
     private String msg;
 
     protected StoreResult(Parcel in) {
-        store_ID = in.readInt();
-        storeName = in.readString();
-        image = in.readInt();
-        storeDescription = in.readString();
-        available = in.readString();
-        seller_ID = in.readInt();
+        Store_ID = in.readInt();
+        StoreName = in.readString();
+        Image = in.readInt();
+        StoreDescription = in.readString();
+        Available = in.readString();
+        Seller_ID = in.readInt();
         msg = in.readString();
     }
 
@@ -39,23 +39,61 @@ public class StoreResult implements Parcelable {
         }
     };
 
-    public int getStoreID(){return store_ID;}
-    public void setStoreID(int store_ID){this.store_ID = store_ID;}
+    public int getStore_ID() {
+        return Store_ID;
+    }
 
-    public String getStoreName(){return storeName;}
-    public void setStoreName(String storeName){this.storeName = storeName;}
+    public void setStore_ID(int store_ID) {
+        Store_ID = store_ID;
+    }
 
-    public int getImage(){return image;}
-    public void setImage(int Image){this.image = image;}
+    public String getStoreName() {
+        return StoreName;
+    }
 
-    public String getStoreDescription(){return storeDescription;}
-    public void setStoreDescription(String storeDescription){this.storeDescription = storeDescription;}
+    public void setStoreName(String storeName) {
+        StoreName = storeName;
+    }
 
-    public String getAvailable(){return available;}
-    public void setAvailable(String available){this.available = available;}
+    public int getImage() {
+        return Image;
+    }
 
-    public int getSeller_ID(){return seller_ID;}
-    public void setSeller_ID(int seller_ID){this.seller_ID = seller_ID;}
+    public void setImage(int image) {
+        Image = image;
+    }
+
+    public String getStoreDescription() {
+        return StoreDescription;
+    }
+
+    public void setStoreDescription(String storeDescription) {
+        StoreDescription = storeDescription;
+    }
+
+    public String getAvailable() {
+        return Available;
+    }
+
+    public void setAvailable(String available) {
+        Available = available;
+    }
+
+    public int getSeller_ID() {
+        return Seller_ID;
+    }
+
+    public void setSeller_ID(int seller_ID) {
+        Seller_ID = seller_ID;
+    }
+
+    public String getMsg() {
+        return msg;
+    }
+
+    public void setMsg(String msg) {
+        this.msg = msg;
+    }
 
     public StoreResult(){}
 

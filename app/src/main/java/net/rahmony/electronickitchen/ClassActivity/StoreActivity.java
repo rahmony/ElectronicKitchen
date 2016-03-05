@@ -27,6 +27,8 @@ import net.rahmony.electronickitchen.Data.Product;
 import net.rahmony.electronickitchen.Data.Store;
 import net.rahmony.electronickitchen.R;
 
+import org.parceler.apache.commons.lang.builder.ToStringBuilder;
+
 import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
@@ -48,7 +50,7 @@ public class StoreActivity extends AppCompatActivity implements TabHost.OnTabCha
     TabHost mTab;
     ImageButton mbtnImage_store_left;
     ImageView mImage_store;
-    TextView mStoreName;
+    TextView mStoreName , mText_store_description;
     static final int mCamRequest = 2;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -57,6 +59,8 @@ public class StoreActivity extends AppCompatActivity implements TabHost.OnTabCha
 
         mbtnImage_store_left = (ImageButton) findViewById(R.id.btnImage_store_left);
         mImage_store = (ImageView) findViewById(R.id.image_store);
+
+        mListView_product=(ListView)findViewById(R.id.listView_product);
 
         mTab=(TabHost)findViewById(R.id.tab_store);
         mTab.setup();
@@ -70,14 +74,11 @@ public class StoreActivity extends AppCompatActivity implements TabHost.OnTabCha
         spec.setContent(R.id.tab_store_2);
         mTab.addTab(spec);
 
-        Bundle extras = getIntent().getExtras();
+        final Bundle extras = getIntent().getExtras();
         mStoreName = (TextView) findViewById(R.id.text_store_name);
-        mStoreName.setText(extras.getString("storeName"));
-
-        System.out.print(extras.getString("storeName"));
-
-
-
+        mStoreName.setText(extras.getString("StoreName"));
+        mText_store_description = (TextView)findViewById(R.id.text_store_description);
+        mText_store_description.setText(extras.get("StoreDescription").toString());
 
 
         final Retrofit retrofit = new Retrofit.Builder()
@@ -85,9 +86,10 @@ public class StoreActivity extends AppCompatActivity implements TabHost.OnTabCha
                 .addConverterFactory(GsonConverterFactory.create())
                 .build();
         APIService apiService = retrofit.create(APIService.class);
-        Call<List<Product>> reg = apiService.getAllProducts();
 
-
+        final Product product = new Product();
+        product.setStore_ID(extras.getInt("Store_ID"));
+        Call<List<Product>> reg = apiService.getMyProducts(product);
 
         reg.enqueue(new Callback<List<Product>>() {
                         @Override
@@ -101,14 +103,17 @@ public class StoreActivity extends AppCompatActivity implements TabHost.OnTabCha
                                 if (arrayList != null) {
                                     productName[i] = arrayList.get(i).getProductName();
                                     list_productName.add(i, arrayList.get(i).getProductName());
-                                    productPrice[i] = arrayList.get(i).getPrice()+"";
-                                    list_productPrice.add(i, arrayList.get(i).getPrice());
+                                   productPrice[i] = arrayList.get(i).getPrice()+"";
+                                   list_productPrice.add(i, arrayList.get(i).getPrice());
 
                                 }
-                                myAdapter arr = new myAdapter(getBaseContext(), android.R.layout.simple_list_item_1, productName);
-                                mListView_product.setAdapter(arr);
+
 
                             }
+
+
+                            myAdapter arr = new myAdapter(getBaseContext(), android.R.layout.simple_list_item_1, productName);
+                            mListView_product.setAdapter(arr);
 
                         }
 
@@ -126,10 +131,10 @@ public class StoreActivity extends AppCompatActivity implements TabHost.OnTabCha
 
 
 
-    public void onClicky(View view){
+    public void onClick_addProduct(View view){
 
-
-        Intent intent = new Intent(StoreActivity.this, Product_Activity.class);
+        Bundle extras = getIntent().getExtras();
+        Intent intent = new Intent(StoreActivity.this, Product_Activity.class).putExtra("Store_ID",extras.getInt("Store_ID"));
         startActivity(intent);
 
     }
@@ -225,7 +230,7 @@ public class StoreActivity extends AppCompatActivity implements TabHost.OnTabCha
             mText_storeName.setText(list_productName.get(position).toString());
 
             TextView mText_storeDescription = (TextView)v.findViewById(R.id.text_StoreDescription);
-            mText_storeDescription.setText(list_productPrice.get(position).toString());
+           mText_storeDescription.setText(list_productPrice.get(position).toString());
 
 
 

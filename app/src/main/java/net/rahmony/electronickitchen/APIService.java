@@ -42,11 +42,18 @@ public interface APIService {
     @GET("getAllStores")
     Call<List<Store>> getAllStores();
 
-    @GET("getAllProducts")
-    Call<List<Product>> getAllProducts();
+    @POST("getMyProducts")
+    Call<List<Product>> getMyProducts(@Body Product product);
 
     @POST("hasStore")
     Call<StoreResult> hasStore(@Body Store store);
+
+    @POST("addNewCustomer")
+    Call<Results> addNewCustomer(@Body User user);
+
+    @POST("addNewProduct")
+    Call<Results> addNewProduct(@Body Product product);
+
 
 
     // need to review and amend

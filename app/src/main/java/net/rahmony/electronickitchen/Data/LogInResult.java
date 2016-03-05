@@ -11,81 +11,86 @@ public class LogInResult implements Parcelable {
 
 
     private String msg;
-    private int id;
-    private String firstName ;
-    private String lastName ;
-    private String email ;
-    private String phoneNumber ;
-    private String city ;
-    private String address ;
-    private float lon ;
-    private float lat ;
-
+    private int ID;
+    private String FirstName ;
+    private String LastName ;
+    private String Email ;
+    private String PhoneNumber ;
+    private String City ;
+    private String Address ;
+    private float Lon ;
+    private float Lat ;
 
     public int getID() {
-        return id;
+        return ID;
     }
 
-    public void setID(int id) {
-        this.id = id;
+    public void setID(int ID) {
+        this.ID = ID;
     }
 
-
-    public String getEmail() {
-        return email;
+    public String getFirstName() {
+        return FirstName;
     }
 
-    public void setEmail(String email) {
-        this.email = email;
+    public void setFirstName(String firstName) {
+        FirstName = firstName;
     }
-
 
     public String getLastName() {
-        return lastName;
+        return LastName;
     }
 
     public void setLastName(String lastName) {
-        this.lastName = lastName;
+        LastName = lastName;
+    }
+
+    public String getEmail() {
+        return Email;
+    }
+
+    public void setEmail(String email) {
+        Email = email;
     }
 
     public String getPhoneNumber() {
-        return phoneNumber;
+        return PhoneNumber;
     }
 
     public void setPhoneNumber(String phoneNumber) {
-        this.phoneNumber = phoneNumber;
+        PhoneNumber = phoneNumber;
     }
 
     public String getCity() {
-        return city;
+        return City;
     }
 
     public void setCity(String city) {
-        this.city = city;
+        City = city;
     }
 
     public String getAddress() {
-        return address;
+        return Address;
     }
 
     public void setAddress(String address) {
-        this.address = address;
+        Address = address;
     }
 
     public float getLon() {
-        return lon;
+        return Lon;
     }
 
     public void setLon(float lon) {
-        this.lon = lon;
+        Lon = lon;
     }
 
     public float getLat() {
-        return lat;
+        return Lat;
     }
 
     public void setLat(float lat) {
-        this.lat = lat;
+        Lat = lat;
     }
 
     protected LogInResult(Parcel in) {
@@ -104,14 +109,6 @@ public class LogInResult implements Parcelable {
         }
     };
 
-
-    public String getFirstName() {
-        return firstName ;
-    }
-
-    public void setFirstName(String firstName) {
-        this.firstName = firstName;
-    }
 
     public void setMsg(String msg) {
 
