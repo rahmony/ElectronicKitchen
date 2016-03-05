@@ -27,6 +27,12 @@ public interface APIService {
     @POST("login")
     Call<LogInResult> login(@Body User user);
 
+    @POST("addNewCostumer")
+    Call<LogInResult> addNewCostumer(@Body User user);
+
+    @POST("addNewSeller")
+    Call<LogInResult> addNewSeller(@Body User user);
+
     @POST("createStore")
     Call<StoreResult>  createStore(@Body Store store);
 

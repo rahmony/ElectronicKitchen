@@ -13,7 +13,9 @@ import com.google.android.gms.appindexing.AppIndex;
 import com.google.android.gms.common.api.GoogleApiClient;
 
 import net.rahmony.electronickitchen.APIService;
+import net.rahmony.electronickitchen.Data.LogInResult;
 import net.rahmony.electronickitchen.Data.StoreResult;
+import net.rahmony.electronickitchen.Data.User;
 import net.rahmony.electronickitchen.R;
 import net.rahmony.electronickitchen.Data.Store;
 
@@ -30,7 +32,15 @@ public class MainPageActivity extends AppCompatActivity {
     private TextView mText_userName ;
 
 
-        @Override
+
+
+
+
+
+
+
+
+            @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_page);
@@ -40,37 +50,84 @@ public class MainPageActivity extends AppCompatActivity {
 
 
             mText_userName = (TextView)findViewById(R.id.text_userName);
-           String welcome =  mText_userName.getText().toString();
+            String welcome =  mText_userName.getText().toString();
             mText_userName.setText(extras.getString("userName") + "   " + welcome);
-
-
 
     }
     public void onClick(View view){
         switch (view.getId()){
+            //----------------------------------------------------Costumer---------------------------------------------//
             case R.id.btn_customer_enter:
+
+
+
+                User userCostumer = new User();
+                final Bundle extrasCostumer = getIntent().getExtras();
+                int Costumer_ID =  extrasCostumer.getInt("id");
+
+                Retrofit retrofitCostumer = new Retrofit.Builder()
+                        .baseUrl("http://rahmony.net/api/")
+                        .addConverterFactory(GsonConverterFactory.create())
+                        .build();
+                APIService apiServiceCostumer = retrofitCostumer.create(APIService.class);
+
+                userCostumer.setID(Costumer_ID);
+                Call<LogInResult> addNewCostumer = apiServiceCostumer.addNewCostumer(userCostumer);
+
+                addNewCostumer.enqueue(new Callback<LogInResult>() {
+                    @Override
+                    public void onResponse(Response<LogInResult> response, Retrofit retrofit) {
+                        if(response.message().equalsIgnoreCase("ok")){
+                            Toast.makeText(getBaseContext() , "Seller Added!" , Toast.LENGTH_LONG).show();
+                        }
+                    }
+
+                    @Override
+                    public void onFailure(Throwable t) {
+                        Toast.makeText(getBaseContext() , t.getMessage().toString() , Toast.LENGTH_LONG).show();
+                    }
+                });
+
+
                 startActivity(new Intent(MainPageActivity.this, CostumerActivity.class));
 
                 break;
 
-
+//----------------------------------------------------Seller---------------------------------------------//
             case R.id.btn_seller_enter:
-               final Bundle extras = getIntent().getExtras();
 
-                Retrofit retrofit = new Retrofit.Builder()
+                final Store store = new Store();
+                User userSeller = new User();
+                final Bundle extrasSeller = getIntent().getExtras();
+                int Seller_ID =  extrasSeller.getInt("id");
+
+                Retrofit retrofitSeller = new Retrofit.Builder()
                         .baseUrl("http://rahmony.net/api/")
                         .addConverterFactory(GsonConverterFactory.create())
                         .build();
+                APIService apiServiceSeller = retrofitSeller.create(APIService.class);
 
-                APIService apiService = retrofit.create(APIService.class);
-                final Store store = new Store();
+                userSeller.setID(Seller_ID);
+                Call<LogInResult> addNewSeller = apiServiceSeller.addNewSeller(userSeller);
+
+                addNewSeller.enqueue(new Callback<LogInResult>() {
+                    @Override
+                    public void onResponse(Response<LogInResult> response, Retrofit retrofit) {
+                        if(response.message().equalsIgnoreCase("ok")){
+                            Toast.makeText(getBaseContext() , "Seller Added!" , Toast.LENGTH_LONG).show();
+                        }
+                    }
+
+                    @Override
+                    public void onFailure(Throwable t) {
+                        Toast.makeText(getBaseContext() , t.getMessage().toString() , Toast.LENGTH_LONG).show();
+                    }
+                });
 
 
+                store.setSeller_ID(Seller_ID);
+                Call<StoreResult> reg = apiServiceSeller.hasStore(store);
 
-                int seller_ID =  extras.getInt("id");
-                store.setSeller_ID(seller_ID);
-
-                Call<StoreResult> reg = apiService.hasStore(store);
 
                 reg.enqueue(new Callback<StoreResult>() {
                     @Override
