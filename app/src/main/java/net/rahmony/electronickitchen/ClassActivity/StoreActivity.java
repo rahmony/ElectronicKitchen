@@ -126,6 +126,8 @@ public class StoreActivity extends AppCompatActivity implements TabHost.OnTabCha
         );
 
 
+        mListView_product.setOnItemClickListener(this);
+
     }
 
 
@@ -207,9 +209,10 @@ public class StoreActivity extends AppCompatActivity implements TabHost.OnTabCha
     @Override
     public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
 
-        Toast.makeText(getBaseContext(),list_productName.get(position).toString(),Toast.LENGTH_LONG).show();
+        Toast.makeText(this,list_productName.get(position).toString(),Toast.LENGTH_LONG).show();
 
     }
+
     private class myAdapter extends ArrayAdapter<String>
     {
 

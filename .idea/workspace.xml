@@ -139,8 +139,8 @@
       <file leaf-file-name="StoreActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/net/rahmony/electronickitchen/ClassActivity/StoreActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5026087">
-              <caret line="213" column="5" selection-start-line="213" selection-start-column="5" selection-end-line="213" selection-end-column="5" />
+            <state vertical-scroll-proportion="0.44347826">
+              <caret line="220" column="9" selection-start-line="220" selection-start-column="9" selection-end-line="220" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -2465,7 +2465,13 @@
       <option name="project" value="LOCAL" />
       <updated>1457196484717</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="fix problem of display products for seller !! done">
+      <created>1457196991047</created>
+      <option name="number" value="00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1457196991047</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TodoView">
@@ -2559,7 +2565,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Second review of the previous code and modify it." />
     <MESSAGE value="The third review of the previous code  and modify it." />
     <MESSAGE value="The fourth review of the previous code and modify it." />
     <MESSAGE value="The fifth review of the previous code  and modify it." />
@@ -2584,7 +2589,8 @@
     <MESSAGE value="Costumer and seller enter done" />
     <MESSAGE value="fix some problems , and allow seller add product" />
     <MESSAGE value="fix a half of problem of display products for seller !!" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix a half of problem of display products for seller !!" />
+    <MESSAGE value="fix problem of display products for seller !! done" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix problem of display products for seller !! done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -3043,8 +3049,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/net/rahmony/electronickitchen/ClassActivity/StoreActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5026087">
-          <caret line="213" column="5" selection-start-line="213" selection-start-column="5" selection-end-line="213" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.44347826">
+          <caret line="220" column="9" selection-start-line="220" selection-start-column="9" selection-end-line="220" selection-end-column="9" />
           <folding />
         </state>
       </provider>
