@@ -42,6 +42,7 @@ import retrofit.Retrofit;
 
 public class StoreActivity extends AppCompatActivity implements TabHost.OnTabChangeListener , AdapterView.OnItemClickListener {
 
+    String[] productName = {"Test1" , "Test2"};
 
     ArrayList list_productName = new ArrayList();
     ArrayList list_productPrice = new ArrayList();
@@ -95,6 +96,7 @@ public class StoreActivity extends AppCompatActivity implements TabHost.OnTabCha
                         @Override
                         public void onResponse(Response<List<Product>> response, Retrofit retrofit) {
 
+                            /*
                             ArrayList<Product> arrayList = (ArrayList) response.body();
 
                             String[] productName = new String[arrayList.size()];
@@ -111,8 +113,8 @@ public class StoreActivity extends AppCompatActivity implements TabHost.OnTabCha
 
                             }
 
-
-                            myAdapter arr = new myAdapter(getBaseContext(), android.R.layout.simple_list_item_1, productName);
+*/
+                            ArrayAdapter arr = new ArrayAdapter(getBaseContext(), android.R.layout.simple_list_item_1, productName);
                             mListView_product.setAdapter(arr);
 
                         }
@@ -211,7 +213,7 @@ public class StoreActivity extends AppCompatActivity implements TabHost.OnTabCha
         Toast.makeText(this,list_productName.get(position).toString(),Toast.LENGTH_LONG).show();
 
     }
-    public class myAdapter extends ArrayAdapter<String>
+    private class myAdapter extends ArrayAdapter<String>
     {
 
         public myAdapter(Context context, int resource, String[] objects) {

@@ -146,7 +146,7 @@ public class CostumerActivity extends AppCompatActivity implements TabHost.OnTab
     }
 
 
-    public class myAdapter extends ArrayAdapter<String>
+    private class myAdapter extends ArrayAdapter<String>
     {
 
         public myAdapter(Context context, int resource, String[] objects) {
