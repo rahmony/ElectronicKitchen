@@ -1,3 +1,152 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
 
+    <item
+        jar="C:\Users\Fawaz\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.3.1\ecb6e1f8e4b0e84c4b886c2f14a1500caf309757\gson-2.3.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
+        <dex dex="C:\Users\Fawaz\Desktop\ourProject\ElectronicKitchen\ElectronicKitchen\app\build\intermediates\pre-dexed\debug\gson-2.3.1_4876ba7ba02c96d678611770dde6aff179bb45de.jar" />
+    </item>
+    <item
+        jar="C:\Users\Fawaz\Desktop\ourProject\ElectronicKitchen\ElectronicKitchen\app\build\intermediates\exploded-aar\com.android.support\design\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="379471b2bd17d9737c050345c08e8c7d16589784">
+        <dex dex="C:\Users\Fawaz\Desktop\ourProject\ElectronicKitchen\ElectronicKitchen\app\build\intermediates\pre-dexed\debug\com.android.support-design-23.1.1_e161ba1e71b5a078885e996ca718312eaa13e0cc.jar" />
+    </item>
+    <item
+        jar="C:\Users\Fawaz\Desktop\ourProject\ElectronicKitchen\ElectronicKitchen\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\8.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="4477ea44f5ec5ad064022a22691732d7638ff197">
+        <dex dex="C:\Users\Fawaz\Desktop\ourProject\ElectronicKitchen\ElectronicKitchen\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-appindexing-8.1.0_36e849d50f2b05ab5f431be15fd453407682b89e.jar" />
+    </item>
+    <item
+        jar="C:\Users\Fawaz\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit\retrofit\2.0.0-beta2\880d9e0997b2d1bfc98e0d121ced33ee5d04aac4\retrofit-2.0.0-beta2.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="880d9e0997b2d1bfc98e0d121ced33ee5d04aac4">
+        <dex dex="C:\Users\Fawaz\Desktop\ourProject\ElectronicKitchen\ElectronicKitchen\app\build\intermediates\pre-dexed\debug\retrofit-2.0.0-beta2_04e05184f40257df23bf0e61fd7400aeadbab117.jar" />
+    </item>
+    <item
+        jar="C:\Users\Fawaz\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp\okhttp\2.5.0\4de2b4ed3445c37ec1720a7d214712e845a24636\okhttp-2.5.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="4de2b4ed3445c37ec1720a7d214712e845a24636">
+        <dex dex="C:\Users\Fawaz\Desktop\ourProject\ElectronicKitchen\ElectronicKitchen\app\build\intermediates\pre-dexed\debug\okhttp-2.5.0_b2810682c03481c99d6cbaa0fe5b9f2055447942.jar" />
+    </item>
+    <item
+        jar="C:\Users\Fawaz\Desktop\ourProject\ElectronicKitchen\ElectronicKitchen\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="C:\Users\Fawaz\Desktop\ourProject\ElectronicKitchen\ElectronicKitchen\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.1.1_76973614c5bc371ab5ddfe94808261ccbe144bad.jar" />
+    </item>
+    <item
+        jar="C:\Users\Fawaz\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\adapter-rxjava\2.0.0-beta4\bd49baf667542c7d06f71e598bdee7fe57272013\adapter-rxjava-2.0.0-beta4.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="bd49baf667542c7d06f71e598bdee7fe57272013">
+        <dex dex="C:\Users\Fawaz\Desktop\ourProject\ElectronicKitchen\ElectronicKitchen\app\build\intermediates\pre-dexed\debug\adapter-rxjava-2.0.0-beta4_7d4f50eae1eee39346b5782615379b66deb29cc2.jar" />
+    </item>
+    <item
+        jar="C:\Users\Fawaz\Desktop\ourProject\ElectronicKitchen\ElectronicKitchen\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="C:\Users\Fawaz\Desktop\ourProject\ElectronicKitchen\ElectronicKitchen\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.1.1_601c5b7723c496b9b42abcb9efbdb0c96c2b56e0.jar" />
+    </item>
+    <item
+        jar="C:\Users\Fawaz\Desktop\ourProject\ElectronicKitchen\ElectronicKitchen\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\libs\internal_impl-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="C:\Users\Fawaz\Desktop\ourProject\ElectronicKitchen\ElectronicKitchen\app\build\intermediates\pre-dexed\debug\internal_impl-23.1.1_7ae3bfe0699fc915a58a22237d59566f27885ecb.jar" />
+    </item>
+    <item
+        jar="C:\Users\Fawaz\Desktop\ourProject\ElectronicKitchen\ElectronicKitchen\app\build\intermediates\exploded-aar\io.reactivex\rxandroid\1.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="aa81bfe8c5cc88c2472ca936ae71f0c3dd1766df">
+        <dex dex="C:\Users\Fawaz\Desktop\ourProject\ElectronicKitchen\ElectronicKitchen\app\build\intermediates\pre-dexed\debug\io.reactivex-rxandroid-1.0.1_1f46daeb979b607e8a3c359ba8ef3d91f312ddfc.jar" />
+    </item>
+    <item
+        jar="C:\Users\Fawaz\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\retrofit\2.0.0-beta4\739e00dea1f0ac04fdb9b6160d667e23cc50a791\retrofit-2.0.0-beta4.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="739e00dea1f0ac04fdb9b6160d667e23cc50a791">
+        <dex dex="C:\Users\Fawaz\Desktop\ourProject\ElectronicKitchen\ElectronicKitchen\app\build\intermediates\pre-dexed\debug\retrofit-2.0.0-beta4_f8ab03b93582d2d30918248b57c78b8410b5f584.jar" />
+    </item>
+    <item
+        jar="C:\Users\Fawaz\.gradle\caches\modules-2\files-2.1\org.parceler\parceler-api\0.2.13\3bdd7267446c60215c6165a8129cc572ad407660\parceler-api-0.2.13.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="3bdd7267446c60215c6165a8129cc572ad407660">
+        <dex dex="C:\Users\Fawaz\Desktop\ourProject\ElectronicKitchen\ElectronicKitchen\app\build\intermediates\pre-dexed\debug\parceler-api-0.2.13_0ed4123d40bc6483863ed411b4b1b9401fc92f0e.jar" />
+    </item>
+    <item
+        jar="C:\Users\Fawaz\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.1.1\support-annotations-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="C:\Users\Fawaz\Desktop\ourProject\ElectronicKitchen\ElectronicKitchen\app\build\intermediates\pre-dexed\debug\support-annotations-23.1.1_c71edee5322ef31b0dd771ba6f87445c886892b9.jar" />
+    </item>
+    <item
+        jar="C:\Users\Fawaz\.gradle\caches\modules-2\files-2.1\org.parceler\parceler\0.2.13\ea3579621a7fe7083e7f7bb8be0d90c8751acbf9\parceler-0.2.13.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="ea3579621a7fe7083e7f7bb8be0d90c8751acbf9">
+        <dex dex="C:\Users\Fawaz\Desktop\ourProject\ElectronicKitchen\ElectronicKitchen\app\build\intermediates\pre-dexed\debug\parceler-0.2.13_3521075b69710ec0c37e488e51976267c35065ad.jar" />
+    </item>
+    <item
+        jar="C:\Users\Fawaz\Desktop\ourProject\ElectronicKitchen\ElectronicKitchen\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="09c5e804bc67fc0580360043dff067df574a60d4">
+        <dex dex="C:\Users\Fawaz\Desktop\ourProject\ElectronicKitchen\ElectronicKitchen\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-23.1.1_0e7f8d8791e5b6cd716944eb272e41c0fcb6835e.jar" />
+    </item>
+    <item
+        jar="C:\Users\Fawaz\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.0.1\b34c1f2d993044656e87f88970b6818e99e886ba\okhttp-3.0.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="b34c1f2d993044656e87f88970b6818e99e886ba">
+        <dex dex="C:\Users\Fawaz\Desktop\ourProject\ElectronicKitchen\ElectronicKitchen\app\build\intermediates\pre-dexed\debug\okhttp-3.0.1_3914b99d023c101573cc656e964dcdb9e7f92c04.jar" />
+    </item>
+    <item
+        jar="C:\Users\Fawaz\Desktop\ourProject\ElectronicKitchen\ElectronicKitchen\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="d0dda274b703dd9c5bb056867649d22b4171ae7d">
+        <dex dex="C:\Users\Fawaz\Desktop\ourProject\ElectronicKitchen\ElectronicKitchen\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-basement-8.1.0_0b5e7196d9aeb22b0cfd78b1e3214bc8e11aa22e.jar" />
+    </item>
+    <item
+        jar="C:\Users\Fawaz\.gradle\caches\modules-2\files-2.1\io.reactivex\rxjava\1.1.0\748f0546d5c3c27f1aef07270ffea0c45f0c42a4\rxjava-1.1.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="748f0546d5c3c27f1aef07270ffea0c45f0c42a4">
+        <dex dex="C:\Users\Fawaz\Desktop\ourProject\ElectronicKitchen\ElectronicKitchen\app\build\intermediates\pre-dexed\debug\rxjava-1.1.0_e89125e29710e921c4bd172b66efe2938ad0713f.jar" />
+    </item>
+    <item
+        jar="C:\Users\Fawaz\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit\converter-gson\2.0.0-beta2\392c3d09e0f5e7087544093cc0cb23bb9c7af5fa\converter-gson-2.0.0-beta2.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="392c3d09e0f5e7087544093cc0cb23bb9c7af5fa">
+        <dex dex="C:\Users\Fawaz\Desktop\ourProject\ElectronicKitchen\ElectronicKitchen\app\build\intermediates\pre-dexed\debug\converter-gson-2.0.0-beta2_9bfaa28225f412a71ab8957625bc78c6580916fd.jar" />
+    </item>
+    <item
+        jar="C:\Users\Fawaz\.gradle\caches\modules-2\files-2.1\com.github.bumptech.glide\glide\3.6.1\86b122e640af09b0723e1fa44083c354ba6d9089\glide-3.6.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="86b122e640af09b0723e1fa44083c354ba6d9089">
+        <dex dex="C:\Users\Fawaz\Desktop\ourProject\ElectronicKitchen\ElectronicKitchen\app\build\intermediates\pre-dexed\debug\glide-3.6.1_5ac22bb6e7c901473dc0e4253e1e63b80399939a.jar" />
+    </item>
+    <item
+        jar="C:\Users\Fawaz\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.6.0\98476622f10715998eacf9240d6b479f12c66143\okio-1.6.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="98476622f10715998eacf9240d6b479f12c66143">
+        <dex dex="C:\Users\Fawaz\Desktop\ourProject\ElectronicKitchen\ElectronicKitchen\app\build\intermediates\pre-dexed\debug\okio-1.6.0_14bcb868b6ca7412a1f44d6b63e96244c37b3b42.jar" />
+    </item>
+
+</items>

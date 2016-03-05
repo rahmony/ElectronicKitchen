@@ -23,5 +23,22 @@ public class CostumerProductActivity extends AppCompatActivity{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_customer_product);
 }
+    public void onClick(View view){
+        switch(view.getId()){
+
+            case R.id.text_costumer_product_plus:
+
+                break;
+            case R.id.text_costumer_product_minus:
+
+                break;
+            case R.id.btn_add_to_cart:
+
+                break;
+            case R.id.btn_costumer_product_cancel:
+
+                break;
+        }
+    }
 }
 
