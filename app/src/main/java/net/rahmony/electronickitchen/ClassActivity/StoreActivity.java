@@ -42,8 +42,6 @@ import retrofit.Retrofit;
 
 public class StoreActivity extends AppCompatActivity implements TabHost.OnTabChangeListener , AdapterView.OnItemClickListener {
 
-    String[] productName = {"Test1" , "Test2"};
-
     ArrayList list_productName = new ArrayList();
     ArrayList list_productPrice = new ArrayList();
 
@@ -96,7 +94,7 @@ public class StoreActivity extends AppCompatActivity implements TabHost.OnTabCha
                         @Override
                         public void onResponse(Response<List<Product>> response, Retrofit retrofit) {
 
-                            /*
+
                             ArrayList<Product> arrayList = (ArrayList) response.body();
 
                             String[] productName = new String[arrayList.size()];
@@ -113,8 +111,7 @@ public class StoreActivity extends AppCompatActivity implements TabHost.OnTabCha
 
                             }
 
-*/
-                            ArrayAdapter arr = new ArrayAdapter(getBaseContext(), android.R.layout.simple_list_item_1, productName);
+                            myAdapter arr = new myAdapter(getBaseContext(), android.R.layout.simple_list_item_1, productName);
                             mListView_product.setAdapter(arr);
 
                         }
@@ -210,7 +207,7 @@ public class StoreActivity extends AppCompatActivity implements TabHost.OnTabCha
     @Override
     public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
 
-        Toast.makeText(this,list_productName.get(position).toString(),Toast.LENGTH_LONG).show();
+        Toast.makeText(getBaseContext(),list_productName.get(position).toString(),Toast.LENGTH_LONG).show();
 
     }
     private class myAdapter extends ArrayAdapter<String>
@@ -228,11 +225,11 @@ public class StoreActivity extends AppCompatActivity implements TabHost.OnTabCha
             LayoutInflater inflater = (LayoutInflater) getSystemService(LAYOUT_INFLATER_SERVICE);
             View v =  inflater.inflate(R.layout.list_product, parent, false);
 
-            TextView mText_storeName = (TextView)v.findViewById(R.id.text_StoreName);
-            mText_storeName.setText(list_productName.get(position).toString());
+            TextView mText_ProductName = (TextView)v.findViewById(R.id.text_ProductName);
+            mText_ProductName.setText(list_productName.get(position).toString());
 
-            TextView mText_storeDescription = (TextView)v.findViewById(R.id.text_StoreDescription);
-           mText_storeDescription.setText(list_productPrice.get(position).toString());
+            TextView mText_Price = (TextView)v.findViewById(R.id.text_Price);
+            mText_Price.setText(list_productPrice.get(position).toString());
 
 
 
