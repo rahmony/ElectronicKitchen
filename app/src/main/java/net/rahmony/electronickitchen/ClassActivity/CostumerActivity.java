@@ -1,6 +1,7 @@
 package net.rahmony.electronickitchen.ClassActivity;
 
 import android.content.Context;
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -35,6 +36,7 @@ public class CostumerActivity extends AppCompatActivity implements TabHost.OnTab
 
     ArrayList list_storeName = new ArrayList();
     ArrayList list_storeDescription = new ArrayList();
+    ArrayList list_storeID = new ArrayList();
 
 
     @Override
@@ -76,12 +78,15 @@ public class CostumerActivity extends AppCompatActivity implements TabHost.OnTab
 
                 String [] storeName = new String[arrayList.size()];
                 String [] storeDescription = new String[arrayList.size()];
+                int [] storeID = new int[arrayList.size()];
                 for(int i = 0 ; i < arrayList.size() ; i++) {
                     if (arrayList != null) {
                         storeName[i] = arrayList.get(i).getStoreName();
                         list_storeName.add(i,arrayList.get(i).getStoreName());
                         storeDescription[i] = arrayList.get(i).getStoreDescription();
                         list_storeDescription.add(i,arrayList.get(i).getStoreDescription());
+                        storeID[i]=arrayList.get(i).getStoreID();
+                        list_storeID.add(i,arrayList.get(i).getStoreID());
 
                     }
 
@@ -140,8 +145,11 @@ public class CostumerActivity extends AppCompatActivity implements TabHost.OnTab
 
     @Override
     public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-
-        Toast.makeText(this,list_storeName.get(position).toString(),Toast.LENGTH_LONG).show();
+       Intent intent = new Intent(CostumerActivity.this ,ShowProductOfStroeActivity.class);
+       intent.putExtra("StoreID",Integer.parseInt(list_storeID.get(position).toString()));
+        intent.putExtra("StoreName",list_storeName.get(position).toString());
+        intent.putExtra("StoreDescription",list_storeDescription.get(position).toString());
+       startActivity(intent);
 
     }
 

@@ -261,6 +261,7 @@
     <integer name="design_snackbar_text_max_lines">2</integer>
     <integer name="google_play_services_version">8115000</integer>
     <integer name="status_bar_notification_info_maxnum">999</integer>
+    <string name="Quantity">الكمــية:</string>
     <string name="abc_action_bar_home_description">Navigate home</string>
     <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
     <string name="abc_action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>
@@ -280,13 +281,14 @@
     <string name="abc_shareactionprovider_share_with">Share with</string>
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
+    <string name="add_to_cart">إضــافة لـسـلة</string>
     <string name="address"> العنوان </string>
     <string name="app_name"> المطبخ الالكتروني </string>
     <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
     <string name="auth_google_play_services_client_facebook_display_name">Facebook</string>
     <string name="auth_google_play_services_client_google_display_name">Google</string>
     <string name="bands_agree"> اوافق على الشروط والاحكام</string>
-    <string name="cancel"> الغاء</string>
+    <string name="cancel"> الغــــاء</string>
     <string name="character_counter_pattern" translatable="false">%1$d / %2$d</string>
     <string name="city"> المدينة </string>
     <string name="common_android_wear_notification_needs_update_text"><ns1:g id="app_name">%1$s</ns1:g> requires an update to the Android Wear app.</string>
@@ -335,9 +337,11 @@
     <string name="login_sign_up">  ليس لديك حساب ؟ سجل الان ..... </string>
     <string name="madina"> المدينة المنورة </string>
     <string name="makka"> مكة </string>
+    <string name="minus">-</string>
     <string name="my_orders"> طلباتي </string>
     <string name="password"> كلمة المرور </string>
     <string name="phone_number"> رقم الجوال </string>
+    <string name="plus">+</string>
     <string name="seller_enter">الدخول كبائع</string>
     <string name="share_location"> مشاركة الموقع </string>
     <string name="sin_up"> إنشاء حساب جديد  </string>
