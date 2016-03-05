@@ -196,6 +196,33 @@ public class MainPageActivity extends AppCompatActivity {
                 break;
             case R.id.btn_driver_enter:
 
+                User userDriver = new User();
+                final Bundle extrasDriver = getIntent().getExtras();
+                int Driver_ID =  extrasDriver.getInt("id");
+
+                Retrofit retrofitDriver = new Retrofit.Builder()
+                        .baseUrl("http://rahmony.net/api/")
+                        .addConverterFactory(GsonConverterFactory.create())
+                        .build();
+                APIService apiServiceDriver= retrofitDriver.create(APIService.class);
+
+                userDriver.setID(Driver_ID);
+                Call<LogInResult> addNewDriver = apiServiceDriver.addNewDriver(userDriver);
+
+                addNewDriver.enqueue(new Callback<LogInResult>() {
+                    @Override
+                    public void onResponse(Response<LogInResult> response, Retrofit retrofit) {
+                        if(response.message().equalsIgnoreCase("ok")){
+                            Toast.makeText(getBaseContext() , "Driver Added!" , Toast.LENGTH_LONG).show();
+                        }
+                    }
+
+                    @Override
+                    public void onFailure(Throwable t) {
+                        Toast.makeText(getBaseContext() , t.getMessage().toString() , Toast.LENGTH_LONG).show();
+                    }
+                });
+
                 break;
 
 

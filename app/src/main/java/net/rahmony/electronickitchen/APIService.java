@@ -33,6 +33,9 @@ public interface APIService {
     @POST("addNewSeller")
     Call<LogInResult> addNewSeller(@Body User user);
 
+    @POST("addNewDriver")
+    Call<LogInResult> addNewDriver(@Body User user);
+
     @POST("createStore")
     Call<StoreResult>  createStore(@Body Store store);
 
