@@ -48,7 +48,7 @@
         <activity android:name=".ClassActivity.CreateStoreActivity" />
         <activity android:name=".ClassActivity.ShowProductOfStroeActivity" />
         <activity android:name=".ClassActivity.ReadyOrders" />
-        <activity android:name=".ClassActivity.ShowReadyProduct"></activity>
+        <activity android:name=".ClassActivity.ShowReadyOrders"></activity>
     </application>
 
 </manifest>

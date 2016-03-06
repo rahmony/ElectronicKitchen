@@ -44,8 +44,8 @@ public class ShowProductOfStroeActivity extends AppCompatActivity  implements Ad
 
         final Bundle extras = getIntent().getExtras();
         mStore_Of_Name = (TextView) findViewById(R.id.text_store_Of_name);
-       mStore_Of_Name.setText(extras.getString("StoreName"));
-       mText_store_Of_description = (TextView)findViewById(R.id.text_store_Of_description);
+        mStore_Of_Name.setText(extras.getString("StoreName"));
+        mText_store_Of_description = (TextView)findViewById(R.id.text_store_Of_description);
         mText_store_Of_description.setText(extras.get("StoreDescription").toString());
 
 

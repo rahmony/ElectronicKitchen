@@ -2502,7 +2502,7 @@ containing a value of this type.
         public static final int activity_product_=0x7f04001f;
         public static final int activity_ready_orders=0x7f040020;
         public static final int activity_show_product_of_stroe=0x7f040021;
-        public static final int activity_show_ready_product=0x7f040022;
+        public static final int activity_show_ready_orders =0x7f040022;
         public static final int activity_sign_up=0x7f040023;
         public static final int activity_store=0x7f040024;
         public static final int design_layout_snackbar=0x7f040025;
