@@ -3,6 +3,12 @@
   <component name="AndroidLayouts">
     <shared>
       <config>
+        <devices>
+          <device id="Nexus 4" />
+          <device id="Nexus 6" />
+          <device id="tv_720p" />
+          <device id="Galaxy Nexus" />
+        </devices>
         <target>android-17</target>
       </config>
     </shared>
@@ -49,7 +55,7 @@
       </layout>
       <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_store.xml">
         <config>
-          <theme>@android:style/Theme.Holo.Light.NoActionBar</theme>
+          <theme>@style/AppTheme</theme>
         </config>
       </layout>
     </layouts>
@@ -59,52 +65,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a94ea227-f6f1-420f-9744-351b5b9fcf22" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/net/rahmony/electronickitchen/ClassActivity/ReadyOrders.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/net/rahmony/electronickitchen/ClassActivity/ShowReadyProduct.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_ready_orders.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_show_ready_product.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/net/rahmony/electronickitchen/ClassActivity/CostumerActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/net/rahmony/electronickitchen/ClassActivity/CostumerActivity$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/net/rahmony/electronickitchen/ClassActivity/CostumerActivity$myAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/net/rahmony/electronickitchen/ClassActivity/CostumerActivity$myAdapter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/net/rahmony/electronickitchen/ClassActivity/CostumerActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/net/rahmony/electronickitchen/ClassActivity/CostumerActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/net/rahmony/electronickitchen/ClassActivity/CostumerProductActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/net/rahmony/electronickitchen/ClassActivity/CostumerProductActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/net/rahmony/electronickitchen/ClassActivity/LoginActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/net/rahmony/electronickitchen/ClassActivity/LoginActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/net/rahmony/electronickitchen/ClassActivity/MainActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/net/rahmony/electronickitchen/ClassActivity/MainActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/net/rahmony/electronickitchen/ClassActivity/MainPageActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/net/rahmony/electronickitchen/ClassActivity/MainPageActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/net/rahmony/electronickitchen/ClassActivity/Product_Activity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/net/rahmony/electronickitchen/ClassActivity/Product_Activity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/design/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/design/R$id.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$id.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/net/rahmony/electronickitchen/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/net/rahmony/electronickitchen/R$id.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/net/rahmony/electronickitchen/R$integer.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/net/rahmony/electronickitchen/R$integer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/net/rahmony/electronickitchen/R$layout.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/net/rahmony/electronickitchen/R$layout.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/net/rahmony/electronickitchen/R$mipmap.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/net/rahmony/electronickitchen/R$mipmap.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/design/R$string.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/design/R$string.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/google/android/gms/R$string.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/google/android/gms/R$string.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/google/android/gms/appindexing/R$string.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/google/android/gms/appindexing/R$string.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/net/rahmony/electronickitchen/R$string.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/net/rahmony/electronickitchen/R$string.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/net/rahmony/electronickitchen/R$style.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/net/rahmony/electronickitchen/R$style.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/net/rahmony/electronickitchen/R$styleable.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/net/rahmony/electronickitchen/R$styleable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/net/rahmony/electronickitchen/R.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/net/rahmony/electronickitchen/R.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/net/rahmony/electronickitchen/ClassActivity/SignUpActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/net/rahmony/electronickitchen/ClassActivity/SignUpActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/net/rahmony/electronickitchen/ClassActivity/StoreActivity$myAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/net/rahmony/electronickitchen/ClassActivity/StoreActivity$myAdapter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/net/rahmony/electronickitchen/ClassActivity/StoreActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/net/rahmony/electronickitchen/ClassActivity/StoreActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/apk/app-debug-unaligned.apk" afterPath="$PROJECT_DIR$/app/build/outputs/apk/app-debug-unaligned.apk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" afterPath="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/cache.properties.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/fileHashes.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/mergeJavaRes/debug/jars/2/1f/main.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/mergeJavaRes/debug/jars/2/1f/main.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug.ap_" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/net/rahmony/electronickitchen/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/net/rahmony/electronickitchen/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/symbols/debug/R.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/symbols/debug/R.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/activity_customer_product.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/activity_customer_product.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_customer_product.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_customer_product.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/layout.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/layout.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merger.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_show_ready_product.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_show_ready_product.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_store.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_store.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ElectronicKitchen.iws" />
@@ -135,19 +98,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="list_product.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/list_product.xml">
-          <provider selected="true" editor-type-id="android-designer">
-            <state />
-          </provider>
-          <provider editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="37" column="35" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="activity_customer_product.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_customer_product.xml">
           <provider selected="true" editor-type-id="android-designer">
@@ -155,12 +105,25 @@
           </provider>
           <provider editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="97" column="37" selection-start-line="97" selection-start-column="37" selection-end-line="97" selection-end-column="37" />
+              <caret line="80" column="43" selection-start-line="80" selection-start-column="43" selection-end-line="80" selection-end-column="43" />
               <folding>
                 <element signature="e#1144#1171#0" expanded="true" />
                 <element signature="e#2062#2076#0" expanded="true" />
                 <element signature="e#2937#2955#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="activity_show_product_of_stroe.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_show_product_of_stroe.xml">
+          <provider selected="true" editor-type-id="android-designer">
+            <state />
+          </provider>
+          <provider editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -203,12 +166,25 @@
                 <element signature="e#2268#2280#0" expanded="true" />
                 <element signature="e#2758#2781#0" expanded="true" />
                 <element signature="e#3680#3694#0" expanded="true" />
-                <element signature="e#4192#4220#0" expanded="true" />
-                <element signature="e#4895#4909#0" expanded="true" />
-                <element signature="e#5404#5419#0" expanded="true" />
-                <element signature="e#5947#5969#0" expanded="true" />
-                <element signature="e#6221#6235#0" expanded="true" />
+                <element signature="e#4206#4234#0" expanded="true" />
+                <element signature="e#4910#4924#0" expanded="true" />
+                <element signature="e#5433#5448#0" expanded="true" />
+                <element signature="e#5976#5998#0" expanded="true" />
+                <element signature="e#6250#6264#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="activity_store.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_store.xml">
+          <provider selected="true" editor-type-id="android-designer">
+            <state />
+          </provider>
+          <provider editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="94" column="52" selection-start-line="94" selection-start-column="49" selection-end-line="94" selection-end-column="71" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -228,19 +204,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="list_store.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/list_store.xml">
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-15.206897">
-              <caret line="26" column="44" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -1919,7 +1882,6 @@
         <option value="$PROJECT_DIR$/app/src/main/res/layout/list_product.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/net/rahmony/electronickitchen/Data/Product.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/net/rahmony/electronickitchen/APIService.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_store.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/net/rahmony/electronickitchen/Data/Store.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/net/rahmony/electronickitchen/Data/StoreResult.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/net/rahmony/electronickitchen/Data/LogInResult.java" />
@@ -1933,6 +1895,7 @@
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_show_ready_prodcut.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_customer_product.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_store.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_show_ready_product.xml" />
       </list>
     </option>
@@ -2525,7 +2488,13 @@
       <option name="project" value="LOCAL" />
       <updated>1457264305787</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="ready order activity and show ready order product activity, DONE">
+      <created>1457271770539</created>
+      <option name="number" value="00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1457271770539</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TodoView">
@@ -2619,7 +2588,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="The fifth review of the previous code  and modify it." />
     <MESSAGE value="fix RadioGroup" />
     <MESSAGE value="Preparing to build api" />
     <MESSAGE value="The second part to prepare for the construction of api" />
@@ -2644,7 +2612,8 @@
     <MESSAGE value="fix problem of display products for seller !! done" />
     <MESSAGE value="product activity  details was added .." />
     <MESSAGE value="costumer product activity" />
-    <option name="LAST_COMMIT_MESSAGE" value="costumer product activity" />
+    <MESSAGE value="ready order activity and show ready order product activity, DONE" />
+    <option name="LAST_COMMIT_MESSAGE" value="ready order activity and show ready order product activity, DONE" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2965,28 +2934,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_store.xml">
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="95" column="52" selection-start-line="95" selection-start-column="49" selection-end-line="95" selection-end-column="71" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_show_product_of_stroe.xml">
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/list_product.xml">
       <provider selected="true" editor-type-id="android-designer">
         <state />
@@ -3069,12 +3016,34 @@
       </provider>
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="97" column="37" selection-start-line="97" selection-start-column="37" selection-end-line="97" selection-end-column="37" />
+          <caret line="80" column="43" selection-start-line="80" selection-start-column="43" selection-end-line="80" selection-end-column="43" />
           <folding>
             <element signature="e#1144#1171#0" expanded="true" />
             <element signature="e#2062#2076#0" expanded="true" />
             <element signature="e#2937#2955#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_show_product_of_stroe.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_store.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="94" column="52" selection-start-line="94" selection-start-column="49" selection-end-line="94" selection-end-column="71" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -3092,11 +3061,11 @@
             <element signature="e#2268#2280#0" expanded="true" />
             <element signature="e#2758#2781#0" expanded="true" />
             <element signature="e#3680#3694#0" expanded="true" />
-            <element signature="e#4192#4220#0" expanded="true" />
-            <element signature="e#4895#4909#0" expanded="true" />
-            <element signature="e#5404#5419#0" expanded="true" />
-            <element signature="e#5947#5969#0" expanded="true" />
-            <element signature="e#6221#6235#0" expanded="true" />
+            <element signature="e#4206#4234#0" expanded="true" />
+            <element signature="e#4910#4924#0" expanded="true" />
+            <element signature="e#5433#5448#0" expanded="true" />
+            <element signature="e#5976#5998#0" expanded="true" />
+            <element signature="e#6250#6264#0" expanded="true" />
           </folding>
         </state>
       </provider>

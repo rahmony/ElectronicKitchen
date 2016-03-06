@@ -102,13 +102,13 @@
 
             <TextView
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:textAppearance="?android:attr/textAppearanceSmall"
                 android:text="@string/zero"
                 android:id="@+id/text_show_order_details_store_product_number"
                 android:layout_gravity="center_vertical"
                 android:layout_weight="0.20"
-                android:gravity="right"
+                android:gravity="center_vertical|end"
                 android:textSize="25sp" />
 
             <TextView
@@ -117,7 +117,7 @@
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:text="@string/number_of_products"
                 android:layout_gravity="center_vertical"
-                android:layout_weight="0.04"
+                android:layout_weight="0.024"
                 android:gravity="center"
                 android:textSize="22sp" />
 
@@ -126,24 +126,24 @@
         <LinearLayout
             android:orientation="horizontal"
             android:layout_width="match_parent"
-            android:layout_height="44dp"
+            android:layout_height="52dp"
             android:layout_column="0"
             android:layout_row="1">
 
             <TextView
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:textAppearance="?android:attr/textAppearanceSmall"
                 android:text="@string/zero"
                 android:id="@+id/text_show_order_details_store_price_number"
                 android:layout_weight="0.20"
-                android:gravity="right"
+                android:gravity="center_vertical|end"
                 android:layout_gravity="center_vertical"
                 android:textSize="25sp"/>
 
             <TextView
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:text="@string/price"
                 android:layout_weight="0.09"
@@ -156,7 +156,7 @@
 
     <FrameLayout
         android:layout_width="match_parent"
-        android:layout_height="133dp"
+        android:layout_height="176dp"
         android:layout_column="0"
         android:layout_row="6">
 

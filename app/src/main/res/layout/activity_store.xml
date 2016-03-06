@@ -75,7 +75,7 @@
                             android:weightSum="1">
 
                             <ImageView
-                                android:layout_width="99dp"
+                                android:layout_width="96dp"
                                 android:layout_height="match_parent"
                                 android:id="@+id/image_store"
                                 android:src="@drawable/ic_launcher"
@@ -85,11 +85,10 @@
                                 android:cropToPadding="false"
                                 android:focusable="false"
                                 android:focusableInTouchMode="false"
-                                android:nestedScrollingEnabled="false"
-                                android:layout_weight="0.1" />
+                                android:nestedScrollingEnabled="false" />
 
                             <TextView
-                                android:layout_width="wrap_content"
+                                android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:textAppearance="?android:attr/textAppearanceMedium"
                                 android:text="@string/store_description"
@@ -97,7 +96,6 @@
                                 android:textSize="14dp"
                                 android:layout_column="1"
                                 android:layout_row="0"
-                                android:layout_weight="0.90"
                                 android:autoText="false"
                                 android:editable="false"
                                 android:enabled="false"
