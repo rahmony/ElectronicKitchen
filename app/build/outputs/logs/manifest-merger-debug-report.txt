@@ -122,10 +122,10 @@ activity#net.rahmony.electronickitchen.ClassActivity.ReadyOrders
 ADDED from D:\Androidprojects\ElectronicKitchen\app\src\main\AndroidManifest.xml:50:9-63
 	android:name
 		ADDED from D:\Androidprojects\ElectronicKitchen\app\src\main\AndroidManifest.xml:50:19-60
-activity#net.rahmony.electronickitchen.ClassActivity.ShowReadyProduct
-ADDED from D:\Androidprojects\ElectronicKitchen\app\src\main\AndroidManifest.xml:51:9-77
+activity#net.rahmony.electronickitchen.ClassActivity.ShowReadyOrders
+ADDED from D:\Androidprojects\ElectronicKitchen\app\src\main\AndroidManifest.xml:51:9-76
 	android:name
-		ADDED from D:\Androidprojects\ElectronicKitchen\app\src\main\AndroidManifest.xml:51:19-65
+		ADDED from D:\Androidprojects\ElectronicKitchen\app\src\main\AndroidManifest.xml:51:19-64
 uses-sdk
 INJECTED from D:\Androidprojects\ElectronicKitchen\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:appcompat-v7:23.1.1] D:\Androidprojects\ElectronicKitchen\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\AndroidManifest.xml:20:5-43

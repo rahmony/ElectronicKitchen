@@ -118,7 +118,8 @@
             android:layout_centerHorizontal="true"
             android:layout_marginBottom="52dp"
             android:background="#470e4582"
-            android:textColor="#000000" />
+            android:textColor="#000000"
+            android:onClick="onClick" />
     </RelativeLayout>
 
     <TextView

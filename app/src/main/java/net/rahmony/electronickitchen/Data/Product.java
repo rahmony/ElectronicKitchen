@@ -8,7 +8,7 @@ public class Product {
     private int Product_ID;
     private String ProductName;
     private int Price;
-    private String Description;
+    private String ProductDescription;
     private String Extras;
     private int Store_ID;
     private String msg;
@@ -38,12 +38,12 @@ public class Product {
         Price = price;
     }
 
-    public String getDescription() {
-        return Description;
+    public String getProductDescription() {
+        return ProductDescription;
     }
 
-    public void setDescription(String description) {
-        Description = description;
+    public void setProductDescription(String productDescription) {
+        ProductDescription = productDescription;
     }
 
 

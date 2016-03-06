@@ -1,6 +1,7 @@
 package net.rahmony.electronickitchen.ClassActivity;
 
 import android.content.Context;
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -32,6 +33,9 @@ public class ShowProductOfStroeActivity extends AppCompatActivity  implements Ad
 
     ArrayList list_productOfName = new ArrayList();
     ArrayList list_productOfPrice = new ArrayList();
+    ArrayList list_productID = new ArrayList();
+    ArrayList list_productDescription = new ArrayList();
+
 
     ListView mListView_Of_product;
     TextView mStore_Of_Name , mText_store_Of_description;
@@ -69,14 +73,21 @@ public class ShowProductOfStroeActivity extends AppCompatActivity  implements Ad
 
                             ArrayList<Product> arrayList = (ArrayList) response.body();
 
+                            int [] productID = new int[arrayList.size()];
                             String[] productName = new String[arrayList.size()];
                             String[] productPrice = new String[arrayList.size()];
+                            String[] productDescription = new String[arrayList.size()];
+
                             for (int i = 0; i < arrayList.size(); i++) {
                                 if (arrayList != null) {
                                     productName[i] = arrayList.get(i).getProductName();
                                     list_productOfName.add(i, arrayList.get(i).getProductName());
                                     productPrice[i] = arrayList.get(i).getPrice()+"";
                                     list_productOfPrice.add(i, arrayList.get(i).getPrice());
+                                    productID[i]=arrayList.get(i).getProduct_ID();
+                                    list_productID.add(i,arrayList.get(i).getProduct_ID());
+                                    productDescription[i]=arrayList.get(i).getProductDescription();
+                                    list_productDescription.add(i,arrayList.get(i).getProductDescription());
 
                                 }
 
@@ -105,8 +116,17 @@ public class ShowProductOfStroeActivity extends AppCompatActivity  implements Ad
 
 
 
+
+
     @Override
     public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+            Bundle extras = getIntent().getExtras();
+            Intent intent = new Intent(ShowProductOfStroeActivity.this ,CostumerProductActivity.class);
+            intent.putExtra("ProductID",Integer.parseInt(list_productID.get(position).toString()));
+            intent.putExtra("ProductName",list_productOfName.get(position).toString());
+            intent.putExtra("ProductDescription",list_productDescription.get(position).toString());
+            startActivity(intent);
+
 
 
 

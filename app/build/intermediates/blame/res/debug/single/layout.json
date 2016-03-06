@@ -44,6 +44,10 @@
         "source": "C:\\Users\\Fawaz\\Desktop\\ourProject\\ElectronicKitchen\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_search_view.xml"
     },
     {
+        "merged": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_show_ready_orders.xml",
+        "source": "D:\\Androidprojects\\ElectronicKitchen\\app\\src\\main\\res\\layout\\activity_show_ready_orders.xml"
+    },
+    {
         "merged": "C:\\Users\\Fawaz\\Desktop\\ourProject\\ElectronicKitchen\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_login.xml",
         "source": "C:\\Users\\Fawaz\\Desktop\\ourProject\\ElectronicKitchen\\ElectronicKitchen\\app\\src\\main\\res\\layout\\activity_login.xml"
     },
@@ -508,6 +512,10 @@
         "source": "C:\\Users\\Fawaz\\Desktop\\ourProject\\ElectronicKitchen\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_template_big_media.xml"
     },
     {
+        "merged": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_ready_orders.xml",
+        "source": "D:\\Androidprojects\\ElectronicKitchen\\app\\src\\main\\res\\layout\\list_ready_orders.xml"
+    },
+    {
         "merged": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
         "source": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_list_menu_item_radio.xml"
     },
@@ -554,10 +562,6 @@
     {
         "merged": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_menu_item_action_area.xml",
         "source": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.1.1\\res\\layout\\design_menu_item_action_area.xml"
-    },
-    {
-        "merged": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_show_ready_product.xml",
-        "source": "D:\\Androidprojects\\ElectronicKitchen\\app\\src\\main\\res\\layout\\activity_show_ready_product.xml"
     },
     {
         "merged": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
