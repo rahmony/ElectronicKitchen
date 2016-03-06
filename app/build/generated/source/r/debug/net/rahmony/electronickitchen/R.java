@@ -2329,8 +2329,8 @@ containing a value of this type.
         public static final int icon=0x7f0c0044;
         public static final int ifRoom=0x7f0c0036;
         public static final int image=0x7f0c0041;
-        public static final int imageView=0x7f0c0075;
         public static final int image_Of_store=0x7f0c0097;
+        public static final int image_costumer_product=0x7f0c0075;
         public static final int image_logo=0x7f0c007e;
         public static final int image_store=0x7f0c00b2;
         public static final int img_store=0x7f0c00be;
@@ -2407,7 +2407,6 @@ containing a value of this type.
         public static final int text2=0x7f0c00ca;
         public static final int textSpacerNoButtons=0x7f0c004f;
         public static final int textView=0x7f0c006f;
-        public static final int textView2=0x7f0c0076;
         public static final int textView8=0x7f0c0094;
         public static final int text_Price=0x7f0c00bf;
         public static final int text_ProductName=0x7f0c00bd;
@@ -2416,6 +2415,7 @@ containing a value of this type.
         public static final int text_address=0x7f0c00a4;
         public static final int text_app_name=0x7f0c007d;
         public static final int text_city=0x7f0c00ab;
+        public static final int text_costumer_product_description=0x7f0c0076;
         public static final int text_costumer_product_minus=0x7f0c0077;
         public static final int text_costumer_product_number=0x7f0c0078;
         public static final int text_costumer_product_plus=0x7f0c0079;

@@ -46,7 +46,9 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".ClassActivity.Product_Activity" />
         <activity android:name=".ClassActivity.CreateStoreActivity" />
-        <activity android:name=".ClassActivity.ShowProductOfStroeActivity"></activity>
+        <activity android:name=".ClassActivity.ShowProductOfStroeActivity" />
+        <activity android:name=".ClassActivity.ReadyOrders" />
+        <activity android:name=".ClassActivity.ShowReadyProduct"></activity>
     </application>
 
 </manifest>

@@ -2,8 +2,8 @@
 <GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:columnCount="3"
-    android:rowCount="7">
+    android:columnCount="1"
+    android:rowCount="4">
 
     <LinearLayout
         android:orientation="horizontal"
@@ -32,8 +32,6 @@
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:text="@string/store_description"
             android:id="@+id/text_costumer_product_description"
-            android:layout_row="0"
-            android:layout_column="2"
             android:enabled="false"
             android:gravity="center" />
     </LinearLayout>
@@ -51,18 +49,18 @@
             android:text="@string/minus"
             android:id="@+id/text_costumer_product_minus"
             android:layout_weight="0.2"
-            android:gravity="center_vertical|right"
-            android:textSize="40dp"
+            android:gravity="center_vertical|end"
+            android:textSize="40sp"
             android:onClick="onClick" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:text="0"
+            android:text="@string/zero"
             android:id="@+id/text_costumer_product_number"
             android:layout_weight="0.2"
             android:gravity="center"
-            android:textSize="30dp"
+            android:textSize="30sp"
             android:textIsSelectable="false" />
 
         <TextView
@@ -71,8 +69,8 @@
             android:text="@string/plus"
             android:id="@+id/text_costumer_product_plus"
             android:layout_weight="0.2"
-            android:gravity="center_vertical|left"
-            android:textSize="25dp"
+            android:gravity="center_vertical|start"
+            android:textSize="25sp"
             android:textIsSelectable="false"
             android:onClick="onClick" />
 
@@ -80,12 +78,10 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:textAppearance="?android:attr/textAppearanceMedium"
-            android:text="@string/Quantity"
+            android:text="@string/quantity"
             android:id="@+id/text_quantity"
-            android:layout_row="6"
-            android:layout_column="0"
             android:layout_weight="0.7"
-            android:gravity="center_vertical|left" />
+            android:gravity="center_vertical|end" />
     </LinearLayout>
 
     <FrameLayout
@@ -99,7 +95,7 @@
             android:layout_height="65dp"
             android:text="@string/add_to_cart"
             android:id="@+id/btn_add_to_cart"
-            android:layout_gravity="right|bottom"
+            android:layout_gravity="bottom|right"
             android:onClick="onClick" />
 
         <Button
