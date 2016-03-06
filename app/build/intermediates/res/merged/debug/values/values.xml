@@ -349,6 +349,7 @@
     <string name="plus">+</string>
     <string name="price">الســـعر:</string>
     <string name="quantity">الكمــية:</string>
+    <string name="ready_orders">الطــلبات المتاحة</string>
     <string name="seller_enter">الدخول كبائع</string>
     <string name="share_location"> مشاركة الموقع </string>
     <string name="sin_up"> إنشاء حساب جديد  </string>
