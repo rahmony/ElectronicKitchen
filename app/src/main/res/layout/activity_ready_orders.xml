@@ -5,10 +5,25 @@
     android:layout_height="match_parent"
     tools:context=".ClassActivity.ReadyOrders"
     android:columnCount="1"
-    android:rowCount="1">
+    android:rowCount="2">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:background="#977fa5ab">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/ready_orders"
+            android:gravity="center" />
+    </LinearLayout>
 
     <ListView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="500dp"
         android:id="@+id/listView_ready_orders" />
+
 </GridLayout>

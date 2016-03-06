@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\Androidprojects\ElectronicKitchen\app\src\main\AndroidManifest.xml:2:1-52:12
+ADDED from D:\Androidprojects\ElectronicKitchen\app\src\main\AndroidManifest.xml:2:1-54:12
 	xmlns:android
 		ADDED from D:\Androidprojects\ElectronicKitchen\app\src\main\AndroidManifest.xml:2:11-69
 	package
@@ -34,7 +34,7 @@ ADDED from D:\Androidprojects\ElectronicKitchen\app\src\main\AndroidManifest.xml
 	android:name
 		ADDED from D:\Androidprojects\ElectronicKitchen\app\src\main\AndroidManifest.xml:12:22-78
 application
-ADDED from D:\Androidprojects\ElectronicKitchen\app\src\main\AndroidManifest.xml:14:5-50:19
+ADDED from D:\Androidprojects\ElectronicKitchen\app\src\main\AndroidManifest.xml:14:5-52:19
 MERGED from [com.android.support:appcompat-v7:23.1.1] D:\Androidprojects\ElectronicKitchen\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:support-v4:23.1.1] D:\Androidprojects\ElectronicKitchen\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.gms:play-services-appindexing:8.1.0] D:\Androidprojects\ElectronicKitchen\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\8.1.0\AndroidManifest.xml:19:5-20
@@ -115,9 +115,17 @@ ADDED from D:\Androidprojects\ElectronicKitchen\app\src\main\AndroidManifest.xml
 	android:name
 		ADDED from D:\Androidprojects\ElectronicKitchen\app\src\main\AndroidManifest.xml:48:19-68
 activity#net.rahmony.electronickitchen.ClassActivity.ShowProductOfStroeActivity
-ADDED from D:\Androidprojects\ElectronicKitchen\app\src\main\AndroidManifest.xml:49:9-87
+ADDED from D:\Androidprojects\ElectronicKitchen\app\src\main\AndroidManifest.xml:49:9-78
 	android:name
 		ADDED from D:\Androidprojects\ElectronicKitchen\app\src\main\AndroidManifest.xml:49:19-75
+activity#net.rahmony.electronickitchen.ClassActivity.ReadyOrders
+ADDED from D:\Androidprojects\ElectronicKitchen\app\src\main\AndroidManifest.xml:50:9-63
+	android:name
+		ADDED from D:\Androidprojects\ElectronicKitchen\app\src\main\AndroidManifest.xml:50:19-60
+activity#net.rahmony.electronickitchen.ClassActivity.ShowReadyProduct
+ADDED from D:\Androidprojects\ElectronicKitchen\app\src\main\AndroidManifest.xml:51:9-77
+	android:name
+		ADDED from D:\Androidprojects\ElectronicKitchen\app\src\main\AndroidManifest.xml:51:19-65
 uses-sdk
 INJECTED from D:\Androidprojects\ElectronicKitchen\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:appcompat-v7:23.1.1] D:\Androidprojects\ElectronicKitchen\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\AndroidManifest.xml:20:5-43

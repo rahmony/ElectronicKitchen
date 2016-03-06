@@ -136,7 +136,7 @@ public class MainPageActivity extends AppCompatActivity {
 
                         if (response.message().equalsIgnoreCase("ok")) {
                             Bundle extra = getIntent().getExtras();
-                            Intent intent = new Intent(MainPageActivity.this ,StoreActivity.class);
+                            Intent intent = new Intent(MainPageActivity.this, StoreActivity.class);
 
                             store.setStoreID(response.body().getStore_ID());
                             store.setStoreName(response.body().getStoreName());
@@ -145,7 +145,7 @@ public class MainPageActivity extends AppCompatActivity {
                             store.setAvailable(response.body().getAvailable());
                             store.setSeller_ID(response.body().getSeller_ID());
 
-                            intent.putExtra("Store_ID",store.getStoreID());
+                            intent.putExtra("Store_ID", store.getStoreID());
                             intent.putExtra("StoreName", store.getStoreName());
                             intent.putExtra("Image", store.getImage());
                             intent.putExtra("StoreDescription", store.getStoreDescription());
@@ -153,7 +153,7 @@ public class MainPageActivity extends AppCompatActivity {
                             intent.putExtra("Seller_ID", store.getSeller_ID());
 
 
-                            intent.putExtra("ID",extra.getInt("ID"));
+                            intent.putExtra("ID", extra.getInt("ID"));
                             intent.putExtra("UserName", extra.getString("UserName"));
                             intent.putExtra("Email", extra.getString("Email"));
                             intent.putExtra("PhoneNumber", extra.getString("PhoneNumber"));
@@ -163,13 +163,12 @@ public class MainPageActivity extends AppCompatActivity {
                             startActivity(intent);
 
 
-                        }
-                       else if(response.message().equalsIgnoreCase("Unauthorized")){
+                        } else if (response.message().equalsIgnoreCase("Unauthorized")) {
 
                             Bundle extra = getIntent().getExtras();
-                            Intent intent = new Intent(MainPageActivity.this ,CreateStoreActivity.class);
+                            Intent intent = new Intent(MainPageActivity.this, CreateStoreActivity.class);
 
-                            intent.putExtra("ID",extra.getInt("ID"));
+                            intent.putExtra("ID", extra.getInt("ID"));
                             intent.putExtra("UserName", extra.getString("UserName"));
                             intent.putExtra("Email", extra.getString("Email"));
                             intent.putExtra("PhoneNumber", extra.getString("PhoneNumber"));
@@ -179,21 +178,24 @@ public class MainPageActivity extends AppCompatActivity {
                             startActivity(intent);
 
 
-                        }
-
-                        else Toast.makeText(getBaseContext() ,"No response" , Toast.LENGTH_LONG).show();
+                        } else
+                            Toast.makeText(getBaseContext(), "No response", Toast.LENGTH_LONG).show();
 
                     }
 
                     @Override
                     public void onFailure(Throwable t) {
-                        Toast.makeText(getBaseContext() , t.getMessage().toString() , Toast.LENGTH_LONG).show();
+                        Toast.makeText(getBaseContext(), t.getMessage().toString(), Toast.LENGTH_LONG).show();
                     }
                 });
 
 
 
                 break;
+
+
+
+//----------------------------------------------------Driver---------------------------------------------//
             case R.id.btn_driver_enter:
 
                 User userDriver = new User();
@@ -223,7 +225,11 @@ public class MainPageActivity extends AppCompatActivity {
                     }
                 });
 
+                startActivity(new Intent(MainPageActivity.this, ReadyOrders.class));
+
                 break;
+
+
 
 
         }

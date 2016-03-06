@@ -261,7 +261,6 @@
     <integer name="design_snackbar_text_max_lines">2</integer>
     <integer name="google_play_services_version">8115000</integer>
     <integer name="status_bar_notification_info_maxnum">999</integer>
-    <string name="Quantity">الكمــية:</string>
     <string name="abc_action_bar_home_description">Navigate home</string>
     <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
     <string name="abc_action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>
@@ -281,12 +280,14 @@
     <string name="abc_shareactionprovider_share_with">Share with</string>
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
+    <string name="accept_order">قبـــول الطــلب</string>
     <string name="add_to_cart">إضــافة لـسـلة</string>
     <string name="address"> العنوان </string>
     <string name="app_name"> المطبخ الالكتروني </string>
     <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
     <string name="auth_google_play_services_client_facebook_display_name">Facebook</string>
     <string name="auth_google_play_services_client_google_display_name">Google</string>
+    <string name="back">العـــودة</string>
     <string name="bands_agree"> اوافق على الشروط والاحكام</string>
     <string name="cancel"> الغــــاء</string>
     <string name="character_counter_pattern" translatable="false">%1$d / %2$d</string>
@@ -323,11 +324,13 @@
     <string name="common_open_on_phone">Open on phone</string>
     <string name="confirm"> تأكيد </string>
     <string name="costumer_enter">الدخول كزبون</string>
+    <string name="costumer_name">اســم البـائع</string>
     <string name="driver_enter">الدخول كسائق</string>
     <string name="edit_profile"> تعديل بيانات المتجر</string>
     <string name="email"> البريد الالكتروني </string>
     <string name="enter_way">طريقة دخول التطبيق</string>
     <string name="first_name"> الاسم الاول </string>
+    <string name="from">مــن:</string>
     <string name="jeddah"> جدة </string>
     <string name="last_name"> اسم العائلة </string>
     <string name="log_in"> تسجيل الدخول </string>
@@ -339,9 +342,13 @@
     <string name="makka"> مكة </string>
     <string name="minus">-</string>
     <string name="my_orders"> طلباتي </string>
+    <string name="number_of_products">عدد المنتـجات:</string>
+    <string name="order_details">تفاصــيل الطـلب:</string>
     <string name="password"> كلمة المرور </string>
     <string name="phone_number"> رقم الجوال </string>
     <string name="plus">+</string>
+    <string name="price">الســـعر:</string>
+    <string name="quantity">الكمــية:</string>
     <string name="seller_enter">الدخول كبائع</string>
     <string name="share_location"> مشاركة الموقع </string>
     <string name="sin_up"> إنشاء حساب جديد  </string>
@@ -357,6 +364,8 @@
     <string name="title_activity_costumer3">CostumerActivity3</string>
     <string name="title_activity_main_page3">MainPageActivity3</string>
     <string name="title_activity_store3">StoreActivity3</string>
+    <string name="to">إلـى:</string>
+    <string name="zero">0</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>
     <style name="Animation.AppCompat.Dialog" parent="Base.Animation.AppCompat.Dialog"/>

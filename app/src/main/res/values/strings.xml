@@ -49,6 +49,8 @@
     <string name="plus">+</string>
     <string name="minus">-</string>
 
+    <string name="ready_orders">الطــلبات المتاحة</string>
+
     <string name="costumer_name">اســم البـائع</string>
     <string name="order_details">تفاصــيل الطـلب:</string>
     <string name="from">مــن:</string>
@@ -57,6 +59,7 @@
     <string name="price">الســـعر:</string>
     <string name="accept_order">قبـــول الطــلب</string>
     <string name="back">العـــودة</string>
+
 
     <string name="zero">0</string>
 
