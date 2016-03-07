@@ -21,7 +21,7 @@ import retrofit.Retrofit;
 public class Product_Activity extends AppCompatActivity {
 
     private EditText mEt_product_name , mEt_product_price , mEt_product_discription ;
-   
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

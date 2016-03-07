@@ -1,6 +1,7 @@
 package net.rahmony.electronickitchen;
 
 import net.rahmony.electronickitchen.Data.LogInResult;
+import net.rahmony.electronickitchen.Data.Order;
 import net.rahmony.electronickitchen.Data.Product;
 import net.rahmony.electronickitchen.Data.Results;
 import net.rahmony.electronickitchen.Data.Store;
@@ -44,6 +45,9 @@ public interface APIService {
 
     @POST("getMyProducts")
     Call<List<Product>> getMyProducts(@Body Product product);
+
+    @POST("addOrder")
+    Call<Order> addOrder(@Body Order order);
 
     @POST("hasStore")
     Call<StoreResult> hasStore(@Body Store store);

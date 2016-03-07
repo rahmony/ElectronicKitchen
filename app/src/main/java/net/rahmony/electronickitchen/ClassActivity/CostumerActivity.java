@@ -146,7 +146,11 @@ public class CostumerActivity extends AppCompatActivity implements TabHost.OnTab
     @Override
     public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
        Intent intent = new Intent(CostumerActivity.this ,ShowProductOfStroeActivity.class);
-       intent.putExtra("StoreID",Integer.parseInt(list_storeID.get(position).toString()));
+        Bundle extra = getIntent().getExtras();
+
+
+        intent.putExtra("ID", extra.getInt("ID"));
+        intent.putExtra("StoreID",Integer.parseInt(list_storeID.get(position).toString()));
         intent.putExtra("StoreName",list_storeName.get(position).toString());
         intent.putExtra("StoreDescription",list_storeDescription.get(position).toString());
        startActivity(intent);

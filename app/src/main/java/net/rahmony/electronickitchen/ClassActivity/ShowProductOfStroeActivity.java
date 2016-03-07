@@ -80,12 +80,13 @@ public class ShowProductOfStroeActivity extends AppCompatActivity  implements Ad
 
                             for (int i = 0; i < arrayList.size(); i++) {
                                 if (arrayList != null) {
+
+                                    productID[i]=arrayList.get(i).getProduct_ID();
+                                    list_productID.add(i,arrayList.get(i).getProduct_ID());
                                     productName[i] = arrayList.get(i).getProductName();
                                     list_productOfName.add(i, arrayList.get(i).getProductName());
                                     productPrice[i] = arrayList.get(i).getPrice()+"";
                                     list_productOfPrice.add(i, arrayList.get(i).getPrice());
-                                    productID[i]=arrayList.get(i).getProduct_ID();
-                                    list_productID.add(i,arrayList.get(i).getProduct_ID());
                                     productDescription[i]=arrayList.get(i).getProductDescription();
                                     list_productDescription.add(i,arrayList.get(i).getProductDescription());
 
@@ -120,8 +121,12 @@ public class ShowProductOfStroeActivity extends AppCompatActivity  implements Ad
 
     @Override
     public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-            Bundle extras = getIntent().getExtras();
+
             Intent intent = new Intent(ShowProductOfStroeActivity.this ,CostumerProductActivity.class);
+             Bundle extra = getIntent().getExtras();
+
+
+            intent.putExtra("ID", extra.getInt("ID"));
             intent.putExtra("ProductID",Integer.parseInt(list_productID.get(position).toString()));
             intent.putExtra("ProductName",list_productOfName.get(position).toString());
             intent.putExtra("ProductDescription",list_productDescription.get(position).toString());

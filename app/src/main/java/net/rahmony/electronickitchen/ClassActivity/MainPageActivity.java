@@ -61,6 +61,7 @@ public class MainPageActivity extends AppCompatActivity {
 
 
 
+
                 User userCostumer = new User();
                 final Bundle extrasCostumer = getIntent().getExtras();
                 int Costumer_ID =  extrasCostumer.getInt("ID");
@@ -77,19 +78,23 @@ public class MainPageActivity extends AppCompatActivity {
                 addNewCostumer.enqueue(new Callback<LogInResult>() {
                     @Override
                     public void onResponse(Response<LogInResult> response, Retrofit retrofit) {
-                        if(response.message().equalsIgnoreCase("ok")){
-                            Toast.makeText(getBaseContext() , "Costumer Added!" , Toast.LENGTH_LONG).show();
+                        if (response.message().equalsIgnoreCase("ok")) {
+                            Toast.makeText(getBaseContext(), "Costumer Added!", Toast.LENGTH_LONG).show();
                         }
                     }
 
                     @Override
                     public void onFailure(Throwable t) {
-                        Toast.makeText(getBaseContext() , t.getMessage().toString() , Toast.LENGTH_LONG).show();
+                        Toast.makeText(getBaseContext(), t.getMessage().toString(), Toast.LENGTH_LONG).show();
                     }
                 });
 
+                Bundle extra = getIntent().getExtras();
+                Intent intent = new Intent(MainPageActivity.this, CostumerActivity.class);
 
-                startActivity(new Intent(MainPageActivity.this, CostumerActivity.class));
+                intent.putExtra("ID", extra.getInt("ID"));
+
+                startActivity(intent);
 
                 break;
 
