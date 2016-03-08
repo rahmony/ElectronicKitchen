@@ -1,3 +1,152 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
 
+    <item
+        jar="C:\Users\RaHmOnY\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.3.1\ecb6e1f8e4b0e84c4b886c2f14a1500caf309757\gson-2.3.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
+        <dex dex="C:\Users\RaHmOnY\AndroidStudioProjects\ElectronicKitchen\app\build\intermediates\pre-dexed\debug\gson-2.3.1_d34ee53db96ef3531d25f5b14b25a41e7a3597ad.jar" />
+    </item>
+    <item
+        jar="C:\Users\RaHmOnY\.gradle\caches\modules-2\files-2.1\com.github.bumptech.glide\glide\3.6.1\86b122e640af09b0723e1fa44083c354ba6d9089\glide-3.6.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="86b122e640af09b0723e1fa44083c354ba6d9089">
+        <dex dex="C:\Users\RaHmOnY\AndroidStudioProjects\ElectronicKitchen\app\build\intermediates\pre-dexed\debug\glide-3.6.1_eaa549a05cfac9e53e6e0561427a4aeabd3625b8.jar" />
+    </item>
+    <item
+        jar="C:\Users\RaHmOnY\AndroidStudioProjects\ElectronicKitchen\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="C:\Users\RaHmOnY\AndroidStudioProjects\ElectronicKitchen\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.1.1_c427ace8b5781ebf57ded906f9fcdf53c4be4de7.jar" />
+    </item>
+    <item
+        jar="C:\Users\RaHmOnY\AndroidStudioProjects\ElectronicKitchen\app\build\intermediates\exploded-aar\io.reactivex\rxandroid\1.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="aa81bfe8c5cc88c2472ca936ae71f0c3dd1766df">
+        <dex dex="C:\Users\RaHmOnY\AndroidStudioProjects\ElectronicKitchen\app\build\intermediates\pre-dexed\debug\io.reactivex-rxandroid-1.0.1_3bb4f0cbb596dfd37766284c54d2304083e2ddfa.jar" />
+    </item>
+    <item
+        jar="C:\Users\RaHmOnY\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\adapter-rxjava\2.0.0-beta4\bd49baf667542c7d06f71e598bdee7fe57272013\adapter-rxjava-2.0.0-beta4.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="bd49baf667542c7d06f71e598bdee7fe57272013">
+        <dex dex="C:\Users\RaHmOnY\AndroidStudioProjects\ElectronicKitchen\app\build\intermediates\pre-dexed\debug\adapter-rxjava-2.0.0-beta4_4ce4f6c3780ea371ffa5cdec6c68669b85ff50a5.jar" />
+    </item>
+    <item
+        jar="C:\Users\RaHmOnY\AndroidStudioProjects\ElectronicKitchen\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\libs\internal_impl-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="C:\Users\RaHmOnY\AndroidStudioProjects\ElectronicKitchen\app\build\intermediates\pre-dexed\debug\internal_impl-23.1.1_9578a3d34b7770dc915c38907a8b068bdedabc58.jar" />
+    </item>
+    <item
+        jar="C:\Users\RaHmOnY\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.6.0\98476622f10715998eacf9240d6b479f12c66143\okio-1.6.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="98476622f10715998eacf9240d6b479f12c66143">
+        <dex dex="C:\Users\RaHmOnY\AndroidStudioProjects\ElectronicKitchen\app\build\intermediates\pre-dexed\debug\okio-1.6.0_ff4461fcb0523ed33907f3da1565c071ac84f242.jar" />
+    </item>
+    <item
+        jar="C:\Users\RaHmOnY\.gradle\caches\modules-2\files-2.1\org.parceler\parceler-api\0.2.13\3bdd7267446c60215c6165a8129cc572ad407660\parceler-api-0.2.13.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="3bdd7267446c60215c6165a8129cc572ad407660">
+        <dex dex="C:\Users\RaHmOnY\AndroidStudioProjects\ElectronicKitchen\app\build\intermediates\pre-dexed\debug\parceler-api-0.2.13_a72fb70dadd00d22c5be52357cf4dda908a7984e.jar" />
+    </item>
+    <item
+        jar="C:\Users\RaHmOnY\.gradle\caches\modules-2\files-2.1\org.parceler\parceler\0.2.13\ea3579621a7fe7083e7f7bb8be0d90c8751acbf9\parceler-0.2.13.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="ea3579621a7fe7083e7f7bb8be0d90c8751acbf9">
+        <dex dex="C:\Users\RaHmOnY\AndroidStudioProjects\ElectronicKitchen\app\build\intermediates\pre-dexed\debug\parceler-0.2.13_048a2f805c92834768241c7c3dd21964dd7036a1.jar" />
+    </item>
+    <item
+        jar="C:\Users\RaHmOnY\AndroidStudioProjects\ElectronicKitchen\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="C:\Users\RaHmOnY\AndroidStudioProjects\ElectronicKitchen\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.1.1_5f8c9c67a4102ee12883a30a79537a53687b1d6d.jar" />
+    </item>
+    <item
+        jar="C:\Users\RaHmOnY\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit\retrofit\2.0.0-beta2\880d9e0997b2d1bfc98e0d121ced33ee5d04aac4\retrofit-2.0.0-beta2.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="880d9e0997b2d1bfc98e0d121ced33ee5d04aac4">
+        <dex dex="C:\Users\RaHmOnY\AndroidStudioProjects\ElectronicKitchen\app\build\intermediates\pre-dexed\debug\retrofit-2.0.0-beta2_0e117e184f424e29e5ea8611499d8e0a318fecc8.jar" />
+    </item>
+    <item
+        jar="C:\Users\RaHmOnY\.gradle\caches\modules-2\files-2.1\io.reactivex\rxjava\1.1.0\748f0546d5c3c27f1aef07270ffea0c45f0c42a4\rxjava-1.1.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="748f0546d5c3c27f1aef07270ffea0c45f0c42a4">
+        <dex dex="C:\Users\RaHmOnY\AndroidStudioProjects\ElectronicKitchen\app\build\intermediates\pre-dexed\debug\rxjava-1.1.0_cdcfebbc93163c7299033cf564f50b772fa53dfa.jar" />
+    </item>
+    <item
+        jar="C:\Users\RaHmOnY\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.1.1\support-annotations-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="C:\Users\RaHmOnY\AndroidStudioProjects\ElectronicKitchen\app\build\intermediates\pre-dexed\debug\support-annotations-23.1.1_f199b0fb543bb2e4b510002cf8e51a0a2beb058d.jar" />
+    </item>
+    <item
+        jar="C:\Users\RaHmOnY\AndroidStudioProjects\ElectronicKitchen\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="d0dda274b703dd9c5bb056867649d22b4171ae7d">
+        <dex dex="C:\Users\RaHmOnY\AndroidStudioProjects\ElectronicKitchen\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-basement-8.1.0_45ae8231b559448a9cd34b6faf6875c0327b100e.jar" />
+    </item>
+    <item
+        jar="C:\Users\RaHmOnY\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.0.1\b34c1f2d993044656e87f88970b6818e99e886ba\okhttp-3.0.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="b34c1f2d993044656e87f88970b6818e99e886ba">
+        <dex dex="C:\Users\RaHmOnY\AndroidStudioProjects\ElectronicKitchen\app\build\intermediates\pre-dexed\debug\okhttp-3.0.1_47d0b714215ff77df2701ff96e07e2ebe9f4240a.jar" />
+    </item>
+    <item
+        jar="C:\Users\RaHmOnY\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp\okhttp\2.5.0\4de2b4ed3445c37ec1720a7d214712e845a24636\okhttp-2.5.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="4de2b4ed3445c37ec1720a7d214712e845a24636">
+        <dex dex="C:\Users\RaHmOnY\AndroidStudioProjects\ElectronicKitchen\app\build\intermediates\pre-dexed\debug\okhttp-2.5.0_e51e51f54027be5d86b2bfc39f383d315c9761fd.jar" />
+    </item>
+    <item
+        jar="C:\Users\RaHmOnY\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit\converter-gson\2.0.0-beta2\392c3d09e0f5e7087544093cc0cb23bb9c7af5fa\converter-gson-2.0.0-beta2.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="392c3d09e0f5e7087544093cc0cb23bb9c7af5fa">
+        <dex dex="C:\Users\RaHmOnY\AndroidStudioProjects\ElectronicKitchen\app\build\intermediates\pre-dexed\debug\converter-gson-2.0.0-beta2_1c5eb69520f4174c5395b1ce946ccd1dab9baf27.jar" />
+    </item>
+    <item
+        jar="C:\Users\RaHmOnY\AndroidStudioProjects\ElectronicKitchen\app\build\intermediates\exploded-aar\com.android.support\design\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="379471b2bd17d9737c050345c08e8c7d16589784">
+        <dex dex="C:\Users\RaHmOnY\AndroidStudioProjects\ElectronicKitchen\app\build\intermediates\pre-dexed\debug\com.android.support-design-23.1.1_e9005fb30b2ba9eb383e0efe6e5288a42edee18c.jar" />
+    </item>
+    <item
+        jar="C:\Users\RaHmOnY\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\retrofit\2.0.0-beta4\739e00dea1f0ac04fdb9b6160d667e23cc50a791\retrofit-2.0.0-beta4.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="739e00dea1f0ac04fdb9b6160d667e23cc50a791">
+        <dex dex="C:\Users\RaHmOnY\AndroidStudioProjects\ElectronicKitchen\app\build\intermediates\pre-dexed\debug\retrofit-2.0.0-beta4_f049fdb11d30dce0979490d6d5f03f290703a0d2.jar" />
+    </item>
+    <item
+        jar="C:\Users\RaHmOnY\AndroidStudioProjects\ElectronicKitchen\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\8.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="4477ea44f5ec5ad064022a22691732d7638ff197">
+        <dex dex="C:\Users\RaHmOnY\AndroidStudioProjects\ElectronicKitchen\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-appindexing-8.1.0_86e1816038ea657665503239739c496ea8cb5a09.jar" />
+    </item>
+    <item
+        jar="C:\Users\RaHmOnY\AndroidStudioProjects\ElectronicKitchen\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="09c5e804bc67fc0580360043dff067df574a60d4">
+        <dex dex="C:\Users\RaHmOnY\AndroidStudioProjects\ElectronicKitchen\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-23.1.1_b848db853a79b0590c590ae39ff8c4e8e36e9d93.jar" />
+    </item>
+
+</items>

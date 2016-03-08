@@ -28,6 +28,8 @@ public class CostumerProductActivity extends AppCompatActivity{
     TextView   mText_costumer_product_number;
     TextView mText_costumer_product_description;
 
+    int quantity ;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -48,15 +50,17 @@ public class CostumerProductActivity extends AppCompatActivity{
             case R.id.text_costumer_product_plus:
                 int up =Integer.parseInt(mText_costumer_product_number.getText().toString());
                 mText_costumer_product_number.setText(Integer.toString(up + 1));
+                quantity=Integer.parseInt(mText_costumer_product_number.getText().toString());
 
                 break;
             case R.id.text_costumer_product_minus:
 
-                int down =Integer.parseInt(mText_costumer_product_number.getText().toString());
+                final int down =Integer.parseInt(mText_costumer_product_number.getText().toString());
                 if(down == 0){
                     Toast.makeText(getBaseContext(), "No! No Under 0!", Toast.LENGTH_SHORT).show();
                 }else{
                 mText_costumer_product_number.setText(Integer.toString(down - 1));
+                quantity=Integer.parseInt(mText_costumer_product_number.getText().toString());
                 }
 
                 break;
@@ -79,8 +83,14 @@ public class CostumerProductActivity extends AppCompatActivity{
                     @Override
                     public void onResponse(Response<Order> response, Retrofit retrofit) {
                         if(response.message().equalsIgnoreCase("ok")){
-                            Toast.makeText(getBaseContext(), "Order Added!", Toast.LENGTH_SHORT).show();
-                            finish();
+                            if(quantity==0)
+                            {
+                                Toast.makeText(getBaseContext(), "Sorry !! plz add at least one ", Toast.LENGTH_SHORT).show();
+                            }
+                            else {
+                                Toast.makeText(getBaseContext(), "Order Added!", Toast.LENGTH_SHORT).show();
+                                finish();
+                            }
                         }
                     }
 
