@@ -11,11 +11,13 @@
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="40dp"
-        android:background="#977fa5ab">
+        android:background="#420f6ace">
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:background="#420f6ace"
+            android:textColor="#ffffff"
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:text="@string/order_details"
             android:gravity="center" />
@@ -32,6 +34,8 @@
             android:layout_height="match_parent"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:text="@string/from"
+            android:textColor="#ffffff"
+            android:background="#420f6ace"
             android:textSize="20sp" />
 
     </LinearLayout>
@@ -64,6 +68,8 @@
             android:layout_height="match_parent"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:text="@string/to"
+            android:textColor="#ffffff"
+            android:background="#420f6ace"
             android:textSize="20sp" />
     </LinearLayout>
 
@@ -98,6 +104,8 @@
             android:layout_width="match_parent"
             android:layout_height="54dp"
             android:layout_column="0"
+            android:background="#420f6ace"
+            android:textColor="#ffffff"
             android:layout_row="0">
 
             <TextView
@@ -105,6 +113,7 @@
                 android:layout_height="match_parent"
                 android:textAppearance="?android:attr/textAppearanceSmall"
                 android:text="@string/zero"
+                android:textColor="#ffffff"
                 android:id="@+id/text_show_order_details_store_product_number"
                 android:layout_gravity="center_vertical"
                 android:layout_weight="0.20"
@@ -118,6 +127,7 @@
                 android:text="@string/number_of_products"
                 android:layout_gravity="center_vertical"
                 android:layout_weight="0.024"
+                android:textColor="#ffffff"
                 android:gravity="center"
                 android:textSize="22sp" />
 
@@ -128,6 +138,8 @@
             android:layout_width="match_parent"
             android:layout_height="52dp"
             android:layout_column="0"
+            android:background="#420f6ace"
+            android:textColor="#ffffff"
             android:layout_row="1">
 
             <TextView
@@ -137,6 +149,7 @@
                 android:text="@string/zero"
                 android:id="@+id/text_show_order_details_store_price_number"
                 android:layout_weight="0.20"
+                android:textColor="#ffffff"
                 android:gravity="center_vertical|end"
                 android:layout_gravity="center_vertical"
                 android:textSize="25sp"/>
@@ -146,6 +159,7 @@
                 android:layout_height="match_parent"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:text="@string/price"
+                android:textColor="#ffffff"
                 android:layout_weight="0.09"
                 android:gravity="center"
                 android:layout_gravity="center_vertical"
@@ -164,6 +178,8 @@
             android:layout_width="190dp"
             android:layout_height="wrap_content"
             android:text="@string/accept_order"
+            android:textColor="#ffffff"
+            android:background="#420f6ace"
             android:id="@+id/btn_show_ready_product_accept_order"
             android:layout_gravity="right|bottom" />
 
@@ -171,6 +187,8 @@
             android:layout_width="190dp"
             android:layout_height="wrap_content"
             android:text="@string/back"
+            android:textColor="#ffffff"
+            android:background="#420f6ace"
             android:id="@+id/btn_show_ready_product_back"
             android:layout_gravity="left|bottom" />
     </FrameLayout>

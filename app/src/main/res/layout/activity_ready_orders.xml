@@ -18,6 +18,8 @@
             android:layout_height="match_parent"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:text="@string/ready_orders"
+            android:textColor="#ffffff"
+            android:background="#420f6ace"
             android:gravity="center" />
     </LinearLayout>
 
