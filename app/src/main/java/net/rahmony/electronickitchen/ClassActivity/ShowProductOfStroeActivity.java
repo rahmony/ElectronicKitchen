@@ -9,10 +9,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
-import android.widget.ImageButton;
-import android.widget.ImageView;
 import android.widget.ListView;
-import android.widget.TabHost;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -122,15 +119,16 @@ public class ShowProductOfStroeActivity extends AppCompatActivity  implements Ad
     @Override
     public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
 
-            Intent intent = new Intent(ShowProductOfStroeActivity.this ,CostumerProductActivity.class);
-             Bundle extra = getIntent().getExtras();
+        Intent intent = new Intent(ShowProductOfStroeActivity.this ,CustomerProductActivity.class);
+        Bundle extra = getIntent().getExtras();
 
 
-            intent.putExtra("ID", extra.getInt("ID"));
-            intent.putExtra("ProductID",Integer.parseInt(list_productID.get(position).toString()));
-            intent.putExtra("ProductName",list_productOfName.get(position).toString());
-            intent.putExtra("ProductDescription",list_productDescription.get(position).toString());
-            startActivity(intent);
+        intent.putExtra("ID", extra.getInt("ID"));
+        intent.putExtra("StoreID",extra.getInt("StoreID"));
+        intent.putExtra("ProductID",Integer.parseInt(list_productID.get(position).toString()));
+        intent.putExtra("ProductName",list_productOfName.get(position).toString());
+        intent.putExtra("ProductDescription",list_productDescription.get(position).toString());
+        startActivity(intent);
 
 
 

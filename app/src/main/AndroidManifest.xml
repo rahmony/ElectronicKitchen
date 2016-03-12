@@ -26,7 +26,7 @@
         </activity>
         <activity android:name=".ClassActivity.LoginActivity" />
         <activity android:name=".ClassActivity.SignUpActivity" />
-        <activity android:name=".ClassActivity.CostumerActivity" />
+        <activity android:name=".ClassActivity.CustomerActivity" />
         <!--
              ATTENTION: This was auto-generated to add Google Play services to your project for
              App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
@@ -42,7 +42,7 @@
             android:name=".ClassActivity.StoreActivity"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".ClassActivity.CostumerProductActivity"
+            android:name=".ClassActivity.CustomerProductActivity"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".ClassActivity.Product_Activity" />
         <activity android:name=".ClassActivity.CreateStoreActivity" />

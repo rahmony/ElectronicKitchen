@@ -16,7 +16,6 @@ import android.widget.Toast;
 
 import net.rahmony.electronickitchen.APIService;
 import net.rahmony.electronickitchen.Data.Store;
-import net.rahmony.electronickitchen.Data.StoreResult;
 import net.rahmony.electronickitchen.R;
 
 import java.util.ArrayList;
@@ -28,7 +27,7 @@ import retrofit.GsonConverterFactory;
 import retrofit.Response;
 import retrofit.Retrofit;
 
-public class CostumerActivity extends AppCompatActivity implements TabHost.OnTabChangeListener , AdapterView.OnItemClickListener  {
+public class CustomerActivity extends AppCompatActivity implements TabHost.OnTabChangeListener , AdapterView.OnItemClickListener  {
 
     TabHost mTab;
     ListView mListView_stores;
@@ -42,7 +41,7 @@ public class CostumerActivity extends AppCompatActivity implements TabHost.OnTab
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_costumer);
+        setContentView(R.layout.activity_customer);
 
         mListView_stores=(ListView)findViewById(R.id.listView_stores);
 
@@ -145,7 +144,7 @@ public class CostumerActivity extends AppCompatActivity implements TabHost.OnTab
 
     @Override
     public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-       Intent intent = new Intent(CostumerActivity.this ,ShowProductOfStroeActivity.class);
+       Intent intent = new Intent(CustomerActivity.this ,ShowProductOfStroeActivity.class);
         Bundle extra = getIntent().getExtras();
 
 

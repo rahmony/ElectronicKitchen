@@ -9,9 +9,6 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 
-import com.google.android.gms.appindexing.AppIndex;
-import com.google.android.gms.common.api.GoogleApiClient;
-
 import net.rahmony.electronickitchen.APIService;
 import net.rahmony.electronickitchen.Data.LogInResult;
 import net.rahmony.electronickitchen.Data.StoreResult;
@@ -90,7 +87,7 @@ public class MainPageActivity extends AppCompatActivity {
                 });
 
                 Bundle extra = getIntent().getExtras();
-                Intent intent = new Intent(MainPageActivity.this, CostumerActivity.class);
+                Intent intent = new Intent(MainPageActivity.this, CustomerActivity.class);
 
                 intent.putExtra("ID", extra.getInt("ID"));
 
