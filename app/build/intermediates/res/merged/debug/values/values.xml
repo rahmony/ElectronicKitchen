@@ -323,6 +323,7 @@
     <string name="common_google_play_services_updating_title">Google Play services are updating</string>
     <string name="common_open_on_phone">Open on phone</string>
     <string name="confirm"> تأكيد </string>
+    <string name="confirm_order">قبــول الطــلب</string>
     <string name="costumer_enter">الدخول كزبون</string>
     <string name="costumer_name">اســم البـائع</string>
     <string name="driver_enter">الدخول كسائق</string>
@@ -342,6 +343,7 @@
     <string name="makka"> مكة </string>
     <string name="minus">-</string>
     <string name="my_orders"> طلباتي </string>
+    <string name="no_Date">لا توجــد بيـانـات</string>
     <string name="number_of_products">عدد المنتـجات:</string>
     <string name="one">1</string>
     <string name="order_details">تفاصــيل الطـلب:</string>
@@ -349,6 +351,8 @@
     <string name="phone_number"> رقم الجوال </string>
     <string name="plus">+</string>
     <string name="price">الســـعر:</string>
+    <string name="product_name">اسـم المنتج</string>
+    <string name="product_price">السـعر</string>
     <string name="quantity">الكمــية:</string>
     <string name="ready_orders">الطــلبات المتاحة</string>
     <string name="seller_enter">الدخول كبائع</string>

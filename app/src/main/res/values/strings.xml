@@ -63,4 +63,9 @@
 
     <string name="zero">0</string>
     <string name="one">1</string>
+
+    <string name="confirm_order">قبــول الطــلب</string>
+    <string name="product_name">اسـم المنتج</string>
+    <string name="product_price">السـعر</string>
+    <string name="no_Date">لا توجــد بيـانـات</string>
 </resources>

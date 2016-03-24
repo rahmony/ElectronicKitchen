@@ -50,7 +50,7 @@ public interface APIService {
     Call<Cart> addCart(@Body Cart cart);
 
     @POST("getCart")
-    Call<Cart> getCart(@Body Cart cart);
+    Call<List<Cart>> getCart(@Body Cart cart);
 
     @POST("hasStore")
     Call<StoreResult> hasStore(@Body Store store);

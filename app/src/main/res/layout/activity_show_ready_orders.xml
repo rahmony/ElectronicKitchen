@@ -148,7 +148,7 @@
                 android:textAppearance="?android:attr/textAppearanceSmall"
                 android:text="@string/zero"
                 android:id="@+id/text_show_order_details_store_price_number"
-                android:layout_weight="0.20"
+                android:layout_weight="0.19"
                 android:textColor="#ffffff"
                 android:gravity="center_vertical|end"
                 android:layout_gravity="center_vertical"
@@ -160,7 +160,7 @@
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:text="@string/price"
                 android:textColor="#ffffff"
-                android:layout_weight="0.09"
+                android:layout_weight="0.069"
                 android:gravity="center"
                 android:layout_gravity="center_vertical"
                 android:textSize="22sp" />
