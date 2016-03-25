@@ -61,6 +61,8 @@ public interface APIService {
     @POST("addNewProduct")
     Call<Results> addNewProduct(@Body Product product);
 
+    @POST("getCart")
+    Call<List<Cart>> addNewProduct(@Body Cart cart);
 
 
     // need to review and amend
