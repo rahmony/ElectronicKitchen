@@ -31,15 +31,10 @@ import retrofit.Retrofit;
 
 public class LoginActivity extends AppCompatActivity {
 
-    private TextView mText_login_sinup, mText_login_forgot_password;
-    private Button mBtn_login;
+
     private EditText mEt_email, mEt_password;
     private ImageView LoginImage;
-    /**
-     * ATTENTION: This was auto-generated to implement the App Indexing API.
-     * See https://g.co/AppIndexing/AndroidStudio for more information.
-     */
-    private GoogleApiClient client;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -49,11 +44,7 @@ public class LoginActivity extends AppCompatActivity {
         mEt_email = (EditText) findViewById(R.id.et_login_email);
         mEt_password = (EditText) findViewById(R.id.et_login_password);
         LoginImage = (ImageView) findViewById(R.id.image_logo);
-        //Glide.with(this).load("http://mombasket.com/Mobile/images/mobile_login_icon.PNG").into(LoginImage);
 
-        // ATTENTION: This was auto-generated to implement the App Indexing API.
-        // See https://g.co/AppIndexing/AndroidStudio for more information.
-        client = new GoogleApiClient.Builder(this).addApi(AppIndex.API).build();
     }
 
        //-----------------------------*************************************************************************************-------------------------//

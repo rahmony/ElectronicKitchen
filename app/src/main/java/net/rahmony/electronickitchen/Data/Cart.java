@@ -13,9 +13,13 @@ public class Cart {
     private String StoreName;
 
 
+    public int getQuantity() {
+        return Quantity;
+    }
 
-    public int getQuantity(){return Quantity;}
-    public void setQuantity(int Quantity){this.Quantity = Quantity;}
+    public void setQuantity(int quantity) {
+        Quantity = quantity;
+    }
 
     public int getProduct_ID() {
         return Product_ID;
@@ -23,6 +27,14 @@ public class Cart {
 
     public void setProduct_ID(int product_ID) {
         Product_ID = product_ID;
+    }
+
+    public int getID() {
+        return ID;
+    }
+
+    public void setID(int ID) {
+        this.ID = ID;
     }
 
     public int getStore_ID() {
@@ -33,23 +45,27 @@ public class Cart {
         Store_ID = store_ID;
     }
 
-    public int getStoreID(){return Store_ID;}
-    public void setStoreID(int Store_ID){this.Store_ID = Store_ID;}
-
-    public int getPrice(){return Price;}
-    public void setPrice(int Price){this.Price = Price;}
-
-    public String getProductName(){return ProductName;}
-    public void setProductName(String ProductName){this.ProductName = ProductName;}
-
-    public String getStoreName(){return StoreName;}
-    public void setStoreName(String StoreName){this.StoreName = StoreName;}
-
-    public int getID() {
-        return ID;
+    public int getPrice() {
+        return Price;
     }
 
-    public void setID(int ID) {
-        this.ID = ID;
+    public void setPrice(int price) {
+        Price = price;
+    }
+
+    public String getProductName() {
+        return ProductName;
+    }
+
+    public void setProductName(String productName) {
+        ProductName = productName;
+    }
+
+    public String getStoreName() {
+        return StoreName;
+    }
+
+    public void setStoreName(String storeName) {
+        StoreName = storeName;
     }
 }

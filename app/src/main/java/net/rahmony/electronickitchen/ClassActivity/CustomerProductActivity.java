@@ -75,7 +75,7 @@ public class CustomerProductActivity extends AppCompatActivity{
                 cart.setQuantity(Integer.parseInt(mText_costumer_quantity_number.getText().toString()));
                 cart.setID(extra.getInt("ID"));
                 cart.setProduct_ID(extra.getInt("ProductID"));
-                cart.setStoreID(extra.getInt("StoreID"));
+                cart.setStore_ID(extra.getInt("StoreID"));
 
 
                 Call<Cart> reg = apiService.addCart(cart);

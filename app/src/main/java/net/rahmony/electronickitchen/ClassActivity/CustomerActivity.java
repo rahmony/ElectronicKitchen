@@ -29,7 +29,7 @@ import retrofit.GsonConverterFactory;
 import retrofit.Response;
 import retrofit.Retrofit;
 
-public class CustomerActivity extends AppCompatActivity implements TabHost.OnTabChangeListener, AdapterView.OnItemClickListener {
+public class CustomerActivity extends AppCompatActivity implements  AdapterView.OnItemClickListener {
 
     TabHost mTab;
     ListView mListView_stores;
@@ -60,10 +60,11 @@ public class CustomerActivity extends AppCompatActivity implements TabHost.OnTab
 
         mTab = (TabHost) findViewById(R.id.tabHost);
         mTab.setup();
-        TabHost.TabSpec spec = mTab.newTabSpec("tag1");
+        TabHost.TabSpec spec= mTab.newTabSpec("tag1");
         spec.setIndicator("المتاجر");
         spec.setContent(R.id.tab1);
         mTab.addTab(spec);
+
 
         mTextView_text_cart_no_data = (TextView) findViewById(R.id.text_cart_no_data);
 
@@ -72,20 +73,14 @@ public class CustomerActivity extends AppCompatActivity implements TabHost.OnTab
                 .addConverterFactory(GsonConverterFactory.create())
                 .build();
         APIService apiService = retrofit.create(APIService.class);
-        Call<List<Store>> reg = apiService.getAllStores();
 
+        Call<List<Store>> reg = apiService.getAllStores();
 
         reg.enqueue(new Callback<List<Store>>() {
                         @Override
                         public void onResponse(Response<List<Store>> response, Retrofit retrofit) {
 
                             ArrayList<Store> arrayList = (ArrayList) response.body();
-                            // as much as Available Stores get their Names ^^ .
-                            // for (int i ; i<arrayList.size();i++){
-                            //   arraylist.get(i).getStoreName();
-                            // }
-                            //   i need you guys to merge it with the buttons creations loop ..
-
                             String[] storeName = new String[arrayList.size()];
                             String[] storeDescription = new String[arrayList.size()];
                             int[] storeID = new int[arrayList.size()];
@@ -117,12 +112,16 @@ public class CustomerActivity extends AppCompatActivity implements TabHost.OnTab
         );
 
 
+
+        mListView_stores.setOnItemClickListener(this);
+
+
         spec = mTab.newTabSpec("tag2");
         spec.setIndicator("طلباتي");
         spec.setContent(R.id.tab2);
         mTab.addTab(spec);
-        mTab.setOnTabChangedListener(this);
-        mListView_stores.setOnItemClickListener(this);
+
+
 
         Cart cart = new Cart();
         Bundle extra = getIntent().getExtras();
@@ -170,20 +169,12 @@ public class CustomerActivity extends AppCompatActivity implements TabHost.OnTab
             }
         });
 
-    }
-
-
-    @Override
-    public void onTabChanged(String tabId) {
-
-        if (tabId.equals("tag1")) {
-            Toast.makeText(this, "Tab 1 changed", Toast.LENGTH_LONG).show();
-        } else if (tabId.equals("tag2")) {
-            Toast.makeText(this, "Tab 2 changed", Toast.LENGTH_LONG).show();
-        }
 
 
     }
+
+
+
 
     @Override
     public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
@@ -198,6 +189,8 @@ public class CustomerActivity extends AppCompatActivity implements TabHost.OnTab
         startActivity(intent);
 
     }
+
+
 
 
     private class myAdapter extends ArrayAdapter<String> {

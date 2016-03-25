@@ -61,17 +61,16 @@ public interface APIService {
     @POST("addNewProduct")
     Call<Results> addNewProduct(@Body Product product);
 
-    @POST("getCart")
-    Call<List<Cart>> addNewProduct(@Body Cart cart);
 
 
-    // need to review and amend
+    /* need to review and amend
     @PUT("items")
     Call<Results> updateItem(@Body User user);
 
-    // need to review and amend
     @DELETE("items/delete/{id}")
     Call<Results> deleteItem(@Path("id") String id);
+
+    */
 
 
 }
