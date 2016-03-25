@@ -1,3 +1,4 @@
+
 package net.rahmony.electronickitchen.ClassActivity;
 
 import android.content.Context;
@@ -64,7 +65,7 @@ public class CustomerActivity extends AppCompatActivity implements TabHost.OnTab
         spec.setContent(R.id.tab1);
         mTab.addTab(spec);
 
-         mTextView_text_cart_no_data = (TextView) findViewById(R.id.text_cart_no_data);
+        mTextView_text_cart_no_data = (TextView) findViewById(R.id.text_cart_no_data);
 
         final Retrofit retrofit = new Retrofit.Builder()
                 .baseUrl("http://rahmony.net/api/")
@@ -238,10 +239,6 @@ public class CustomerActivity extends AppCompatActivity implements TabHost.OnTab
             LayoutInflater inflater = (LayoutInflater) getSystemService(LAYOUT_INFLATER_SERVICE);
             View v = inflater.inflate(R.layout.list_cart, parent, false);
 
-            // TODO: 3/25/2016  create text_list_cart_ProductName , text_list_cart_Price and text_list_cart_Quantity !!
-            //
-            
-            /*
             TextView mText_list_ProductName = (TextView) v.findViewById(R.id.text_list_cart_ProductName);
             mText_list_ProductName.setText(list_productName.get(position).toString());
 
@@ -250,7 +247,7 @@ public class CustomerActivity extends AppCompatActivity implements TabHost.OnTab
 
             TextView mText_list_Quantity = (TextView) v.findViewById(R.id.text_list_cart_Quantity);
             mText_list_Quantity.setText(list_Quantity.get(position).toString());
-            */
+
 
             return v;
         }
@@ -259,4 +256,3 @@ public class CustomerActivity extends AppCompatActivity implements TabHost.OnTab
     }
 
 }
-

@@ -2,5 +2,9 @@
     {
         "merged": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\raw\\gtm_analytics",
         "source": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-analytics\\8.4.0\\res\\raw\\gtm_analytics"
+    },
+    {
+        "merged": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\raw\\gtm_analytics",
+        "source": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-analytics\\8.4.0\\res\\raw\\gtm_analytics"
     }
 ]
