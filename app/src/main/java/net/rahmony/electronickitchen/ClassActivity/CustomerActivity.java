@@ -239,6 +239,8 @@ public class CustomerActivity extends AppCompatActivity implements TabHost.OnTab
             View v = inflater.inflate(R.layout.list_cart, parent, false);
 
             // TODO: 3/25/2016  create text_list_cart_ProductName , text_list_cart_Price and text_list_cart_Quantity !!
+            //
+            
             /*
             TextView mText_list_ProductName = (TextView) v.findViewById(R.id.text_list_cart_ProductName);
             mText_list_ProductName.setText(list_productName.get(position).toString());
