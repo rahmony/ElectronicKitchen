@@ -2522,7 +2522,7 @@ containing a value of this type.
         public static final int design_navigation_item_subheader=0x7f04002d;
         public static final int design_navigation_menu=0x7f04002e;
         public static final int design_navigation_menu_item=0x7f04002f;
-        public static final int list_cart=0x7f040030;
+        public static final int list_cart =0x7f040030;
         public static final int list_product=0x7f040031;
         public static final int list_store=0x7f040032;
         public static final int notification_media_action=0x7f040033;
