@@ -40,10 +40,13 @@ public class CustomerActivity extends AppCompatActivity implements TabHost.OnTab
     ArrayList list_storeDescription = new ArrayList();
     ArrayList list_product_ID = new ArrayList();
 
+
     //List of Product That in Cart, and it's Price
     ArrayList list_productName = new ArrayList();
     ArrayList list_Price = new ArrayList();
+    ArrayList list_Quantity = new ArrayList();
     ArrayList list_storeID = new ArrayList();
+
 
     TextView mTextView_text_cart_no_data;
     @Override
@@ -137,6 +140,7 @@ public class CustomerActivity extends AppCompatActivity implements TabHost.OnTab
                     ArrayList<Cart> arrayList = (ArrayList) response.body();
                     String[] productName = new String[arrayList.size()];
                     int[] Price = new int[arrayList.size()];
+                    int[] Quantity = new int[arrayList.size()];
                     int[] Product_ID = new int[arrayList.size()];
                     for (int i = 0; i < arrayList.size(); i++) {
                         if (arrayList != null) {
@@ -144,6 +148,8 @@ public class CustomerActivity extends AppCompatActivity implements TabHost.OnTab
                             list_productName.add(i, arrayList.get(i).getProductName());
                             Price[i] = arrayList.get(i).getPrice();
                             list_Price.add(i, arrayList.get(i).getPrice());
+                            Quantity[i] = arrayList.get(i).getQuantity();
+                            list_Quantity.add(i, arrayList.get(i).getQuantity());
                             Product_ID[i] = arrayList.get(i).getProduct_ID();
                             list_product_ID.add(i, arrayList.get(i).getProduct_ID());
 
@@ -232,11 +238,14 @@ public class CustomerActivity extends AppCompatActivity implements TabHost.OnTab
             LayoutInflater inflater = (LayoutInflater) getSystemService(LAYOUT_INFLATER_SERVICE);
             View v = inflater.inflate(R.layout.list_cart, parent, false);
 
-            TextView mText_list_ProductName = (TextView) v.findViewById(R.id.text_list_ProductName);
+            TextView mText_list_ProductName = (TextView) v.findViewById(R.id.text_list_cart_ProductName);
             mText_list_ProductName.setText(list_productName.get(position).toString());
 
-            TextView mText_list_Price = (TextView) v.findViewById(R.id.text_list_Price);
+            TextView mText_list_Price = (TextView) v.findViewById(R.id.text_list_cart_Price);
             mText_list_Price.setText(list_Price.get(position).toString());
+
+            TextView mText_list_Quantity = (TextView) v.findViewById(R.id.text_list_cart_Quantity);
+            mText_list_Quantity.setText(list_Quantity.get(position).toString());
 
 
             return v;
