@@ -133,6 +133,15 @@ public class CustomerActivity extends AppCompatActivity implements  AdapterView.
 
 
 
+
+
+
+    }
+
+    //On Resume Method will Update The Activity Each Time You See it.
+    @Override
+    protected void onResume() {
+        super.onResume();
         final Bundle extra = getIntent().getExtras();
         cart.setID(extra.getInt("ID"));
         Call<List<Cart>> regCart = apiService.getCart(cart);
@@ -183,7 +192,6 @@ public class CustomerActivity extends AppCompatActivity implements  AdapterView.
                 Toast.makeText(getBaseContext(), " Oops! An error occurred  + The Throwble is " + t.getMessage().toString(), Toast.LENGTH_LONG).show();
             }
         });
-
 
 
     }
