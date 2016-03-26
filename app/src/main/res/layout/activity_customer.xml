@@ -51,7 +51,7 @@
                             android:layout_height="match_parent"
                             android:textAppearance="?android:attr/textAppearanceLarge"
                             android:text="@string/product_name"
-                            android:layout_weight="0.35"
+                            android:layout_weight="0.29"
                             android:textColor="#090505"
                             android:gravity="center" />
 
@@ -60,7 +60,7 @@
                             android:layout_height="match_parent"
                             android:textAppearance="?android:attr/textAppearanceLarge"
                             android:text="@string/product_price"
-                            android:layout_weight="0.35"
+                            android:layout_weight="0.30"
                             android:textColor="#0b0606"
                             android:gravity="center" />
 
@@ -69,7 +69,7 @@
                             android:layout_height="match_parent"
                             android:textAppearance="?android:attr/textAppearanceLarge"
                             android:text="@string/product_Quantity"
-                            android:layout_weight="0.35"
+                            android:layout_weight="0.23"
                             android:textColor="#090505"
                             android:gravity="center"
                             />

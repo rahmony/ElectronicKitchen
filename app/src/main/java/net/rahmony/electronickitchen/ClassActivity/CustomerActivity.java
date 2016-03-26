@@ -155,7 +155,6 @@ public class CustomerActivity extends AppCompatActivity implements  AdapterView.
 
                         }
 
-
                     }
                     mySecondAdapter arr = new mySecondAdapter(getBaseContext(), android.R.layout.simple_list_item_1, productName);
                     mListView_cart.setAdapter(arr);
@@ -172,6 +171,40 @@ public class CustomerActivity extends AppCompatActivity implements  AdapterView.
 
 
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
