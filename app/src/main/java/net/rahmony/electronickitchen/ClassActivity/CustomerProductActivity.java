@@ -54,9 +54,7 @@ public class CustomerProductActivity extends AppCompatActivity{
             case R.id.text_costumer_product_minus:
 
                 final int down =Integer.parseInt(mText_costumer_quantity_number.getText().toString());
-                if(down == 1){
-                    Toast.makeText(getBaseContext(), "No! No Under 1!", Toast.LENGTH_SHORT).show();
-                }else{
+                if(down == 1){}else{
                     mText_costumer_quantity_number.setText(Integer.toString(down - 1));
 
                 }

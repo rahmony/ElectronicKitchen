@@ -49,7 +49,19 @@ public class CustomerActivity extends AppCompatActivity implements  AdapterView.
     ArrayList list_storeID = new ArrayList();
 
 
+//----***** Retrofit ***---//
+    final Retrofit retrofit = new Retrofit.Builder()
+            .baseUrl("http://rahmony.net/api/")
+            .addConverterFactory(GsonConverterFactory.create())
+            .build();
+    APIService apiService = retrofit.create(APIService.class);
+    final  Cart cart = new Cart();
+
+//---**************************//
+
     TextView mTextView_text_cart_no_data;
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -68,11 +80,7 @@ public class CustomerActivity extends AppCompatActivity implements  AdapterView.
 
         mTextView_text_cart_no_data = (TextView) findViewById(R.id.text_cart_no_data);
 
-        final Retrofit retrofit = new Retrofit.Builder()
-                .baseUrl("http://rahmony.net/api/")
-                .addConverterFactory(GsonConverterFactory.create())
-                .build();
-        APIService apiService = retrofit.create(APIService.class);
+
 
         Call<List<Store>> reg = apiService.getAllStores();
 
@@ -123,9 +131,8 @@ public class CustomerActivity extends AppCompatActivity implements  AdapterView.
 
 
 
-        Cart cart = new Cart();
-        Bundle extra = getIntent().getExtras();
 
+        final Bundle extra = getIntent().getExtras();
         cart.setID(extra.getInt("ID"));
         Call<List<Cart>> regCart = apiService.getCart(cart);
         regCart.enqueue(new Callback<List<Cart>>() {
@@ -142,6 +149,7 @@ public class CustomerActivity extends AppCompatActivity implements  AdapterView.
                     int[] Price = new int[arrayList.size()];
                     int[] Quantity = new int[arrayList.size()];
                     int[] Product_ID = new int[arrayList.size()];
+                    int[] Invoice_ID = new int[arrayList.size()];
                     for (int i = 0; i < arrayList.size(); i++) {
                         if (arrayList != null) {
                             productName[i] = arrayList.get(i).getProductName();
@@ -159,6 +167,9 @@ public class CustomerActivity extends AppCompatActivity implements  AdapterView.
                     mySecondAdapter arr = new mySecondAdapter(getBaseContext(), android.R.layout.simple_list_item_1, productName);
                     mListView_cart.setAdapter(arr);
 
+                    //Take The Invoice ID
+                    Invoice_ID[0] = arrayList.get(0).getInvoice_ID();
+                    cart.setInvoice_ID(Invoice_ID[0]);
                 }
             }
 
@@ -173,8 +184,30 @@ public class CustomerActivity extends AppCompatActivity implements  AdapterView.
     }
 
 
+    public void onClick(View v ){
+
+        switch(v.getId()){
+            case R.id.btn_confirm_order:
 
 
+                Call<Cart> call = apiService.confirmOrder(cart);
+                call.enqueue(new Callback<Cart>() {
+                    @Override
+                    public void onResponse(Response<Cart> response, Retrofit retrofit) {
+                        if(response.message().equalsIgnoreCase("ok")){
+                            Toast.makeText(getBaseContext(),"Order Confirmed",Toast.LENGTH_SHORT).show();
+                            finish();
+                        }
+                    }
+
+                    @Override
+                    public void onFailure(Throwable t) {
+
+                    }
+                });
+
+        }
+    }
     @Override
     public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
         Intent intent = new Intent(CustomerActivity.this, ShowProductOfStroeActivity.class);
