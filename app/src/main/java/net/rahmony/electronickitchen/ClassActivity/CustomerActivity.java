@@ -10,6 +10,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.ListView;
 import android.widget.TabHost;
 import android.widget.TextView;
@@ -60,7 +61,7 @@ public class CustomerActivity extends AppCompatActivity implements  AdapterView.
 //---**************************//
 
     TextView mTextView_text_cart_no_data;
-
+    Button mBtn_confirm_order;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -170,6 +171,10 @@ public class CustomerActivity extends AppCompatActivity implements  AdapterView.
                     //Take The Invoice ID
                     Invoice_ID[0] = arrayList.get(0).getInvoice_ID();
                     cart.setInvoice_ID(Invoice_ID[0]);
+
+                    //show Button
+                    mBtn_confirm_order = (Button) findViewById(R.id.btn_confirm_order);
+                    mBtn_confirm_order.setVisibility(View.VISIBLE);
                 }
             }
 
