@@ -100,16 +100,16 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content">
 
+                        <Button
+                            android:layout_width="189dp"
+                            android:layout_height="wrap_content"
+                            android:text="@string/confirm_order"
+                            android:id="@+id/btn_confirm_order"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_column="0"
+                            android:layout_row="3" />
                     </LinearLayout>
 
-                    <Button
-                        android:layout_width="189dp"
-                        android:layout_height="wrap_content"
-                        android:text="@string/confirm_order"
-                        android:id="@+id/btn_confirm_order"
-                        android:layout_gravity="center_horizontal"
-                        android:layout_column="0"
-                        android:layout_row="3" />
                 </GridLayout>
 
                 <LinearLayout
