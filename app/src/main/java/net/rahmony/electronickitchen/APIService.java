@@ -67,6 +67,9 @@ public interface APIService {
     @POST("deleteFromCart")
     Call<Cart> deleteFromCart(@Body Cart cart);
 
+    @POST("getOrder")
+    Call<Cart> getOrder(@Body Cart cart);
+
     /* need to review and amend
     @PUT("items")
     Call<Results> updateItem(@Body User user);

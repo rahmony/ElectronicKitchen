@@ -36,14 +36,12 @@ public class CustomerActivity extends AppCompatActivity implements  AdapterView.
 
     //The List View in activity_customer
     ListView mListView_stores;
-
     //List View For showing Cart in activity_customer
     ListView mListView_cart;
 
     //List of Stores That
     ArrayList list_storeName = new ArrayList();
     ArrayList list_storeDescription = new ArrayList();
-
 
 
     //List of Product That in Cart, and it's Price
@@ -69,14 +67,17 @@ public class CustomerActivity extends AppCompatActivity implements  AdapterView.
     //Button Confirm Order in Cart
     Button mBtn_confirm_order;
 
+    /**
+     *
+     * ###################################################################################
+     * ************************************ On Create ************************************
+     * ###################################################################################
+     *
+     */
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_customer);
-
-        //implementation for List View, list for stores, list for cart
-        mListView_stores = (ListView) findViewById(R.id.listView_stores);
-        mListView_cart = (ListView) findViewById(R.id.listView_cart);
 
         mTab = (TabHost) findViewById(R.id.tabHost);
         mTab.setup();
@@ -86,12 +87,38 @@ public class CustomerActivity extends AppCompatActivity implements  AdapterView.
         mTab.addTab(spec);
 
 
-        mTextView_text_cart_no_data = (TextView) findViewById(R.id.text_cart_no_data);
+        spec = mTab.newTabSpec("tag2");
+        spec.setIndicator("طلباتي");
+        spec.setContent(R.id.tab2);
+        mTab.addTab(spec);
+
+    }
+
+    //On Resume Method will Update The Activity Each Time You See it.
+
+    /**
+     *
+     * ###################################################################################
+     * ************************************ On Resume ************************************
+     * ###################################################################################
+     *
+     */
+    @Override
+    protected void onResume() {
+        super.onResume();
+        final Bundle extra = getIntent().getExtras();
+        cart.setID(extra.getInt("ID"));
 
 
         /**
-         ****************************** Showing Stores *****************************
+         * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Showing Stores ~~~~~~~~~~~~~~~~~~~~~~~~~ *
          */
+
+        //implementation for List View, list for stores
+        mListView_stores = (ListView) findViewById(R.id.listView_stores);
+
+        //implement text No Data
+        mTextView_text_cart_no_data = (TextView) findViewById(R.id.text_cart_no_data);
 
         Call<List<Store>> reg = apiService.getAllStores();
 
@@ -135,29 +162,13 @@ public class CustomerActivity extends AppCompatActivity implements  AdapterView.
         mListView_stores.setOnItemClickListener(this);
 
 
-        spec = mTab.newTabSpec("tag2");
-        spec.setIndicator("طلباتي");
-        spec.setContent(R.id.tab2);
-        mTab.addTab(spec);
-
-
-
-
-
-
-
-    }
-
-    //On Resume Method will Update The Activity Each Time You See it.
-    @Override
-    protected void onResume() {
-        super.onResume();
-        final Bundle extra = getIntent().getExtras();
-        cart.setID(extra.getInt("ID"));
-
         /**
-         ***************************** Showing Cart *****************************
+         * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Showing Cart ~~~~~~~~~~~~~~~~~~~~~~~~~ *
          */
+
+        //implementation for List View, list for stores, list for cart.
+        mListView_cart = (ListView) findViewById(R.id.listView_cart);
+
         Call<List<Cart>> regCart = apiService.getCart(cart);
         regCart.enqueue(new Callback<List<Cart>>() {
 
@@ -209,10 +220,18 @@ public class CustomerActivity extends AppCompatActivity implements  AdapterView.
 
 
     }
+
+    /**
+     *
+     * ###################################################################################
+     * ************************************ On Stop ************************************
+     * ###################################################################################
+     *
+     */
     @Override
     protected void onStop() {
         super.onStop();
-        
+
         //Hide no_data Text That in Cart, When you Go to Another Activity
         mTextView_text_cart_no_data.setVisibility(View.INVISIBLE);
     }
