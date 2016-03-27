@@ -195,6 +195,11 @@ public class CustomerActivity extends AppCompatActivity implements  AdapterView.
 
 
     }
+    @Override
+    protected void onStop() {
+        super.onStop();
+        mTextView_text_cart_no_data.setVisibility(View.INVISIBLE);
+    }
 
 
     public void onClick(View v ){

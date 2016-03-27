@@ -69,4 +69,6 @@
     <string name="product_price">السـعر</string>
     <string name="product_Quantity">الكمـية</string>
     <string name="no_Date">لا توجــد بيـانـات</string>
+
+    <string name="order_from">طلـب مـن:</string>
 </resources>
