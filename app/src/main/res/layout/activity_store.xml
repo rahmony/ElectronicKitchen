@@ -27,11 +27,19 @@
 
                 <GridLayout
                     android:id="@+id/tab_store_2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal">
+                    android:layout_width="match_parent"
+                    android:layout_height="516dp"
+                    android:orientation="horizontal"
+                    android:columnCount="1"
+                    android:rowCount="1">
 
 
+                    <ListView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/listView"
+                        android:layout_column="0"
+                        android:layout_row="0" />
                 </GridLayout>
 
                 <GridLayout

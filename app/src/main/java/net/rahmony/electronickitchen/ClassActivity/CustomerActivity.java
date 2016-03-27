@@ -15,32 +15,35 @@ import android.widget.ListView;
 import android.widget.TabHost;
 import android.widget.TextView;
 import android.widget.Toast;
-
 import net.rahmony.electronickitchen.APIService;
 import net.rahmony.electronickitchen.Data.Cart;
 import net.rahmony.electronickitchen.Data.Store;
 import net.rahmony.electronickitchen.R;
-
 import java.util.ArrayList;
 import java.util.List;
-
 import retrofit.Call;
 import retrofit.Callback;
 import retrofit.GsonConverterFactory;
 import retrofit.Response;
 import retrofit.Retrofit;
 
+
+
 public class CustomerActivity extends AppCompatActivity implements  AdapterView.OnItemClickListener {
 
+    //Tabs
     TabHost mTab;
+
+    //The List View in activity_customer
     ListView mListView_stores;
 
-    //List View For showing Cart
+    //List View For showing Cart in activity_customer
     ListView mListView_cart;
 
+    //List of Stores That
     ArrayList list_storeName = new ArrayList();
     ArrayList list_storeDescription = new ArrayList();
-    ArrayList list_product_ID = new ArrayList();
+
 
 
     //List of Product That in Cart, and it's Price
@@ -48,9 +51,9 @@ public class CustomerActivity extends AppCompatActivity implements  AdapterView.
     ArrayList list_Price = new ArrayList();
     ArrayList list_Quantity = new ArrayList();
     ArrayList list_storeID = new ArrayList();
+    ArrayList list_product_ID = new ArrayList();
 
-
-//----***** Retrofit ***---//
+/***************************** Retrofit ************************************/
     final Retrofit retrofit = new Retrofit.Builder()
             .baseUrl("http://rahmony.net/api/")
             .addConverterFactory(GsonConverterFactory.create())
@@ -58,9 +61,12 @@ public class CustomerActivity extends AppCompatActivity implements  AdapterView.
     APIService apiService = retrofit.create(APIService.class);
     final  Cart cart = new Cart();
 
-//---**************************//
+/***************************************************************************/
 
+    //Text for There is No Data To Show in Cart
     TextView mTextView_text_cart_no_data;
+
+    //Button Confirm Order in Cart
     Button mBtn_confirm_order;
 
     @Override
@@ -68,6 +74,7 @@ public class CustomerActivity extends AppCompatActivity implements  AdapterView.
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_customer);
 
+        //implementation for List View, list for stores, list for cart
         mListView_stores = (ListView) findViewById(R.id.listView_stores);
         mListView_cart = (ListView) findViewById(R.id.listView_cart);
 
@@ -82,6 +89,9 @@ public class CustomerActivity extends AppCompatActivity implements  AdapterView.
         mTextView_text_cart_no_data = (TextView) findViewById(R.id.text_cart_no_data);
 
 
+        /**
+         ****************************** Showing Stores *****************************
+         */
 
         Call<List<Store>> reg = apiService.getAllStores();
 
@@ -144,6 +154,10 @@ public class CustomerActivity extends AppCompatActivity implements  AdapterView.
         super.onResume();
         final Bundle extra = getIntent().getExtras();
         cart.setID(extra.getInt("ID"));
+
+        /**
+         ***************************** Showing Cart *****************************
+         */
         Call<List<Cart>> regCart = apiService.getCart(cart);
         regCart.enqueue(new Callback<List<Cart>>() {
 
@@ -198,6 +212,8 @@ public class CustomerActivity extends AppCompatActivity implements  AdapterView.
     @Override
     protected void onStop() {
         super.onStop();
+        
+        //Hide no_data Text That in Cart, When you Go to Another Activity
         mTextView_text_cart_no_data.setVisibility(View.INVISIBLE);
     }
 

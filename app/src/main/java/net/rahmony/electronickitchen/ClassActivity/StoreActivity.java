@@ -42,6 +42,18 @@ import retrofit.Retrofit;
 
 public class StoreActivity extends AppCompatActivity implements TabHost.OnTabChangeListener , AdapterView.OnItemClickListener {
 
+
+    //----***** Retrofit ***---//
+    final Retrofit retrofit = new Retrofit.Builder()
+            .baseUrl("http://rahmony.net/api/")
+            .addConverterFactory(GsonConverterFactory.create())
+            .build();
+    APIService apiService = retrofit.create(APIService.class);
+
+
+    final Product product = new Product();
+
+
     ArrayList list_productName = new ArrayList();
     ArrayList list_productPrice = new ArrayList();
 
@@ -80,13 +92,8 @@ public class StoreActivity extends AppCompatActivity implements TabHost.OnTabCha
         mText_store_description.setText(extras.get("StoreDescription").toString());
 
 
-        final Retrofit retrofit = new Retrofit.Builder()
-                .baseUrl("http://rahmony.net/api/")
-                .addConverterFactory(GsonConverterFactory.create())
-                .build();
-        APIService apiService = retrofit.create(APIService.class);
 
-        final Product product = new Product();
+
         product.setStore_ID(extras.getInt("Store_ID"));
         Call<List<Product>> reg = apiService.getMyProducts(product);
 

@@ -25,7 +25,7 @@ import retrofit.Retrofit;
 
 public class MainPageActivity extends AppCompatActivity {
 
-    private Button mBtn_customer_enter , mBtn_seller_enter , mBtn_driver_enter ;
+
     private TextView mText_userName ;
 
 
