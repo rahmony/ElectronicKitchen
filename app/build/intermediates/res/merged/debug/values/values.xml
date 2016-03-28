@@ -336,6 +336,7 @@
     <string name="confirm_order">تـأكيد الطلب</string>
     <string name="costumer_enter">الدخول كزبون</string>
     <string name="costumer_name">اســم البـائع</string>
+    <string name="denial_order">رفــض</string>
     <string name="driver_enter">الدخول كسائق</string>
     <string name="edit_profile"> تعديل بيانات المتجر</string>
     <string name="email"> البريد الالكتروني </string>

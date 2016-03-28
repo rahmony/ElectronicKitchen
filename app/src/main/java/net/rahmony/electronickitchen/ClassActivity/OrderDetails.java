@@ -7,7 +7,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
-import android.widget.Button;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -16,6 +15,7 @@ import net.rahmony.electronickitchen.APIService;
 import net.rahmony.electronickitchen.Data.Cart;
 import net.rahmony.electronickitchen.R;
 
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -105,7 +105,7 @@ public class OrderDetails extends AppCompatActivity {
                     int[] Price = new int[arrayList.size()];
                     int[] Quantity = new int[arrayList.size()];
 
-                    //Get All Data From The Call And
+                    //Get All Data From The Call
                     for (int i = 0; i < arrayList.size(); i++) {
                         if (arrayList != null) {
                             productName[i] = arrayList.get(i).getProductName();
@@ -128,8 +128,6 @@ public class OrderDetails extends AppCompatActivity {
                 Toast.makeText(getBaseContext(), " Oops! An error occurred  + The Throwble is " + t.getMessage().toString(), Toast.LENGTH_LONG).show();
             }
         });
-
-
     }
 
 
@@ -148,6 +146,68 @@ public class OrderDetails extends AppCompatActivity {
     }
 
 
+    /**
+     *
+     * ###################################################################################
+     * ************************************ On Click ************************************
+     * ###################################################################################
+     *
+     */
+    public void onClick(View v) throws IOException {
+
+        //Get Extra Object.
+        Bundle extra = getIntent().getExtras();
+
+        //Switch For Clicks
+        switch (v.getId()){
+
+            //If Seller Clicked Accept Order Button
+            case R.id.btn_order_details_accept_order:
+
+                //Set Invoice_ID in Cart
+                cart.setInvoice_ID(extra.getInt("Invoice_ID"));
+
+                //Start Call
+                Call<Cart> callAcceptOrder  = apiService.acceptOrder(cart);
+                callAcceptOrder.enqueue(new Callback<Cart>() {
+                    @Override
+                    public void onResponse(Response<Cart> response, Retrofit retrofit) {
+                        Toast.makeText(getBaseContext(), "Order Accepted", Toast.LENGTH_SHORT).show();
+                        finish();
+                    }
+                    @Override
+                    public void onFailure(Throwable t) {
+                    }
+                });
+
+                break;
+
+            //If Seller Clicked Denial Order Button
+            case R.id.btn_order_details_denial_order:
+
+                //Set Invoice_ID in Cart
+                cart.setInvoice_ID(extra.getInt("Invoice_ID"));
+
+                //Start Call
+                Call<Cart> callDenialOrder = apiService.denialOrder(cart);
+                callDenialOrder.enqueue(new Callback<Cart>() {
+                    @Override
+                    public void onResponse(Response<Cart> response, Retrofit retrofit) {
+                        Toast.makeText(getBaseContext(), "Order Denied", Toast.LENGTH_SHORT).show();
+                        finish();
+                    }
+                    @Override
+                    public void onFailure(Throwable t) {
+                    }
+                });
+
+                break;
+
+
+
+        }
+
+    }
     /**
      *
      * ###################################################################################

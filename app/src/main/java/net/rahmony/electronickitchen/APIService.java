@@ -73,6 +73,13 @@ public interface APIService {
     @POST("getOrderDetails")
     Call<List<Cart>> getOrderDetails(@Body Cart cart);
 
+    @POST("acceptOrder")
+    Call<Cart> acceptOrder(@Body Cart cart);
+
+    @POST("denialOrder")
+    Call<Cart> denialOrder(@Body Cart cart);
+
+
     /* need to review and amend
     @PUT("items")
     Call<Results> updateItem(@Body User user);
