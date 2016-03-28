@@ -49,7 +49,7 @@ public class CustomerActivity extends AppCompatActivity implements  AdapterView.
     ArrayList list_Price = new ArrayList();
     ArrayList list_Quantity = new ArrayList();
     ArrayList list_storeID = new ArrayList();
-    ArrayList list_product_ID = new ArrayList();
+
 
     /***************************** Retrofit ************************************/
     final Retrofit retrofit = new Retrofit.Builder()
@@ -109,22 +109,29 @@ public class CustomerActivity extends AppCompatActivity implements  AdapterView.
     @Override
     protected void onResume() {
         super.onResume();
-        final Bundle extra = getIntent().getExtras();
-        cart.setID(extra.getInt("ID"));
+
+
 
 
         /**
          * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Showing Stores ~~~~~~~~~~~~~~~~~~~~~~~~~ *
          */
 
-        //implementation for List View, list for stores
+
+        //implementation For List View, List For Stores
         mListView_stores = (ListView) findViewById(R.id.listView_stores);
+
+        //Get Extra Object
+        Bundle extra = getIntent().getExtras();
+
+        //Set Invoice_ID From Extra
+        cart.setID(extra.getInt("ID"));
 
         //implement text No Data
         mTextView_text_cart_no_data = (TextView) findViewById(R.id.text_cart_no_data);
 
+        //Start Call
         Call<List<Store>> reg = apiService.getAllStores();
-
         reg.enqueue(new Callback<List<Store>>() {
                         @Override
                         public void onResponse(Response<List<Store>> response, Retrofit retrofit) {
@@ -186,7 +193,6 @@ public class CustomerActivity extends AppCompatActivity implements  AdapterView.
                     String[] productName = new String[arrayList.size()];
                     int[] Price = new int[arrayList.size()];
                     int[] Quantity = new int[arrayList.size()];
-                    int[] Product_ID = new int[arrayList.size()];
                     int[] Invoice_ID = new int[arrayList.size()];
                     for (int i = 0; i < arrayList.size(); i++) {
                         if (arrayList != null) {
@@ -196,8 +202,7 @@ public class CustomerActivity extends AppCompatActivity implements  AdapterView.
                             list_Price.add(i, arrayList.get(i).getPrice());
                             Quantity[i] = arrayList.get(i).getQuantity();
                             list_Quantity.add(i, arrayList.get(i).getQuantity());
-                            Product_ID[i] = arrayList.get(i).getProduct_ID();
-                            list_product_ID.add(i, arrayList.get(i).getProduct_ID());
+
 
                         }
 

@@ -70,6 +70,9 @@ public interface APIService {
     @POST("getOrder")
     Call<List<Cart>> getOrder(@Body Cart cart);
 
+    @POST("getOrderDetails")
+    Call<List<Cart>> getOrderDetails(@Body Cart cart);
+
     /* need to review and amend
     @PUT("items")
     Call<Results> updateItem(@Body User user);
