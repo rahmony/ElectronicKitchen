@@ -26,23 +26,6 @@
                 android:layout_height="match_parent">
 
                 <GridLayout
-                    android:id="@+id/tab_store_2"
-                    android:layout_width="match_parent"
-                    android:layout_height="516dp"
-                    android:orientation="horizontal"
-                    android:columnCount="1"
-                    android:rowCount="1">
-
-
-                    <ListView
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:id="@+id/listView_store_order"
-                        android:layout_column="0"
-                        android:layout_row="0" />
-                </GridLayout>
-
-                <GridLayout
                     android:id="@+id/tab_store_1"
                     android:layout_width="fill_parent"
                     android:layout_height="fill_parent"
@@ -155,6 +138,23 @@
 
                     </ListView>
 
+                </GridLayout>
+
+                <GridLayout
+                    android:id="@+id/tab_store_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="516dp"
+                    android:orientation="horizontal"
+                    android:columnCount="1"
+                    android:rowCount="1">
+
+
+                    <ListView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/listView_store_order"
+                        android:layout_column="0"
+                        android:layout_row="0" />
                 </GridLayout>
 
             </FrameLayout>

@@ -51,15 +51,18 @@ public class CustomerActivity extends AppCompatActivity implements  AdapterView.
     ArrayList list_storeID = new ArrayList();
     ArrayList list_product_ID = new ArrayList();
 
-/***************************** Retrofit ************************************/
+    /***************************** Retrofit ************************************/
     final Retrofit retrofit = new Retrofit.Builder()
             .baseUrl("http://rahmony.net/api/")
             .addConverterFactory(GsonConverterFactory.create())
             .build();
     APIService apiService = retrofit.create(APIService.class);
-    final  Cart cart = new Cart();
 
-/***************************************************************************/
+
+    /***************************************************************************/
+
+    //Cart Object
+    final  Cart cart = new Cart();
 
     //Text for There is No Data To Show in Cart
     TextView mTextView_text_cart_no_data;
@@ -81,11 +84,11 @@ public class CustomerActivity extends AppCompatActivity implements  AdapterView.
 
         mTab = (TabHost) findViewById(R.id.tabHost);
         mTab.setup();
+
         TabHost.TabSpec spec= mTab.newTabSpec("tag1");
         spec.setIndicator("المتاجر");
         spec.setContent(R.id.tab1);
         mTab.addTab(spec);
-
 
         spec = mTab.newTabSpec("tag2");
         spec.setIndicator("طلباتي");
@@ -237,6 +240,13 @@ public class CustomerActivity extends AppCompatActivity implements  AdapterView.
     }
 
 
+    /**
+     *
+     * ###################################################################################
+     * ************************************ On Click ************************************
+     * ###################################################################################
+     *
+     */
     public void onClick(View v ){
 
         switch(v.getId()){
@@ -261,6 +271,8 @@ public class CustomerActivity extends AppCompatActivity implements  AdapterView.
 
         }
     }
+
+
     @Override
     public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
         Intent intent = new Intent(CustomerActivity.this, ShowProductOfStroeActivity.class);
