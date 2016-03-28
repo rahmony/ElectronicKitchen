@@ -46,6 +46,6 @@
             android:id="@+id/text_list_order_LastName"
             android:layout_gravity="center_horizontal"
             android:gravity="center_horizontal"
-            android:layout_weight="0.16" />
+            android:layout_weight="0.05" />
     </LinearLayout>
 </LinearLayout>
