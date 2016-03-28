@@ -253,8 +253,8 @@ public class CustomerActivity extends AppCompatActivity implements  AdapterView.
             case R.id.btn_confirm_order:
 
 
-                Call<Cart> call = apiService.confirmOrder(cart);
-                call.enqueue(new Callback<Cart>() {
+                Call<Cart> callConfirm = apiService.confirmOrder(cart);
+                callConfirm.enqueue(new Callback<Cart>() {
                     @Override
                     public void onResponse(Response<Cart> response, Retrofit retrofit) {
                         if(response.message().equalsIgnoreCase("ok")){
@@ -268,7 +268,7 @@ public class CustomerActivity extends AppCompatActivity implements  AdapterView.
 
                     }
                 });
-
+                break;
         }
     }
 
@@ -278,12 +278,15 @@ public class CustomerActivity extends AppCompatActivity implements  AdapterView.
         Intent intent = new Intent(CustomerActivity.this, ShowProductOfStroeActivity.class);
         Bundle extra = getIntent().getExtras();
 
-
-        intent.putExtra("ID", extra.getInt("ID"));
-        intent.putExtra("StoreID", Integer.parseInt(list_storeID.get(position).toString()));
-        intent.putExtra("StoreName", list_storeName.get(position).toString());
-        intent.putExtra("StoreDescription", list_storeDescription.get(position).toString());
-        startActivity(intent);
+        switch (parent.getId()){
+            case R.id.listView_stores:
+                intent.putExtra("ID", extra.getInt("ID"));
+                intent.putExtra("StoreID", Integer.parseInt(list_storeID.get(position).toString()));
+                intent.putExtra("StoreName", list_storeName.get(position).toString());
+                intent.putExtra("StoreDescription", list_storeDescription.get(position).toString());
+                startActivity(intent);
+                break;
+        }
 
     }
 

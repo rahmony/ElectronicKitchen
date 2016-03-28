@@ -66,6 +66,7 @@ public class StoreActivity extends AppCompatActivity implements TabHost.OnTabCha
     //Array For getting firstName and lastName
     ArrayList list_FirstName = new ArrayList();
     ArrayList list_LastName = new ArrayList();
+    ArrayList list_Invoice_ID = new ArrayList();
 
     TabHost mTab;
     ImageButton mbtnImage_store_left;
@@ -108,7 +109,7 @@ public class StoreActivity extends AppCompatActivity implements TabHost.OnTabCha
         mText_store_description = (TextView) findViewById(R.id.text_store_description);
         mText_store_description.setText(extra.get("StoreDescription").toString());
 
-        product.setStore_ID(extra.getInt("Store_ID"));
+
 
     }
 
@@ -132,6 +133,7 @@ public class StoreActivity extends AppCompatActivity implements TabHost.OnTabCha
         //implement List View For Showing Product
         mListView_product = (ListView) findViewById(R.id.listView_product);
 
+        product.setStore_ID(extra.getInt("Store_ID"));
         Call<List<Product>> reg = apiService.getMyProducts(product);
 
         reg.enqueue(new Callback<List<Product>>() {
@@ -185,20 +187,22 @@ public class StoreActivity extends AppCompatActivity implements TabHost.OnTabCha
 
 
                                   if(response.message().equalsIgnoreCase("ok")){
-                                  ArrayList<Cart> arrayList = (ArrayList) response.body();
-
-                                  String[] FirstName = new String[arrayList.size()];
-                                  String[] LastName = new String[arrayList.size()];
-                                  for (int i = 0; i < arrayList.size(); i++) {
-                                      if (arrayList != null) {
-                                          FirstName[i] = arrayList.get(i).getFirstName();
-                                          list_FirstName.add(i, arrayList.get(i).getFirstName());
-                                          LastName[i] = arrayList.get(i).getLastName();
-                                          list_LastName.add(i, arrayList.get(i).getLastName());
+                                      ArrayList<Cart> arrayList = (ArrayList) response.body();
+                                      String[] FirstName = new String[arrayList.size()];
+                                      String[] LastName = new String[arrayList.size()];
+                                      int[] Invoice_ID = new int[arrayList.size()];
+                                      for (int i = 0; i < arrayList.size(); i++) {
+                                          if (arrayList != null) {
+                                              FirstName[i] = arrayList.get(i).getFirstName();
+                                              list_FirstName.add(i, arrayList.get(i).getFirstName());
+                                              LastName[i] = arrayList.get(i).getLastName();
+                                              list_LastName.add(i, arrayList.get(i).getLastName());
+                                              Invoice_ID[i] = arrayList.get(i).getInvoice_ID();
+                                              list_Invoice_ID.add(i, arrayList.get(i).getInvoice_ID());
+                                          }
                                       }
-                                  }
-                                  mySecondAdapter arr = new mySecondAdapter(getBaseContext(), android.R.layout.simple_list_item_1, FirstName);
-                                  mListView_store_order.setAdapter(arr);
+                                      mySecondAdapter arr = new mySecondAdapter(getBaseContext(), android.R.layout.simple_list_item_1, FirstName);
+                                      mListView_store_order.setAdapter(arr);
                                   }
                               }
 
@@ -208,6 +212,7 @@ public class StoreActivity extends AppCompatActivity implements TabHost.OnTabCha
                               }
                           }
         );
+        mListView_store_order.setOnItemClickListener(this);
     }
 
 
@@ -226,30 +231,27 @@ public class StoreActivity extends AppCompatActivity implements TabHost.OnTabCha
 
 
 
-    public void onClick_addProduct(View view) {
+    public void onClick(View v) {
 
-        Bundle extras = getIntent().getExtras();
-        Intent intent = new Intent(StoreActivity.this, Product_Activity.class).putExtra("Store_ID", extras.getInt("Store_ID"));
-        startActivity(intent);
+        switch (v.getId()){
+            case R.id.btnImage_store_left:
+                Bundle extra = getIntent().getExtras();
+                Intent intent = new Intent(StoreActivity.this, Product_Activity.class).putExtra("Store_ID", extra.getInt("Store_ID"));
+                startActivity(intent);
+                break;
+        }
 
     }
 
 
-    public void onClickme(View view) {
+    /*public void onClickme(View view) {
 
         File file = new File(Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DCIM), "64861-200.png");
 
         Glide.with(this).load(file).into(mImage_store);
 
 
-    }
-
-
-    public void onClick(View view) {
-
-    }
-
-
+    }*/
 
 
     @Override
@@ -266,8 +268,16 @@ public class StoreActivity extends AppCompatActivity implements TabHost.OnTabCha
 
     @Override
     public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-
-        Toast.makeText(this, list_productName.get(position).toString(), Toast.LENGTH_LONG).show();
+        switch (parent.getId()){
+            case  R.id.listView_product:
+                    Toast.makeText(this, list_productName.get(position).toString(), Toast.LENGTH_LONG).show();
+                break;
+            case R.id.listView_store_order:
+                Intent intent = new Intent(StoreActivity.this, OrderDetails.class);
+                intent.putExtra("Invoice_ID", Integer.parseInt(list_Invoice_ID.get(position).toString()));
+                startActivity(intent);
+                break;
+        }
 
     }
 

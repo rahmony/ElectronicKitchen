@@ -125,7 +125,7 @@
                             android:baselineAlignBottom="false"
                             android:focusable="false"
                             android:layout_gravity="center_horizontal"
-                            android:onClick="onClick_addProduct" />
+                            android:onClick="onClick" />
 
                     </LinearLayout>
 
