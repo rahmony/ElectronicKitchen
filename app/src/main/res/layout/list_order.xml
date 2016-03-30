@@ -13,7 +13,7 @@
         android:layout_weight="0.02">
 
         <TextView
-            android:layout_width="103dp"
+            android:layout_width="167dp"
             android:layout_height="25dp"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:text="@string/order_from"
