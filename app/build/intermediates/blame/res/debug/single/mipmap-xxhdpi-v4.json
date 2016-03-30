@@ -1,5 +1,9 @@
 [
     {
+        "merged": "C:\\Users\\Fawaz\\Desktop\\ourProject\\ElectronicKitchen\\ElectronicKitchenlanguage\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_launcher.png",
+        "source": "C:\\Users\\Fawaz\\Desktop\\ourProject\\ElectronicKitchen\\ElectronicKitchenlanguage\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
         "merged": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_launcher.png",
         "source": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     },
@@ -10,6 +14,10 @@
     {
         "merged": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_launcher.png",
         "source": "D:\\Androidprojects\\ElectronicKitchen\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Fawaz\\Desktop\\ourProject\\ElectronicKitchen\\ElectronicKitchenlanguage\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\camera_logo.png",
+        "source": "C:\\Users\\Fawaz\\Desktop\\ourProject\\ElectronicKitchen\\ElectronicKitchenlanguage\\app\\src\\main\\res\\mipmap-xxhdpi\\camera_logo.png"
     },
     {
         "merged": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\camera_logo.png",

@@ -1,10 +1,15 @@
 <resources>
-    <string name="app_name"> المطبخ الالكتروني </string>
-    <string name="login_email">  البريد الالكتروني   </string>
+    <string name="app_name">اطبخلي</string>
+    <string name="login_email">البريد الإلكتروني</string>
     <string name="login_password">  كلمة المرور </string>
     <string name="login_forgot_password">  نسيت كلمة المرور </string>
     <string name="login_sign_up">  ليس لديك حساب ؟ سجل الان ..... </string>
     <string name="log_in"> تسجيل الدخول </string>
+    <string name="hello">مرحبا</string>
+    <string name="product_Image">صورة المنتج</string>
+    <string name="save">حفظ</string>
+    <string name="create_new_product">إنشاء منتج جديد</string>
+
 
 
     <string name="stores_browsing"> المتاجر  </string>
@@ -72,5 +77,6 @@
     <string name="no_Date">لا توجــد بيـانـات</string>
 
     <string name="order_from">طلـب مـن:</string>
+    <string name="Hello">مرحبا</string>
 
 </resources>

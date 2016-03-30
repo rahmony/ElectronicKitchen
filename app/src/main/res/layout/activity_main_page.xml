@@ -9,7 +9,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="مرحبا"
+        android:text="@string/Hello"
         android:id="@+id/text_userName"
         android:layout_gravity="right"
         android:layout_marginTop="20dp"

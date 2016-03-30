@@ -270,6 +270,7 @@
     <integer name="design_snackbar_text_max_lines">2</integer>
     <integer name="google_play_services_version">8115000</integer>
     <integer name="status_bar_notification_info_maxnum">999</integer>
+    <string name="Hello">مرحبا</string>
     <string name="abc_action_bar_home_description">Navigate home</string>
     <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
     <string name="abc_action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>
@@ -292,7 +293,7 @@
     <string name="accept_order">قبـــول الطــلب</string>
     <string name="add_to_cart">إضــافة لـسـلة</string>
     <string name="address"> العنوان </string>
-    <string name="app_name"> المطبخ الالكتروني </string>
+    <string name="app_name">اطبخلي</string>
     <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
     <string name="auth_google_play_services_client_facebook_display_name">Facebook</string>
     <string name="auth_google_play_services_client_google_display_name">Google</string>
@@ -336,6 +337,7 @@
     <string name="confirm_order">تـأكيد الطلب</string>
     <string name="costumer_enter">الدخول كزبون</string>
     <string name="costumer_name">اســم البـائع</string>
+    <string name="create_new_product">إنشاء منتج جديد</string>
     <string name="denial_order">رفــض</string>
     <string name="driver_enter">الدخول كسائق</string>
     <string name="edit_profile"> تعديل بيانات المتجر</string>
@@ -346,10 +348,11 @@
     <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">
         AIzaSyBxlzUG27yKs6ZdmzNnjBLtKvyCbPsm0i0
     </string>
+    <string name="hello">مرحبا</string>
     <string name="jeddah"> جدة </string>
     <string name="last_name"> اسم العائلة </string>
     <string name="log_in"> تسجيل الدخول </string>
-    <string name="login_email">  البريد الالكتروني   </string>
+    <string name="login_email">البريد الإلكتروني</string>
     <string name="login_forgot_password">  نسيت كلمة المرور </string>
     <string name="login_password">  كلمة المرور </string>
     <string name="login_sign_up">  ليس لديك حساب ؟ سجل الان ..... </string>
@@ -366,11 +369,13 @@
     <string name="phone_number"> رقم الجوال </string>
     <string name="plus">+</string>
     <string name="price">الســـعر:</string>
+    <string name="product_Image">صورة المنتج</string>
     <string name="product_Quantity">الكمـية</string>
     <string name="product_name">اسـم المنتج</string>
     <string name="product_price">السـعر</string>
     <string name="quantity">الكمــية:</string>
     <string name="ready_orders">الطــلبات المتاحة</string>
+    <string name="save">حفظ</string>
     <string name="seller_enter">الدخول كبائع</string>
     <string name="share_location"> مشاركة الموقع </string>
     <string name="sin_up"> إنشاء حساب جديد  </string>
