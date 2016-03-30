@@ -119,17 +119,15 @@
         android:layout_weight="0.28"
         android:layout_marginTop="60dp">
 
-        <Button
-            android:layout_width="114dp"
-            android:layout_height="wrap_content"
-            android:text="@string/log_in"
+
+        <com.gc.materialdesign.views.ButtonRectangle
             android:id="@+id/btn_login"
-            android:layout_gravity="center_horizontal|top"
-            android:textSize="15dp"
-            android:background="#470e4582"
-            android:textColor="#050505"
-            android:enabled="true"
-            android:onClick="onClick" />
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#1E88E5"
+            android:text="@string/log_in"
+            android:onClick="onClick"
+            android:layout_gravity="center" />
 
     </FrameLayout>
 

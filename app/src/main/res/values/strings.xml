@@ -42,8 +42,8 @@
     <string name="store_followers">المتابعين</string>
     <string name="store_following">المٌتابعون</string>
     <string name="store_products">المنتجات</string>
-    <string name="title_activity_main_page3">MainPageActivity3</string>
-    <string name="title_activity_store3">StoreActivity3</string>
+    <string name="title_activity_main_page3" translatable="false">MainPageActivity3</string>
+    <string name="title_activity_store3" translatable="false">StoreActivity3</string>
     <string name="title_activity_costumer3">CostumerActivity3</string>
 
     <string name="store_create">إنشــاء</string>

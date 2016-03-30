@@ -41,7 +41,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceMedium"
-            android:text="product_name"
+            android:text="@string/product_name"
             android:id="@+id/text_product_name"
             android:layout_marginRight="20dp"
             android:layout_above="@+id/et_product_price"
@@ -106,7 +106,7 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/Save"
+            android:text="@string/save"
             android:id="@+id/btn_product_save"
             android:layout_alignParentBottom="true"
             android:layout_centerHorizontal="true"
