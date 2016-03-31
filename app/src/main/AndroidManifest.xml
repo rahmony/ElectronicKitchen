@@ -42,15 +42,9 @@
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
 
-        <activity
-            android:name=".ClassActivity.MainPageActivity"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".ClassActivity.StoreActivity"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".ClassActivity.CustomerProductActivity"
-            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".ClassActivity.MainPageActivity" />
+        <activity android:name=".ClassActivity.StoreActivity" />
+        <activity android:name=".ClassActivity.CustomerProductActivity" />
         <activity android:name=".ClassActivity.Product_Activity" />
         <activity android:name=".ClassActivity.CreateStoreActivity" />
         <activity android:name=".ClassActivity.ShowProductOfStroeActivity" />

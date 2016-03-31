@@ -25,10 +25,18 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, LoginActivity.class);
                 startActivity(intent);
+                overridePendingTransition(R.anim.trans_cross_1, R.anim.trans_cross_2);
             }
         });
 
 
+    }
+    @Override
+      protected void onPause()
+    {
+        super.onPause();
+        //closing transition animations
+        overridePendingTransition(R.anim.trans_cross_2,R.anim.trans_cross_1);
     }
 
 }
