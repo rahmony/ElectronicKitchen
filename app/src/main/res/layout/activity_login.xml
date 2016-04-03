@@ -18,7 +18,7 @@
         android:layout_row="1"
         android:gravity="center">
 
-        <EditText
+        <net.rahmony.electronickitchen.ClassAssets.FontEditText
             android:layout_width="330dp"
             android:layout_height="50dp"
             android:id="@+id/et_login_email"
@@ -30,7 +30,7 @@
             android:autoText="false"
             android:maxLength="50" />
 
-        <EditText
+        <net.rahmony.electronickitchen.ClassAssets.FontEditText
             android:layout_width="330dp"
             android:layout_height="50dp"
             android:inputType="textPassword"

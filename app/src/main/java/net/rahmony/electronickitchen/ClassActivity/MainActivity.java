@@ -1,9 +1,19 @@
 package net.rahmony.electronickitchen.ClassActivity;
 
 import android.content.Intent;
+import android.graphics.Color;
+import android.os.CountDownTimer;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.transition.ChangeBounds;
+import android.transition.Transition;
+import android.transition.TransitionInflater;
+import android.transition.TransitionManager;
 import android.view.View;
+import android.view.animation.Animation;
+import android.view.animation.AnimationSet;
+import android.view.animation.AnimationUtils;
+import android.view.animation.BounceInterpolator;
 import android.widget.ImageView;
 
 import net.rahmony.electronickitchen.R;
@@ -11,32 +21,30 @@ import net.rahmony.electronickitchen.R;
 
 public class MainActivity extends AppCompatActivity {
 
+    private View anim;
     private  ImageView mImage ;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+    }
 
-        mImage= (ImageView) findViewById(R.id.image_logo);
-        //Glide.with(this).load("http://androidadn.com/wp-content/uploads/sites/18/2013/02/android-musical2.jpg").into(mImage);
-        mImage.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
+    @Override
+    protected void onResume(){
+        super.onResume();
+        new CountDownTimer(1200,1200) {
+
+            public void onTick(long millisUntilFinished) {
+            }
+            public void onFinish() {
                 Intent intent = new Intent(MainActivity.this, LoginActivity.class);
                 startActivity(intent);
                 overridePendingTransition(R.anim.trans_cross_1, R.anim.trans_cross_2);
+                finish();
             }
-        });
-
-
+        }.start();
     }
-    @Override
-      protected void onPause()
-    {
-        super.onPause();
-        //closing transition animations
-        overridePendingTransition(R.anim.trans_cross_2,R.anim.trans_cross_1);
-    }
-
+    
 }
