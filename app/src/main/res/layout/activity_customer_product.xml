@@ -3,7 +3,7 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:columnCount="1"
-    android:rowCount="4">
+    android:rowCount="9">
 
     <LinearLayout
         android:orientation="horizontal"
@@ -31,7 +31,7 @@
             android:layout_height="match_parent"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:text="@string/store_description"
-            android:textColor="#7e0f6ace"
+            android:textColor="#7d0f7bce"
             android:id="@+id/text_costumer_product_description"
             android:enabled="false"
             android:gravity="center" />
@@ -42,13 +42,13 @@
         android:layout_width="match_parent"
         android:layout_height="51dp"
         android:layout_column="0"
-        android:layout_row="2">
+        android:layout_row="3">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:text="@string/minus"
-            android:textColor="#7e0f6ace"
+            android:textColor="#7d0f7bce"
             android:id="@+id/text_costumer_product_minus"
             android:layout_weight="0.2"
             android:gravity="center_vertical|end"
@@ -59,7 +59,7 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:text="@string/one"
-            android:textColor="#7e0f6ace"
+            android:textColor="#7d0f7bce"
             android:id="@+id/text_costumer_quantity_number"
             android:layout_weight="0.2"
             android:gravity="center"
@@ -70,7 +70,7 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:text="@string/plus"
-            android:textColor="#7e0f6ace"
+            android:textColor="#7d0f7bce"
             android:id="@+id/text_costumer_product_plus"
             android:layout_weight="0.2"
             android:gravity="center_vertical|start"
@@ -84,7 +84,7 @@
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:text="@string/quantity"
             android:layout_weight="0.7"
-            android:textColor="#7e0f6ace"
+            android:textColor="#7d0f7bce"
             android:gravity="center_vertical|end" />
     </LinearLayout>
 
@@ -92,14 +92,14 @@
         android:layout_width="match_parent"
         android:layout_height="139dp"
         android:layout_column="0"
-        android:layout_row="3">
+        android:layout_row="5">
 
         <Button
             android:layout_width="189dp"
             android:layout_height="65dp"
             android:text="@string/add_to_cart"
             android:id="@+id/btn_add_to_cart"
-            android:background="#420f6ace"
+            android:background="#7d0f7bce"
             android:textColor="#fefcfc"
             android:layout_gravity="bottom|right"
             android:onClick="onClick" />
@@ -108,7 +108,7 @@
             android:layout_width="189dp"
             android:layout_height="65dp"
             android:text="@string/cancel"
-            android:background="#420f6ace"
+            android:background="#7d0f7bce"
             android:textColor="#fefcfc"
             android:id="@+id/btn_costumer_product_cancel"
             android:layout_gravity="left|bottom"

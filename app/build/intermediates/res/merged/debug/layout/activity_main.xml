@@ -3,13 +3,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ClassActivity.MainActivity">
+    tools:context=".ClassActivity.MainActivity"
+    android:background="@drawable/ic_mainbackground">
 
     <ImageView
-        android:layout_width="450dp"
-        android:layout_height="300dp"
+        android:layout_width="400dp"
+        android:layout_height="250dp"
         android:id="@+id/image_logo"
-        android:src="@drawable/ic_android_musical"
+        android:src="@drawable/foodicon1"
         android:layout_marginTop="42dp"
         android:layout_alignParentTop="true"
         android:layout_alignParentStart="true" />
@@ -24,6 +25,7 @@
         android:textColorHighlight="#f5efef"
         android:shadowColor="#0d0000"
         android:layout_below="@+id/image_logo"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold" />
 
 </RelativeLayout>
