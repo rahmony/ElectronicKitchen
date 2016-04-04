@@ -341,7 +341,7 @@
     <string name="costumer_enter">الدخول كزبون</string>
     <string name="costumer_name">اســم البـائع</string>
     <string name="create_new_product">إنشاء منتج جديد</string>
-    <string name="denial_order">رفــض</string>
+    <string name="denial_order">لا أستطيع قبول هذا الطلب</string>
     <string name="driver_enter">الدخول كسائق</string>
     <string name="edit_profile"> تعديل بيانات المتجر</string>
     <string name="email"> البريد الالكتروني </string>
@@ -351,7 +351,7 @@
     <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">
         AIzaSyBxlzUG27yKs6ZdmzNnjBLtKvyCbPsm0i0
     </string>
-    <string name="hello">مرحبا</string>
+    <string name="hello">Hello</string>
     <string name="jeddah"> جدة </string>
     <string name="last_name"> اسم العائلة </string>
     <string name="log_in"> تسجيل الدخول </string>

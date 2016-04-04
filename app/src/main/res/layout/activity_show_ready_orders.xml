@@ -30,7 +30,7 @@
         android:background="#717cb4c0">
 
         <TextView
-            android:layout_width="370dp"
+            android:layout_width="59dp"
             android:layout_height="match_parent"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:text="@string/from"
@@ -111,6 +111,16 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/number_of_products"
+                android:layout_weight="0.024"
+                android:textColor="#ffffff"
+                android:gravity="center"
+                android:textSize="22sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
                 android:textAppearance="?android:attr/textAppearanceSmall"
                 android:text="@string/zero"
                 android:textColor="#ffffff"
@@ -119,17 +129,6 @@
                 android:layout_weight="0.20"
                 android:gravity="center_vertical|end"
                 android:textSize="25sp" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:textAppearance="?android:attr/textAppearanceMedium"
-                android:text="@string/number_of_products"
-                android:layout_gravity="center_vertical"
-                android:layout_weight="0.024"
-                android:textColor="#ffffff"
-                android:gravity="center"
-                android:textSize="22sp" />
 
         </LinearLayout>
 
@@ -145,6 +144,16 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/price"
+                android:textColor="#ffffff"
+                android:layout_weight="0.069"
+                android:gravity="center"
+                android:textSize="22sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
                 android:textAppearance="?android:attr/textAppearanceSmall"
                 android:text="@string/zero"
                 android:id="@+id/text_show_order_details_store_price_number"
@@ -153,17 +162,6 @@
                 android:gravity="center_vertical|end"
                 android:layout_gravity="center_vertical"
                 android:textSize="25sp"/>
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:textAppearance="?android:attr/textAppearanceMedium"
-                android:text="@string/price"
-                android:textColor="#ffffff"
-                android:layout_weight="0.069"
-                android:gravity="center"
-                android:layout_gravity="center_vertical"
-                android:textSize="22sp" />
 
         </LinearLayout>
     </GridLayout>

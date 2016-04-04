@@ -61,19 +61,21 @@
         android:weightSum="1">
 
         <Button
-            android:layout_width="89dp"
-            android:layout_height="wrap_content"
-            android:text="@string/denial_order"
-            android:id="@+id/btn_order_details_denial_order"
-            android:onClick="onClick" />
-
-        <Button
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/accept_order"
             android:id="@+id/btn_order_details_accept_order"
             android:layout_column="0"
             android:layout_row="3"
+            android:onClick="onClick"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/denial_order"
+            android:id="@+id/btn_order_details_denial_order"
             android:onClick="onClick" />
     </LinearLayout>
 </GridLayout>

@@ -74,6 +74,21 @@
                             android:layout_row="0"
                             android:weightSum="1">
 
+                            <TextView
+                                android:layout_width="183dp"
+                                android:layout_height="match_parent"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:text="@string/store_description"
+                                android:id="@+id/text_store_description"
+                                android:textSize="14dp"
+                                android:layout_column="1"
+                                android:layout_row="0"
+                                android:autoText="false"
+                                android:editable="false"
+                                android:enabled="false"
+                                android:gravity="center"
+                                android:layout_weight="0.90" />
+
                             <ImageView
                                 android:layout_width="96dp"
                                 android:layout_height="match_parent"
@@ -86,20 +101,6 @@
                                 android:focusable="false"
                                 android:focusableInTouchMode="false"
                                 android:nestedScrollingEnabled="false" />
-
-                            <TextView
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:textAppearance="?android:attr/textAppearanceMedium"
-                                android:text="@string/store_description"
-                                android:id="@+id/text_store_description"
-                                android:textSize="14dp"
-                                android:layout_column="1"
-                                android:layout_row="0"
-                                android:autoText="false"
-                                android:editable="false"
-                                android:enabled="false"
-                                android:gravity="center" />
 
                         </LinearLayout>
 

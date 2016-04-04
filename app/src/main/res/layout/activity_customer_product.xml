@@ -39,53 +39,57 @@
 
     <LinearLayout
         android:orientation="horizontal"
-        android:layout_width="match_parent"
+        android:layout_width="372dp"
         android:layout_height="51dp"
         android:layout_column="0"
         android:layout_row="3">
 
         <TextView
             android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:text="@string/minus"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/quantity"
             android:textColor="#7d0f7bce"
-            android:id="@+id/text_costumer_product_minus"
-            android:layout_weight="0.2"
-            android:gravity="center_vertical|end"
-            android:textSize="40sp"
-            android:onClick="onClick" />
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="100dp" />
 
         <TextView
             android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:text="@string/one"
-            android:textColor="#7d0f7bce"
-            android:id="@+id/text_costumer_quantity_number"
-            android:layout_weight="0.2"
-            android:gravity="center"
-            android:textSize="30sp"
-            android:textIsSelectable="false" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:text="@string/plus"
             android:textColor="#7d0f7bce"
             android:id="@+id/text_costumer_product_plus"
-            android:layout_weight="0.2"
-            android:gravity="center_vertical|start"
+            android:gravity="start"
             android:textSize="25sp"
             android:textIsSelectable="false"
-            android:onClick="onClick" />
+            android:onClick="onClick"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="10dp" />
 
         <TextView
             android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:text="@string/quantity"
-            android:layout_weight="0.7"
+            android:layout_height="wrap_content"
+            android:text="@string/one"
             android:textColor="#7d0f7bce"
-            android:gravity="center_vertical|end" />
+            android:id="@+id/text_costumer_quantity_number"
+            android:textSize="30sp"
+            android:textIsSelectable="false"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/minus"
+            android:textColor="#7d0f7bce"
+            android:id="@+id/text_costumer_product_minus"
+            android:gravity="end"
+            android:textSize="40sp"
+            android:onClick="onClick"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp" />
+
     </LinearLayout>
 
     <FrameLayout
@@ -95,24 +99,28 @@
         android:layout_row="5">
 
         <Button
-            android:layout_width="189dp"
+            android:layout_width="180dp"
             android:layout_height="65dp"
             android:text="@string/add_to_cart"
             android:id="@+id/btn_add_to_cart"
             android:background="#7d0f7bce"
             android:textColor="#fefcfc"
             android:layout_gravity="bottom|right"
-            android:onClick="onClick" />
+            android:onClick="onClick"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="10dp" />
 
         <Button
-            android:layout_width="189dp"
+            android:layout_width="180dp"
             android:layout_height="65dp"
             android:text="@string/cancel"
             android:background="#7d0f7bce"
             android:textColor="#fefcfc"
             android:id="@+id/btn_costumer_product_cancel"
             android:layout_gravity="left|bottom"
-            android:onClick="onClick" />
+            android:onClick="onClick"
+            android:layout_marginLeft="7dp"
+            android:layout_marginRight="10dp" />
     </FrameLayout>
 
 </GridLayout>
