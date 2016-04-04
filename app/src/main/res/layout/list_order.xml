@@ -7,10 +7,11 @@
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="40dp"
         android:paddingTop="10dp"
         android:paddingLeft="10dp"
-        android:layout_weight="0.02">
+        android:layout_weight="0.02"
+        android:background="@drawable/defend">
 
         <TextView
             android:layout_width="167dp"
@@ -19,7 +20,8 @@
             android:text="@string/order_from"
             android:id="@+id/textView2"
             android:layout_gravity="center_horizontal"
-            android:gravity="center" />
+            android:gravity="center"
+            android:textColor="#FFFFFF" />
 
     </LinearLayout>
 

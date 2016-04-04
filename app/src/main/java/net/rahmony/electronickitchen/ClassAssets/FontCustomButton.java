@@ -11,7 +11,6 @@ import com.gc.materialdesign.views.ButtonFlat;
  */
 public class FontCustomButton extends Button {
 
-
     public FontCustomButton(Context context) {
         super(context);
         Typeface face=Typeface.createFromAsset(context.getAssets(), "fonts/boahmed-alharf-bold.ttf");

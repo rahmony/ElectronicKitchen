@@ -3,8 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ClassActivity.MainActivity"
-    android:background="@drawable/ic_mainbackground">
+    tools:context=".ClassActivity.MainActivity">
 
     <ImageView
         android:layout_width="400dp"

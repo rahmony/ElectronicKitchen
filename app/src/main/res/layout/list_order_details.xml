@@ -8,8 +8,10 @@
 
     <LinearLayout
         android:orientation="horizontal"
-        android:layout_width="370dp"
-        android:layout_height="30dp">
+        android:layout_width="365dp"
+        android:layout_height="30dp"
+        android:background="@drawable/defend"
+        android:layout_weight="5">
 
         <LinearLayout
             android:orientation="vertical"
