@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onResume(){
         super.onResume();
-        new CountDownTimer(1200,1200) {
+        new CountDownTimer(800,800) {
 
             public void onTick(long millisUntilFinished) {
             }

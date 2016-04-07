@@ -108,13 +108,14 @@
         android:text="@string/store_create"
         android:id="@+id/button2"
         android:layout_gravity="center"
-        android:background="#7d0f7bce"
-        android:textColor="#fefcfc"
         android:onClick="OnClick"
         android:layout_row="6"
         android:layout_column="0"
-        android:layout_below="@+id/et_store_create_store_description"
+        android:layout_marginTop="46dp"
+        android:layout_below="@+id/textView4"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="15dp" />
+        android:textColor="#FFFFFF"
+        android:background="#9a908378"
+        android:textStyle="bold" />
 </RelativeLayout
     >

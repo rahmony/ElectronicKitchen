@@ -13,7 +13,7 @@
         android:layout_width="match_parent"
         android:layout_height="452dp"
         android:layout_gravity="center|bottom"
-        android:background="#ffffff">
+        android:background="@drawable/ic_mainbackground">
 
         <TextView
             android:layout_width="wrap_content"
@@ -23,9 +23,10 @@
             android:layout_marginRight="10dp"
             android:id="@+id/text_product_discription"
             android:layout_alignBottom="@+id/et_product_discription"
-            android:textColor="#000000"
+            android:textColor="#bb0f7bce"
             android:layout_alignParentLeft="false"
-            android:layout_marginLeft="10dp" />
+            android:layout_marginLeft="10dp"
+            android:textStyle="bold" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -36,9 +37,10 @@
             android:layout_marginRight="20dp"
             android:layout_above="@+id/et_product_discription"
             android:layout_alignParentEnd="false"
-            android:textColor="#000000"
+            android:textColor="#bb0f7bce"
             android:layout_alignParentLeft="false"
-            android:layout_marginLeft="10dp" />
+            android:layout_marginLeft="10dp"
+            android:textStyle="bold" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -50,10 +52,11 @@
             android:layout_above="@+id/et_product_price"
             android:layout_alignParentEnd="false"
             android:layoutDirection="rtl"
-            android:textColor="#000000"
+            android:textColor="#bb0f7bce"
             android:singleLine="false"
             android:layout_alignParentLeft="false"
-            android:layout_marginLeft="10dp" />
+            android:layout_marginLeft="10dp"
+            android:textStyle="bold" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -61,9 +64,10 @@
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:text="@string/product_Image"
             android:id="@+id/text_product_image"
-            android:textColor="#000000"
+            android:textColor="#bb0f7bce"
             android:layout_centerVertical="true"
-            android:layout_alignStart="@+id/text_product_discription" />
+            android:layout_alignStart="@+id/text_product_discription"
+            android:textStyle="bold" />
 
         <EditText
             android:layout_width="200dp"
@@ -87,11 +91,10 @@
             android:layout_height="wrap_content"
             android:id="@+id/et_product_discription"
             android:layout_below="@+id/et_product_price"
-            android:layout_alignParentEnd="false"
-            android:layout_alignStart="@+id/btn_product_save" />
+            android:layout_alignStart="@+id/btnImage_product_image" />
 
         <ImageButton
-            android:layout_width="wrap_content"
+            android:layout_width="60dp"
             android:layout_height="wrap_content"
             android:id="@+id/btnImage_product_image"
             android:src="@mipmap/camera_logo"
@@ -99,19 +102,20 @@
             android:layout_weight="0"
             android:onClick="onClick"
             android:layout_centerVertical="true"
-            android:layout_alignStart="@+id/et_product_discription" />
+            android:layout_centerHorizontal="true"
+            android:background="#9a908378" />
 
         <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
             android:text="@string/save"
             android:id="@+id/btn_product_save"
-            android:layout_alignParentBottom="true"
+            android:background="#9a908378"
+            android:textColor="#FFFFFF"
+            android:onClick="onClick"
+            android:layout_below="@+id/btnImage_product_image"
             android:layout_centerHorizontal="true"
-            android:layout_marginBottom="52dp"
-            android:background="#470e4582"
-            android:textColor="#000000"
-            android:onClick="onClick" />
+            android:layout_marginTop="50dp" />
     </RelativeLayout>
 
     <TextView

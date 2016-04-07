@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     android:columnCount="1"
     android:rowCount="9"
-    android:background="@drawable/bokeh">
+    android:background="@drawable/pattern2">
 
     <LinearLayout
         android:orientation="horizontal"
@@ -52,7 +52,8 @@
             android:text="@string/quantity"
             android:textColor="#7d0f7bce"
             android:layout_marginLeft="50dp"
-            android:layout_marginRight="100dp" />
+            android:layout_marginRight="100dp"
+            android:textStyle="bold" />
 
         <TextView
             android:layout_width="wrap_content"

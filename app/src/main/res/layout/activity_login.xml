@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     android:weightSum="1"
     android:columnCount="2"
-    android:rowCount="13"
+    android:rowCount="3"
     android:clickable="false"
     android:background="@drawable/ntitled">
 
@@ -12,7 +12,7 @@
         android:layout_width="wrap_content"
         android:layout_height="120dp"
         android:id="@+id/imageView"
-        android:layout_row="10"
+        android:layout_row="0"
         android:layout_column="0"
         android:src="@drawable/foodicon1" />
 
@@ -21,13 +21,13 @@
         android:layout_width="match_parent"
         android:layout_height="205dp"
         android:weightSum="1"
-        android:background="#150f82ce"
+        android:background="#240b7ac4"
         android:layout_column="0"
-        android:layout_row="11"
+        android:layout_row="1"
         android:gravity="center">
 
-        <net.rahmony.electronickitchen.ClassAssets.FontEditText
-            android:layout_width="330dp"
+        <EditText
+            android:layout_width="320dp"
             android:layout_height="50dp"
             android:id="@+id/et_login_email"
             android:textColor="#050505"
@@ -36,10 +36,11 @@
             android:background="#9cfcf8f8"
             android:gravity="center"
             android:autoText="false"
-            android:maxLength="50" />
+            android:maxLength="50"
+            />
 
-        <net.rahmony.electronickitchen.ClassAssets.FontEditText
-            android:layout_width="330dp"
+        <EditText
+            android:layout_width="320dp"
             android:layout_height="50dp"
             android:inputType="textPassword"
             android:ems="10"
@@ -50,7 +51,8 @@
             android:gravity="center"
             android:background="#7dfcf8f8"
             android:layout_marginTop="10dp"
-            android:maxLength="30" />
+            android:maxLength="30"
+            />
 
     </LinearLayout>
 
@@ -60,27 +62,31 @@
         android:layout_gravity="center_horizontal"
         android:layout_weight="0.13"
         android:layout_column="0"
-        android:layout_row="12"
+        android:layout_row="2"
         android:orientation="vertical"
-        android:layout_marginBottom="30dp">
+        android:layout_marginBottom="30dp"
+        android:weightSum="1">
 
 
-        <com.gc.materialdesign.views.ButtonRectangle
-            android:layout_width="140dp"
-            android:layout_height="60dp"
+        <net.rahmony.electronickitchen.ClassAssets.FontCustomButton
+            android:layout_width="141dp"
+            android:layout_height="40dp"
             android:text="@string/log_in"
             android:id="@+id/btn_login"
             android:layout_gravity="center_horizontal"
-            android:textSize="6sp"
+            android:textSize="7sp"
             android:background="#150f82ce"
             android:textColor="#050505"
             android:enabled="true"
             android:onClick="onClick"
             android:layout_marginTop="10dp"
             android:layout_row="1"
-            android:layout_column="0" />
+            android:layout_column="0"
+            android:gravity="center"
+            android:paddingBottom="5dp"
+            android:layout_weight="0.15" />
 
-        <net.rahmony.electronickitchen.ClassAssets.FontCustomTextView
+        <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/login_forgot_password"
@@ -88,12 +94,12 @@
             android:layout_gravity="center"
             android:textColor="#f17f7f7f"
             android:onClick="onClick"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="15dp"
             android:hint="@string/email"
             android:textStyle="bold"
             android:visibility="visible" />
 
-        <net.rahmony.electronickitchen.ClassAssets.FontCustomTextView
+        <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/login_sign_up"
@@ -101,7 +107,7 @@
             android:layout_gravity="center_horizontal|bottom"
             android:onClick="onClick"
             android:textColor="#dc000000"
-            android:layout_marginTop="10dp" />
+            android:layout_marginTop="15dp" />
     </LinearLayout>
 
 </GridLayout>

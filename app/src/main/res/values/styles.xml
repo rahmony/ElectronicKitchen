@@ -8,5 +8,10 @@
         <item name="colorAccent">#dc000000</item>
     </style>
 
+    <declare-styleable name="TextViewPlus">
+        <attr name="customFont" format="string"/>
+    </declare-styleable>
+
 
 </resources>
+

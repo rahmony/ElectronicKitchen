@@ -37,6 +37,8 @@ public class LoginActivity extends AppCompatActivity {
         mEt_password = (EditText) findViewById(R.id.et_login_password);
         LoginImage = (ImageView) findViewById(R.id.image_logo);
 
+
+
     }
 
        //-----------------------------*************************************************************************************-------------------------//
