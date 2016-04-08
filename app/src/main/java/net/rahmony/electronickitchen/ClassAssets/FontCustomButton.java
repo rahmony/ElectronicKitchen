@@ -27,18 +27,18 @@ public class FontCustomButton extends ButtonRectangle {
     private void setCustomFont(Context context) {
         try {
             //get The Default Language
-            String lang = Locale.getDefault().getDisplayLanguage();
+            // String lang = Locale.getDefault().getLanguage();
 
 
             //set TypeFace English as Default
             Typeface face = Typeface.createFromAsset(context.getAssets(), "fonts/boahmed-alharf-bold.ttf");
 
             //Check if The Default Language is Arabic or English
-            if (lang == "العربية") {
+            /*if (lang == "ar") {
                 face = Typeface.createFromAsset(context.getAssets(), "fonts/boahmed-alharf-bold.ttf");
-            } else if (lang == "ENGLISH" ) {
+            } else if(lang == "en") {
                 face = Typeface.createFromAsset(context.getAssets(), "fonts/english_1.ttf");
-            }
+            }*/
 
 
             Field field = ButtonRectangle.class.getDeclaredField("textButton");

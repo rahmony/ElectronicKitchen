@@ -18,6 +18,8 @@ import android.widget.ImageView;
 
 import net.rahmony.electronickitchen.R;
 
+import java.util.Locale;
+
 
 public class MainActivity extends AppCompatActivity {
 
@@ -37,8 +39,10 @@ public class MainActivity extends AppCompatActivity {
         new CountDownTimer(800,800) {
 
             public void onTick(long millisUntilFinished) {
+
             }
             public void onFinish() {
+                System.out.println("  gdgtdhbdhdhdhghfghghg "+Locale.getDefault().getLanguage());
                 Intent intent = new Intent(MainActivity.this, LoginActivity.class);
                 startActivity(intent);
                 overridePendingTransition(R.anim.trans_cross_1, R.anim.trans_cross_2);

@@ -37,7 +37,7 @@
 
 
 
-        <Button
+        <net.rahmony.electronickitchen.ClassAssets.FontCustomButton
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:text="@string/costumer_enter"
@@ -55,7 +55,7 @@
             android:textStyle="bold" />
 
 
-        <Button
+        <net.rahmony.electronickitchen.ClassAssets.FontCustomButton
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:text="@string/seller_enter"
@@ -73,7 +73,7 @@
             android:onClick="onClick"
             android:textStyle="bold" />
 
-        <Button
+        <net.rahmony.electronickitchen.ClassAssets.FontCustomButton
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:text="@string/driver_enter"

@@ -3,23 +3,17 @@ package net.rahmony.electronickitchen.ClassAssets;
 import android.content.Context;
 import android.graphics.Typeface;
 import android.util.AttributeSet;
-import android.widget.TextView;
-
-import java.util.Locale;
+import android.widget.EditText;
 
 /**
  * Created by pc on 08/04/16.
  */
-public class FontCustomTextView extends TextView{
-
-    public FontCustomTextView(Context context, AttributeSet attrs) {
+public class FontEditText2 extends EditText {
+    public FontEditText2(Context context, AttributeSet attrs) {
         super(context, attrs);
 
-
         setCustomFont(context);
-
     }
-
 
     private void setCustomFont(Context context) {
         try {
