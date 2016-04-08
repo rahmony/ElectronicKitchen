@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
 
             }
             public void onFinish() {
-                System.out.println("  gdgtdhbdhdhdhghfghghg "+Locale.getDefault().getLanguage());
+
                 Intent intent = new Intent(MainActivity.this, LoginActivity.class);
                 startActivity(intent);
                 overridePendingTransition(R.anim.trans_cross_1, R.anim.trans_cross_2);

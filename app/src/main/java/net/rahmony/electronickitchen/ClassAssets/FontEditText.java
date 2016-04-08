@@ -8,8 +8,8 @@ import android.widget.EditText;
 /**
  * Created by pc on 08/04/16.
  */
-public class FontEditText2 extends EditText {
-    public FontEditText2(Context context, AttributeSet attrs) {
+public class FontEditText extends EditText {
+    public FontEditText(Context context, AttributeSet attrs) {
         super(context, attrs);
 
         setCustomFont(context);
