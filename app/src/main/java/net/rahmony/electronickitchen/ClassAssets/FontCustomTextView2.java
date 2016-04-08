@@ -1,28 +1,25 @@
 package net.rahmony.electronickitchen.ClassAssets;
 
 import android.content.Context;
-
 import android.graphics.Typeface;
 import android.util.AttributeSet;
-import android.widget.Button;
 import android.widget.TextView;
 
-import com.gc.materialdesign.views.ButtonFlat;
-import com.gc.materialdesign.views.ButtonRectangle;
-
-import java.lang.reflect.Field;
 import java.util.Locale;
 
 /**
- * Created by pc on 31/03/16.
+ * Created by pc on 08/04/16.
  */
-public class FontCustomButton extends ButtonRectangle {
+public class FontCustomTextView2 extends TextView{
 
-
-    public FontCustomButton(Context context, AttributeSet attrs) {
+    public FontCustomTextView2(Context context, AttributeSet attrs) {
         super(context, attrs);
+
+
         setCustomFont(context);
+
     }
+
 
     private void setCustomFont(Context context) {
         try {
@@ -40,15 +37,10 @@ public class FontCustomButton extends ButtonRectangle {
                 face = Typeface.createFromAsset(context.getAssets(), "fonts/english_1.ttf");
             }
 
-
-            Field field = ButtonRectangle.class.getDeclaredField("textButton");
-            field.setAccessible(true);
-            TextView textView = (TextView) field.get(this);
-            textView.setTypeface(face);
+            this.setTypeface(face);
 
         } catch (Exception e) {
             e.printStackTrace();
         }
     }
-
 }

@@ -1,4 +1,5 @@
 <resources>
+    <string name="ARABIC">العربية</string>
     <string name="app_name">اطبخلي</string>
     <string name="login_email">البريد الإلكتروني</string>
     <string name="login_password">  كلمة المرور </string>
