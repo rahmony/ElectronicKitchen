@@ -10,9 +10,9 @@ import java.util.Locale;
 /**
  * Created by pc on 08/04/16.
  */
-public class FontCustomTextView2 extends TextView{
+public class FontCustomTextView extends TextView{
 
-    public FontCustomTextView2(Context context, AttributeSet attrs) {
+    public FontCustomTextView(Context context, AttributeSet attrs) {
         super(context, attrs);
 
 

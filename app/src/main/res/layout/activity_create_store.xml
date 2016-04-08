@@ -9,7 +9,7 @@
     android:rowCount="12"
     android:background="@drawable/ic_mainbackground">
 
-    <net.rahmony.electronickitchen.ClassAssets.FontCustomTextView2
+    <net.rahmony.electronickitchen.ClassAssets.FontCustomTextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
@@ -44,7 +44,7 @@
         android:layout_alignTop="@+id/textView3"
         android:layout_alignStart="@+id/imageView3" />
 
-    <net.rahmony.electronickitchen.ClassAssets.FontCustomTextView2
+    <net.rahmony.electronickitchen.ClassAssets.FontCustomTextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
