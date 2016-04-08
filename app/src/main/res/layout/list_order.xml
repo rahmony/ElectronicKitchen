@@ -37,8 +37,8 @@
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:text="firstName"
             android:id="@+id/text_list_order_FirstName"
-            android:layout_weight="0.49"
-            android:gravity="end" />
+            android:layout_weight="0.45"
+            android:gravity="center_horizontal|left" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -48,6 +48,6 @@
             android:id="@+id/text_list_order_LastName"
             android:layout_gravity="center_horizontal"
             android:gravity="center_horizontal"
-            android:layout_weight="0.05" />
+            android:layout_weight="0.23" />
     </LinearLayout>
 </LinearLayout>

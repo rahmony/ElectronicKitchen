@@ -27,7 +27,7 @@
         android:layout_row="1"
         android:layout_column="0">
 
-        <TextView
+        <net.rahmony.electronickitchen.ClassAssets.FontCustomTextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:textAppearance="?android:attr/textAppearanceMedium"
@@ -45,7 +45,7 @@
         android:layout_column="0"
         android:layout_row="3">
 
-        <TextView
+        <net.rahmony.electronickitchen.ClassAssets.FontCustomTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceMedium"
@@ -100,7 +100,7 @@
         android:layout_column="0"
         android:layout_row="5">
 
-        <Button
+        <net.rahmony.electronickitchen.ClassAssets.FontCustomButton
             android:layout_width="180dp"
             android:layout_height="65dp"
             android:text="@string/add_to_cart"
@@ -112,7 +112,7 @@
             android:layout_marginLeft="5dp"
             android:layout_marginRight="10dp" />
 
-        <Button
+        <net.rahmony.electronickitchen.ClassAssets.FontCustomButton
             android:layout_width="180dp"
             android:layout_height="65dp"
             android:text="@string/cancel"

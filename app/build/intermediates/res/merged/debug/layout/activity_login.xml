@@ -86,7 +86,7 @@
             android:paddingBottom="5dp"
             android:layout_weight="0.15" />
 
-        <TextView
+        <net.rahmony.electronickitchen.ClassAssets.FontCustomTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/login_forgot_password"
@@ -99,7 +99,7 @@
             android:textStyle="bold"
             android:visibility="visible" />
 
-        <TextView
+        <net.rahmony.electronickitchen.ClassAssets.FontCustomTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/login_sign_up"

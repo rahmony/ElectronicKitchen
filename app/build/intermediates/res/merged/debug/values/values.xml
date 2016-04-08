@@ -297,7 +297,7 @@
     <string name="abc_toolbar_collapse_description">Collapse</string>
     <string name="accept_order">قبـــول الطــلب</string>
     <string name="add_to_cart">إضــافة لـسـلة</string>
-    <string name="address"> العنوان </string>
+    <string name="address">العنوان</string>
     <string name="app_name">اطبخلي</string>
     <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
     <string name="auth_google_play_services_client_facebook_display_name">Facebook</string>
@@ -307,7 +307,7 @@
     <string name="bottom_sheet_behavior" translatable="false">android.support.design.widget.BottomSheetBehavior</string>
     <string name="cancel"> الغــــاء</string>
     <string name="character_counter_pattern" translatable="false">%1$d / %2$d</string>
-    <string name="city"> المدينة </string>
+    <string name="city">المدينة</string>
     <string name="common_android_wear_notification_needs_update_text"><ns1:g id="app_name">%1$s</ns1:g> requires an update to the Android Wear app.</string>
     <string name="common_android_wear_update_text"><ns1:g id="app_name">%1$s</ns1:g> won\'t run unless you update the Android Wear app.</string>
     <string msgid="6006316683626838685" name="common_android_wear_update_title">Update Android Wear</string>
@@ -338,7 +338,7 @@
     <string name="common_google_play_services_updating_text"><ns1:g id="app_name">%1$s</ns1:g> won\'t run without Google Play services, which are currently updating.</string>
     <string name="common_google_play_services_updating_title">Google Play services are updating</string>
     <string name="common_open_on_phone">Open on phone</string>
-    <string name="confirm"> تأكيد </string>
+    <string name="confirm">تأكـيد</string>
     <string name="confirm_order">تـأكيد الطلب</string>
     <string name="costumer_enter">الدخول كزبون</string>
     <string name="costumer_name">اســم البـائع</string>
@@ -346,23 +346,23 @@
     <string name="denial_order">لا أستطيع قبول هذا الطلب</string>
     <string name="driver_enter">الدخول كسائق</string>
     <string name="edit_profile"> تعديل بيانات المتجر</string>
-    <string name="email"> البريد الالكتروني </string>
+    <string name="email">البريد الإلكتـروني</string>
     <string name="enter_way">طريقة دخول التطبيق</string>
-    <string name="first_name"> الاسم الاول </string>
+    <string name="first_name">الإسم الأول</string>
     <string name="from">مــن:</string>
     <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">
         AIzaSyBxlzUG27yKs6ZdmzNnjBLtKvyCbPsm0i0
     </string>
     <string name="hello">Hello</string>
-    <string name="jeddah"> جدة </string>
-    <string name="last_name"> اسم العائلة </string>
+    <string name="jeddah">جدة</string>
+    <string name="last_name">اسم العائلة</string>
     <string name="log_in"> تسجيل الدخول </string>
     <string name="login_email">البريد الإلكتروني</string>
     <string name="login_forgot_password">  نسيت كلمة المرور </string>
     <string name="login_password">  كلمة المرور </string>
     <string name="login_sign_up">  ليس لديك حساب ؟ سجل الان ..... </string>
-    <string name="madina"> المدينة المنورة </string>
-    <string name="makka"> مكة </string>
+    <string name="madina">المدينة المنورة</string>
+    <string name="makka">مكة</string>
     <string name="minus">-</string>
     <string name="my_orders"> طلباتي </string>
     <string name="no_Date">لا توجــد بيـانـات</string>
@@ -370,8 +370,8 @@
     <string name="one">1</string>
     <string name="order_details">تفاصــيل الطـلب:</string>
     <string name="order_from">طلـب مـن:</string>
-    <string name="password"> كلمة المرور </string>
-    <string name="phone_number"> رقم الجوال </string>
+    <string name="password">كلمة المرور</string>
+    <string name="phone_number">رقم الجوال</string>
     <string name="plus">+</string>
     <string name="price">الســـعر:</string>
     <string name="product_Image">صورة المنتج</string>
@@ -382,7 +382,7 @@
     <string name="ready_orders">الطــلبات المتاحة</string>
     <string name="save">حفظ</string>
     <string name="seller_enter">الدخول كبائع</string>
-    <string name="share_location"> مشاركة الموقع </string>
+    <string name="share_location">مشاركة الموقع</string>
     <string name="sin_up"> إنشاء حساب جديد  </string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="store_create">إنشــاء</string>
