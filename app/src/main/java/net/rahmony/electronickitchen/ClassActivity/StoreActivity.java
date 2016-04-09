@@ -2,6 +2,8 @@ package net.rahmony.electronickitchen.ClassActivity;
 
 import android.content.Context;
 import android.content.Intent;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.os.Bundle;
 import android.os.Environment;
 import android.support.v7.app.AppCompatActivity;
@@ -19,6 +21,8 @@ import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
 
+import net.alhazmy13.mediapicker.Image.ImagePicker;
+import net.alhazmy13.mediapicker.Video.VideoPicker;
 import net.rahmony.electronickitchen.APIService;
 import net.rahmony.electronickitchen.Data.Cart;
 import net.rahmony.electronickitchen.Data.Product;
@@ -73,7 +77,8 @@ public class StoreActivity extends AppCompatActivity implements TabHost.OnTabCha
     ImageView mImage_store;
     TextView mStoreName, mText_store_description;
 
-   // static final int mCamRequest = 2;
+    //image Object
+    ImageView mImage_Store;
 
     /**
      *
@@ -230,28 +235,50 @@ public class StoreActivity extends AppCompatActivity implements TabHost.OnTabCha
     }
 
 
-
+    /**
+     *
+     * ###################################################################################
+     * ************************************ On Click **************************************
+     * ###################################################################################
+     *
+     */
     public void onClick(View v) {
 
         switch (v.getId()){
+
             case R.id.btnImage_store_left:
                 Bundle extra = getIntent().getExtras();
                 Intent intent = new Intent(StoreActivity.this, Product_Activity.class).putExtra("Store_ID", extra.getInt("Store_ID"));
                 startActivity(intent);
+                break;
+            case R.id.image_store:
+                //initialized the image store
+                mImage_Store = (ImageView) findViewById(R.id.image_store);
+                ImagePicker mImagePicker = new ImagePicker.Builder(this)
+                        .mode(ImagePicker.Mode.CAMERA)
+                        .compressLevel(ImagePicker.ComperesLevel.MEDIUM)
+                        .extension(ImagePicker.Extension.JPG)
+                        .directory(ImagePicker.Directory.DEFAULT)
+                        .build();
                 break;
         }
 
     }
 
 
-    /*public void onClickme(View view) {
+    //Media Picker Result
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
 
-        File file = new File(Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DCIM), "64861-200.png");
+        if (requestCode == ImagePicker.IMAGE_PICKER_REQUEST_CODE && resultCode == RESULT_OK) {
+            String mPath = data.getStringExtra(ImagePicker.EXTRA_IMAGE_PATH);
 
-        Glide.with(this).load(file).into(mImage_store);
+            //Your Code
+            mImage_store.setImageBitmap(BitmapFactory.decodeFile(mPath));
+        }
+    }
 
-
-    }*/
 
 
     @Override

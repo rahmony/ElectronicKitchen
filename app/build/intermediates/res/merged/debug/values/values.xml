@@ -363,6 +363,14 @@
     <string name="login_sign_up">  ليس لديك حساب ؟ سجل الان ..... </string>
     <string name="madina">المدينة المنورة</string>
     <string name="makka">مكة</string>
+    <string name="media_picker_camera">Camera</string>
+    <string name="media_picker_cancel">Cancel</string>
+    <string name="media_picker_gallery">Gallery</string>
+    <string name="media_picker_ok">Ok</string>
+    <string name="media_picker_read_Write_external_storage">Read &amp; Write External Storage</string>
+    <string name="media_picker_select_from">Select From:</string>
+    <string name="media_picker_some_permission_is_denied">Some Permission is Denied</string>
+    <string name="media_picker_you_need_to_grant_access_to">You need to grant access to</string>
     <string name="minus">-</string>
     <string name="my_orders"> طلباتي </string>
     <string name="no_Date">لا توجــد بيـانـات</string>
@@ -1638,6 +1646,13 @@
     <style name="Theme.AppCompat.NoActionBar">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Theme.AppCompat.Translucent" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation</item>
     </style>
     <style name="Theme.Design" parent="Theme.AppCompat">
         <item name="textColorError">@color/design_textinput_error_color_dark</item>

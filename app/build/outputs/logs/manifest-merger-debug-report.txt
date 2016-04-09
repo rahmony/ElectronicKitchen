@@ -23,6 +23,7 @@ ADDED from D:\Androidprojects\ElectronicKitchen\app\src\main\AndroidManifest.xml
 		ADDED from D:\Androidprojects\ElectronicKitchen\app\src\main\AndroidManifest.xml:6:22-77
 uses-permission#android.permission.CAMERA
 ADDED from D:\Androidprojects\ElectronicKitchen\app\src\main\AndroidManifest.xml:8:5-65
+MERGED from [net.alhazmy13.MediaPicker:libary:2.1.0] D:\Androidprojects\ElectronicKitchen\app\build\intermediates\exploded-aar\net.alhazmy13.MediaPicker\libary\2.1.0\AndroidManifest.xml:11:5-65
 	android:name
 		ADDED from D:\Androidprojects\ElectronicKitchen\app\src\main\AndroidManifest.xml:8:22-62
 uses-feature#android.hardware.camera2
@@ -31,6 +32,7 @@ ADDED from D:\Androidprojects\ElectronicKitchen\app\src\main\AndroidManifest.xml
 		ADDED from D:\Androidprojects\ElectronicKitchen\app\src\main\AndroidManifest.xml:10:19-58
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
 ADDED from D:\Androidprojects\ElectronicKitchen\app\src\main\AndroidManifest.xml:12:5-81
+MERGED from [net.alhazmy13.MediaPicker:libary:2.1.0] D:\Androidprojects\ElectronicKitchen\app\build\intermediates\exploded-aar\net.alhazmy13.MediaPicker\libary\2.1.0\AndroidManifest.xml:12:5-81
 	android:name
 		ADDED from D:\Androidprojects\ElectronicKitchen\app\src\main\AndroidManifest.xml:12:22-78
 uses-permission#android.permission.ACCESS_FINE_LOCATION
@@ -60,6 +62,14 @@ MERGED from [com.android.support:support-vector-drawable:23.2.1] D:\Androidproje
 MERGED from [com.android.support:support-v4:23.2.1] D:\Androidprojects\ElectronicKitchen\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:support-vector-drawable:23.2.1] D:\Androidprojects\ElectronicKitchen\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.1\AndroidManifest.xml:7:5-20
 MERGED from [com.android.support:support-v4:23.2.1] D:\Androidprojects\ElectronicKitchen\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.2.1] D:\Androidprojects\ElectronicKitchen\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\AndroidManifest.xml:22:5-20
+MERGED from [net.alhazmy13.MediaPicker:libary:2.1.0] D:\Androidprojects\ElectronicKitchen\app\build\intermediates\exploded-aar\net.alhazmy13.MediaPicker\libary\2.1.0\AndroidManifest.xml:15:5-24:19
+MERGED from [com.android.support:appcompat-v7:23.2.1] D:\Androidprojects\ElectronicKitchen\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.2.1\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:23.2.1] D:\Androidprojects\ElectronicKitchen\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:animated-vector-drawable:23.2.1] D:\Androidprojects\ElectronicKitchen\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.2.1\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-vector-drawable:23.2.1] D:\Androidprojects\ElectronicKitchen\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.1\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.2.1] D:\Androidprojects\ElectronicKitchen\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:23.2.1] D:\Androidprojects\ElectronicKitchen\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.1\AndroidManifest.xml:7:5-20
 MERGED from [com.android.support:support-v4:23.2.1] D:\Androidprojects\ElectronicKitchen\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\AndroidManifest.xml:22:5-20
 	android:supportsRtl
 		ADDED from D:\Androidprojects\ElectronicKitchen\app\src\main\AndroidManifest.xml:25:9-35
@@ -173,6 +183,14 @@ MERGED from [com.android.support:support-v4:23.2.1] D:\Androidprojects\Electroni
 MERGED from [com.android.support:recyclerview-v7:23.2.1] D:\Androidprojects\ElectronicKitchen\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.2.1\AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:support-v4:23.2.1] D:\Androidprojects\ElectronicKitchen\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\AndroidManifest.xml:20:5-43
 MERGED from [io.reactivex:rxandroid:1.0.1] D:\Androidprojects\ElectronicKitchen\app\build\intermediates\exploded-aar\io.reactivex\rxandroid\1.0.1\AndroidManifest.xml:19:5-43
+MERGED from [net.alhazmy13.MediaPicker:libary:2.1.0] D:\Androidprojects\ElectronicKitchen\app\build\intermediates\exploded-aar\net.alhazmy13.MediaPicker\libary\2.1.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:23.2.1] D:\Androidprojects\ElectronicKitchen\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.2.1\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:23.2.1] D:\Androidprojects\ElectronicKitchen\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:animated-vector-drawable:23.2.1] D:\Androidprojects\ElectronicKitchen\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.2.1\AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:support-vector-drawable:23.2.1] D:\Androidprojects\ElectronicKitchen\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.1\AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:23.2.1] D:\Androidprojects\ElectronicKitchen\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-vector-drawable:23.2.1] D:\Androidprojects\ElectronicKitchen\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.1\AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:23.2.1] D:\Androidprojects\ElectronicKitchen\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\AndroidManifest.xml:20:5-43
 	android:targetSdkVersion
 		INJECTED from D:\Androidprojects\ElectronicKitchen\app\src\main\AndroidManifest.xml
 		INJECTED from D:\Androidprojects\ElectronicKitchen\app\src\main\AndroidManifest.xml
@@ -181,3 +199,23 @@ MERGED from [io.reactivex:rxandroid:1.0.1] D:\Androidprojects\ElectronicKitchen\
 		INJECTED from D:\Androidprojects\ElectronicKitchen\app\src\main\AndroidManifest.xml
 	tools:overrideLibrary
 		ADDED from [com.android.support:appcompat-v7:23.2.1] D:\Androidprojects\ElectronicKitchen\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.2.1\AndroidManifest.xml:23:9-75
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from [net.alhazmy13.MediaPicker:libary:2.1.0] D:\Androidprojects\ElectronicKitchen\app\build\intermediates\exploded-aar\net.alhazmy13.MediaPicker\libary\2.1.0\AndroidManifest.xml:13:5-71
+	android:name
+		ADDED from [net.alhazmy13.MediaPicker:libary:2.1.0] D:\Androidprojects\ElectronicKitchen\app\build\intermediates\exploded-aar\net.alhazmy13.MediaPicker\libary\2.1.0\AndroidManifest.xml:13:22-68
+activity#net.alhazmy13.mediapicker.Image.ImageActivity
+ADDED from [net.alhazmy13.MediaPicker:libary:2.1.0] D:\Androidprojects\ElectronicKitchen\app\build\intermediates\exploded-aar\net.alhazmy13.MediaPicker\libary\2.1.0\AndroidManifest.xml:16:9-19:66
+	android:screenOrientation
+		ADDED from [net.alhazmy13.MediaPicker:libary:2.1.0] D:\Androidprojects\ElectronicKitchen\app\build\intermediates\exploded-aar\net.alhazmy13.MediaPicker\libary\2.1.0\AndroidManifest.xml:18:13-49
+	android:theme
+		ADDED from [net.alhazmy13.MediaPicker:libary:2.1.0] D:\Androidprojects\ElectronicKitchen\app\build\intermediates\exploded-aar\net.alhazmy13.MediaPicker\libary\2.1.0\AndroidManifest.xml:19:13-63
+	android:name
+		ADDED from [net.alhazmy13.MediaPicker:libary:2.1.0] D:\Androidprojects\ElectronicKitchen\app\build\intermediates\exploded-aar\net.alhazmy13.MediaPicker\libary\2.1.0\AndroidManifest.xml:17:13-73
+activity#net.alhazmy13.mediapicker.Video.VideoActivity
+ADDED from [net.alhazmy13.MediaPicker:libary:2.1.0] D:\Androidprojects\ElectronicKitchen\app\build\intermediates\exploded-aar\net.alhazmy13.MediaPicker\libary\2.1.0\AndroidManifest.xml:20:9-23:66
+	android:screenOrientation
+		ADDED from [net.alhazmy13.MediaPicker:libary:2.1.0] D:\Androidprojects\ElectronicKitchen\app\build\intermediates\exploded-aar\net.alhazmy13.MediaPicker\libary\2.1.0\AndroidManifest.xml:22:13-49
+	android:theme
+		ADDED from [net.alhazmy13.MediaPicker:libary:2.1.0] D:\Androidprojects\ElectronicKitchen\app\build\intermediates\exploded-aar\net.alhazmy13.MediaPicker\libary\2.1.0\AndroidManifest.xml:23:13-63
+	android:name
+		ADDED from [net.alhazmy13.MediaPicker:libary:2.1.0] D:\Androidprojects\ElectronicKitchen\app\build\intermediates\exploded-aar\net.alhazmy13.MediaPicker\libary\2.1.0\AndroidManifest.xml:21:13-73
