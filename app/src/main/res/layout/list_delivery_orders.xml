@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingTop="10dp"
+    android:paddingLeft="10dp">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="من المتجر"
+        android:id="@+id/text_from_store"
+        android:layout_marginLeft="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="اسم المتجر"
+        android:id="@+id/text_store"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="الطلبات"
+        android:id="@+id/text_order"
+        android:layout_below="@+id/text_from_store"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/product_name"
+        android:id="@+id/text_nameOfProduct"
+        android:layout_below="@+id/text_order"
+        android:layout_alignEnd="@+id/text_order" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/product_price"
+        android:id="@+id/text_priceOfProduct"
+        android:layout_alignBottom="@+id/text_nameOfProduct"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/product_Quantity"
+        android:id="@+id/text_quantityOfProduct"
+        android:layout_alignTop="@+id/text_priceOfProduct"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/product_name"
+        android:id="@+id/text_product_name_val"
+        android:layout_below="@+id/text_nameOfProduct"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/product_Quantity"
+        android:id="@+id/text_product_quantity_val"
+        android:layout_below="@+id/text_priceOfProduct"
+        android:layout_alignStart="@+id/text_priceOfProduct" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/product_price"
+        android:id="@+id/text_product_price_val"
+        android:layout_below="@+id/text_priceOfProduct"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="قبول توصيل الطلب"
+        android:id="@+id/btn_received"
+        android:layout_marginTop="49dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/text_product_name_val" />
+</RelativeLayout>

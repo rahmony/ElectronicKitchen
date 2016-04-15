@@ -1,458 +1,694 @@
 [
     {
-        "merged": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ntitled.png",
-        "source": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\src\\main\\res\\drawable\\ntitled.png"
-    },
-    {
-        "merged": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_back3.jpg",
-        "source": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\src\\main\\res\\drawable\\ic_back3.jpg"
-    },
-    {
-        "merged": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
-        "source": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_cab_background_top_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
-        "source": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_textfield_search_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
-        "source": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_switch_thumb_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\titled1.jpg",
-        "source": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\src\\main\\res\\drawable\\titled1.jpg"
-    },
-    {
-        "merged": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
-        "source": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_btn_colored_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\background_transparent.xml",
-        "source": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.github.vajro\\MaterialDesignLibrary\\1.6\\res\\drawable\\background_transparent.xml"
-    },
-    {
-        "merged": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
-        "source": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_seekbar_track_material.xml"
-    },
-    {
-        "merged": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\background_progress.xml",
-        "source": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.github.vajro\\MaterialDesignLibrary\\1.6\\res\\drawable\\background_progress.xml"
-    },
-    {
-        "merged": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",
-        "source": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_ratingbar_small_material.xml"
-    },
-    {
-        "merged": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
-        "source": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_seekbar_thumb_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\background_switch_ball_uncheck.xml",
-        "source": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.github.vajro\\MaterialDesignLibrary\\1.6\\res\\drawable\\background_switch_ball_uncheck.xml"
-    },
-    {
-        "merged": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\background_checkbox_check.xml",
-        "source": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.github.vajro\\MaterialDesignLibrary\\1.6\\res\\drawable\\background_checkbox_check.xml"
-    },
-    {
-        "merged": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\foodicon1.png",
-        "source": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\src\\main\\res\\drawable\\foodicon1.png"
-    },
-    {
-        "merged": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background_light.xml",
-        "source": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_dialog_material_background_light.xml"
-    },
-    {
-        "merged": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
-        "source": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_list_selector_holo_light.xml"
-    },
-    {
-        "merged": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\titledme.jpg",
-        "source": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\src\\main\\res\\drawable\\titledme.jpg"
-    },
-    {
-        "merged": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
-        "source": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_tab_indicator_material.xml"
-    },
-    {
-        "merged": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shadow_down.xml",
-        "source": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.github.vajro\\MaterialDesignLibrary\\1.6\\res\\drawable\\shadow_down.xml"
-    },
-    {
-        "merged": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\titled1.jpg",
-        "source": "D:\\Androidprojects\\ElectronicKitchen\\app\\src\\main\\res\\drawable\\titled1.jpg"
-    },
-    {
-        "merged": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_fab_background.xml",
-        "source": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.2.1\\res\\drawable\\design_fab_background.xml"
-    },
-    {
-        "merged": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_android_musical.jpg",
-        "source": "D:\\Androidprojects\\ElectronicKitchen\\app\\src\\main\\res\\drawable\\ic_android_musical.jpg"
-    },
-    {
-        "merged": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_android_musical.jpg",
-        "source": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\src\\main\\res\\drawable\\ic_android_musical.jpg"
-    },
-    {
-        "merged": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pattern.jpg",
-        "source": "D:\\Androidprojects\\ElectronicKitchen\\app\\src\\main\\res\\drawable\\pattern.jpg"
-    },
-    {
-        "merged": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\titled.png",
-        "source": "D:\\Androidprojects\\ElectronicKitchen\\app\\src\\main\\res\\drawable\\titled.png"
-    },
-    {
-        "merged": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button.jpg",
-        "source": "D:\\Androidprojects\\ElectronicKitchen\\app\\src\\main\\res\\drawable\\button.jpg"
-    },
-    {
-        "merged": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
-        "source": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_ratingbar_indicator_material.xml"
-    },
-    {
-        "merged": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\titledme.jpg",
-        "source": "D:\\Androidprojects\\ElectronicKitchen\\app\\src\\main\\res\\drawable\\titledme.jpg"
-    },
-    {
-        "merged": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
-        "source": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
-    },
-    {
-        "merged": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
-        "source": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_btn_check_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_bac1.jpg",
-        "source": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\src\\main\\res\\drawable\\ic_bac1.jpg"
-    },
-    {
-        "merged": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\titled.png",
-        "source": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\src\\main\\res\\drawable\\titled.png"
-    },
-    {
-        "merged": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
-        "source": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_list_selector_holo_dark.xml"
-    },
-    {
-        "merged": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
-        "source": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_btn_radio_material.xml"
-    },
-    {
-        "merged": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
-        "source": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_list_selector_holo_dark.xml"
-    },
-    {
-        "merged": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\background_checkbox_uncheck.xml",
-        "source": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.github.vajro\\MaterialDesignLibrary\\1.6\\res\\drawable\\background_checkbox_uncheck.xml"
-    },
-    {
-        "merged": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\background_button.9.png",
-        "source": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.github.vajro\\MaterialDesignLibrary\\1.6\\res\\drawable\\background_button.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shadow_down.xml",
-        "source": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.github.vajro\\MaterialDesignLibrary\\1.6\\res\\drawable\\shadow_down.xml"
-    },
-    {
-        "merged": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_back2.jpg",
-        "source": "D:\\Androidprojects\\ElectronicKitchen\\app\\src\\main\\res\\drawable\\ic_back2.jpg"
-    },
-    {
-        "merged": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background_dark.xml",
-        "source": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_dialog_material_background_dark.xml"
-    },
-    {
-        "merged": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
-        "source": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+        "merged": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
+        "source": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_item_background_holo_dark.xml"
     },
     {
         "merged": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
         "source": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_seekbar_track_material.xml"
     },
     {
-        "merged": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\background_switch_ball_uncheck.xml",
-        "source": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.github.vajro\\MaterialDesignLibrary\\1.6\\res\\drawable\\background_switch_ball_uncheck.xml"
-    },
-    {
-        "merged": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bokeh.jpg",
-        "source": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\src\\main\\res\\drawable\\bokeh.jpg"
-    },
-    {
-        "merged": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
-        "source": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_btn_radio_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background_light.xml",
-        "source": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_dialog_material_background_light.xml"
-    },
-    {
-        "merged": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
-        "source": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_text_cursor_material.xml"
-    },
-    {
-        "merged": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
-        "source": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_item_background_holo_light.xml"
-    },
-    {
-        "merged": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_launcher.png",
-        "source": "D:\\Androidprojects\\ElectronicKitchen\\app\\src\\main\\res\\drawable\\ic_launcher.png"
-    },
-    {
-        "merged": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\titled3.jpg",
-        "source": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\src\\main\\res\\drawable\\titled3.jpg"
-    },
-    {
-        "merged": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_store.jpeg",
-        "source": "D:\\Androidprojects\\ElectronicKitchen\\app\\src\\main\\res\\drawable\\ic_store.jpeg"
-    },
-    {
-        "merged": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
-        "source": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_edit_text_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\background_checkbox_uncheck.xml",
-        "source": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.github.vajro\\MaterialDesignLibrary\\1.6\\res\\drawable\\background_checkbox_uncheck.xml"
-    },
-    {
-        "merged": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shadow_right.xml",
-        "source": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.github.vajro\\MaterialDesignLibrary\\1.6\\res\\drawable\\shadow_right.xml"
-    },
-    {
         "merged": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\background_button_float.xml",
         "source": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.github.vajro\\MaterialDesignLibrary\\1.6\\res\\drawable\\background_button_float.xml"
+    },
+    {
+        "merged": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
+        "source": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\background_button.9.png",
+        "source": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.github.vajro\\MaterialDesignLibrary\\1.6\\res\\drawable\\background_button.9.png"
+    },
+    {
+        "merged": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\titled1.jpg",
+        "source": "D:\\Androidprojects\\ElectronicKitchen\\app\\src\\main\\res\\drawable\\titled1.jpg"
+    },
+    {
+        "merged": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
+        "source": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_item_background_holo_light.xml"
     },
     {
         "merged": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_mainbackground.jpg",
         "source": "D:\\Androidprojects\\ElectronicKitchen\\app\\src\\main\\res\\drawable\\ic_mainbackground.jpg"
     },
     {
-        "merged": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
-        "source": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_item_background_holo_dark.xml"
+        "merged": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_back3.jpg",
+        "source": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\src\\main\\res\\drawable\\ic_back3.jpg"
     },
     {
-        "merged": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
-        "source": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_cab_background_internal_bg.xml"
+        "merged": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
+        "source": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_cab_background_top_material.xml"
     },
     {
-        "merged": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
-        "source": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_btn_colored_material.xml"
+        "merged": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_bac1.jpg",
+        "source": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\src\\main\\res\\drawable\\ic_bac1.jpg"
     },
     {
-        "merged": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bokeh.jpg",
-        "source": "D:\\Androidprojects\\ElectronicKitchen\\app\\src\\main\\res\\drawable\\bokeh.jpg"
+        "merged": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_back2.jpg",
+        "source": "D:\\Androidprojects\\ElectronicKitchen\\app\\src\\main\\res\\drawable\\ic_back2.jpg"
     },
     {
-        "merged": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\defend.jpg",
-        "source": "D:\\Androidprojects\\ElectronicKitchen\\app\\src\\main\\res\\drawable\\defend.jpg"
-    },
-    {
-        "merged": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
-        "source": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_item_background_holo_dark.xml"
-    },
-    {
-        "merged": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_mobile_login_icon.PNG",
-        "source": "D:\\Androidprojects\\ElectronicKitchen\\app\\src\\main\\res\\drawable\\ic_mobile_login_icon.PNG"
-    },
-    {
-        "merged": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shop.png",
-        "source": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\src\\main\\res\\drawable\\shop.png"
-    },
-    {
-        "merged": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background_dark.xml",
-        "source": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_dialog_material_background_dark.xml"
-    },
-    {
-        "merged": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pattern2.jpg",
-        "source": "D:\\Androidprojects\\ElectronicKitchen\\app\\src\\main\\res\\drawable\\pattern2.jpg"
-    },
-    {
-        "merged": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_mobile_login_icon.PNG",
-        "source": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\src\\main\\res\\drawable\\ic_mobile_login_icon.PNG"
-    },
-    {
-        "merged": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
-        "source": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_spinner_textfield_background_material.xml"
-    },
-    {
-        "merged": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_fab_background.xml",
-        "source": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.2.1\\res\\drawable\\design_fab_background.xml"
-    },
-    {
-        "merged": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
-        "source": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_cab_background_top_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
-        "source": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_text_cursor_material.xml"
-    },
-    {
-        "merged": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
-        "source": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_btn_check_material.xml"
-    },
-    {
-        "merged": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_snackbar_background.xml",
-        "source": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.2.1\\res\\drawable\\design_snackbar_background.xml"
-    },
-    {
-        "merged": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\background_checkbox.xml",
-        "source": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.github.vajro\\MaterialDesignLibrary\\1.6\\res\\drawable\\background_checkbox.xml"
-    },
-    {
-        "merged": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
-        "source": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
-    },
-    {
-        "merged": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\titled3.jpg",
-        "source": "D:\\Androidprojects\\ElectronicKitchen\\app\\src\\main\\res\\drawable\\titled3.jpg"
-    },
-    {
-        "merged": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
-        "source": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
-    },
-    {
-        "merged": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_mainbackground.jpg",
-        "source": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\src\\main\\res\\drawable\\ic_mainbackground.jpg"
-    },
-    {
-        "merged": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\background_button.9.png",
-        "source": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.github.vajro\\MaterialDesignLibrary\\1.6\\res\\drawable\\background_button.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_full_material.xml",
-        "source": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_ratingbar_full_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_store.jpeg",
-        "source": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\src\\main\\res\\drawable\\ic_store.jpeg"
+        "merged": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shadow_right.xml",
+        "source": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.github.vajro\\MaterialDesignLibrary\\1.6\\res\\drawable\\shadow_right.xml"
     },
     {
         "merged": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\background_transparent.xml",
         "source": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.github.vajro\\MaterialDesignLibrary\\1.6\\res\\drawable\\background_transparent.xml"
     },
     {
-        "merged": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\background_button_float.xml",
-        "source": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.github.vajro\\MaterialDesignLibrary\\1.6\\res\\drawable\\background_button_float.xml"
+        "merged": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_mobile_login_icon.PNG",
+        "source": "D:\\Androidprojects\\ElectronicKitchen\\app\\src\\main\\res\\drawable\\ic_mobile_login_icon.PNG"
     },
     {
-        "merged": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
-        "source": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_tab_indicator_material.xml"
+        "merged": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shop.png",
+        "source": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\src\\main\\res\\drawable\\shop.png"
     },
     {
-        "merged": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\background_progress.xml",
-        "source": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.github.vajro\\MaterialDesignLibrary\\1.6\\res\\drawable\\background_progress.xml"
+        "merged": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",
+        "source": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_ratingbar_small_material.xml"
     },
     {
-        "merged": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_bac1.jpg",
-        "source": "D:\\Androidprojects\\ElectronicKitchen\\app\\src\\main\\res\\drawable\\ic_bac1.jpg"
+        "merged": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\titledme.jpg",
+        "source": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\src\\main\\res\\drawable\\titledme.jpg"
     },
     {
-        "merged": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
-        "source": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_textfield_search_material.xml"
-    },
-    {
-        "merged": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shop.png",
-        "source": "D:\\Androidprojects\\ElectronicKitchen\\app\\src\\main\\res\\drawable\\shop.png"
-    },
-    {
-        "merged": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\background_button_rectangle.xml",
-        "source": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.github.vajro\\MaterialDesignLibrary\\1.6\\res\\drawable\\background_button_rectangle.xml"
-    },
-    {
-        "merged": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
-        "source": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_switch_thumb_material.xml"
+        "merged": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
+        "source": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_btn_radio_material.xml"
     },
     {
         "merged": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_back3.jpg",
         "source": "D:\\Androidprojects\\ElectronicKitchen\\app\\src\\main\\res\\drawable\\ic_back3.jpg"
     },
     {
-        "merged": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
-        "source": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_btn_borderless_material.xml"
+        "merged": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
+        "source": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_item_background_holo_dark.xml"
     },
     {
-        "merged": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shadow_right.xml",
-        "source": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.github.vajro\\MaterialDesignLibrary\\1.6\\res\\drawable\\shadow_right.xml"
+        "merged": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\titled1.jpg",
+        "source": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\src\\main\\res\\drawable\\titled1.jpg"
     },
     {
-        "merged": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\background_button_rectangle.xml",
-        "source": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.github.vajro\\MaterialDesignLibrary\\1.6\\res\\drawable\\background_button_rectangle.xml"
+        "merged": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pattern.jpg",
+        "source": "D:\\Androidprojects\\ElectronicKitchen\\app\\src\\main\\res\\drawable\\pattern.jpg"
     },
     {
-        "merged": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
-        "source": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_list_selector_holo_light.xml"
+        "merged": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shadow_down.xml",
+        "source": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.github.vajro\\MaterialDesignLibrary\\1.6\\res\\drawable\\shadow_down.xml"
     },
     {
-        "merged": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
-        "source": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_cab_background_internal_bg.xml"
-    },
-    {
-        "merged": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
-        "source": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_btn_borderless_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",
-        "source": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_ratingbar_small_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\background_checkbox_check.xml",
-        "source": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.github.vajro\\MaterialDesignLibrary\\1.6\\res\\drawable\\background_checkbox_check.xml"
-    },
-    {
-        "merged": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ntitled.png",
-        "source": "D:\\Androidprojects\\ElectronicKitchen\\app\\src\\main\\res\\drawable\\ntitled.png"
-    },
-    {
-        "merged": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
-        "source": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_edit_text_material.xml"
-    },
-    {
-        "merged": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
-        "source": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
-    },
-    {
-        "merged": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
-        "source": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_spinner_textfield_background_material.xml"
-    },
-    {
-        "merged": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_full_material.xml",
-        "source": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_ratingbar_full_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_snackbar_background.xml",
-        "source": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.2.1\\res\\drawable\\design_snackbar_background.xml"
-    },
-    {
-        "merged": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_launcher.png",
-        "source": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\src\\main\\res\\drawable\\ic_launcher.png"
-    },
-    {
-        "merged": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
-        "source": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_seekbar_thumb_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_back2.jpg",
-        "source": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\src\\main\\res\\drawable\\ic_back2.jpg"
-    },
-    {
-        "merged": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\foodicon1.png",
-        "source": "D:\\Androidprojects\\ElectronicKitchen\\app\\src\\main\\res\\drawable\\foodicon1.png"
-    },
-    {
-        "merged": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\background_checkbox.xml",
-        "source": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.github.vajro\\MaterialDesignLibrary\\1.6\\res\\drawable\\background_checkbox.xml"
+        "merged": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\background_button.9.png",
+        "source": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.github.vajro\\MaterialDesignLibrary\\1.6\\res\\drawable\\background_button.9.png"
     },
     {
         "merged": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
         "source": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
     },
     {
+        "merged": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_launcher.png",
+        "source": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\src\\main\\res\\drawable\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
+        "source": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",
+        "source": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_ratingbar_small_material.xml"
+    },
+    {
+        "merged": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\background_switch_ball_uncheck.xml",
+        "source": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.github.vajro\\MaterialDesignLibrary\\1.6\\res\\drawable\\background_switch_ball_uncheck.xml"
+    },
+    {
+        "merged": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\titled3.jpg",
+        "source": "D:\\Androidprojects\\ElectronicKitchen\\app\\src\\main\\res\\drawable\\titled3.jpg"
+    },
+    {
+        "merged": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background_light.xml",
+        "source": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_dialog_material_background_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\background_checkbox_check.xml",
+        "source": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.github.vajro\\MaterialDesignLibrary\\1.6\\res\\drawable\\background_checkbox_check.xml"
+    },
+    {
+        "merged": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_android_musical.jpg",
+        "source": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\src\\main\\res\\drawable\\ic_android_musical.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_fab_background.xml",
+        "source": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.2.1\\res\\drawable\\design_fab_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
+        "source": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
+        "source": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_btn_check_material.xml"
+    },
+    {
+        "merged": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shadow_right.xml",
+        "source": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.github.vajro\\MaterialDesignLibrary\\1.6\\res\\drawable\\shadow_right.xml"
+    },
+    {
+        "merged": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
+        "source": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button.jpg",
+        "source": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\src\\main\\res\\drawable\\button.jpg"
+    },
+    {
+        "merged": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_mobile_login_icon.PNG",
+        "source": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\src\\main\\res\\drawable\\ic_mobile_login_icon.PNG"
+    },
+    {
+        "merged": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pattern.jpg",
+        "source": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\src\\main\\res\\drawable\\pattern.jpg"
+    },
+    {
+        "merged": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_android_musical.jpg",
+        "source": "D:\\Androidprojects\\ElectronicKitchen\\app\\src\\main\\res\\drawable\\ic_android_musical.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shop.png",
+        "source": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\src\\main\\res\\drawable\\shop.png"
+    },
+    {
+        "merged": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\background_checkbox.xml",
+        "source": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.github.vajro\\MaterialDesignLibrary\\1.6\\res\\drawable\\background_checkbox.xml"
+    },
+    {
+        "merged": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_launcher.png",
+        "source": "D:\\Androidprojects\\ElectronicKitchen\\app\\src\\main\\res\\drawable\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\background_switch_ball_uncheck.xml",
+        "source": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.github.vajro\\MaterialDesignLibrary\\1.6\\res\\drawable\\background_switch_ball_uncheck.xml"
+    },
+    {
+        "merged": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ntitled.png",
+        "source": "D:\\Androidprojects\\ElectronicKitchen\\app\\src\\main\\res\\drawable\\ntitled.png"
+    },
+    {
+        "merged": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shadow_down.xml",
+        "source": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.github.vajro\\MaterialDesignLibrary\\1.6\\res\\drawable\\shadow_down.xml"
+    },
+    {
+        "merged": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
+        "source": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",
+        "source": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_ratingbar_small_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\background_checkbox_uncheck.xml",
+        "source": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.github.vajro\\MaterialDesignLibrary\\1.6\\res\\drawable\\background_checkbox_uncheck.xml"
+    },
+    {
+        "merged": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button.jpg",
+        "source": "D:\\Androidprojects\\ElectronicKitchen\\app\\src\\main\\res\\drawable\\button.jpg"
+    },
+    {
+        "merged": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ntitled.png",
+        "source": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\src\\main\\res\\drawable\\ntitled.png"
+    },
+    {
+        "merged": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\foodicon1.png",
+        "source": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\src\\main\\res\\drawable\\foodicon1.png"
+    },
+    {
+        "merged": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shadow_right.xml",
+        "source": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.github.vajro\\MaterialDesignLibrary\\1.6\\res\\drawable\\shadow_right.xml"
+    },
+    {
+        "merged": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
+        "source": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
+        "source": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_full_material.xml",
+        "source": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_ratingbar_full_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_bac1.jpg",
+        "source": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\src\\main\\res\\drawable\\ic_bac1.jpg"
+    },
+    {
+        "merged": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\defend.jpg",
+        "source": "D:\\Androidprojects\\ElectronicKitchen\\app\\src\\main\\res\\drawable\\defend.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_mainbackground.jpg",
+        "source": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\src\\main\\res\\drawable\\ic_mainbackground.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\background_button_rectangle.xml",
+        "source": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.github.vajro\\MaterialDesignLibrary\\1.6\\res\\drawable\\background_button_rectangle.xml"
+    },
+    {
+        "merged": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\background_transparent.xml",
+        "source": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.github.vajro\\MaterialDesignLibrary\\1.6\\res\\drawable\\background_transparent.xml"
+    },
+    {
+        "merged": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bokeh.jpg",
+        "source": "D:\\Androidprojects\\ElectronicKitchen\\app\\src\\main\\res\\drawable\\bokeh.jpg"
+    },
+    {
+        "merged": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pattern2.jpg",
+        "source": "D:\\Androidprojects\\ElectronicKitchen\\app\\src\\main\\res\\drawable\\pattern2.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_back3.jpg",
+        "source": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\src\\main\\res\\drawable\\ic_back3.jpg"
+    },
+    {
+        "merged": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
+        "source": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shadow_down.xml",
+        "source": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.github.vajro\\MaterialDesignLibrary\\1.6\\res\\drawable\\shadow_down.xml"
+    },
+    {
+        "merged": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
+        "source": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_switch_thumb_material.xml"
+    },
+    {
         "merged": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
         "source": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_ratingbar_indicator_material.xml"
     },
     {
+        "merged": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
+        "source": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background_light.xml",
+        "source": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_dialog_material_background_light.xml"
+    },
+    {
+        "merged": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_snackbar_background.xml",
+        "source": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.2.1\\res\\drawable\\design_snackbar_background.xml"
+    },
+    {
+        "merged": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\background_checkbox_uncheck.xml",
+        "source": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.github.vajro\\MaterialDesignLibrary\\1.6\\res\\drawable\\background_checkbox_uncheck.xml"
+    },
+    {
+        "merged": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\defend.jpg",
+        "source": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\src\\main\\res\\drawable\\defend.jpg"
+    },
+    {
+        "merged": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_store.jpeg",
+        "source": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\src\\main\\res\\drawable\\ic_store.jpeg"
+    },
+    {
+        "merged": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\background_progress.xml",
+        "source": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.github.vajro\\MaterialDesignLibrary\\1.6\\res\\drawable\\background_progress.xml"
+    },
+    {
+        "merged": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_mobile_login_icon.PNG",
+        "source": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\src\\main\\res\\drawable\\ic_mobile_login_icon.PNG"
+    },
+    {
+        "merged": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
+        "source": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\background_button_float.xml",
+        "source": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.github.vajro\\MaterialDesignLibrary\\1.6\\res\\drawable\\background_button_float.xml"
+    },
+    {
+        "merged": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\titled1.jpg",
+        "source": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\src\\main\\res\\drawable\\titled1.jpg"
+    },
+    {
+        "merged": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background_dark.xml",
+        "source": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_dialog_material_background_dark.xml"
+    },
+    {
+        "merged": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\foodicon1.png",
+        "source": "D:\\Androidprojects\\ElectronicKitchen\\app\\src\\main\\res\\drawable\\foodicon1.png"
+    },
+    {
+        "merged": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
+        "source": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
+        "source": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
+        "source": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
+        "source": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\titled.png",
+        "source": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\src\\main\\res\\drawable\\titled.png"
+    },
+    {
+        "merged": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\background_button_rectangle.xml",
+        "source": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.github.vajro\\MaterialDesignLibrary\\1.6\\res\\drawable\\background_button_rectangle.xml"
+    },
+    {
+        "merged": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\background_transparent.xml",
+        "source": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.github.vajro\\MaterialDesignLibrary\\1.6\\res\\drawable\\background_transparent.xml"
+    },
+    {
+        "merged": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_full_material.xml",
+        "source": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_ratingbar_full_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\background_button_float.xml",
+        "source": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.github.vajro\\MaterialDesignLibrary\\1.6\\res\\drawable\\background_button_float.xml"
+    },
+    {
+        "merged": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
+        "source": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background_light.xml",
+        "source": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_dialog_material_background_light.xml"
+    },
+    {
+        "merged": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shop.png",
+        "source": "D:\\Androidprojects\\ElectronicKitchen\\app\\src\\main\\res\\drawable\\shop.png"
+    },
+    {
+        "merged": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_full_material.xml",
+        "source": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_ratingbar_full_material.xml"
+    },
+    {
+        "merged": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
+        "source": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background_dark.xml",
+        "source": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_dialog_material_background_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_android_musical.jpg",
+        "source": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\src\\main\\res\\drawable\\ic_android_musical.jpg"
+    },
+    {
+        "merged": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_snackbar_background.xml",
+        "source": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.2.1\\res\\drawable\\design_snackbar_background.xml"
+    },
+    {
         "merged": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
         "source": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
+        "source": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
+        "source": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bokeh.jpg",
+        "source": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\src\\main\\res\\drawable\\bokeh.jpg"
+    },
+    {
+        "merged": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background_dark.xml",
+        "source": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_dialog_material_background_dark.xml"
+    },
+    {
+        "merged": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\background_checkbox_check.xml",
+        "source": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.github.vajro\\MaterialDesignLibrary\\1.6\\res\\drawable\\background_checkbox_check.xml"
+    },
+    {
+        "merged": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
+        "source": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
+        "source": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
+        "source": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_launcher.png",
+        "source": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\src\\main\\res\\drawable\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
+        "source": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\background_button_rectangle.xml",
+        "source": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.github.vajro\\MaterialDesignLibrary\\1.6\\res\\drawable\\background_button_rectangle.xml"
+    },
+    {
+        "merged": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
+        "source": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
+        "source": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
+        "source": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
+        "source": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\background_checkbox_check.xml",
+        "source": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.github.vajro\\MaterialDesignLibrary\\1.6\\res\\drawable\\background_checkbox_check.xml"
+    },
+    {
+        "merged": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
+        "source": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ntitled.png",
+        "source": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\src\\main\\res\\drawable\\ntitled.png"
+    },
+    {
+        "merged": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
+        "source": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
+        "source": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_btn_check_material.xml"
+    },
+    {
+        "merged": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
+        "source": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\background_switch_ball_uncheck.xml",
+        "source": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.github.vajro\\MaterialDesignLibrary\\1.6\\res\\drawable\\background_switch_ball_uncheck.xml"
+    },
+    {
+        "merged": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
+        "source": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\titled.png",
+        "source": "D:\\Androidprojects\\ElectronicKitchen\\app\\src\\main\\res\\drawable\\titled.png"
+    },
+    {
+        "merged": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\titledme.jpg",
+        "source": "D:\\Androidprojects\\ElectronicKitchen\\app\\src\\main\\res\\drawable\\titledme.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
+        "source": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_back2.jpg",
+        "source": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\src\\main\\res\\drawable\\ic_back2.jpg"
+    },
+    {
+        "merged": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_mainbackground.jpg",
+        "source": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\src\\main\\res\\drawable\\ic_mainbackground.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
+        "source": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_fab_background.xml",
+        "source": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.2.1\\res\\drawable\\design_fab_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\background_button.9.png",
+        "source": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.github.vajro\\MaterialDesignLibrary\\1.6\\res\\drawable\\background_button.9.png"
+    },
+    {
+        "merged": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bokeh.jpg",
+        "source": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\src\\main\\res\\drawable\\bokeh.jpg"
+    },
+    {
+        "merged": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pattern2.jpg",
+        "source": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\src\\main\\res\\drawable\\pattern2.jpg"
+    },
+    {
+        "merged": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\titledme.jpg",
+        "source": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\src\\main\\res\\drawable\\titledme.jpg"
+    },
+    {
+        "merged": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
+        "source": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\background_progress.xml",
+        "source": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.github.vajro\\MaterialDesignLibrary\\1.6\\res\\drawable\\background_progress.xml"
+    },
+    {
+        "merged": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_store.jpeg",
+        "source": "D:\\Androidprojects\\ElectronicKitchen\\app\\src\\main\\res\\drawable\\ic_store.jpeg"
+    },
+    {
+        "merged": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\titled.png",
+        "source": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\src\\main\\res\\drawable\\titled.png"
+    },
+    {
+        "merged": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
+        "source": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\foodicon1.png",
+        "source": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\src\\main\\res\\drawable\\foodicon1.png"
+    },
+    {
+        "merged": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
+        "source": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
+        "source": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\titled3.jpg",
+        "source": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\src\\main\\res\\drawable\\titled3.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_snackbar_background.xml",
+        "source": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.2.1\\res\\drawable\\design_snackbar_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
+        "source": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
+        "source": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\background_checkbox_uncheck.xml",
+        "source": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.github.vajro\\MaterialDesignLibrary\\1.6\\res\\drawable\\background_checkbox_uncheck.xml"
+    },
+    {
+        "merged": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
+        "source": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_back2.jpg",
+        "source": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\src\\main\\res\\drawable\\ic_back2.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
+        "source": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\background_progress.xml",
+        "source": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.github.vajro\\MaterialDesignLibrary\\1.6\\res\\drawable\\background_progress.xml"
+    },
+    {
+        "merged": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
+        "source": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
+        "source": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_btn_check_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
+        "source": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
+        "source": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\titled3.jpg",
+        "source": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\src\\main\\res\\drawable\\titled3.jpg"
+    },
+    {
+        "merged": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
+        "source": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_fab_background.xml",
+        "source": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.2.1\\res\\drawable\\design_fab_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_store.jpeg",
+        "source": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\src\\main\\res\\drawable\\ic_store.jpeg"
+    },
+    {
+        "merged": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
+        "source": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
+        "source": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\background_checkbox.xml",
+        "source": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.github.vajro\\MaterialDesignLibrary\\1.6\\res\\drawable\\background_checkbox.xml"
+    },
+    {
+        "merged": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_bac1.jpg",
+        "source": "D:\\Androidprojects\\ElectronicKitchen\\app\\src\\main\\res\\drawable\\ic_bac1.jpg"
+    },
+    {
+        "merged": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
+        "source": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\background_checkbox.xml",
+        "source": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.github.vajro\\MaterialDesignLibrary\\1.6\\res\\drawable\\background_checkbox.xml"
     }
 ]
