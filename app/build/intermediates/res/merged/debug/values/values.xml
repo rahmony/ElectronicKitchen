@@ -342,6 +342,7 @@
     <string name="costumer_name">اســم البـائع</string>
     <string name="create_new_product">إنشاء منتج جديد</string>
     <string name="current_status">الحاله الحالية </string>
+    <string name="delivery"> الموافقة على توصيل الطلب </string>
     <string name="denial_order">لا أستطيع قبول هذا الطلب</string>
     <string name="driver_enter">الدخول كسائق</string>
     <string name="edit_profile"> تعديل بيانات المتجر</string>

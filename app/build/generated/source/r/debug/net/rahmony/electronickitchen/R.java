@@ -2939,6 +2939,7 @@ containing a value of this type.
         public static final int costumer_name=0x7f06003e;
         public static final int create_new_product=0x7f06003f;
         public static final int current_status=0x7f060040;
+        public static final int delivery=0x7f06007e;
         public static final int denial_order=0x7f060041;
         public static final int driver_enter=0x7f060042;
         public static final int edit_profile=0x7f060043;
@@ -2993,8 +2994,8 @@ containing a value of this type.
         public static final int store_products=0x7f060073;
         public static final int stores_browsing=0x7f060074;
         public static final int title_activity_costumer3=0x7f060075;
-        public static final int title_activity_main_page3=0x7f06007e;
-        public static final int title_activity_store3=0x7f06007f;
+        public static final int title_activity_main_page3=0x7f06007f;
+        public static final int title_activity_store3=0x7f060080;
         public static final int to=0x7f060076;
         public static final int wlecome_msg=0x7f060077;
         public static final int zero=0x7f060078;

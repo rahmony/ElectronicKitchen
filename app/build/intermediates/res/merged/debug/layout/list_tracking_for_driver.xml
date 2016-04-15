@@ -58,7 +58,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/ready"
+        android:text="@string/delivery"
         android:id="@+id/trackingForDriver_btn_order_ready"
         android:layout_marginTop="49dp"
         android:layout_below="@id/trackingForDriver_text_product_quantity_val"

@@ -1089,6 +1089,7 @@ int string costumer_enter 0x7f06003d
 int string costumer_name 0x7f06003e
 int string create_new_product 0x7f06003f
 int string current_status 0x7f060040
+int string delivery 0x7f06007e
 int string denial_order 0x7f060041
 int string driver_enter 0x7f060042
 int string edit_profile 0x7f060043
@@ -1143,8 +1144,8 @@ int string store_name 0x7f060072
 int string store_products 0x7f060073
 int string stores_browsing 0x7f060074
 int string title_activity_costumer3 0x7f060075
-int string title_activity_main_page3 0x7f06007e
-int string title_activity_store3 0x7f06007f
+int string title_activity_main_page3 0x7f06007f
+int string title_activity_store3 0x7f060080
 int string to 0x7f060076
 int string wlecome_msg 0x7f060077
 int string zero 0x7f060078
