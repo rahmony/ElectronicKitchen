@@ -14,6 +14,7 @@ public class Cart {
     private String StoreName;
     private String FirstName;
     private String LastName;
+    private String Status;
 
 
     public int getInvoice_ID() {
@@ -90,5 +91,13 @@ public class Cart {
     }
     public void setLastName(String LastName) {
         this.LastName = LastName;
+    }
+
+    public String getStatus() {
+        return Status;
+    }
+
+    public void setStatus(String status) {
+        Status = status;
     }
 }

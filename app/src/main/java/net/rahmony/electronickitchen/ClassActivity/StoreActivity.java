@@ -3,7 +3,6 @@ package net.rahmony.electronickitchen.ClassActivity;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
-import android.os.Environment;
 import android.support.v7.app.AppCompatActivity;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -17,14 +16,11 @@ import android.widget.TabHost;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.bumptech.glide.Glide;
-
 import net.rahmony.electronickitchen.APIService;
 import net.rahmony.electronickitchen.Data.Cart;
 import net.rahmony.electronickitchen.Data.Product;
 import net.rahmony.electronickitchen.R;
 
-import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -53,6 +49,9 @@ public class StoreActivity extends AppCompatActivity implements TabHost.OnTabCha
     //List View in Store To show Order
     ListView mListView_store_order;
 
+    //List View in Store To show current  Order
+    ListView mListView_store_trackingOrder;
+
     // Product Object
     final Product product = new Product();
 
@@ -67,6 +66,13 @@ public class StoreActivity extends AppCompatActivity implements TabHost.OnTabCha
     ArrayList list_FirstName = new ArrayList();
     ArrayList list_LastName = new ArrayList();
     ArrayList list_Invoice_ID = new ArrayList();
+
+
+    //List of tracking info
+    ArrayList list_tracking_productName = new ArrayList();
+    ArrayList list_tracking_Price = new ArrayList();
+    ArrayList list_tracking_Quantity = new ArrayList();
+    ArrayList list_tracking_status = new ArrayList();
 
     TabHost mTab;
     ImageButton mbtnImage_store_left;
@@ -101,6 +107,11 @@ public class StoreActivity extends AppCompatActivity implements TabHost.OnTabCha
         spec = mTab.newTabSpec("tag2");
         spec.setIndicator("وصلكم طلب");
         spec.setContent(R.id.tab_store_2);
+        mTab.addTab(spec);
+
+        spec = mTab.newTabSpec("tag3");
+        spec.setIndicator("الطلبات الحالية");
+        spec.setContent(R.id.tab_store_3);
         mTab.addTab(spec);
 
         final Bundle extra = getIntent().getExtras();
@@ -186,7 +197,7 @@ public class StoreActivity extends AppCompatActivity implements TabHost.OnTabCha
                               public void onResponse(Response<List<Cart>> response, Retrofit retrofit) {
 
 
-                                  if(response.message().equalsIgnoreCase("ok")){
+                                  if (response.message().equalsIgnoreCase("ok")) {
                                       ArrayList<Cart> arrayList = (ArrayList) response.body();
                                       String[] FirstName = new String[arrayList.size()];
                                       String[] LastName = new String[arrayList.size()];
@@ -213,6 +224,61 @@ public class StoreActivity extends AppCompatActivity implements TabHost.OnTabCha
                           }
         );
         mListView_store_order.setOnItemClickListener(this);
+
+
+
+
+        /**
+         * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ tracking order ~~~~~~~~~~~~~~~~~~~~~~~~~ *
+         */
+
+
+
+        //implementation for List View, list for tracking order .
+        mListView_store_trackingOrder = (ListView) findViewById(R.id.listView_currunt_orders);
+
+        Call<List<Cart>> trackingOrder = apiService.trackingForSeller(cart);
+        trackingOrder.enqueue(new Callback<List<Cart>>() {
+
+            @Override
+            public void onResponse(Response<List<Cart>> response, Retrofit retrofit) {
+                if (response.message().equalsIgnoreCase("unauthorized")) {
+
+                    /*mTextView_text_cart_no_data.setVisibility(View.VISIBLE);*/
+
+                } else {
+                    ArrayList<Cart> arrayList = (ArrayList) response.body();
+                    String[] productName = new String[arrayList.size()];
+                    int[] Price = new int[arrayList.size()];
+                    int[] Quantity = new int[arrayList.size()];
+                    String[] status = new String[arrayList.size()];
+                    for (int i = 0; i < arrayList.size(); i++) {
+                        if (arrayList != null) {
+                            productName[i] = arrayList.get(i).getProductName();
+                            list_tracking_productName.add(i, arrayList.get(i).getProductName());
+                            Price[i] = arrayList.get(i).getPrice();
+                            list_tracking_Price.add(i, arrayList.get(i).getPrice());
+                            Quantity[i] = arrayList.get(i).getQuantity();
+                            list_tracking_Quantity.add(i, arrayList.get(i).getQuantity());
+                            status[i] = arrayList.get(i).getStatus();
+                            list_tracking_status.add(i, arrayList.get(i).getStatus());
+
+
+                        }
+
+                    }
+                    myTheardAdapter arr = new myTheardAdapter(getBaseContext(), android.R.layout.simple_list_item_1, productName);
+                    mListView_store_trackingOrder.setAdapter(arr);
+
+                }
+            }
+
+            @Override
+            public void onFailure(Throwable t) {
+                Toast.makeText(getBaseContext(), " Oops! An error occurred  + The Throwble is " + t.getMessage().toString(), Toast.LENGTH_LONG).show();
+            }
+        });
+
     }
 
 
@@ -239,6 +305,28 @@ public class StoreActivity extends AppCompatActivity implements TabHost.OnTabCha
                 Intent intent = new Intent(StoreActivity.this, Product_Activity.class).putExtra("Store_ID", extra.getInt("Store_ID"));
                 startActivity(intent);
                 break;
+
+
+            case R.id.trackingForStore_btn_order_ready:
+                Toast.makeText(getBaseContext(), "tracking For Store btn order ready", Toast.LENGTH_SHORT).show();
+
+                Call<Cart> callReady = apiService.readyForDelivery(cart);
+                callReady.enqueue(new Callback<Cart>() {
+                    @Override
+                    public void onResponse(Response<Cart> response, Retrofit retrofit) {
+                        if (response.message().equalsIgnoreCase("ok")) {
+                            Toast.makeText(getBaseContext(), "Order Ready for shipment", Toast.LENGTH_SHORT).show();
+                            finish();
+                        }
+                    }
+
+                    @Override
+                    public void onFailure(Throwable t) {
+                        Toast.makeText(getBaseContext(), t.getMessage().toString(), Toast.LENGTH_SHORT).show();
+                    }
+                });
+                break;
+
         }
 
     }
@@ -333,4 +421,36 @@ public class StoreActivity extends AppCompatActivity implements TabHost.OnTabCha
 
     }
 
+
+    private class myTheardAdapter extends ArrayAdapter<String> {
+
+        public myTheardAdapter(Context context, int resource, String[] objects) {
+            super(context, resource, objects);
+        }
+
+
+        @Override
+        public View getView(int position, View convertView, ViewGroup parent) {
+
+            LayoutInflater inflater = (LayoutInflater) getSystemService(LAYOUT_INFLATER_SERVICE);
+            View v = inflater.inflate(R.layout.list_tracking_for_store, parent, false);
+
+            TextView mText_list_ProductName = (TextView) v.findViewById(R.id.trackingForStore_text_product_name_val);
+            mText_list_ProductName.setText(list_tracking_productName.get(position).toString());
+
+            TextView mText_list_Price = (TextView) v.findViewById(R.id.trackingForStore_text_product_price_val);
+            mText_list_Price.setText(list_tracking_Price.get(position).toString());
+
+            TextView mText_list_Quantity = (TextView) v.findViewById(R.id.trackingForStore_text_product_quantity_val);
+            mText_list_Quantity.setText(list_tracking_Quantity.get(position).toString());
+
+            TextView mText_list_Status = (TextView) v.findViewById(R.id.trackingForStore_text_status);
+            mText_list_Status.setText(list_tracking_status.get(position).toString());
+
+
+            return v;
+        }
+
+
+    }
 }

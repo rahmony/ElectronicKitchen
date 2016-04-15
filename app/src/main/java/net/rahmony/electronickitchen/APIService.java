@@ -79,6 +79,19 @@ public interface APIService {
     @POST("denialOrder")
     Call<Cart> denialOrder(@Body Cart cart);
 
+    @POST("trackingForCustomer")
+    Call<List<Cart>> trackingForCustomer(@Body Cart cart);
+
+    @POST("trackingForSeller")
+    Call<List<Cart>> trackingForSeller(@Body Cart cart);
+
+    @POST("readyForDelivery")
+    Call<Cart> readyForDelivery(@Body Cart cart);
+
+
+    @GET("trackingForDriver")
+    Call<List<Cart>> trackingForDriver();
+
 
     /* need to review and amend
     @PUT("items")

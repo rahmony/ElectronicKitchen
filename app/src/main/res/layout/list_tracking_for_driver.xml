@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/order"
+        android:id="@+id/trackingForDriver_text_order"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/product_name"
+        android:id="@+id/trackingForDriver_text_nameOfProduct"
+        android:layout_below="@+id/trackingForDriver_text_order"
+        android:layout_alignEnd="@+id/trackingForDriver_text_order" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/product_Quantity"
+        android:id="@+id/trackingForDriver_text_quantityOfProduct"
+        android:layout_alignBaseline="@+id/trackingForDriver_text_nameOfProduct"
+        android:layout_alignBottom="@+id/trackingForDriver_text_nameOfProduct"
+        android:layout_alignStart="@+id/trackingForDriver_text_product_quantity_val" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/product_name"
+        android:id="@+id/trackingForDriver_text_product_name_val"
+        android:layout_below="@+id/trackingForDriver_text_nameOfProduct"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/product_Quantity"
+        android:id="@+id/trackingForDriver_text_product_quantity_val"
+        android:layout_below="@+id/trackingForDriver_text_quantityOfProduct"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="91dp" />
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/delivery"
+        android:id="@+id/trackingForDriver_btn_order_ready"
+        android:layout_marginTop="49dp"
+        android:layout_below="@id/trackingForDriver_text_product_quantity_val"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

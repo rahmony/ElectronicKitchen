@@ -38,6 +38,8 @@ public class CustomerActivity extends AppCompatActivity implements  AdapterView.
     ListView mListView_stores;
     //List View For showing Cart in activity_customer
     ListView mListView_cart;
+    //List View For tracking
+    ListView mListView_trackingOrder;
 
     //List of Stores That
     ArrayList list_storeName = new ArrayList();
@@ -50,6 +52,12 @@ public class CustomerActivity extends AppCompatActivity implements  AdapterView.
     ArrayList list_Quantity = new ArrayList();
     ArrayList list_storeID = new ArrayList();
 
+
+    //List of tracking info
+    ArrayList list_tracking_productName = new ArrayList();
+    ArrayList list_tracking_Price = new ArrayList();
+    ArrayList list_tracking_Quantity = new ArrayList();
+    ArrayList list_tracking_status = new ArrayList();
 
     /***************************** Retrofit ************************************/
     final Retrofit retrofit = new Retrofit.Builder()
@@ -93,6 +101,11 @@ public class CustomerActivity extends AppCompatActivity implements  AdapterView.
         spec = mTab.newTabSpec("tag2");
         spec.setIndicator("طلباتي");
         spec.setContent(R.id.tab2);
+        mTab.addTab(spec);
+
+        spec = mTab.newTabSpec("tag3");
+        spec.setIndicator("تتبع الطلب");
+        spec.setContent(R.id.tab3);
         mTab.addTab(spec);
 
     }
@@ -227,6 +240,56 @@ public class CustomerActivity extends AppCompatActivity implements  AdapterView.
         });
 
 
+        /**
+         * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ tracking order ~~~~~~~~~~~~~~~~~~~~~~~~~ *
+         */
+
+
+
+        //implementation for List View, list for tracking order .
+        mListView_trackingOrder = (ListView) findViewById(R.id.listView_trackOrder);
+
+        Call<List<Cart>> trackingOrder = apiService.trackingForCustomer(cart);
+        trackingOrder.enqueue(new Callback<List<Cart>>() {
+
+            @Override
+            public void onResponse(Response<List<Cart>> response, Retrofit retrofit) {
+                if (response.message().equalsIgnoreCase("unauthorized")) {
+
+                    /*mTextView_text_cart_no_data.setVisibility(View.VISIBLE);*/
+
+                } else {
+                    ArrayList<Cart> arrayList = (ArrayList) response.body();
+                    String[] productName = new String[arrayList.size()];
+                    int[] Price = new int[arrayList.size()];
+                    int[] Quantity = new int[arrayList.size()];
+                    String [] status = new String[arrayList.size()];
+                    for (int i = 0; i < arrayList.size(); i++) {
+                        if (arrayList != null) {
+                            productName[i] = arrayList.get(i).getProductName();
+                            list_tracking_productName.add(i, arrayList.get(i).getProductName());
+                            Price[i] = arrayList.get(i).getPrice();
+                            list_tracking_Price.add(i, arrayList.get(i).getPrice());
+                            Quantity[i] = arrayList.get(i).getQuantity();
+                            list_tracking_Quantity.add(i, arrayList.get(i).getQuantity());
+                            status[i] = arrayList.get(i).getStatus();
+                            list_tracking_status.add(i, arrayList.get(i).getStatus());
+
+
+                        }
+
+                    }
+                    myTheardAdapter arr = new myTheardAdapter(getBaseContext(), android.R.layout.simple_list_item_1, productName);
+                    mListView_trackingOrder.setAdapter(arr);
+
+                }
+            }
+
+            @Override
+            public void onFailure(Throwable t) {
+                Toast.makeText(getBaseContext(), " Oops! An error occurred  + The Throwble is " + t.getMessage().toString(), Toast.LENGTH_LONG).show();
+            }
+        });
     }
 
     /**
@@ -353,4 +416,36 @@ public class CustomerActivity extends AppCompatActivity implements  AdapterView.
 
     }
 
+
+    private class myTheardAdapter extends ArrayAdapter<String> {
+
+        public myTheardAdapter(Context context, int resource, String[] objects) {
+            super(context, resource, objects);
+        }
+
+
+        @Override
+        public View getView(int position, View convertView, ViewGroup parent) {
+
+            LayoutInflater inflater = (LayoutInflater) getSystemService(LAYOUT_INFLATER_SERVICE);
+            View v = inflater.inflate(R.layout.list_tracking, parent, false);
+
+            TextView mText_list_ProductName = (TextView) v.findViewById(R.id.tracking_text_product_name_val);
+            mText_list_ProductName.setText(list_tracking_productName.get(position).toString());
+
+            TextView mText_list_Price = (TextView) v.findViewById(R.id.tracking_text_product_price_val);
+            mText_list_Price.setText(list_tracking_Price.get(position).toString());
+
+            TextView mText_list_Quantity = (TextView) v.findViewById(R.id.tracking_text_product_quantity_val);
+            mText_list_Quantity.setText(list_tracking_Quantity.get(position).toString());
+
+            TextView mText_list_Status = (TextView) v.findViewById(R.id.tracking_text_current_status);
+            mText_list_Status.setText(list_tracking_status.get(position).toString());
+
+
+            return v;
+        }
+
+
+    }
 }

@@ -341,6 +341,7 @@
     <string name="costumer_enter">الدخول كزبون</string>
     <string name="costumer_name">اســم البـائع</string>
     <string name="create_new_product">إنشاء منتج جديد</string>
+    <string name="current_status">الحاله الحالية </string>
     <string name="denial_order">لا أستطيع قبول هذا الطلب</string>
     <string name="driver_enter">الدخول كسائق</string>
     <string name="edit_profile"> تعديل بيانات المتجر</string>
@@ -348,9 +349,7 @@
     <string name="enter_way">طريقة دخول التطبيق</string>
     <string name="first_name"> الاسم الاول </string>
     <string name="from">مــن:</string>
-    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">
-        AIzaSyBxlzUG27yKs6ZdmzNnjBLtKvyCbPsm0i0
-    </string>
+    <string name="from_store">من متجر  </string>
     <string name="hello">Hello</string>
     <string name="jeddah"> جدة </string>
     <string name="last_name"> اسم العائلة </string>
@@ -366,6 +365,7 @@
     <string name="no_Date">لا توجــد بيـانـات</string>
     <string name="number_of_products">عدد المنتـجات:</string>
     <string name="one">1</string>
+    <string name="order">الطلبات</string>
     <string name="order_details">تفاصــيل الطـلب:</string>
     <string name="order_from">طلـب مـن:</string>
     <string name="password"> كلمة المرور </string>
@@ -377,12 +377,16 @@
     <string name="product_name">اسـم المنتج</string>
     <string name="product_price">السـعر</string>
     <string name="quantity">الكمــية:</string>
+    <string name="ready"> جاهز للتوصيل </string>
     <string name="ready_orders">الطــلبات المتاحة</string>
+    <string name="received">تم الاستلام</string>
     <string name="save">حفظ</string>
     <string name="seller_enter">الدخول كبائع</string>
     <string name="share_location"> مشاركة الموقع </string>
     <string name="sin_up"> إنشاء حساب جديد  </string>
+    <string name="status">حالة الطلب</string>
     <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="store">اسم المتجر</string>
     <string name="store_create">إنشــاء</string>
     <string name="store_creation">إنشــاء المتجر</string>
     <string name="store_description">الـــــوصـــف</string>
@@ -395,6 +399,7 @@
     <string name="title_activity_main_page3" translatable="false">MainPageActivity3</string>
     <string name="title_activity_store3" translatable="false">StoreActivity3</string>
     <string name="to">إلـى:</string>
+    <string name="wlecome_msg">مرحبا بك في المطبخ الالكتروني</string>
     <string name="zero">0</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>

@@ -88,6 +88,7 @@
             android:layout_gravity="center"
             android:textColor="#f17f7f7f"
             android:onClick="onClick"
+            android:enabled="true"
             android:layout_marginTop="10dp"
             android:hint="@string/email"
             android:textStyle="bold"
@@ -99,9 +100,10 @@
             android:text="@string/login_sign_up"
             android:id="@+id/text_login_signup"
             android:layout_gravity="center_horizontal|bottom"
-            android:onClick="onClick"
             android:textColor="#dc000000"
-            android:layout_marginTop="10dp" />
+            android:enabled="true"
+            android:layout_marginTop="10dp"
+            android:onClick="onClick" />
     </LinearLayout>
 
 </GridLayout>

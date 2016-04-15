@@ -78,5 +78,19 @@
 
     <string name="order_from">طلـب مـن:</string>
     <string name="Hello">مرحبا</string>
+	
+	
+	<string name="from_store">من متجر  </string>
+	<string name="store">اسم المتجر</string>
+	<string name="order">الطلبات</string>
+	<string name="status">حالة الطلب</string>
+	<string name="current_status">الحاله الحالية </string>
+	<string name="received">تم الاستلام</string>
+    <string name="wlecome_msg">مرحبا بك في المطبخ الالكتروني</string>
+    <string name="ready"> جاهز للتوصيل </string>
+    <string name="delivery"> الموافقة على توصيل الطلب </string>
+
+
+
 
 </resources>

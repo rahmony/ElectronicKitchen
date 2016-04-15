@@ -13,10 +13,11 @@
         android:text="ProductName"
         android:id="@+id/text_ProductName"
         android:textColor="#7e0f6ace"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="15dp"
         android:layout_alignParentTop="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginTop="25dp"
-        android:layout_marginLeft="15dp" />
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="10dp" />
 
 
     <ImageView
@@ -24,10 +25,10 @@
         android:layout_height="wrap_content"
         android:id="@+id/img_store"
         android:src="@drawable/ic_store"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginTop="15dp"
-        android:layout_marginRight="15dp" />
+        android:layout_marginRight="15dp"
+        android:layout_alignTop="@+id/text_ProductName"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="5dp" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -36,9 +37,9 @@
         android:text="Price"
         android:textColor="#7e0f6ace"
         android:id="@+id/text_Price"
+        android:layout_marginLeft="15dp"
         android:layout_below="@+id/text_ProductName"
-        android:layout_alignParentStart="true"
-        android:layout_marginLeft="15dp" />
+        android:layout_alignStart="@+id/text_ProductName" />
 
 
 </RelativeLayout>

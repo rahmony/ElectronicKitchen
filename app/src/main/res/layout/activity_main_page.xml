@@ -11,7 +11,7 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:text="@string/Hello"
-        android:id="@+id/text_userName"
+        android:id="@+id/text_welcome"
         android:layout_marginTop="20dp"
         android:textColor="#7e0f6ace"
         android:textSize="20dp"

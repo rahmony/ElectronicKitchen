@@ -128,6 +128,19 @@
                         android:id="@+id/listView_stores" />
                 </LinearLayout>
 
+                <LinearLayout
+                    android:id="@+id/tab3"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:onClick="Tap_1_Onclick"
+                    android:orientation="vertical">
+
+                    <ListView
+                        android:layout_width="wrap_content"
+                        android:layout_height="513dp"
+                        android:id="@+id/listView_trackOrder" />
+                </LinearLayout>
+
 
             </FrameLayout>
 

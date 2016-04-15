@@ -4,7 +4,8 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:columnCount="1"
-    android:rowCount="4">
+    android:rowCount="4"
+    android:background="@drawable/pattern2">
 
     <FrameLayout
         android:layout_width="match_parent"

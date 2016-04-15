@@ -63,4 +63,12 @@
     <string name="title_activity_costumer3">CustomerActivity3</string>
     <string name="to">To :</string>
     <string name="zero">0</string>
+    <string name="received">received</string>
+    <string name="status">status</string>
+    <string name="store">create store</string>
+    <string name="order">order</string>
+    <string name="from_store">from :</string>
+    <string name="current_status">current status</string>
+    <string name="wlecome_msg">Welcome To Electornic Kitchen</string>
+    <string name="ready">Ready for shipment</string>
 </resources>

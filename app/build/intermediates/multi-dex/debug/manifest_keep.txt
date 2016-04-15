@@ -1,0 +1,19 @@
+-keep class net.rahmony.electronickitchen.ClassActivity.MainActivity { <init>(); }
+-keep class net.rahmony.electronickitchen.ClassActivity.LoginActivity { <init>(); }
+-keep class net.rahmony.electronickitchen.ClassActivity.SignUpActivity { <init>(); }
+-keep class net.rahmony.electronickitchen.ClassActivity.CustomerActivity { <init>(); }
+-keep class net.rahmony.electronickitchen.ClassActivity.MainPageActivity { <init>(); }
+-keep class net.rahmony.electronickitchen.ClassActivity.StoreActivity { <init>(); }
+-keep class net.rahmony.electronickitchen.ClassActivity.CustomerProductActivity { <init>(); }
+-keep class net.rahmony.electronickitchen.ClassActivity.Product_Activity { <init>(); }
+-keep class net.rahmony.electronickitchen.ClassActivity.CreateStoreActivity { <init>(); }
+-keep class net.rahmony.electronickitchen.ClassActivity.ShowProductOfStroeActivity { <init>(); }
+-keep class net.rahmony.electronickitchen.ClassActivity.ReadyOrders { <init>(); }
+-keep class net.rahmony.electronickitchen.ClassActivity.ShowReadyOrders { <init>(); }
+-keep class net.rahmony.electronickitchen.ClassActivity.OrderDetails { <init>(); }
+-keep public class * extends android.app.backup.BackupAgent {
+    <init>();
+}
+-keep public class * extends java.lang.annotation.Annotation {
+    *;
+}

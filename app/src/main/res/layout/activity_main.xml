@@ -18,7 +18,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="Welcome To Electornic Kitchen"
+        android:text="@string/wlecome_msg"
         android:id="@+id/textView"
         android:textColor="#aa2146e9"
         android:textColorHighlight="#f5efef"
