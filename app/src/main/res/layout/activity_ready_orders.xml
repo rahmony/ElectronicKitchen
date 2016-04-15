@@ -14,7 +14,7 @@
         android:layout_height="66dp"
         android:background="#977fa5ab">
 
-        <TextView
+        <net.rahmony.electronickitchen.ClassAssets.FontCustomTextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:textAppearance="?android:attr/textAppearanceMedium"

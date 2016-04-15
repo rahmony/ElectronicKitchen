@@ -140,6 +140,7 @@
     <declare-styleable name="TabLayout"><attr format="color" name="tabIndicatorColor"/><attr format="dimension" name="tabIndicatorHeight"/><attr format="dimension" name="tabContentStart"/><attr format="reference" name="tabBackground"/><attr name="tabMode"><enum name="scrollable" value="0"/><enum name="fixed" value="1"/></attr><attr name="tabGravity"><enum name="fill" value="0"/><enum name="center" value="1"/></attr><attr format="dimension" name="tabMinWidth"/><attr format="dimension" name="tabMaxWidth"/><attr format="reference" name="tabTextAppearance"/><attr format="color" name="tabTextColor"/><attr format="color" name="tabSelectedTextColor"/><attr format="dimension" name="tabPaddingStart"/><attr format="dimension" name="tabPaddingTop"/><attr format="dimension" name="tabPaddingEnd"/><attr format="dimension" name="tabPaddingBottom"/><attr format="dimension" name="tabPadding"/></declare-styleable>
     <declare-styleable name="TextAppearance"><attr name="android:textSize"/><attr name="android:textColor"/><attr name="android:textStyle"/><attr name="android:typeface"/><attr name="textAllCaps"/><attr name="android:shadowColor"/><attr name="android:shadowDy"/><attr name="android:shadowDx"/><attr name="android:shadowRadius"/></declare-styleable>
     <declare-styleable name="TextInputLayout"><attr format="reference" name="hintTextAppearance"/><attr name="android:hint"/><attr format="boolean" name="hintEnabled"/><attr format="boolean" name="errorEnabled"/><attr format="reference" name="errorTextAppearance"/><attr format="boolean" name="counterEnabled"/><attr format="integer" name="counterMaxLength"/><attr format="reference" name="counterTextAppearance"/><attr format="reference" name="counterOverflowTextAppearance"/><attr name="android:textColorHint"/><attr format="boolean" name="hintAnimationEnabled"/></declare-styleable>
+    <declare-styleable name="TextViewPlus"><attr format="string" name="customFont"/></declare-styleable>
     <declare-styleable name="Toolbar"><attr format="reference" name="titleTextAppearance"/><attr format="reference" name="subtitleTextAppearance"/><attr name="title"/><attr name="subtitle"/><attr name="android:gravity"/><attr format="dimension" name="titleMargins"/><attr format="dimension" name="titleMarginStart"/><attr format="dimension" name="titleMarginEnd"/><attr format="dimension" name="titleMarginTop"/><attr format="dimension" name="titleMarginBottom"/><attr name="contentInsetStart"/><attr name="contentInsetEnd"/><attr name="contentInsetLeft"/><attr name="contentInsetRight"/><attr format="dimension" name="maxButtonHeight"/><attr format="reference" name="collapseIcon"/><attr format="string" name="collapseContentDescription"/><attr name="popupTheme"/><attr format="reference" name="navigationIcon"/><attr format="string" name="navigationContentDescription"/><attr name="android:minHeight"/><attr name="logo"/><attr format="string" name="logoDescription"/><attr format="color" name="titleTextColor"/><attr format="color" name="subtitleTextColor"/></declare-styleable>
     <declare-styleable name="View"><attr format="dimension" name="paddingStart"/><attr format="dimension" name="paddingEnd"/><attr name="android:focusable"/><attr format="reference" name="theme"/><attr name="android:theme"/></declare-styleable>
     <declare-styleable name="ViewBackgroundHelper"><attr name="android:background"/><attr format="color" name="backgroundTint"/><attr name="backgroundTintMode"><enum name="src_over" value="3"/><enum name="src_in" value="5"/><enum name="src_atop" value="9"/><enum name="multiply" value="14"/><enum name="screen" value="15"/></attr></declare-styleable>
@@ -273,6 +274,7 @@
     <integer name="design_snackbar_text_max_lines">2</integer>
     <integer name="google_play_services_version">8115000</integer>
     <integer name="status_bar_notification_info_maxnum">999</integer>
+    <string name="ARABIC">العربية</string>
     <string name="Hello">مرحبا</string>
     <string name="abc_action_bar_home_description">Navigate home</string>
     <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
@@ -295,7 +297,7 @@
     <string name="abc_toolbar_collapse_description">Collapse</string>
     <string name="accept_order">قبـــول الطــلب</string>
     <string name="add_to_cart">إضــافة لـسـلة</string>
-    <string name="address"> العنوان </string>
+    <string name="address">العنوان</string>
     <string name="app_name">اطبخلي</string>
     <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
     <string name="auth_google_play_services_client_facebook_display_name">Facebook</string>
@@ -305,7 +307,7 @@
     <string name="bottom_sheet_behavior" translatable="false">android.support.design.widget.BottomSheetBehavior</string>
     <string name="cancel"> الغــــاء</string>
     <string name="character_counter_pattern" translatable="false">%1$d / %2$d</string>
-    <string name="city"> المدينة </string>
+    <string name="city">المدينة</string>
     <string name="common_android_wear_notification_needs_update_text"><ns1:g id="app_name">%1$s</ns1:g> requires an update to the Android Wear app.</string>
     <string name="common_android_wear_update_text"><ns1:g id="app_name">%1$s</ns1:g> won\'t run unless you update the Android Wear app.</string>
     <string msgid="6006316683626838685" name="common_android_wear_update_title">Update Android Wear</string>
@@ -336,7 +338,7 @@
     <string name="common_google_play_services_updating_text"><ns1:g id="app_name">%1$s</ns1:g> won\'t run without Google Play services, which are currently updating.</string>
     <string name="common_google_play_services_updating_title">Google Play services are updating</string>
     <string name="common_open_on_phone">Open on phone</string>
-    <string name="confirm"> تأكيد </string>
+    <string name="confirm">تأكـيد</string>
     <string name="confirm_order">تـأكيد الطلب</string>
     <string name="costumer_enter">الدخول كزبون</string>
     <string name="costumer_name">اســم البـائع</string>
@@ -346,21 +348,29 @@
     <string name="denial_order">لا أستطيع قبول هذا الطلب</string>
     <string name="driver_enter">الدخول كسائق</string>
     <string name="edit_profile"> تعديل بيانات المتجر</string>
-    <string name="email"> البريد الالكتروني </string>
+    <string name="email">البريد الإلكتـروني</string>
     <string name="enter_way">طريقة دخول التطبيق</string>
-    <string name="first_name"> الاسم الاول </string>
+    <string name="first_name">الإسم الأول</string>
     <string name="from">مــن:</string>
     <string name="from_store">من متجر  </string>
     <string name="hello">Hello</string>
-    <string name="jeddah"> جدة </string>
-    <string name="last_name"> اسم العائلة </string>
+    <string name="jeddah">جدة</string>
+    <string name="last_name">اسم العائلة</string>
     <string name="log_in"> تسجيل الدخول </string>
     <string name="login_email">البريد الإلكتروني</string>
     <string name="login_forgot_password">  نسيت كلمة المرور </string>
     <string name="login_password">  كلمة المرور </string>
     <string name="login_sign_up">  ليس لديك حساب ؟ سجل الان ..... </string>
-    <string name="madina"> المدينة المنورة </string>
-    <string name="makka"> مكة </string>
+    <string name="madina">المدينة المنورة</string>
+    <string name="makka">مكة</string>
+    <string name="media_picker_camera">Camera</string>
+    <string name="media_picker_cancel">Cancel</string>
+    <string name="media_picker_gallery">Gallery</string>
+    <string name="media_picker_ok">Ok</string>
+    <string name="media_picker_read_Write_external_storage">Read &amp; Write External Storage</string>
+    <string name="media_picker_select_from">Select From:</string>
+    <string name="media_picker_some_permission_is_denied">Some Permission is Denied</string>
+    <string name="media_picker_you_need_to_grant_access_to">You need to grant access to</string>
     <string name="minus">-</string>
     <string name="my_orders"> طلباتي </string>
     <string name="no_Date">لا توجــد بيـانـات</string>
@@ -369,8 +379,8 @@
     <string name="order">الطلبات</string>
     <string name="order_details">تفاصــيل الطـلب:</string>
     <string name="order_from">طلـب مـن:</string>
-    <string name="password"> كلمة المرور </string>
-    <string name="phone_number"> رقم الجوال </string>
+    <string name="password">كلمة المرور</string>
+    <string name="phone_number">رقم الجوال</string>
     <string name="plus">+</string>
     <string name="price">الســـعر:</string>
     <string name="product_Image">صورة المنتج</string>
@@ -383,7 +393,7 @@
     <string name="received">تم الاستلام</string>
     <string name="save">حفظ</string>
     <string name="seller_enter">الدخول كبائع</string>
-    <string name="share_location"> مشاركة الموقع </string>
+    <string name="share_location">مشاركة الموقع</string>
     <string name="sin_up"> إنشاء حساب جديد  </string>
     <string name="status">حالة الطلب</string>
     <string name="status_bar_notification_info_overflow">999+</string>
@@ -1642,6 +1652,13 @@
     <style name="Theme.AppCompat.NoActionBar">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Theme.AppCompat.Translucent" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation</item>
     </style>
     <style name="Theme.Design" parent="Theme.AppCompat">
         <item name="textColorError">@color/design_textinput_error_color_dark</item>

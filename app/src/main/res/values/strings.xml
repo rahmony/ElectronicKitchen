@@ -1,4 +1,5 @@
 <resources>
+    <string name="ARABIC">العربية</string>
     <string name="app_name">اطبخلي</string>
     <string name="login_email">البريد الإلكتروني</string>
     <string name="login_password">  كلمة المرور </string>
@@ -15,19 +16,19 @@
     <string name="stores_browsing"> المتاجر  </string>
     <string name="my_orders"> طلباتي </string>
     <string name="sin_up"> إنشاء حساب جديد  </string>
-    <string name="first_name"> الاسم الاول </string>
-    <string name="last_name"> اسم العائلة </string>
-    <string name="email"> البريد الالكتروني </string>
-    <string name="phone_number"> رقم الجوال </string>
-    <string name="city"> المدينة </string>
-    <string name="madina"> المدينة المنورة </string>
-    <string name="makka"> مكة </string>
-    <string name="jeddah"> جدة </string>
-    <string name="address"> العنوان </string>
-    <string name="share_location"> مشاركة الموقع </string>
-    <string name="password"> كلمة المرور </string>
+    <string name="first_name">الإسم الأول</string>
+    <string name="last_name">اسم العائلة</string>
+    <string name="email">البريد الإلكتـروني</string>
+    <string name="phone_number">رقم الجوال</string>
+    <string name="city">المدينة</string>
+    <string name="madina">المدينة المنورة</string>
+    <string name="makka">مكة</string>
+    <string name="jeddah">جدة</string>
+    <string name="address">العنوان</string>
+    <string name="share_location">مشاركة الموقع</string>
+    <string name="password">كلمة المرور</string>
     <string name="bands_agree"> اوافق على الشروط والاحكام</string>
-    <string name="confirm"> تأكيد </string>
+    <string name="confirm">تأكـيد</string>
     <string name="cancel"> الغــــاء</string>
 
     <string name="enter_way">طريقة دخول التطبيق</string>

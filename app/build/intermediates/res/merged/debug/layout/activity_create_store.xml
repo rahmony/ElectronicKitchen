@@ -9,7 +9,7 @@
     android:rowCount="12"
     android:background="@drawable/ic_mainbackground">
 
-    <TextView
+    <net.rahmony.electronickitchen.ClassAssets.FontCustomTextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
@@ -29,7 +29,7 @@
         android:layout_alignParentStart="true"
         android:layout_marginRight="20dp" />
 
-    <EditText
+    <net.rahmony.electronickitchen.ClassAssets.FontEditText
         android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:id="@+id/et_store_create_store_name"
@@ -44,7 +44,7 @@
         android:layout_alignTop="@+id/textView3"
         android:layout_alignStart="@+id/imageView3" />
 
-    <TextView
+    <net.rahmony.electronickitchen.ClassAssets.FontCustomTextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
@@ -61,7 +61,7 @@
         android:layout_marginBottom="20dp"
         android:layout_marginRight="20dp" />
 
-    <EditText
+    <net.rahmony.electronickitchen.ClassAssets.FontEditText
         android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:id="@+id/et_store_create_store_description"
@@ -86,7 +86,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="40dp" />
 
-    <TextView
+    <net.rahmony.electronickitchen.ClassAssets.FontCustomTextView
         android:layout_width="match_parent"
         android:layout_height="52dp"
         android:textAppearance="?android:attr/textAppearanceLarge"
@@ -102,7 +102,7 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentStart="true" />
 
-    <Button
+    <net.rahmony.electronickitchen.ClassAssets.FontCustomButton
         android:layout_width="161dp"
         android:layout_height="37dp"
         android:text="@string/store_create"

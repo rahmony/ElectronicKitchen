@@ -6,24 +6,35 @@ import android.util.AttributeSet;
 import android.widget.EditText;
 
 /**
- * Created by pc on 31/03/16.
+ * Created by pc on 08/04/16.
  */
 public class FontEditText extends EditText {
-    public FontEditText(Context context) {
-        super(context);
-        Typeface face=Typeface.createFromAsset(context.getAssets(), "fonts/boahmed-alharf-bold.ttf");
-        this.setTypeface(face);
-    }
-
     public FontEditText(Context context, AttributeSet attrs) {
         super(context, attrs);
-        Typeface face=Typeface.createFromAsset(context.getAssets(), "fonts/boahmed-alharf-bold.ttf");
-        this.setTypeface(face);
+
+        setCustomFont(context);
     }
 
-    public FontEditText(Context context, AttributeSet attrs, int defStyleAttr) {
-        super(context, attrs, defStyleAttr);
-        Typeface face=Typeface.createFromAsset(context.getAssets(), "fonts/boahmed-alharf-bold.ttf");
-        this.setTypeface(face);
+    private void setCustomFont(Context context) {
+        try {
+            //get The Default Language
+            //String lang = Locale.getDefault().getLanguage();
+
+
+            //set TypeFace English as Default
+            Typeface face = Typeface.createFromAsset(context.getAssets(), "fonts/boahmed-alharf-bold.ttf");
+
+            //Check if The Default Language is Arabic or English
+            /*if (lang == "ar") {
+                face = Typeface.createFromAsset(context.getAssets(), "fonts/boahmed-alharf-bold.ttf");
+            } else if(lang == "en") {
+                face = Typeface.createFromAsset(context.getAssets(), "fonts/english_1.ttf");
+            }*/
+
+            this.setTypeface(face);
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 }

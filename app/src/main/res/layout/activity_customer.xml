@@ -46,7 +46,7 @@
                         android:layout_column="0"
                         android:layout_row="0">
 
-                        <TextView
+                        <net.rahmony.electronickitchen.ClassAssets.FontCustomTextView
                             android:layout_width="wrap_content"
                             android:layout_height="match_parent"
                             android:textAppearance="?android:attr/textAppearanceLarge"
@@ -55,7 +55,7 @@
                             android:textColor="#090505"
                             android:gravity="center" />
 
-                        <TextView
+                        <net.rahmony.electronickitchen.ClassAssets.FontCustomTextView
                             android:layout_width="wrap_content"
                             android:layout_height="match_parent"
                             android:textAppearance="?android:attr/textAppearanceLarge"
@@ -64,7 +64,7 @@
                             android:textColor="#0b0606"
                             android:gravity="center" />
 
-                        <TextView
+                        <net.rahmony.electronickitchen.ClassAssets.FontCustomTextView
                             android:layout_width="wrap_content"
                             android:layout_height="match_parent"
                             android:textAppearance="?android:attr/textAppearanceLarge"

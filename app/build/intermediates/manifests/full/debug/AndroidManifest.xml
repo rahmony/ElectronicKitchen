@@ -17,6 +17,14 @@
 
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality. 
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -33,6 +41,14 @@
         <activity android:name="net.rahmony.electronickitchen.ClassActivity.LoginActivity" />
         <activity android:name="net.rahmony.electronickitchen.ClassActivity.SignUpActivity" />
         <activity android:name="net.rahmony.electronickitchen.ClassActivity.CustomerActivity" />
+        <!--
+             ATTENTION: This was auto-generated to add Google Play services to your project for
+             App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
         <activity android:name="net.rahmony.electronickitchen.ClassActivity.MainPageActivity" />
         <activity android:name="net.rahmony.electronickitchen.ClassActivity.StoreActivity" />
         <activity android:name="net.rahmony.electronickitchen.ClassActivity.CustomerProductActivity" />
@@ -41,11 +57,27 @@
         <activity android:name="net.rahmony.electronickitchen.ClassActivity.ShowProductOfStroeActivity" />
         <activity android:name="net.rahmony.electronickitchen.ClassActivity.ReadyOrders" />
         <activity android:name="net.rahmony.electronickitchen.ClassActivity.ShowReadyOrders" />
-        <activity android:name="net.rahmony.electronickitchen.ClassActivity.OrderDetails" />
-
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
+        -->
         <meta-data
-            android:name="com.google.android.gms.version"
-            android:value="@integer/google_play_services_version" />
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity android:name="net.rahmony.electronickitchen.ClassActivity.OrderDetails" />
+        <activity
+            android:name="net.alhazmy13.mediapicker.Image.ImageActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Translucent" />
+        <activity
+            android:name="net.alhazmy13.mediapicker.Video.VideoActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Translucent" />
     </application>
 
 </manifest>

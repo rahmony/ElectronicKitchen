@@ -18,6 +18,8 @@ import android.widget.ImageView;
 
 import net.rahmony.electronickitchen.R;
 
+import java.util.Locale;
+
 
 public class MainActivity extends AppCompatActivity {
 
@@ -34,11 +36,13 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onResume(){
         super.onResume();
-        new CountDownTimer(1200,1200) {
+        new CountDownTimer(800,800) {
 
             public void onTick(long millisUntilFinished) {
+
             }
             public void onFinish() {
+
                 Intent intent = new Intent(MainActivity.this, LoginActivity.class);
                 startActivity(intent);
                 overridePendingTransition(R.anim.trans_cross_1, R.anim.trans_cross_2);

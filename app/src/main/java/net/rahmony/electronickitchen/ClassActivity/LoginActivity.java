@@ -6,7 +6,6 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.ImageView;
-import android.widget.TextView;
 import android.widget.Toast;
 
 
@@ -27,8 +26,6 @@ public class LoginActivity extends AppCompatActivity {
 
     private EditText mEt_email, mEt_password;
     private ImageView LoginImage;
-    private TextView mText_login_signup , mText_login_forgot_password ;
-
 
 
     @Override
@@ -39,23 +36,9 @@ public class LoginActivity extends AppCompatActivity {
         mEt_email = (EditText) findViewById(R.id.et_login_email);
         mEt_password = (EditText) findViewById(R.id.et_login_password);
         LoginImage = (ImageView) findViewById(R.id.image_logo);
-        mText_login_signup = (TextView) findViewById(R.id.text_login_signup);
-        mText_login_forgot_password = (TextView) findViewById(R.id.text_login_forgot_password);
 
 
-        mText_login_forgot_password.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Toast.makeText(getBaseContext(), "Unavailable ", Toast.LENGTH_LONG).show();
-            }
-        });
 
-        mText_login_signup.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(LoginActivity.this, SignUpActivity.class));
-            }
-        });
     }
 
        //-----------------------------*************************************************************************************-------------------------//
@@ -66,14 +49,14 @@ public class LoginActivity extends AppCompatActivity {
 
         switch (view.getId()){
       // -------------------------------------------------Case Button for Login if CLICKED!-------------------------------------//
-            case R.id.btn_login: {
+            case R.id.btn_login:
                 Retrofit retrofit = new Retrofit.Builder()
                         .baseUrl("http://rahmony.net/api/")
                         .addConverterFactory(GsonConverterFactory.create())
                         .build();
 
                 APIService apiService = retrofit.create(APIService.class);
-                final User user = new User();
+                final  User user = new User();
                 user.setEmail(mEt_email.getText().toString());
                 user.setPassword(mEt_password.getText().toString());
 
@@ -97,17 +80,19 @@ public class LoginActivity extends AppCompatActivity {
                                             user.setLon(response.body().getLon());
                                             user.setLat(response.body().getLat());
 
-                                            Intent intent = new Intent(LoginActivity.this, MainPageActivity.class);
-                                            intent.putExtra("ID", user.getID());
-                                            intent.putExtra("UserName", user.getFirstName() + "  " + user.getLastName());
-                                            intent.putExtra("Email", user.getEmail());
-                                            intent.putExtra("PhoneNumber", user.getPhoneNumber());
-                                            intent.putExtra("Address", user.getAddress());
-                                            intent.putExtra("Lon", user.getLon());
-                                            intent.putExtra("Lat", user.getLat());
+                                            Intent intent = new Intent(LoginActivity.this , MainPageActivity.class);
+                                            intent.putExtra("ID",user.getID() );
+                                            intent.putExtra("UserName" , user.getFirstName() + "  " + user.getLastName());
+                                            intent.putExtra( "Email" , user.getEmail() );
+                                            intent.putExtra("PhoneNumber" , user.getPhoneNumber() );
+                                            intent.putExtra("Address" , user.getAddress());
+                                            intent.putExtra( "Lon" , user.getLon() );
+                                            intent.putExtra( "Lat" , user.getLat());
 
                                             startActivity(intent);
-                                        } else
+                                        }
+
+                                        else
                                             Toast.makeText(getBaseContext(), "Wrong Email or Password !!", Toast.LENGTH_LONG).show();
 
 
@@ -123,13 +108,25 @@ public class LoginActivity extends AppCompatActivity {
                                 }
                             }
                 );
-            }
                 break;
 
       //------------------------------------------case for btn login FINISHED!------------------------------------------------//
 
+      // *****************************************case if text forgot password CLICKED!**************************************//
+            case R.id.text_login_forgot_password:
+                Toast.makeText(getBaseContext(), "Unavailable ", Toast.LENGTH_LONG).show();
 
+                break;
+      //------------------------------------------case for text forgot password  FINISHED!------------------------------------//
+
+      // ***************************************** case if text signup ***************************************************** //
+            case R.id.text_login_signup:
+                startActivity(new Intent(LoginActivity.this, SignUpActivity.class));
+                break;
+      //------------------------------------------case for text signup  FINISHED!--------------------------------------------//
         }
+
+
 
 
     }
@@ -137,8 +134,6 @@ public class LoginActivity extends AppCompatActivity {
        //-----------------------------***************************************************************************************-------------------------//
     //--------------------------***********************************************************************************************--------------------------//
 //--------------------------**********************************************************************************************************-----------------------//
-
-
 
 
 

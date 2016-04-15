@@ -27,8 +27,8 @@
 
                 <GridLayout
                     android:id="@+id/tab_store_1"
-                    android:layout_width="fill_parent"
-                    android:layout_height="fill_parent"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
                     android:orientation="horizontal"
                     android:columnCount="1"
                     android:rowCount="4">
@@ -40,11 +40,9 @@
                         android:background="#7d0f6ace"
                         android:layout_column="0"
                         android:layout_row="0"
-                        android:baselineAligned="true"
-                        android:layout_columnSpan="1"
-                        android:layout_rowSpan="1">
+                        android:baselineAligned="true">
 
-                        <TextView
+                        <net.rahmony.electronickitchen.ClassAssets.FontCustomTextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:textAppearance="?android:attr/textAppearanceMedium"
@@ -59,53 +57,47 @@
 
                     </LinearLayout>
 
-                    <GridLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="90dp"
-                        android:layout_row="1"
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="79dp"
                         android:layout_column="0"
-                        android:rowCount="1"
-                        android:columnCount="1">
+                        android:layout_row="1"
+                        android:weightSum="1"
+                        android:gravity="center">
 
-                        <LinearLayout
-                            android:orientation="horizontal"
-                            android:layout_width="match_parent"
+                        <net.rahmony.electronickitchen.ClassAssets.FontCustomTextView
+                            android:layout_width="300dp"
                             android:layout_height="match_parent"
-                            android:layout_column="0"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="@string/store_description"
+                            android:id="@+id/text_store_description"
+                            android:textSize="14dp"
+                            android:layout_column="1"
                             android:layout_row="0"
-                            android:weightSum="1">
+                            android:autoText="false"
+                            android:editable="false"
+                            android:enabled="false"
+                            android:gravity="center"
+                            android:layout_weight="0.1"
+                            android:maxLength="450" />
 
-                            <TextView
-                                android:layout_width="183dp"
-                                android:layout_height="match_parent"
-                                android:textAppearance="?android:attr/textAppearanceMedium"
-                                android:text="@string/store_description"
-                                android:id="@+id/text_store_description"
-                                android:textSize="14dp"
-                                android:layout_column="1"
-                                android:layout_row="0"
-                                android:autoText="false"
-                                android:editable="false"
-                                android:enabled="false"
-                                android:gravity="center"
-                                android:layout_weight="0.90" />
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="match_parent"
+                            android:id="@+id/image_store"
+                            android:src="@drawable/shop"
+                            android:layout_row="0"
+                            android:layout_column="0"
+                            android:onClick="onClick"
+                            android:cropToPadding="false"
+                            android:focusable="false"
+                            android:focusableInTouchMode="false"
+                            android:nestedScrollingEnabled="false"
+                            android:layout_weight="0.9"
+                            android:adjustViewBounds="false" />
 
-                            <ImageView
-                                android:layout_width="96dp"
-                                android:layout_height="match_parent"
-                                android:id="@+id/image_store"
-                                android:src="@drawable/shop"
-                                android:layout_row="0"
-                                android:layout_column="0"
-                                android:onClick="onClick"
-                                android:cropToPadding="false"
-                                android:focusable="false"
-                                android:focusableInTouchMode="false"
-                                android:nestedScrollingEnabled="false" />
-
-                        </LinearLayout>
-
-                    </GridLayout>
+                    </LinearLayout>
 
                     <LinearLayout
                         android:orientation="vertical"
@@ -143,25 +135,7 @@
                 </GridLayout>
 
                 <GridLayout
-                android:id="@+id/tab_store_2"
-                android:layout_width="match_parent"
-                android:layout_height="516dp"
-                android:orientation="horizontal"
-                android:columnCount="1"
-                android:rowCount="1">
-
-
-                <ListView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:id="@+id/listView_store_order"
-                    android:layout_column="0"
-                    android:layout_row="0" />
-            </GridLayout>
-
-
-                <GridLayout
-                    android:id="@+id/tab_store_3"
+                    android:id="@+id/tab_store_2"
                     android:layout_width="match_parent"
                     android:layout_height="516dp"
                     android:orientation="horizontal"
@@ -172,11 +146,10 @@
                     <ListView
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:id="@+id/listView_currunt_orders"
+                        android:id="@+id/listView_store_order"
                         android:layout_column="0"
                         android:layout_row="0" />
                 </GridLayout>
-
 
             </FrameLayout>
         </LinearLayout>

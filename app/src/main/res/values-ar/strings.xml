@@ -2,4 +2,5 @@
 <resources>
     <string name="app_name">اطبخلي</string>
     <string name="Hello">مرحبا</string>
+    <string name="ARABIC">العربية</string>
 </resources>

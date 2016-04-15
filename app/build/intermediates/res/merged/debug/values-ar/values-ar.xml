@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ARABIC">العربية</string>
     <string name="Hello">مرحبا</string>
     <string msgid="4600421777120114993" name="abc_action_bar_home_description">"التنقل إلى الشاشة الرئيسية"</string>
     <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s، %2$s"</string>
@@ -51,5 +52,12 @@
     <string msgid="2201289642219771610" name="common_google_play_services_updating_text">"‏لن يتم تشغيل <ns1:g id="APP_NAME">%1$s</ns1:g> بدون خدمات Google Play التي يتم تحديثها حاليًا."</string>
     <string msgid="815008177440683245" name="common_google_play_services_updating_title">"‏يتم الآن تحديث خدمات Google Play."</string>
     <string msgid="411506735369601515" name="common_open_on_phone">"فتح على الهاتف"</string>
+    <string name="media_picker_camera">الكاميرا</string>
+    <string name="media_picker_cancel">إلغاء</string>
+    <string name="media_picker_gallery">مستعرض الصور</string>
+    <string name="media_picker_ok">موافق</string>
+    <string name="media_picker_select_from">حدد مصدر الصورة</string>
+    <string name="media_picker_some_permission_is_denied">بعض الصلاحيات لم يوافق عليها!</string>
+    <string name="media_picker_you_need_to_grant_access_to">يجب الموافقة على الصلاحيات</string>
     <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"+999"</string>
 </resources>
