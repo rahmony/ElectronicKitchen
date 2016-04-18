@@ -276,6 +276,7 @@ public class StoreActivity extends AppCompatActivity implements TabHost.OnTabCha
 
             //Your Code
             mImage_store.setImageBitmap(BitmapFactory.decodeFile(mPath));
+            //TODO store image in database
         }
     }
 

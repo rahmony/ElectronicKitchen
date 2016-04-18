@@ -11,6 +11,8 @@
 -keep class net.rahmony.electronickitchen.ClassActivity.ReadyOrders { <init>(); }
 -keep class net.rahmony.electronickitchen.ClassActivity.ShowReadyOrders { <init>(); }
 -keep class net.rahmony.electronickitchen.ClassActivity.OrderDetails { <init>(); }
+-keep class net.alhazmy13.mediapicker.Image.ImageActivity { <init>(); }
+-keep class net.alhazmy13.mediapicker.Video.VideoActivity { <init>(); }
 -keep public class * extends android.app.backup.BackupAgent {
     <init>();
 }

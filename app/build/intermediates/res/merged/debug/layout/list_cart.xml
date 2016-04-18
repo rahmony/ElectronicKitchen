@@ -20,13 +20,6 @@
             android:id="@+id/text_list_cart_x"
             android:gravity="center" />
 
-        <Button
-            style="?android:attr/buttonStyleSmall"
-            android:layout_width="37dp"
-            android:layout_height="wrap_content"
-            android:text="X"
-            android:id="@+id/text_list_cart_x"
-            android:gravity="center" />
 
         <LinearLayout
             android:orientation="vertical"
