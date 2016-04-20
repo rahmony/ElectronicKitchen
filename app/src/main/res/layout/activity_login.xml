@@ -97,7 +97,8 @@
             android:layout_marginTop="15dp"
             android:hint="@string/email"
             android:textStyle="bold"
-            android:visibility="visible" />
+            android:visibility="visible"
+            android:clickable="true" />
 
         <net.rahmony.electronickitchen.ClassAssets.FontCustomTextView
             android:layout_width="wrap_content"
@@ -107,7 +108,8 @@
             android:layout_gravity="center_horizontal|bottom"
             android:onClick="onClick"
             android:textColor="#dc000000"
-            android:layout_marginTop="15dp" />
+            android:layout_marginTop="15dp"
+            android:clickable="true" />
     </LinearLayout>
 
 </GridLayout>
