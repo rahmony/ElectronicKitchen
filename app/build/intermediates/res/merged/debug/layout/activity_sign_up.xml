@@ -33,6 +33,7 @@
         android:gravity="center">
 
         <net.rahmony.electronickitchen.ClassAssets.FontEditText
+            android:inputType="textCapWords|textPersonName"
             android:layout_width="340dp"
             android:layout_height="wrap_content"
             android:id="@+id/et_first_name"
@@ -45,6 +46,7 @@
             android:gravity="center" />
 
         <net.rahmony.electronickitchen.ClassAssets.FontEditText
+            android:inputType="textCapWords|textPersonName"
             android:layout_width="340dp"
             android:layout_height="wrap_content"
 
@@ -57,6 +59,7 @@
             android:layout_marginTop="3dp" />
 
         <net.rahmony.electronickitchen.ClassAssets.FontEditText
+            android:inputType="textEmailSubject"
             android:layout_width="340dp"
             android:layout_height="wrap_content"
             android:id="@+id/et_email"
@@ -68,6 +71,7 @@
             android:layout_marginTop="3dp" />
 
         <net.rahmony.electronickitchen.ClassAssets.FontEditText
+            android:inputType="phone"
             android:layout_width="340dp"
             android:layout_height="wrap_content"
             android:id="@+id/et_phone_number"
@@ -79,6 +83,7 @@
             android:layout_marginTop="3dp" />
 
         <net.rahmony.electronickitchen.ClassAssets.FontEditText
+            android:inputType="textShortMessage"
             android:layout_width="340dp"
             android:layout_height="wrap_content"
 
@@ -91,6 +96,7 @@
             android:layout_marginTop="3dp" />
 
         <net.rahmony.electronickitchen.ClassAssets.FontEditText
+            android:inputType="textPassword"
             android:layout_width="340dp"
             android:layout_height="wrap_content"
             android:id="@+id/et_password"
@@ -124,7 +130,8 @@
                 android:text="@string/makka"
                 android:id="@+id/radioButton_makka"
                 android:textSize="15dp"
-                android:textColor="#000000" />
+                android:textColor="#000000"
+                android:layout_marginLeft="30dp" />
 
             <RadioButton
                 android:layout_width="wrap_content"
@@ -174,15 +181,7 @@
             android:layout_row="0"
             android:weightSum="1">
 
-            <RadioButton
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/bands_agree"
-                android:id="@+id/radioButton_bands_agree"
-                android:layout_row="1"
-                android:layout_column="1"
-                android:layout_gravity="center_horizontal"
-                android:textColor="#000000" />
+
 
             <net.rahmony.electronickitchen.ClassAssets.FontCustomButton
                 android:layout_width="152dp"
@@ -195,7 +194,8 @@
                 android:layout_column="1"
                 android:gravity="center"
                 android:layout_gravity="center_horizontal"
-                android:layout_weight="0.31" />
+                android:layout_weight="0.31"
+                android:layout_marginTop="14dp" />
         </LinearLayout>
 
         <FrameLayout

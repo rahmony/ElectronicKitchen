@@ -1,5 +1,7 @@
 package net.rahmony.electronickitchen.ClassActivity;
 
+import android.content.DialogInterface;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -8,6 +10,8 @@ import android.widget.EditText;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.Toast;
+
+import com.gc.materialdesign.widgets.Dialog;
 
 import net.rahmony.electronickitchen.APIService;
 import net.rahmony.electronickitchen.R;
@@ -50,15 +54,44 @@ public class SignUpActivity extends AppCompatActivity {
         mRadioButton_makka = (RadioButton) findViewById(R.id.radioButton_makka);
         mMyRadioGroup = (RadioGroup) findViewById(R.id.myRadioGroup);
 
-
+        mEt_email.setOnFocusChangeListener(new View.OnFocusChangeListener() {
+            @Override
+            public void onFocusChange(View v, boolean hasFocus) {
+                if(mEt_email.getText().toString().matches("")){
+                    mEt_email.setError("This Field Cannot Be Empty");
+                }
+            }
+        });
+        mEt_phone_number.setOnFocusChangeListener(new View.OnFocusChangeListener() {
+            @Override
+            public void onFocusChange(View v, boolean hasFocus) {
+                if(mEt_phone_number.getText().toString().matches("")){
+                    mEt_phone_number.setError("This Field Cannot Be Empty");
+                }
+            }
+        });
+        mEt_password.setOnFocusChangeListener(new View.OnFocusChangeListener() {
+            @Override
+            public void onFocusChange(View v, boolean hasFocus) {
+                if(mEt_password.getText().toString().matches("")){
+                    mEt_password.setError("This Field Cannot Be Empty");
+                }
+            }
+        });
 
 
 
     }
     public void onClick(View v) {
+
+
+
+
         switch (v.getId()) {
             case R.id.btn_confirm:
-            User user = new User();
+
+
+                User user = new User();
             user.setFirstName(mEt_first_name.getText().toString());
             user.setLastName(mEt_last_name.getText().toString());
             user.setEmail(mEt_email.getText().toString());
@@ -85,6 +118,7 @@ public class SignUpActivity extends AppCompatActivity {
 
                 @Override
                 public void onResponse(Response<Results> response, Retrofit retrofit) {
+
                     Toast.makeText(getBaseContext(), " user successfully registered ", Toast.LENGTH_LONG).show();
                     finish();
                 }
@@ -97,10 +131,16 @@ public class SignUpActivity extends AppCompatActivity {
             });
                 break;
             case R.id.btn_cancel:
-                finish();
+
+          finish();
+
                 break;
         }
     }
+
+
+
+
 
 }
 

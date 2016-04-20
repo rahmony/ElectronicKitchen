@@ -1,6 +1,8 @@
 package net.rahmony.electronickitchen.ClassActivity;
 
+import android.content.DialogInterface;
 import android.content.Intent;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -50,6 +52,8 @@ public class LoginActivity extends AppCompatActivity {
         switch (view.getId()){
       // -------------------------------------------------Case Button for Login if CLICKED!-------------------------------------//
             case R.id.btn_login:
+
+
 
                 if(mEt_email.getText().toString().matches("")){
                     Toast.makeText(getBaseContext(),"Please fill the Email",Toast.LENGTH_SHORT).show();
