@@ -2532,7 +2532,7 @@ containing a value of this type.
         public static final int btn_add_to_cart=0x7f0c0080;
         public static final int btn_cancel=0x7f0c00b8;
         public static final int btn_confirm=0x7f0c00b7;
-        public static final int btn_confirm_order=0x7f0c0076;
+        public static final int btn_confirm_order=0x7f0c0078;
         public static final int btn_costumer_product_cancel=0x7f0c0081;
         public static final int btn_customer_enter=0x7f0c008c;
         public static final int btn_driver_enter=0x7f0c008e;
@@ -2618,13 +2618,13 @@ containing a value of this type.
         public static final int line3=0x7f0c0114;
         public static final int listMode=0x7f0c000b;
         public static final int listView_Of_product=0x7f0c00a1;
-        public static final int listView_cart=0x7f0c0075;
+        public static final int listView_cart=0x7f0c0077;
         public static final int listView_currunt_orders=0x7f0c00c1;
         public static final int listView_order_details=0x7f0c008f;
         public static final int listView_product=0x7f0c00be;
         public static final int listView_ready_orders=0x7f0c009c;
         public static final int listView_store_order=0x7f0c00bf;
-        public static final int listView_stores=0x7f0c0078;
+        public static final int listView_stores=0x7f0c0074;
         public static final int listView_trackOrder=0x7f0c007a;
         public static final int list_item=0x7f0c0043;
         public static final int media_actions=0x7f0c010e;
@@ -2688,8 +2688,8 @@ containing a value of this type.
         public static final int status_bar_latest_event_content=0x7f0c010d;
         public static final int submit_area=0x7f0c0067;
         public static final int surfaceView=0x7f0c011c;
-        public static final int tab1=0x7f0c0077;
-        public static final int tab2=0x7f0c0073;
+        public static final int tab1=0x7f0c0073;
+        public static final int tab2=0x7f0c0075;
         public static final int tab3=0x7f0c0079;
         public static final int tabHost=0x7f0c0072;
         public static final int tabMode=0x7f0c000d;
@@ -2711,7 +2711,7 @@ containing a value of this type.
         public static final int text_StoreDescription=0x7f0c00ef;
         public static final int text_StoreName=0x7f0c00ee;
         public static final int text_app_name=0x7f0c00a9;
-        public static final int text_cart_no_data=0x7f0c0074;
+        public static final int text_cart_no_data=0x7f0c0076;
         public static final int text_city=0x7f0c00b4;
         public static final int text_costumer_product_description=0x7f0c007c;
         public static final int text_costumer_product_minus=0x7f0c007f;

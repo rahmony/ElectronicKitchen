@@ -1,7 +1,7 @@
--injars 'C:\Users\RaHmOnY\AndroidStudioProjects\ElectronicKitchen\app\build\intermediates\transforms\jarMerging\debug\jars\1\1f\combined.jar'
--outjars 'C:\Users\RaHmOnY\AndroidStudioProjects\ElectronicKitchen\app\build\intermediates\multi-dex\debug\componentClasses.jar'
+-injars 'D:\Androidprojects\ElectronicKitchen\app\build\intermediates\transforms\jarMerging\debug\jars\1\1f\combined.jar'
+-outjars 'D:\Androidprojects\ElectronicKitchen\app\build\intermediates\multi-dex\debug\componentClasses.jar'
 
--libraryjars 'C:\Users\RaHmOnY\AppData\Local\Android\sdk\build-tools\23.0.2\lib\shrinkedAndroid.jar'
+-libraryjars 'D:\SDK for Android\build-tools\23.0.2\lib\shrinkedAndroid.jar'
 
 -forceprocessing
 -dontoptimize
@@ -9,7 +9,7 @@
 -dontusemixedcaseclassnames
 -dontpreverify
 -dontwarn
--printconfiguration 'C:\Users\RaHmOnY\AndroidStudioProjects\ElectronicKitchen\app\build\intermediates\multi-dex\debug\components.flags'
+-printconfiguration 'D:\Androidprojects\ElectronicKitchen\app\build\intermediates\multi-dex\debug\components.flags'
 
 
 -keep class net.rahmony.electronickitchen.ClassActivity.MainActivity {

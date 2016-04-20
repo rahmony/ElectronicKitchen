@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\values-ur-rPK\\values-ur-rPK.xml",
+        "outputFile": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\values-ur-rPK\\values-ur-rPK.xml",
         "map": [
             {
                 "to": {
@@ -11,13 +11,13 @@
                     "endOffset": 210
                 },
                 "from": {
-                    "file": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-ur-rPK\\values-ur-rPK.xml",
+                    "file": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-ur-rPK\\values-ur-rPK.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
-                        "startOffset": 55,
+                        "startOffset": 57,
                         "endColumn": 109,
-                        "endOffset": 160
+                        "endOffset": 162
                     }
                 }
             },
@@ -30,13 +30,13 @@
                     "endOffset": 318
                 },
                 "from": {
-                    "file": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-ur-rPK\\values-ur-rPK.xml",
+                    "file": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-ur-rPK\\values-ur-rPK.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
-                        "startOffset": 165,
+                        "startOffset": 168,
                         "endColumn": 107,
-                        "endOffset": 268
+                        "endOffset": 271
                     }
                 }
             },
@@ -49,13 +49,13 @@
                     "endOffset": 441
                 },
                 "from": {
-                    "file": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-ur-rPK\\values-ur-rPK.xml",
+                    "file": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-ur-rPK\\values-ur-rPK.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
-                        "startOffset": 273,
+                        "startOffset": 277,
                         "endColumn": 122,
-                        "endOffset": 391
+                        "endOffset": 395
                     }
                 }
             },
@@ -68,13 +68,13 @@
                     "endOffset": 547
                 },
                 "from": {
-                    "file": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-ur-rPK\\values-ur-rPK.xml",
+                    "file": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-ur-rPK\\values-ur-rPK.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
-                        "startOffset": 396,
+                        "startOffset": 401,
                         "endColumn": 105,
-                        "endOffset": 497
+                        "endOffset": 502
                     }
                 }
             },
@@ -87,13 +87,13 @@
                     "endOffset": 656
                 },
                 "from": {
-                    "file": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-ur-rPK\\values-ur-rPK.xml",
+                    "file": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-ur-rPK\\values-ur-rPK.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
-                        "startOffset": 502,
+                        "startOffset": 508,
                         "endColumn": 108,
-                        "endOffset": 606
+                        "endOffset": 612
                     }
                 }
             },
@@ -106,13 +106,13 @@
                     "endOffset": 742
                 },
                 "from": {
-                    "file": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-ur-rPK\\values-ur-rPK.xml",
+                    "file": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-ur-rPK\\values-ur-rPK.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
-                        "startOffset": 611,
+                        "startOffset": 618,
                         "endColumn": 85,
-                        "endOffset": 692
+                        "endOffset": 699
                     }
                 }
             },
@@ -125,13 +125,13 @@
                     "endOffset": 846
                 },
                 "from": {
-                    "file": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-ur-rPK\\values-ur-rPK.xml",
+                    "file": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-ur-rPK\\values-ur-rPK.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
-                        "startOffset": 697,
+                        "startOffset": 705,
                         "endColumn": 103,
-                        "endOffset": 796
+                        "endOffset": 804
                     }
                 }
             },
@@ -144,13 +144,13 @@
                     "endOffset": 966
                 },
                 "from": {
-                    "file": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-ur-rPK\\values-ur-rPK.xml",
+                    "file": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-ur-rPK\\values-ur-rPK.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
-                        "startOffset": 801,
+                        "startOffset": 810,
                         "endColumn": 119,
-                        "endOffset": 916
+                        "endOffset": 925
                     }
                 }
             },
@@ -163,13 +163,13 @@
                     "endOffset": 1042
                 },
                 "from": {
-                    "file": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-ur-rPK\\values-ur-rPK.xml",
+                    "file": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-ur-rPK\\values-ur-rPK.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
-                        "startOffset": 921,
+                        "startOffset": 931,
                         "endColumn": 75,
-                        "endOffset": 992
+                        "endOffset": 1002
                     }
                 }
             },
@@ -182,13 +182,13 @@
                     "endOffset": 1118
                 },
                 "from": {
-                    "file": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-ur-rPK\\values-ur-rPK.xml",
+                    "file": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-ur-rPK\\values-ur-rPK.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
-                        "startOffset": 997,
+                        "startOffset": 1008,
                         "endColumn": 75,
-                        "endOffset": 1068
+                        "endOffset": 1079
                     }
                 }
             },
@@ -201,13 +201,13 @@
                     "endOffset": 1203
                 },
                 "from": {
-                    "file": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-ur-rPK\\values-ur-rPK.xml",
+                    "file": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-ur-rPK\\values-ur-rPK.xml",
                     "position": {
                         "startLine": 12,
                         "startColumn": 4,
-                        "startOffset": 1073,
+                        "startOffset": 1085,
                         "endColumn": 84,
-                        "endOffset": 1153
+                        "endOffset": 1165
                     }
                 }
             },
@@ -220,13 +220,13 @@
                     "endOffset": 1311
                 },
                 "from": {
-                    "file": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-ur-rPK\\values-ur-rPK.xml",
+                    "file": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-ur-rPK\\values-ur-rPK.xml",
                     "position": {
                         "startLine": 13,
                         "startColumn": 4,
-                        "startOffset": 1158,
+                        "startOffset": 1171,
                         "endColumn": 107,
-                        "endOffset": 1261
+                        "endOffset": 1274
                     }
                 }
             },
@@ -239,13 +239,13 @@
                     "endOffset": 1420
                 },
                 "from": {
-                    "file": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-ur-rPK\\values-ur-rPK.xml",
+                    "file": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-ur-rPK\\values-ur-rPK.xml",
                     "position": {
                         "startLine": 14,
                         "startColumn": 4,
-                        "startOffset": 1266,
+                        "startOffset": 1280,
                         "endColumn": 108,
-                        "endOffset": 1370
+                        "endOffset": 1384
                     }
                 }
             },
@@ -258,13 +258,13 @@
                     "endOffset": 1522
                 },
                 "from": {
-                    "file": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-ur-rPK\\values-ur-rPK.xml",
+                    "file": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-ur-rPK\\values-ur-rPK.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
-                        "startOffset": 1375,
+                        "startOffset": 1390,
                         "endColumn": 101,
-                        "endOffset": 1472
+                        "endOffset": 1487
                     }
                 }
             },
@@ -277,13 +277,13 @@
                     "endOffset": 1633
                 },
                 "from": {
-                    "file": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-ur-rPK\\values-ur-rPK.xml",
+                    "file": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-ur-rPK\\values-ur-rPK.xml",
                     "position": {
                         "startLine": 16,
                         "startColumn": 4,
-                        "startOffset": 1477,
+                        "startOffset": 1493,
                         "endColumn": 110,
-                        "endOffset": 1583
+                        "endOffset": 1599
                     }
                 }
             },
@@ -296,13 +296,13 @@
                     "endOffset": 1733
                 },
                 "from": {
-                    "file": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-ur-rPK\\values-ur-rPK.xml",
+                    "file": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-ur-rPK\\values-ur-rPK.xml",
                     "position": {
                         "startLine": 17,
                         "startColumn": 4,
-                        "startOffset": 1588,
+                        "startOffset": 1605,
                         "endColumn": 99,
-                        "endOffset": 1683
+                        "endOffset": 1700
                     }
                 }
             },
@@ -315,13 +315,13 @@
                     "endOffset": 1841
                 },
                 "from": {
-                    "file": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-ur-rPK\\values-ur-rPK.xml",
+                    "file": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-ur-rPK\\values-ur-rPK.xml",
                     "position": {
                         "startLine": 18,
                         "startColumn": 4,
-                        "startOffset": 1688,
+                        "startOffset": 1706,
                         "endColumn": 107,
-                        "endOffset": 1791
+                        "endOffset": 1809
                     }
                 }
             },
@@ -334,13 +334,13 @@
                     "endOffset": 1970
                 },
                 "from": {
-                    "file": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-ur-rPK\\values-ur-rPK.xml",
+                    "file": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-ur-rPK\\values-ur-rPK.xml",
                     "position": {
                         "startLine": 19,
                         "startColumn": 4,
-                        "startOffset": 1796,
+                        "startOffset": 1815,
                         "endColumn": 128,
-                        "endOffset": 1920
+                        "endOffset": 1939
                     }
                 }
             },
@@ -353,13 +353,13 @@
                     "endOffset": 2068
                 },
                 "from": {
-                    "file": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-ur-rPK\\values-ur-rPK.xml",
+                    "file": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-ur-rPK\\values-ur-rPK.xml",
                     "position": {
                         "startLine": 20,
                         "startColumn": 4,
-                        "startOffset": 1925,
+                        "startOffset": 1945,
                         "endColumn": 97,
-                        "endOffset": 2018
+                        "endOffset": 2038
                     }
                 }
             },
@@ -372,13 +372,13 @@
                     "endOffset": 2255
                 },
                 "from": {
-                    "file": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-ur-rPK\\common_strings.xml",
+                    "file": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-ur-rPK\\common_strings.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
-                        "startOffset": 488,
+                        "startOffset": 493,
                         "endColumn": 190,
-                        "endOffset": 674
+                        "endOffset": 679
                     }
                 }
             },
@@ -391,13 +391,13 @@
                     "endOffset": 2445
                 },
                 "from": {
-                    "file": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-ur-rPK\\common_strings.xml",
+                    "file": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-ur-rPK\\common_strings.xml",
                     "position": {
                         "startLine": 18,
                         "startColumn": 4,
-                        "startOffset": 2632,
+                        "startOffset": 2650,
                         "endColumn": 193,
-                        "endOffset": 2821
+                        "endOffset": 2839
                     }
                 }
             },
@@ -410,13 +410,13 @@
                     "endOffset": 2565
                 },
                 "from": {
-                    "file": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-ur-rPK\\common_strings.xml",
+                    "file": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-ur-rPK\\common_strings.xml",
                     "position": {
                         "startLine": 16,
                         "startColumn": 4,
-                        "startOffset": 2305,
+                        "startOffset": 2321,
                         "endColumn": 119,
-                        "endOffset": 2420
+                        "endOffset": 2436
                     }
                 }
             },
@@ -429,13 +429,13 @@
                     "endOffset": 2822
                 },
                 "from": {
-                    "file": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-ur-rPK\\common_strings.xml",
+                    "file": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-ur-rPK\\common_strings.xml",
                     "position": {
                         "startLine": 30,
                         "startColumn": 4,
-                        "startOffset": 4499,
+                        "startOffset": 4529,
                         "endColumn": 260,
-                        "endOffset": 4755
+                        "endOffset": 4785
                     }
                 }
             },
@@ -448,13 +448,13 @@
                     "endOffset": 2951
                 },
                 "from": {
-                    "file": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-ur-rPK\\common_strings.xml",
+                    "file": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-ur-rPK\\common_strings.xml",
                     "position": {
                         "startLine": 14,
                         "startColumn": 4,
-                        "startOffset": 2046,
+                        "startOffset": 2060,
                         "endColumn": 128,
-                        "endOffset": 2170
+                        "endOffset": 2184
                     }
                 }
             },
@@ -467,13 +467,13 @@
                     "endOffset": 3156
                 },
                 "from": {
-                    "file": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-ur-rPK\\common_strings.xml",
+                    "file": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-ur-rPK\\common_strings.xml",
                     "position": {
                         "startLine": 13,
                         "startColumn": 4,
-                        "startOffset": 1837,
+                        "startOffset": 1850,
                         "endColumn": 208,
-                        "endOffset": 2041
+                        "endOffset": 2054
                     }
                 }
             },
@@ -486,13 +486,13 @@
                     "endOffset": 3283
                 },
                 "from": {
-                    "file": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-ur-rPK\\common_strings.xml",
+                    "file": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-ur-rPK\\common_strings.xml",
                     "position": {
                         "startLine": 12,
                         "startColumn": 4,
-                        "startOffset": 1710,
+                        "startOffset": 1722,
                         "endColumn": 126,
-                        "endOffset": 1832
+                        "endOffset": 1844
                     }
                 }
             },
@@ -505,13 +505,13 @@
                     "endOffset": 3463
                 },
                 "from": {
-                    "file": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-ur-rPK\\common_strings.xml",
+                    "file": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-ur-rPK\\common_strings.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
-                        "startOffset": 848,
+                        "startOffset": 855,
                         "endColumn": 183,
-                        "endOffset": 1027
+                        "endOffset": 1034
                     }
                 }
             },
@@ -524,13 +524,13 @@
                     "endOffset": 3593
                 },
                 "from": {
-                    "file": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-ur-rPK\\common_strings.xml",
+                    "file": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-ur-rPK\\common_strings.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
-                        "startOffset": 1580,
+                        "startOffset": 1591,
                         "endColumn": 129,
-                        "endOffset": 1705
+                        "endOffset": 1716
                     }
                 }
             },
@@ -543,13 +543,13 @@
                     "endOffset": 3798
                 },
                 "from": {
-                    "file": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-ur-rPK\\common_strings.xml",
+                    "file": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-ur-rPK\\common_strings.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
-                        "startOffset": 1159,
+                        "startOffset": 1168,
                         "endColumn": 208,
-                        "endOffset": 1363
+                        "endOffset": 1372
                     }
                 }
             },
@@ -562,13 +562,13 @@
                     "endOffset": 4006
                 },
                 "from": {
-                    "file": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-ur-rPK\\common_strings.xml",
+                    "file": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-ur-rPK\\common_strings.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
-                        "startOffset": 1368,
+                        "startOffset": 1378,
                         "endColumn": 211,
-                        "endOffset": 1575
+                        "endOffset": 1585
                     }
                 }
             },
@@ -581,13 +581,13 @@
                     "endOffset": 4133
                 },
                 "from": {
-                    "file": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-ur-rPK\\common_strings.xml",
+                    "file": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-ur-rPK\\common_strings.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
-                        "startOffset": 1032,
+                        "startOffset": 1040,
                         "endColumn": 126,
-                        "endOffset": 1154
+                        "endOffset": 1162
                     }
                 }
             },
@@ -600,13 +600,13 @@
                     "endOffset": 4316
                 },
                 "from": {
-                    "file": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-ur-rPK\\common_strings.xml",
+                    "file": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-ur-rPK\\common_strings.xml",
                     "position": {
                         "startLine": 24,
                         "startColumn": 4,
-                        "startOffset": 3587,
+                        "startOffset": 3611,
                         "endColumn": 182,
-                        "endOffset": 3765
+                        "endOffset": 3789
                     }
                 }
             },
@@ -619,13 +619,13 @@
                     "endOffset": 4435
                 },
                 "from": {
-                    "file": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-ur-rPK\\common_strings.xml",
+                    "file": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-ur-rPK\\common_strings.xml",
                     "position": {
                         "startLine": 23,
                         "startColumn": 4,
-                        "startOffset": 3468,
+                        "startOffset": 3491,
                         "endColumn": 118,
-                        "endOffset": 3582
+                        "endOffset": 3605
                     }
                 }
             },
@@ -638,13 +638,13 @@
                     "endOffset": 4604
                 },
                 "from": {
-                    "file": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-ur-rPK\\common_strings.xml",
+                    "file": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-ur-rPK\\common_strings.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
-                        "startOffset": 679,
+                        "startOffset": 685,
                         "endColumn": 168,
-                        "endOffset": 843
+                        "endOffset": 849
                     }
                 }
             },
@@ -657,13 +657,13 @@
                     "endOffset": 4776
                 },
                 "from": {
-                    "file": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-ur-rPK\\common_strings.xml",
+                    "file": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-ur-rPK\\common_strings.xml",
                     "position": {
                         "startLine": 22,
                         "startColumn": 4,
-                        "startOffset": 3296,
+                        "startOffset": 3318,
                         "endColumn": 171,
-                        "endOffset": 3463
+                        "endOffset": 3485
                     }
                 }
             },
@@ -676,13 +676,13 @@
                     "endOffset": 4900
                 },
                 "from": {
-                    "file": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-ur-rPK\\common_strings.xml",
+                    "file": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-ur-rPK\\common_strings.xml",
                     "position": {
                         "startLine": 21,
                         "startColumn": 4,
-                        "startOffset": 3172,
+                        "startOffset": 3193,
                         "endColumn": 123,
-                        "endOffset": 3291
+                        "endOffset": 3312
                     }
                 }
             },
@@ -695,13 +695,13 @@
                     "endOffset": 5084
                 },
                 "from": {
-                    "file": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-ur-rPK\\common_strings.xml",
+                    "file": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-ur-rPK\\common_strings.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
-                        "startOffset": 304,
+                        "startOffset": 308,
                         "endColumn": 183,
-                        "endOffset": 483
+                        "endOffset": 487
                     }
                 }
             },
@@ -714,13 +714,13 @@
                     "endOffset": 5218
                 },
                 "from": {
-                    "file": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-ur-rPK\\common_strings.xml",
+                    "file": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-ur-rPK\\common_strings.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
-                        "startOffset": 170,
+                        "startOffset": 173,
                         "endColumn": 133,
-                        "endOffset": 299
+                        "endOffset": 302
                     }
                 }
             },
@@ -733,13 +733,13 @@
                     "endOffset": 5409
                 },
                 "from": {
-                    "file": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-ur-rPK\\common_strings.xml",
+                    "file": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-ur-rPK\\common_strings.xml",
                     "position": {
                         "startLine": 32,
                         "startColumn": 4,
-                        "startOffset": 4892,
+                        "startOffset": 4924,
                         "endColumn": 190,
-                        "endOffset": 5078
+                        "endOffset": 5110
                     }
                 }
             },
@@ -752,13 +752,13 @@
                     "endOffset": 5541
                 },
                 "from": {
-                    "file": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-ur-rPK\\common_strings.xml",
+                    "file": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-ur-rPK\\common_strings.xml",
                     "position": {
                         "startLine": 31,
                         "startColumn": 4,
-                        "startOffset": 4760,
+                        "startOffset": 4791,
                         "endColumn": 131,
-                        "endOffset": 4887
+                        "endOffset": 4918
                     }
                 }
             },
@@ -771,13 +771,13 @@
                     "endOffset": 5683
                 },
                 "from": {
-                    "file": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-ur-rPK\\common_strings.xml",
+                    "file": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-ur-rPK\\common_strings.xml",
                     "position": {
                         "startLine": 25,
                         "startColumn": 4,
-                        "startOffset": 3770,
+                        "startOffset": 3795,
                         "endColumn": 141,
-                        "endOffset": 3907
+                        "endOffset": 3932
                     }
                 }
             },
@@ -790,13 +790,13 @@
                     "endOffset": 5939
                 },
                 "from": {
-                    "file": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-ur-rPK\\common_strings.xml",
+                    "file": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-ur-rPK\\common_strings.xml",
                     "position": {
                         "startLine": 27,
                         "startColumn": 4,
-                        "startOffset": 4035,
+                        "startOffset": 4062,
                         "endColumn": 259,
-                        "endOffset": 4290
+                        "endOffset": 4317
                     }
                 }
             },
@@ -809,13 +809,13 @@
                     "endOffset": 6062
                 },
                 "from": {
-                    "file": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-ur-rPK\\common_strings.xml",
+                    "file": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-ur-rPK\\common_strings.xml",
                     "position": {
                         "startLine": 26,
                         "startColumn": 4,
-                        "startOffset": 3912,
+                        "startOffset": 3938,
                         "endColumn": 122,
-                        "endOffset": 4030
+                        "endOffset": 4056
                     }
                 }
             },
@@ -828,13 +828,13 @@
                     "endOffset": 6174
                 },
                 "from": {
-                    "file": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-ur-rPK\\common_strings.xml",
+                    "file": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-ur-rPK\\common_strings.xml",
                     "position": {
                         "startLine": 28,
                         "startColumn": 4,
-                        "startOffset": 4295,
+                        "startOffset": 4323,
                         "endColumn": 111,
-                        "endOffset": 4402
+                        "endOffset": 4430
                     }
                 }
             },
@@ -847,13 +847,13 @@
                     "endOffset": 6377
                 },
                 "from": {
-                    "file": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-ur-rPK\\common_strings.xml",
+                    "file": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-ur-rPK\\common_strings.xml",
                     "position": {
                         "startLine": 17,
                         "startColumn": 4,
-                        "startOffset": 2425,
+                        "startOffset": 2442,
                         "endColumn": 206,
-                        "endOffset": 2627
+                        "endOffset": 2644
                     }
                 }
             },
@@ -866,13 +866,13 @@
                     "endOffset": 6507
                 },
                 "from": {
-                    "file": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-ur-rPK\\common_strings.xml",
+                    "file": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-ur-rPK\\common_strings.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
-                        "startOffset": 2175,
+                        "startOffset": 2190,
                         "endColumn": 129,
-                        "endOffset": 2300
+                        "endOffset": 2315
                     }
                 }
             },
@@ -885,13 +885,13 @@
                     "endOffset": 6712
                 },
                 "from": {
-                    "file": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-ur-rPK\\common_strings.xml",
+                    "file": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-ur-rPK\\common_strings.xml",
                     "position": {
                         "startLine": 20,
                         "startColumn": 4,
-                        "startOffset": 2963,
+                        "startOffset": 2983,
                         "endColumn": 208,
-                        "endOffset": 3167
+                        "endOffset": 3187
                     }
                 }
             },
@@ -904,13 +904,13 @@
                     "endOffset": 6849
                 },
                 "from": {
-                    "file": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-ur-rPK\\common_strings.xml",
+                    "file": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-ur-rPK\\common_strings.xml",
                     "position": {
                         "startLine": 19,
                         "startColumn": 4,
-                        "startOffset": 2826,
+                        "startOffset": 2845,
                         "endColumn": 136,
-                        "endOffset": 2958
+                        "endOffset": 2977
                     }
                 }
             },
@@ -923,13 +923,13 @@
                     "endOffset": 6941
                 },
                 "from": {
-                    "file": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-ur-rPK\\common_strings.xml",
+                    "file": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-ur-rPK\\common_strings.xml",
                     "position": {
                         "startLine": 29,
                         "startColumn": 4,
-                        "startOffset": 4407,
+                        "startOffset": 4436,
                         "endColumn": 91,
-                        "endOffset": 4494
+                        "endOffset": 4523
                     }
                 }
             },
@@ -942,13 +942,13 @@
                     "endOffset": 7044
                 },
                 "from": {
-                    "file": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-ur-rPK\\values-ur-rPK.xml",
+                    "file": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-ur-rPK\\values-ur-rPK.xml",
                     "position": {
                         "startLine": 21,
                         "startColumn": 4,
-                        "startOffset": 2023,
+                        "startOffset": 2044,
                         "endColumn": 102,
-                        "endOffset": 2121
+                        "endOffset": 2142
                     }
                 }
             }
@@ -1910,7 +1910,7 @@
         ]
     },
     {
-        "outputFile": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\values-ur-rPK\\values-ur-rPK.xml",
+        "outputFile": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\values-ur-rPK\\values-ur-rPK.xml",
         "map": [
             {
                 "to": {
@@ -1921,13 +1921,13 @@
                     "endOffset": 210
                 },
                 "from": {
-                    "file": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-ur-rPK\\values-ur-rPK.xml",
+                    "file": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-ur-rPK\\values-ur-rPK.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
-                        "startOffset": 57,
+                        "startOffset": 55,
                         "endColumn": 109,
-                        "endOffset": 162
+                        "endOffset": 160
                     }
                 }
             },
@@ -1940,13 +1940,13 @@
                     "endOffset": 318
                 },
                 "from": {
-                    "file": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-ur-rPK\\values-ur-rPK.xml",
+                    "file": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-ur-rPK\\values-ur-rPK.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
-                        "startOffset": 168,
+                        "startOffset": 165,
                         "endColumn": 107,
-                        "endOffset": 271
+                        "endOffset": 268
                     }
                 }
             },
@@ -1959,13 +1959,13 @@
                     "endOffset": 441
                 },
                 "from": {
-                    "file": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-ur-rPK\\values-ur-rPK.xml",
+                    "file": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-ur-rPK\\values-ur-rPK.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
-                        "startOffset": 277,
+                        "startOffset": 273,
                         "endColumn": 122,
-                        "endOffset": 395
+                        "endOffset": 391
                     }
                 }
             },
@@ -1978,13 +1978,13 @@
                     "endOffset": 547
                 },
                 "from": {
-                    "file": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-ur-rPK\\values-ur-rPK.xml",
+                    "file": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-ur-rPK\\values-ur-rPK.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
-                        "startOffset": 401,
+                        "startOffset": 396,
                         "endColumn": 105,
-                        "endOffset": 502
+                        "endOffset": 497
                     }
                 }
             },
@@ -1997,13 +1997,13 @@
                     "endOffset": 656
                 },
                 "from": {
-                    "file": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-ur-rPK\\values-ur-rPK.xml",
+                    "file": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-ur-rPK\\values-ur-rPK.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
-                        "startOffset": 508,
+                        "startOffset": 502,
                         "endColumn": 108,
-                        "endOffset": 612
+                        "endOffset": 606
                     }
                 }
             },
@@ -2016,13 +2016,13 @@
                     "endOffset": 742
                 },
                 "from": {
-                    "file": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-ur-rPK\\values-ur-rPK.xml",
+                    "file": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-ur-rPK\\values-ur-rPK.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
-                        "startOffset": 618,
+                        "startOffset": 611,
                         "endColumn": 85,
-                        "endOffset": 699
+                        "endOffset": 692
                     }
                 }
             },
@@ -2035,13 +2035,13 @@
                     "endOffset": 846
                 },
                 "from": {
-                    "file": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-ur-rPK\\values-ur-rPK.xml",
+                    "file": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-ur-rPK\\values-ur-rPK.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
-                        "startOffset": 705,
+                        "startOffset": 697,
                         "endColumn": 103,
-                        "endOffset": 804
+                        "endOffset": 796
                     }
                 }
             },
@@ -2054,13 +2054,13 @@
                     "endOffset": 966
                 },
                 "from": {
-                    "file": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-ur-rPK\\values-ur-rPK.xml",
+                    "file": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-ur-rPK\\values-ur-rPK.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
-                        "startOffset": 810,
+                        "startOffset": 801,
                         "endColumn": 119,
-                        "endOffset": 925
+                        "endOffset": 916
                     }
                 }
             },
@@ -2073,13 +2073,13 @@
                     "endOffset": 1042
                 },
                 "from": {
-                    "file": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-ur-rPK\\values-ur-rPK.xml",
+                    "file": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-ur-rPK\\values-ur-rPK.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
-                        "startOffset": 931,
+                        "startOffset": 921,
                         "endColumn": 75,
-                        "endOffset": 1002
+                        "endOffset": 992
                     }
                 }
             },
@@ -2092,13 +2092,13 @@
                     "endOffset": 1118
                 },
                 "from": {
-                    "file": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-ur-rPK\\values-ur-rPK.xml",
+                    "file": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-ur-rPK\\values-ur-rPK.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
-                        "startOffset": 1008,
+                        "startOffset": 997,
                         "endColumn": 75,
-                        "endOffset": 1079
+                        "endOffset": 1068
                     }
                 }
             },
@@ -2111,13 +2111,13 @@
                     "endOffset": 1203
                 },
                 "from": {
-                    "file": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-ur-rPK\\values-ur-rPK.xml",
+                    "file": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-ur-rPK\\values-ur-rPK.xml",
                     "position": {
                         "startLine": 12,
                         "startColumn": 4,
-                        "startOffset": 1085,
+                        "startOffset": 1073,
                         "endColumn": 84,
-                        "endOffset": 1165
+                        "endOffset": 1153
                     }
                 }
             },
@@ -2130,13 +2130,13 @@
                     "endOffset": 1311
                 },
                 "from": {
-                    "file": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-ur-rPK\\values-ur-rPK.xml",
+                    "file": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-ur-rPK\\values-ur-rPK.xml",
                     "position": {
                         "startLine": 13,
                         "startColumn": 4,
-                        "startOffset": 1171,
+                        "startOffset": 1158,
                         "endColumn": 107,
-                        "endOffset": 1274
+                        "endOffset": 1261
                     }
                 }
             },
@@ -2149,13 +2149,13 @@
                     "endOffset": 1420
                 },
                 "from": {
-                    "file": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-ur-rPK\\values-ur-rPK.xml",
+                    "file": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-ur-rPK\\values-ur-rPK.xml",
                     "position": {
                         "startLine": 14,
                         "startColumn": 4,
-                        "startOffset": 1280,
+                        "startOffset": 1266,
                         "endColumn": 108,
-                        "endOffset": 1384
+                        "endOffset": 1370
                     }
                 }
             },
@@ -2168,13 +2168,13 @@
                     "endOffset": 1522
                 },
                 "from": {
-                    "file": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-ur-rPK\\values-ur-rPK.xml",
+                    "file": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-ur-rPK\\values-ur-rPK.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
-                        "startOffset": 1390,
+                        "startOffset": 1375,
                         "endColumn": 101,
-                        "endOffset": 1487
+                        "endOffset": 1472
                     }
                 }
             },
@@ -2187,13 +2187,13 @@
                     "endOffset": 1633
                 },
                 "from": {
-                    "file": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-ur-rPK\\values-ur-rPK.xml",
+                    "file": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-ur-rPK\\values-ur-rPK.xml",
                     "position": {
                         "startLine": 16,
                         "startColumn": 4,
-                        "startOffset": 1493,
+                        "startOffset": 1477,
                         "endColumn": 110,
-                        "endOffset": 1599
+                        "endOffset": 1583
                     }
                 }
             },
@@ -2206,13 +2206,13 @@
                     "endOffset": 1733
                 },
                 "from": {
-                    "file": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-ur-rPK\\values-ur-rPK.xml",
+                    "file": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-ur-rPK\\values-ur-rPK.xml",
                     "position": {
                         "startLine": 17,
                         "startColumn": 4,
-                        "startOffset": 1605,
+                        "startOffset": 1588,
                         "endColumn": 99,
-                        "endOffset": 1700
+                        "endOffset": 1683
                     }
                 }
             },
@@ -2225,13 +2225,13 @@
                     "endOffset": 1841
                 },
                 "from": {
-                    "file": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-ur-rPK\\values-ur-rPK.xml",
+                    "file": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-ur-rPK\\values-ur-rPK.xml",
                     "position": {
                         "startLine": 18,
                         "startColumn": 4,
-                        "startOffset": 1706,
+                        "startOffset": 1688,
                         "endColumn": 107,
-                        "endOffset": 1809
+                        "endOffset": 1791
                     }
                 }
             },
@@ -2244,13 +2244,13 @@
                     "endOffset": 1970
                 },
                 "from": {
-                    "file": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-ur-rPK\\values-ur-rPK.xml",
+                    "file": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-ur-rPK\\values-ur-rPK.xml",
                     "position": {
                         "startLine": 19,
                         "startColumn": 4,
-                        "startOffset": 1815,
+                        "startOffset": 1796,
                         "endColumn": 128,
-                        "endOffset": 1939
+                        "endOffset": 1920
                     }
                 }
             },
@@ -2263,13 +2263,13 @@
                     "endOffset": 2068
                 },
                 "from": {
-                    "file": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-ur-rPK\\values-ur-rPK.xml",
+                    "file": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-ur-rPK\\values-ur-rPK.xml",
                     "position": {
                         "startLine": 20,
                         "startColumn": 4,
-                        "startOffset": 1945,
+                        "startOffset": 1925,
                         "endColumn": 97,
-                        "endOffset": 2038
+                        "endOffset": 2018
                     }
                 }
             },
@@ -2282,13 +2282,13 @@
                     "endOffset": 2255
                 },
                 "from": {
-                    "file": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-ur-rPK\\common_strings.xml",
+                    "file": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-ur-rPK\\common_strings.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
-                        "startOffset": 493,
+                        "startOffset": 488,
                         "endColumn": 190,
-                        "endOffset": 679
+                        "endOffset": 674
                     }
                 }
             },
@@ -2301,13 +2301,13 @@
                     "endOffset": 2445
                 },
                 "from": {
-                    "file": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-ur-rPK\\common_strings.xml",
+                    "file": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-ur-rPK\\common_strings.xml",
                     "position": {
                         "startLine": 18,
                         "startColumn": 4,
-                        "startOffset": 2650,
+                        "startOffset": 2632,
                         "endColumn": 193,
-                        "endOffset": 2839
+                        "endOffset": 2821
                     }
                 }
             },
@@ -2320,13 +2320,13 @@
                     "endOffset": 2565
                 },
                 "from": {
-                    "file": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-ur-rPK\\common_strings.xml",
+                    "file": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-ur-rPK\\common_strings.xml",
                     "position": {
                         "startLine": 16,
                         "startColumn": 4,
-                        "startOffset": 2321,
+                        "startOffset": 2305,
                         "endColumn": 119,
-                        "endOffset": 2436
+                        "endOffset": 2420
                     }
                 }
             },
@@ -2339,13 +2339,13 @@
                     "endOffset": 2822
                 },
                 "from": {
-                    "file": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-ur-rPK\\common_strings.xml",
+                    "file": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-ur-rPK\\common_strings.xml",
                     "position": {
                         "startLine": 30,
                         "startColumn": 4,
-                        "startOffset": 4529,
+                        "startOffset": 4499,
                         "endColumn": 260,
-                        "endOffset": 4785
+                        "endOffset": 4755
                     }
                 }
             },
@@ -2358,13 +2358,13 @@
                     "endOffset": 2951
                 },
                 "from": {
-                    "file": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-ur-rPK\\common_strings.xml",
+                    "file": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-ur-rPK\\common_strings.xml",
                     "position": {
                         "startLine": 14,
                         "startColumn": 4,
-                        "startOffset": 2060,
+                        "startOffset": 2046,
                         "endColumn": 128,
-                        "endOffset": 2184
+                        "endOffset": 2170
                     }
                 }
             },
@@ -2377,13 +2377,13 @@
                     "endOffset": 3156
                 },
                 "from": {
-                    "file": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-ur-rPK\\common_strings.xml",
+                    "file": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-ur-rPK\\common_strings.xml",
                     "position": {
                         "startLine": 13,
                         "startColumn": 4,
-                        "startOffset": 1850,
+                        "startOffset": 1837,
                         "endColumn": 208,
-                        "endOffset": 2054
+                        "endOffset": 2041
                     }
                 }
             },
@@ -2396,13 +2396,13 @@
                     "endOffset": 3283
                 },
                 "from": {
-                    "file": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-ur-rPK\\common_strings.xml",
+                    "file": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-ur-rPK\\common_strings.xml",
                     "position": {
                         "startLine": 12,
                         "startColumn": 4,
-                        "startOffset": 1722,
+                        "startOffset": 1710,
                         "endColumn": 126,
-                        "endOffset": 1844
+                        "endOffset": 1832
                     }
                 }
             },
@@ -2415,13 +2415,13 @@
                     "endOffset": 3463
                 },
                 "from": {
-                    "file": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-ur-rPK\\common_strings.xml",
+                    "file": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-ur-rPK\\common_strings.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
-                        "startOffset": 855,
+                        "startOffset": 848,
                         "endColumn": 183,
-                        "endOffset": 1034
+                        "endOffset": 1027
                     }
                 }
             },
@@ -2434,13 +2434,13 @@
                     "endOffset": 3593
                 },
                 "from": {
-                    "file": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-ur-rPK\\common_strings.xml",
+                    "file": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-ur-rPK\\common_strings.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
-                        "startOffset": 1591,
+                        "startOffset": 1580,
                         "endColumn": 129,
-                        "endOffset": 1716
+                        "endOffset": 1705
                     }
                 }
             },
@@ -2453,13 +2453,13 @@
                     "endOffset": 3798
                 },
                 "from": {
-                    "file": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-ur-rPK\\common_strings.xml",
+                    "file": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-ur-rPK\\common_strings.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
-                        "startOffset": 1168,
+                        "startOffset": 1159,
                         "endColumn": 208,
-                        "endOffset": 1372
+                        "endOffset": 1363
                     }
                 }
             },
@@ -2472,13 +2472,13 @@
                     "endOffset": 4006
                 },
                 "from": {
-                    "file": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-ur-rPK\\common_strings.xml",
+                    "file": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-ur-rPK\\common_strings.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
-                        "startOffset": 1378,
+                        "startOffset": 1368,
                         "endColumn": 211,
-                        "endOffset": 1585
+                        "endOffset": 1575
                     }
                 }
             },
@@ -2491,13 +2491,13 @@
                     "endOffset": 4133
                 },
                 "from": {
-                    "file": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-ur-rPK\\common_strings.xml",
+                    "file": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-ur-rPK\\common_strings.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
-                        "startOffset": 1040,
+                        "startOffset": 1032,
                         "endColumn": 126,
-                        "endOffset": 1162
+                        "endOffset": 1154
                     }
                 }
             },
@@ -2510,13 +2510,13 @@
                     "endOffset": 4316
                 },
                 "from": {
-                    "file": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-ur-rPK\\common_strings.xml",
+                    "file": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-ur-rPK\\common_strings.xml",
                     "position": {
                         "startLine": 24,
                         "startColumn": 4,
-                        "startOffset": 3611,
+                        "startOffset": 3587,
                         "endColumn": 182,
-                        "endOffset": 3789
+                        "endOffset": 3765
                     }
                 }
             },
@@ -2529,13 +2529,13 @@
                     "endOffset": 4435
                 },
                 "from": {
-                    "file": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-ur-rPK\\common_strings.xml",
+                    "file": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-ur-rPK\\common_strings.xml",
                     "position": {
                         "startLine": 23,
                         "startColumn": 4,
-                        "startOffset": 3491,
+                        "startOffset": 3468,
                         "endColumn": 118,
-                        "endOffset": 3605
+                        "endOffset": 3582
                     }
                 }
             },
@@ -2548,13 +2548,13 @@
                     "endOffset": 4604
                 },
                 "from": {
-                    "file": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-ur-rPK\\common_strings.xml",
+                    "file": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-ur-rPK\\common_strings.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
-                        "startOffset": 685,
+                        "startOffset": 679,
                         "endColumn": 168,
-                        "endOffset": 849
+                        "endOffset": 843
                     }
                 }
             },
@@ -2567,13 +2567,13 @@
                     "endOffset": 4776
                 },
                 "from": {
-                    "file": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-ur-rPK\\common_strings.xml",
+                    "file": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-ur-rPK\\common_strings.xml",
                     "position": {
                         "startLine": 22,
                         "startColumn": 4,
-                        "startOffset": 3318,
+                        "startOffset": 3296,
                         "endColumn": 171,
-                        "endOffset": 3485
+                        "endOffset": 3463
                     }
                 }
             },
@@ -2586,13 +2586,13 @@
                     "endOffset": 4900
                 },
                 "from": {
-                    "file": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-ur-rPK\\common_strings.xml",
+                    "file": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-ur-rPK\\common_strings.xml",
                     "position": {
                         "startLine": 21,
                         "startColumn": 4,
-                        "startOffset": 3193,
+                        "startOffset": 3172,
                         "endColumn": 123,
-                        "endOffset": 3312
+                        "endOffset": 3291
                     }
                 }
             },
@@ -2605,13 +2605,13 @@
                     "endOffset": 5084
                 },
                 "from": {
-                    "file": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-ur-rPK\\common_strings.xml",
+                    "file": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-ur-rPK\\common_strings.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
-                        "startOffset": 308,
+                        "startOffset": 304,
                         "endColumn": 183,
-                        "endOffset": 487
+                        "endOffset": 483
                     }
                 }
             },
@@ -2624,13 +2624,13 @@
                     "endOffset": 5218
                 },
                 "from": {
-                    "file": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-ur-rPK\\common_strings.xml",
+                    "file": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-ur-rPK\\common_strings.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
-                        "startOffset": 173,
+                        "startOffset": 170,
                         "endColumn": 133,
-                        "endOffset": 302
+                        "endOffset": 299
                     }
                 }
             },
@@ -2643,13 +2643,13 @@
                     "endOffset": 5409
                 },
                 "from": {
-                    "file": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-ur-rPK\\common_strings.xml",
+                    "file": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-ur-rPK\\common_strings.xml",
                     "position": {
                         "startLine": 32,
                         "startColumn": 4,
-                        "startOffset": 4924,
+                        "startOffset": 4892,
                         "endColumn": 190,
-                        "endOffset": 5110
+                        "endOffset": 5078
                     }
                 }
             },
@@ -2662,13 +2662,13 @@
                     "endOffset": 5541
                 },
                 "from": {
-                    "file": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-ur-rPK\\common_strings.xml",
+                    "file": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-ur-rPK\\common_strings.xml",
                     "position": {
                         "startLine": 31,
                         "startColumn": 4,
-                        "startOffset": 4791,
+                        "startOffset": 4760,
                         "endColumn": 131,
-                        "endOffset": 4918
+                        "endOffset": 4887
                     }
                 }
             },
@@ -2681,13 +2681,13 @@
                     "endOffset": 5683
                 },
                 "from": {
-                    "file": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-ur-rPK\\common_strings.xml",
+                    "file": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-ur-rPK\\common_strings.xml",
                     "position": {
                         "startLine": 25,
                         "startColumn": 4,
-                        "startOffset": 3795,
+                        "startOffset": 3770,
                         "endColumn": 141,
-                        "endOffset": 3932
+                        "endOffset": 3907
                     }
                 }
             },
@@ -2700,13 +2700,13 @@
                     "endOffset": 5939
                 },
                 "from": {
-                    "file": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-ur-rPK\\common_strings.xml",
+                    "file": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-ur-rPK\\common_strings.xml",
                     "position": {
                         "startLine": 27,
                         "startColumn": 4,
-                        "startOffset": 4062,
+                        "startOffset": 4035,
                         "endColumn": 259,
-                        "endOffset": 4317
+                        "endOffset": 4290
                     }
                 }
             },
@@ -2719,13 +2719,13 @@
                     "endOffset": 6062
                 },
                 "from": {
-                    "file": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-ur-rPK\\common_strings.xml",
+                    "file": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-ur-rPK\\common_strings.xml",
                     "position": {
                         "startLine": 26,
                         "startColumn": 4,
-                        "startOffset": 3938,
+                        "startOffset": 3912,
                         "endColumn": 122,
-                        "endOffset": 4056
+                        "endOffset": 4030
                     }
                 }
             },
@@ -2738,13 +2738,13 @@
                     "endOffset": 6174
                 },
                 "from": {
-                    "file": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-ur-rPK\\common_strings.xml",
+                    "file": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-ur-rPK\\common_strings.xml",
                     "position": {
                         "startLine": 28,
                         "startColumn": 4,
-                        "startOffset": 4323,
+                        "startOffset": 4295,
                         "endColumn": 111,
-                        "endOffset": 4430
+                        "endOffset": 4402
                     }
                 }
             },
@@ -2757,13 +2757,13 @@
                     "endOffset": 6377
                 },
                 "from": {
-                    "file": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-ur-rPK\\common_strings.xml",
+                    "file": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-ur-rPK\\common_strings.xml",
                     "position": {
                         "startLine": 17,
                         "startColumn": 4,
-                        "startOffset": 2442,
+                        "startOffset": 2425,
                         "endColumn": 206,
-                        "endOffset": 2644
+                        "endOffset": 2627
                     }
                 }
             },
@@ -2776,13 +2776,13 @@
                     "endOffset": 6507
                 },
                 "from": {
-                    "file": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-ur-rPK\\common_strings.xml",
+                    "file": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-ur-rPK\\common_strings.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
-                        "startOffset": 2190,
+                        "startOffset": 2175,
                         "endColumn": 129,
-                        "endOffset": 2315
+                        "endOffset": 2300
                     }
                 }
             },
@@ -2795,13 +2795,13 @@
                     "endOffset": 6712
                 },
                 "from": {
-                    "file": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-ur-rPK\\common_strings.xml",
+                    "file": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-ur-rPK\\common_strings.xml",
                     "position": {
                         "startLine": 20,
                         "startColumn": 4,
-                        "startOffset": 2983,
+                        "startOffset": 2963,
                         "endColumn": 208,
-                        "endOffset": 3187
+                        "endOffset": 3167
                     }
                 }
             },
@@ -2814,13 +2814,13 @@
                     "endOffset": 6849
                 },
                 "from": {
-                    "file": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-ur-rPK\\common_strings.xml",
+                    "file": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-ur-rPK\\common_strings.xml",
                     "position": {
                         "startLine": 19,
                         "startColumn": 4,
-                        "startOffset": 2845,
+                        "startOffset": 2826,
                         "endColumn": 136,
-                        "endOffset": 2977
+                        "endOffset": 2958
                     }
                 }
             },
@@ -2833,13 +2833,13 @@
                     "endOffset": 6941
                 },
                 "from": {
-                    "file": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-ur-rPK\\common_strings.xml",
+                    "file": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-ur-rPK\\common_strings.xml",
                     "position": {
                         "startLine": 29,
                         "startColumn": 4,
-                        "startOffset": 4436,
+                        "startOffset": 4407,
                         "endColumn": 91,
-                        "endOffset": 4523
+                        "endOffset": 4494
                     }
                 }
             },
@@ -2852,13 +2852,13 @@
                     "endOffset": 7044
                 },
                 "from": {
-                    "file": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-ur-rPK\\values-ur-rPK.xml",
+                    "file": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-ur-rPK\\values-ur-rPK.xml",
                     "position": {
                         "startLine": 21,
                         "startColumn": 4,
-                        "startOffset": 2044,
+                        "startOffset": 2023,
                         "endColumn": 102,
-                        "endOffset": 2142
+                        "endOffset": 2121
                     }
                 }
             }

@@ -50,6 +50,13 @@ public class LoginActivity extends AppCompatActivity {
         switch (view.getId()){
       // -------------------------------------------------Case Button for Login if CLICKED!-------------------------------------//
             case R.id.btn_login:
+
+                if(mEt_email.getText().toString().matches("")){
+                    Toast.makeText(getBaseContext(),"Please fill the Email",Toast.LENGTH_SHORT).show();
+                }else if(mEt_password.getText().toString().matches("")){
+                    Toast.makeText(getBaseContext(),"Please fill the Password",Toast.LENGTH_SHORT).show();
+                }
+                else{
                 Retrofit retrofit = new Retrofit.Builder()
                         .baseUrl("http://rahmony.net/api/")
                         .addConverterFactory(GsonConverterFactory.create())
@@ -107,7 +114,7 @@ public class LoginActivity extends AppCompatActivity {
 
                                 }
                             }
-                );
+                );}
                 break;
 
       //------------------------------------------case for btn login FINISHED!------------------------------------------------//

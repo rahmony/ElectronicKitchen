@@ -95,7 +95,7 @@ public class SignUpActivity extends AppCompatActivity {
 
                 }
             });
-        break;
+                break;
             case R.id.btn_cancel:
                 finish();
                 break;

@@ -5,8 +5,8 @@ org/parceler/internal/generator/SetReadWriteGenerator.class
 com/google/gson/internal/bind/MapTypeAdapterFactory.class
 org/parceler/transfuse/annotations/Application.class
 com/google/android/gms/common/GoogleApiAvailability.class
-org/parceler/apache/commons/beanutils/converters/FloatArrayConverter.class
 org/parceler/transfuse/annotations/ScopeReference.class
+org/parceler/apache/commons/beanutils/converters/FloatArrayConverter.class
 org/parceler/guava/io/CharStreams.class
 android/support/v4/view/GravityCompat.class
 android/support/v7/widget/RecyclerView$3.class
@@ -147,8 +147,8 @@ org/parceler/guava/collect/Maps.class
 org/parceler/guava/collect/AbstractNavigableMap.class
 com/bumptech/glide/load/MultiTransformation.class
 org/parceler/transfuse/adapter/element/ASTElementFactory.class
-android/support/v7/app/ActionBar$OnMenuVisibilityListener.class
 org/parceler/guava/collect/ImmutableSortedMapFauxverideShim.class
+android/support/v7/app/ActionBar$OnMenuVisibilityListener.class
 com/google/gson/internal/Primitives.class
 com/google/gson/internal/ConstructorConstructor$10.class
 android/support/design/widget/ViewGroupUtils.class
@@ -352,6 +352,7 @@ net/rahmony/electronickitchen/ClassActivity/CustomerProductActivity$1.class
 android/support/v7/widget/Toolbar.class
 retrofit/http/PartMap.class
 android/support/v4/view/ViewCompat$GBViewCompatImpl.class
+net/rahmony/electronickitchen/ClassActivity/StoreActivity$3.class
 android/support/v4/app/TaskStackBuilder.class
 android/support/design/widget/Snackbar$9.class
 android/support/v4/app/FragmentManagerImpl$1.class
@@ -436,7 +437,6 @@ org/parceler/guava/collect/ImmutableMultimap.class
 android/support/design/widget/TabItem.class
 org/parceler/guava/collect/TreeRangeSet.class
 com/google/android/gms/auth/firstparty/shared/zzd.class
-net/alhazmy13/mediapicker/Image/ImagePicker$Builder.class
 android/support/v4/view/ViewConfigurationCompat.class
 com/google/gson/internal/bind/TypeAdapters$6.class
 android/support/v4/app/FragmentManagerState.class
@@ -838,6 +838,7 @@ retrofit/http/Header.class
 android/support/v4/media/VolumeProviderCompatApi21.class
 com/google/gson/internal/bind/ObjectTypeAdapter$2.class
 android/support/design/widget/BottomSheetBehavior$1.class
+net/rahmony/electronickitchen/ClassActivity/StoreActivity$myTheardAdapter.class
 org/parceler/transfuse/gen/invocationBuilder/DefaultInvocationBuilderStrategy.class
 org/parceler/transfuse/gen/variableBuilder/VariableInjectionBuilder.class
 org/parceler/transfuse/analysis/module/BindProviderProcessor.class
@@ -1231,7 +1232,7 @@ org/parceler/guava/base/Strings.class
 org/parceler/transfuse/analysis/module/BindProcessor.class
 android/support/v4/media/VolumeProviderCompat$Callback.class
 org/parceler/guava/io/ByteSink.class
-net/alhazmy13/mediapicker/Image/ImagePicker$Directory.class
+net/rahmony/electronickitchen/ClassActivity/StoreActivity$4.class
 org/parceler/transfuse/scope/ApplicationScope.class
 android/support/design/widget/ViewOffsetBehavior.class
 com/squareup/okhttp/Headers.class
