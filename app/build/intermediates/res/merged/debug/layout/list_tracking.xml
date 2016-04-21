@@ -30,9 +30,12 @@
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="@string/order"
         android:id="@+id/tracking_text_order"
-        android:layout_below="@+id/tracking_text_from_store"
-        android:layout_alignParentEnd="true"
-        android:layout_marginTop="15dp" />
+        android:layout_marginTop="41dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_below="@+id/tracking_text_store"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -41,7 +44,9 @@
         android:text="@string/product_name"
         android:id="@+id/tracking_text_nameOfProduct"
         android:layout_below="@+id/tracking_text_order"
-        android:layout_alignEnd="@+id/tracking_text_order" />
+        android:layout_alignStart="@+id/tracking_text_status"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -49,7 +54,7 @@
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="@string/product_price"
         android:id="@+id/tracking_text_priceOfProduct"
-        android:layout_alignBottom="@+id/tracking_text_nameOfProduct"
+        android:layout_below="@+id/tracking_text_order"
         android:layout_centerHorizontal="true" />
 
     <TextView
@@ -58,8 +63,10 @@
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="@string/product_Quantity"
         android:id="@+id/tracking_text_quantityOfProduct"
-        android:layout_alignTop="@+id/tracking_text_priceOfProduct"
-        android:layout_alignParentStart="true" />
+        android:layout_alignTop="@+id/tracking_text_nameOfProduct"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -68,25 +75,33 @@
         android:text="@string/product_name"
         android:id="@+id/tracking_text_product_name_val"
         android:layout_below="@+id/tracking_text_nameOfProduct"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignEnd="@+id/tracking_text_nameOfProduct"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp" />
 
     <TextView
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="@string/product_Quantity"
         android:id="@+id/tracking_text_product_quantity_val"
         android:layout_above="@+id/tracking_text_status"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/tracking_text_quantityOfProduct"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="5dp" />
 
     <TextView
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="@string/product_price"
         android:id="@+id/tracking_text_product_price_val"
+        android:layout_below="@+id/tracking_text_priceOfProduct"
         android:layout_above="@+id/tracking_text_status"
-        android:layout_alignStart="@+id/tracking_text_priceOfProduct" />
+        android:layout_alignStart="@+id/tracking_text_order"
+        android:layout_marginLeft="135dp"
+        android:layout_marginRight="155dp" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -94,9 +109,11 @@
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="@string/status"
         android:id="@+id/tracking_text_status"
+        android:layout_marginTop="59dp"
         android:layout_below="@+id/tracking_text_product_name_val"
-        android:layout_alignParentEnd="true"
-        android:layout_marginTop="55dp" />
+        android:layout_alignParentStart="true"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp" />
 
     <TextView
         android:layout_width="wrap_content"

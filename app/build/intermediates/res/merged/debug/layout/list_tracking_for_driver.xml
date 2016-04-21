@@ -11,8 +11,10 @@
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="@string/order"
         android:id="@+id/trackingForDriver_text_order"
-        android:layout_alignParentEnd="true"
-        android:layout_marginTop="15dp" />
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -20,8 +22,10 @@
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="@string/product_name"
         android:id="@+id/trackingForDriver_text_nameOfProduct"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
         android:layout_below="@+id/trackingForDriver_text_order"
-        android:layout_alignEnd="@+id/trackingForDriver_text_order" />
+        android:layout_alignParentStart="true" />
 
 
     <TextView
@@ -30,9 +34,10 @@
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="@string/product_Quantity"
         android:id="@+id/trackingForDriver_text_quantityOfProduct"
-        android:layout_alignBaseline="@+id/trackingForDriver_text_nameOfProduct"
-        android:layout_alignBottom="@+id/trackingForDriver_text_nameOfProduct"
-        android:layout_alignStart="@+id/trackingForDriver_text_product_quantity_val" />
+        android:layout_below="@+id/trackingForDriver_text_order"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -40,8 +45,10 @@
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="@string/product_name"
         android:id="@+id/trackingForDriver_text_product_name_val"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
         android:layout_below="@+id/trackingForDriver_text_nameOfProduct"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignParentStart="true" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -49,9 +56,10 @@
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="@string/product_Quantity"
         android:id="@+id/trackingForDriver_text_product_quantity_val"
-        android:layout_below="@+id/trackingForDriver_text_quantityOfProduct"
-        android:layout_alignParentStart="true"
-        android:layout_marginStart="91dp" />
+        android:layout_below="@+id/trackingForDriver_text_nameOfProduct"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp" />
 
 
 

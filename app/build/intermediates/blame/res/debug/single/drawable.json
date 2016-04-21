@@ -56,6 +56,10 @@
         "source": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\src\\main\\res\\drawable\\titled1.jpg"
     },
     {
+        "merged": "C:\\Users\\Fawas\\AndroidStudioProjects\\ElectronicKitchen1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\spinner_background_ab_fawzytheme.xml",
+        "source": "C:\\Users\\Fawas\\AndroidStudioProjects\\ElectronicKitchen1\\app\\src\\main\\res\\drawable\\spinner_background_ab_fawzytheme.xml"
+    },
+    {
         "merged": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pattern.jpg",
         "source": "D:\\Androidprojects\\ElectronicKitchen\\app\\src\\main\\res\\drawable\\pattern.jpg"
     },
@@ -66,6 +70,10 @@
     {
         "merged": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shadow_down.xml",
         "source": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.github.vajro\\MaterialDesignLibrary\\1.6\\res\\drawable\\shadow_down.xml"
+    },
+    {
+        "merged": "C:\\Users\\Fawas\\AndroidStudioProjects\\ElectronicKitchen1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selectable_background_fawzytheme.xml",
+        "source": "C:\\Users\\Fawas\\AndroidStudioProjects\\ElectronicKitchen1\\app\\src\\main\\res\\drawable\\selectable_background_fawzytheme.xml"
     },
     {
         "merged": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_launcher.png",
@@ -236,6 +244,10 @@
         "source": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_edit_text_material.xml"
     },
     {
+        "merged": "C:\\Users\\Fawas\\AndroidStudioProjects\\ElectronicKitchen1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tab_indicator_ab_fawzytheme.xml",
+        "source": "C:\\Users\\Fawas\\AndroidStudioProjects\\ElectronicKitchen1\\app\\src\\main\\res\\drawable\\tab_indicator_ab_fawzytheme.xml"
+    },
+    {
         "merged": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\defend.jpg",
         "source": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\src\\main\\res\\drawable\\defend.jpg"
     },
@@ -356,6 +368,10 @@
         "source": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_tab_indicator_material.xml"
     },
     {
+        "merged": "C:\\Users\\Fawas\\AndroidStudioProjects\\ElectronicKitchen1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\progress_horizontal_fawzytheme.xml",
+        "source": "C:\\Users\\Fawas\\AndroidStudioProjects\\ElectronicKitchen1\\app\\src\\main\\res\\drawable\\progress_horizontal_fawzytheme.xml"
+    },
+    {
         "merged": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
         "source": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_btn_colored_material.xml"
     },
@@ -388,8 +404,16 @@
         "source": "C:\\Users\\Fawas\\AndroidStudioProjects\\ElectronicKitchen1\\app\\build\\intermediates\\exploded-aar\\com.github.vajro\\MaterialDesignLibrary\\1.6\\res\\drawable\\background_switch_ball_uncheck.xml"
     },
     {
+        "merged": "C:\\Users\\Fawas\\AndroidStudioProjects\\ElectronicKitchen1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ab_background_textured_fawzytheme.xml",
+        "source": "C:\\Users\\Fawas\\AndroidStudioProjects\\ElectronicKitchen1\\app\\src\\main\\res\\drawable\\ab_background_textured_fawzytheme.xml"
+    },
+    {
         "merged": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_mainbackground.jpg",
         "source": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\src\\main\\res\\drawable\\ic_mainbackground.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Fawas\\AndroidStudioProjects\\ElectronicKitchen1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_account_circle_white_24dp.png",
+        "source": "C:\\Users\\Fawas\\AndroidStudioProjects\\ElectronicKitchen1\\app\\src\\main\\res\\drawable\\ic_account_circle_white_24dp.png"
     },
     {
         "merged": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
@@ -568,6 +592,10 @@
         "source": "D:\\Androidprojects\\ElectronicKitchen\\app\\src\\main\\res\\drawable\\titled3.jpg"
     },
     {
+        "merged": "C:\\Users\\Fawas\\AndroidStudioProjects\\ElectronicKitchen1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\addcirlce.png",
+        "source": "C:\\Users\\Fawas\\AndroidStudioProjects\\ElectronicKitchen1\\app\\src\\main\\res\\drawable\\addcirlce.png"
+    },
+    {
         "merged": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
         "source": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_btn_check_material.xml"
     },
@@ -634,6 +662,10 @@
     {
         "merged": "C:\\Users\\Fawas\\AndroidStudioProjects\\ElectronicKitchen1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
         "source": "C:\\Users\\Fawas\\AndroidStudioProjects\\ElectronicKitchen1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Fawas\\AndroidStudioProjects\\ElectronicKitchen1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\fab.png",
+        "source": "C:\\Users\\Fawas\\AndroidStudioProjects\\ElectronicKitchen1\\app\\src\\main\\res\\drawable\\fab.png"
     },
     {
         "merged": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_back3.jpg",
@@ -802,6 +834,10 @@
     {
         "merged": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
         "source": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Fawas\\AndroidStudioProjects\\ElectronicKitchen1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_cab_done_fawzytheme.xml",
+        "source": "C:\\Users\\Fawas\\AndroidStudioProjects\\ElectronicKitchen1\\app\\src\\main\\res\\drawable\\btn_cab_done_fawzytheme.xml"
     },
     {
         "merged": "D:\\Androidprojects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\titledme.jpg",

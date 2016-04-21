@@ -31,8 +31,8 @@
     <color name="button_material_dark">#ff5a595b</color>
     <color name="button_material_light">#ffd6d7d7</color>
     <color name="colorAccent">#FF4081</color>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorPrimary">#33b5e5</color>
+    <color name="colorPrimaryDark">#FFFFFF</color>
     <color name="common_action_bar_splitter">#d2d2d2</color>
     <color name="common_signin_btn_dark_text_default">@android:color/white</color>
     <color name="common_signin_btn_dark_text_disabled">#FFAAAAAA</color>
@@ -412,6 +412,22 @@
     <string name="to">إلـى:</string>
     <string name="wlecome_msg">مرحبا بك في المطبخ الالكتروني</string>
     <string name="zero">0</string>
+    <style name="ActionBar.Solid.Fawzytheme" parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@drawable/ab_solid_fawzytheme</item>
+        <item name="android:backgroundStacked">@drawable/ab_stacked_solid_fawzytheme</item>
+        <item name="android:backgroundSplit">@drawable/ab_bottom_solid_fawzytheme</item>
+        <item name="android:progressBarStyle">@style/ProgressBar.Fawzytheme</item>
+    </style>
+    <style name="ActionBar.Transparent.Fawzytheme" parent="@android:style/Widget.Holo.ActionBar">
+        <item name="android:background">@drawable/ab_transparent_fawzytheme</item>
+        <item name="android:progressBarStyle">@style/ProgressBar.Fawzytheme</item>
+    </style>
+    <style name="ActionBarTabStyle.Fawzytheme" parent="@android:style/Widget.Holo.ActionBar.TabView">
+        <item name="android:background">@drawable/tab_indicator_ab_fawzytheme</item>
+    </style>
+    <style name="ActionButton.CloseMode.Fawzytheme" parent="@android:style/Widget.Holo.ActionButton.CloseMode">
+        <item name="android:background">@drawable/btn_cab_done_fawzytheme</item>
+    </style>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>
     <style name="Animation.AppCompat.Dialog" parent="Base.Animation.AppCompat.Dialog"/>
@@ -1391,6 +1407,14 @@
         <item name="tabTextAppearance">@style/TextAppearance.Design.Tab</item>
         <item name="tabSelectedTextColor">?android:textColorPrimary</item>
     </style>
+    <style name="DropDownListView.Fawzytheme" parent="@android:style/Widget.Holo.ListView.DropDown">
+        <item name="android:listSelector">@drawable/selectable_background_fawzytheme</item>
+    </style>
+    <style name="DropDownNav.Fawzytheme" parent="@android:style/Widget.Holo.Spinner">
+        <item name="android:background">@drawable/spinner_background_ab_fawzytheme</item>
+        <item name="android:popupBackground">@drawable/menu_dropdown_panel_fawzytheme</item>
+        <item name="android:dropDownSelector">@drawable/selectable_background_fawzytheme</item>
+    </style>
     <style name="Platform.AppCompat" parent="android:Theme">
         <item name="android:windowNoTitle">true</item>
 
@@ -1489,6 +1513,12 @@
         <item name="android:dropDownItemStyle">@style/Widget.AppCompat.DropDownItem.Spinner</item>
     </style>
     <style name="Platform.Widget.AppCompat.Spinner" parent="android:Widget.Spinner"/>
+    <style name="PopupMenu.Fawzytheme" parent="@android:style/Widget.Holo.ListPopupWindow">
+        <item name="android:popupBackground">@drawable/menu_dropdown_panel_fawzytheme</item>	
+    </style>
+    <style name="ProgressBar.Fawzytheme" parent="@android:style/Widget.Holo.ProgressBar.Horizontal">
+        <item name="android:progressDrawable">@drawable/progress_horizontal_fawzytheme</item>
+    </style>
     <style name="RtlOverlay.DialogWindowTitle.AppCompat" parent="Base.DialogWindowTitle.AppCompat">
     </style>
     <style name="RtlOverlay.Widget.AppCompat.ActionBar.TitleItem" parent="android:Widget">
@@ -1683,6 +1713,25 @@
     <style name="Theme.Design.NoActionBar">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Theme.Fawzytheme" parent="@android:style/Theme.Holo.Light.DarkActionBar">
+        <item name="android:actionBarItemBackground">@drawable/selectable_background_fawzytheme</item>
+        <item name="android:popupMenuStyle">@style/PopupMenu.Fawzytheme</item>
+        <item name="android:dropDownListViewStyle">@style/DropDownListView.Fawzytheme</item>
+        <item name="android:actionBarTabStyle">@style/ActionBarTabStyle.Fawzytheme</item>
+        <item name="android:actionDropDownStyle">@style/DropDownNav.Fawzytheme</item>
+        <item name="android:actionBarStyle">@style/ActionBar.Solid.Fawzytheme</item>
+        <item name="android:actionModeBackground">@drawable/cab_background_top_fawzytheme</item>
+        <item name="android:actionModeSplitBackground">@drawable/cab_background_bottom_fawzytheme</item>
+        <item name="android:actionModeCloseButtonStyle">@style/ActionButton.CloseMode.Fawzytheme</item>
+        
+                <!-- Light.DarkActionBar specific -->
+        <item name="android:actionBarWidgetTheme">@style/Theme.Fawzytheme.Widget</item>
+
+    </style>
+    <style name="Theme.Fawzytheme.Widget" parent="@android:style/Theme.Holo">
+        <item name="android:popupMenuStyle">@style/PopupMenu.Fawzytheme</item>
+        <item name="android:dropDownListViewStyle">@style/DropDownListView.Fawzytheme</item>
     </style>
     <style name="ThemeOverlay.AppCompat" parent="Base.ThemeOverlay.AppCompat"/>
     <style name="ThemeOverlay.AppCompat.ActionBar" parent="Base.ThemeOverlay.AppCompat.ActionBar"/>
