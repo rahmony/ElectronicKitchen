@@ -1,5 +1,31 @@
 [
     {
+        "outputFile": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\values-hdpi-v4\\values-hdpi-v4.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endLine": 6,
+                    "endColumn": 13,
+                    "endOffset": 327
+                },
+                "from": {
+                    "file": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 57,
+                        "endLine": 6,
+                        "endColumn": 13,
+                        "endOffset": 333
+                    }
+                }
+            }
+        ]
+    },
+    {
         "outputFile": "C:\\Users\\Fawas\\AndroidStudioProjects\\ElectronicKitchen1\\app\\build\\intermediates\\res\\merged\\debug\\values-hdpi-v4\\values-hdpi-v4.xml",
         "map": [
             {
@@ -13,32 +39,6 @@
                 },
                 "from": {
                     "file": "C:\\Users\\Fawas\\AndroidStudioProjects\\ElectronicKitchen1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
-                    "position": {
-                        "startLine": 2,
-                        "startColumn": 4,
-                        "startOffset": 55,
-                        "endLine": 6,
-                        "endColumn": 13,
-                        "endOffset": 327
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "outputFile": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\values-hdpi-v4\\values-hdpi-v4.xml",
-        "map": [
-            {
-                "to": {
-                    "startLine": 2,
-                    "startColumn": 4,
-                    "startOffset": 55,
-                    "endLine": 6,
-                    "endColumn": 13,
-                    "endOffset": 327
-                },
-                "from": {
-                    "file": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -68,17 +68,17 @@
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
-                        "startOffset": 55,
+                        "startOffset": 57,
                         "endLine": 6,
                         "endColumn": 13,
-                        "endOffset": 327
+                        "endOffset": 333
                     }
                 }
             }
         ]
     },
     {
-        "outputFile": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\values-hdpi-v4\\values-hdpi-v4.xml",
+        "outputFile": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\res\\merged\\debug\\values-hdpi-v4\\values-hdpi-v4.xml",
         "map": [
             {
                 "to": {
@@ -90,14 +90,14 @@
                     "endOffset": 327
                 },
                 "from": {
-                    "file": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
+                    "file": "C:\\Users\\Fawaz\\Desktop\\ElectronicKitchen\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
-                        "startOffset": 57,
+                        "startOffset": 55,
                         "endLine": 6,
                         "endColumn": 13,
-                        "endOffset": 333
+                        "endOffset": 327
                     }
                 }
             }

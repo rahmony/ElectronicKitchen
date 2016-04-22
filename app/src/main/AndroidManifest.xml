@@ -6,7 +6,9 @@
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <!-- Camera permission for the store activity -->
     <uses-permission android:name="android.permission.CAMERA" />
+
     <uses-feature android:name="android.hardware.camera2" />
+
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
     <application
@@ -20,7 +22,6 @@
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
-
             </intent-filter>
         </activity>
         <activity android:name=".ClassActivity.LoginActivity" />
@@ -34,7 +35,8 @@
         <activity android:name=".ClassActivity.ShowProductOfStroeActivity" />
         <activity android:name=".ClassActivity.ReadyOrders" />
         <activity android:name=".ClassActivity.ShowReadyOrders" />
-        <activity android:name=".ClassActivity.OrderDetails"></activity>
+        <activity android:name=".ClassActivity.OrderDetails" />
+        <activity android:name=".ClassActivity.acceptedOrderDetails"></activity>
     </application>
 
 </manifest>

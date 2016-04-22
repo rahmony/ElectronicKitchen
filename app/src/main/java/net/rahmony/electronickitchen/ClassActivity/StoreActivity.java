@@ -2,6 +2,7 @@ package net.rahmony.electronickitchen.ClassActivity;
 
 import android.content.Context;
 import android.content.Intent;
+import android.graphics.BitmapFactory;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.LayoutInflater;
@@ -16,6 +17,7 @@ import android.widget.TabHost;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import net.alhazmy13.mediapicker.Image.ImagePicker;
 import net.rahmony.electronickitchen.APIService;
 import net.rahmony.electronickitchen.Data.Cart;
 import net.rahmony.electronickitchen.Data.Product;
@@ -49,14 +51,15 @@ public class StoreActivity extends AppCompatActivity implements TabHost.OnTabCha
     //List View in Store To show Order
     ListView mListView_store_order;
 
-    //List View in Store To show current  Order
-    ListView mListView_store_trackingOrder;
+    //List View in Store To show accepted  Order
+    ListView mListView_accepted_orders;
 
     // Product Object
     final Product product = new Product();
 
     //Cart Object
-    final  Cart cart = new Cart();
+    final Cart cart = new Cart();
+    final Cart cart_accepted_orders = new Cart();
 
     //Array For getting productName and productPrice
     ArrayList list_productName = new ArrayList();
@@ -67,15 +70,19 @@ public class StoreActivity extends AppCompatActivity implements TabHost.OnTabCha
     ArrayList list_LastName = new ArrayList();
     ArrayList list_Invoice_ID = new ArrayList();
 
+    //Array For getting firstName and lastName
+    ArrayList list_FirstName_accepted_orders = new ArrayList();
+    ArrayList list_LastName_accepted_orders = new ArrayList();
+    ArrayList list_Invoice_ID_accepted_orders = new ArrayList();
 
-    //List of tracking info
+   /* //List of tracking info
     ArrayList list_tracking_productName = new ArrayList();
     ArrayList list_tracking_Price = new ArrayList();
     ArrayList list_tracking_Quantity = new ArrayList();
-    ArrayList list_tracking_status = new ArrayList();
+    ArrayList list_tracking_status = new ArrayList();*/
 
     TabHost mTab;
-    ImageButton mbtnImage_store_left;
+    ImageButton mBtnImage_store;
     ImageView mImage_store;
     TextView mStoreName, mText_store_description;
 
@@ -93,7 +100,7 @@ public class StoreActivity extends AppCompatActivity implements TabHost.OnTabCha
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_store);
 
-        mbtnImage_store_left = (ImageButton) findViewById(R.id.btnImage_store_left);
+        mBtnImage_store = (ImageButton) findViewById(R.id.btnImage_store);
         mImage_store = (ImageView) findViewById(R.id.image_store);
 
 
@@ -186,12 +193,12 @@ public class StoreActivity extends AppCompatActivity implements TabHost.OnTabCha
         mListView_store_order = (ListView) findViewById(R.id.listView_store_order);
 
         //ID For The User
-        cart.setID(extra.getInt("ID"));
+        cart_accepted_orders.setID(extra.getInt("ID"));
         //Store_ID For The User
-        cart.setStore_ID(extra.getInt("Store_ID"));
+        cart_accepted_orders.setStore_ID(extra.getInt("Store_ID"));
 
         //Start Call
-        Call<List<Cart>> callOrder = apiService.getOrder(cart);
+        Call<List<Cart>> callOrder = apiService.getOrder(cart_accepted_orders);
         callOrder.enqueue(new Callback<List<Cart>>() {
                               @Override
                               public void onResponse(Response<List<Cart>> response, Retrofit retrofit) {
@@ -235,40 +242,42 @@ public class StoreActivity extends AppCompatActivity implements TabHost.OnTabCha
 
 
         //implementation for List View, list for tracking order .
-        mListView_store_trackingOrder = (ListView) findViewById(R.id.listView_currunt_orders);
+        mListView_accepted_orders = (ListView) findViewById(R.id.listView_accepted_orders);
 
-        Call<List<Cart>> trackingOrder = apiService.trackingForSeller(cart);
+        //ID For The User
+        cart_accepted_orders.setID(extra.getInt("ID"));
+        //Store_ID For The User
+        cart_accepted_orders.setStore_ID(extra.getInt("Store_ID"));
+
+        Call<List<Cart>> trackingOrder = apiService.acceptedOrder(cart_accepted_orders);
         trackingOrder.enqueue(new Callback<List<Cart>>() {
 
             @Override
             public void onResponse(Response<List<Cart>> response, Retrofit retrofit) {
                 if (response.message().equalsIgnoreCase("unauthorized")) {
 
-                    /*mTextView_text_cart_no_data.setVisibility(View.VISIBLE);*/
+                    /*mTextView_text_accepted_ordersart_no_data.setVisibility(View.VISIBLE);*/
 
                 } else {
                     ArrayList<Cart> arrayList = (ArrayList) response.body();
-                    String[] productName = new String[arrayList.size()];
-                    int[] Price = new int[arrayList.size()];
-                    int[] Quantity = new int[arrayList.size()];
-                    String[] status = new String[arrayList.size()];
+                    String[] FirstName_accepted_orders = new String[arrayList.size()];
+                    String[] LastName_accepted_orders = new String[arrayList.size()];
+                    int[] Invoice_ID_accepted_orders = new int[arrayList.size()];
                     for (int i = 0; i < arrayList.size(); i++) {
                         if (arrayList != null) {
-                            productName[i] = arrayList.get(i).getProductName();
-                            list_tracking_productName.add(i, arrayList.get(i).getProductName());
-                            Price[i] = arrayList.get(i).getPrice();
-                            list_tracking_Price.add(i, arrayList.get(i).getPrice());
-                            Quantity[i] = arrayList.get(i).getQuantity();
-                            list_tracking_Quantity.add(i, arrayList.get(i).getQuantity());
-                            status[i] = arrayList.get(i).getStatus();
-                            list_tracking_status.add(i, arrayList.get(i).getStatus());
+                            FirstName_accepted_orders[i] = arrayList.get(i).getFirstName();
+                            list_FirstName_accepted_orders.add(i, arrayList.get(i).getFirstName());
+                            LastName_accepted_orders[i] = arrayList.get(i).getLastName();
+                            list_LastName_accepted_orders.add(i, arrayList.get(i).getLastName());
+                            Invoice_ID_accepted_orders[i] = arrayList.get(i).getInvoice_ID();
+                            list_Invoice_ID_accepted_orders.add(i, arrayList.get(i).getInvoice_ID());
 
 
                         }
 
                     }
-                    myTheardAdapter arr = new myTheardAdapter(getBaseContext(), android.R.layout.simple_list_item_1, productName);
-                    mListView_store_trackingOrder.setAdapter(arr);
+                    myTheardAdapter arr = new myTheardAdapter(getBaseContext(), android.R.layout.simple_list_item_1, FirstName_accepted_orders);
+                    mListView_accepted_orders.setAdapter(arr);
 
                 }
             }
@@ -279,6 +288,7 @@ public class StoreActivity extends AppCompatActivity implements TabHost.OnTabCha
             }
         });
 
+        mListView_accepted_orders.setOnItemClickListener(this);
     }
 
 
@@ -293,6 +303,7 @@ public class StoreActivity extends AppCompatActivity implements TabHost.OnTabCha
     @Override
     protected void onStop(){
         super.onStop();
+        mListView_store_order = null;
     }
 
 
@@ -300,46 +311,36 @@ public class StoreActivity extends AppCompatActivity implements TabHost.OnTabCha
     public void onClick(View v) {
 
         switch (v.getId()){
-            case R.id.btnImage_store_left:
+            case R.id.btnImage_store:
                 Bundle extra = getIntent().getExtras();
                 Intent intent = new Intent(StoreActivity.this, Product_Activity.class).putExtra("Store_ID", extra.getInt("Store_ID"));
                 startActivity(intent);
                 break;
+            case R.id.image_store:
+                new ImagePicker.Builder(this)
+                        .mode(ImagePicker.Mode.CAMERA)
+                        .extension(ImagePicker.Extension.PNG)
+                        .compressLevel(ImagePicker.ComperesLevel.MEDIUM)
+                        .directory(ImagePicker.Directory.DEFAULT)
+                        .build();
 
-
-            case R.id.trackingForStore_btn_order_ready:
-                Toast.makeText(getBaseContext(), "tracking For Store btn order ready", Toast.LENGTH_SHORT).show();
-
-                Call<Cart> callReady = apiService.readyForDelivery(cart);
-                callReady.enqueue(new Callback<Cart>() {
-                    @Override
-                    public void onResponse(Response<Cart> response, Retrofit retrofit) {
-                        if (response.message().equalsIgnoreCase("ok")) {
-                            Toast.makeText(getBaseContext(), "Order Ready for shipment", Toast.LENGTH_SHORT).show();
-                            finish();
-                        }
-                    }
-
-                    @Override
-                    public void onFailure(Throwable t) {
-                        Toast.makeText(getBaseContext(), t.getMessage().toString(), Toast.LENGTH_SHORT).show();
-                    }
-                });
                 break;
-
         }
 
     }
 
 
-    /*public void onClickme(View view) {
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
 
-        File file = new File(Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DCIM), "64861-200.png");
+        if (requestCode == ImagePicker.IMAGE_PICKER_REQUEST_CODE && resultCode == RESULT_OK) {
+            String mPath = data.getStringExtra(ImagePicker.EXTRA_IMAGE_PATH);
 
-        Glide.with(this).load(file).into(mImage_store);
+            mImage_store.setImageBitmap(BitmapFactory.decodeFile(mPath));
+        }
+    }
 
-
-    }*/
 
 
     @Override
@@ -361,9 +362,14 @@ public class StoreActivity extends AppCompatActivity implements TabHost.OnTabCha
                 Toast.makeText(this, list_productName.get(position).toString(), Toast.LENGTH_LONG).show();
                 break;
             case R.id.listView_store_order:
-                Intent intent = new Intent(StoreActivity.this, OrderDetails.class);
-                intent.putExtra("Invoice_ID", Integer.parseInt(list_Invoice_ID.get(position).toString()));
-                startActivity(intent);
+                Intent intent_1 = new Intent(StoreActivity.this, OrderDetails.class);
+                intent_1.putExtra("Invoice_ID", Integer.parseInt(list_Invoice_ID.get(position).toString()));
+                startActivity(intent_1);
+                break;
+            case R.id.listView_accepted_orders:
+                Intent intent_2 = new Intent(StoreActivity.this, acceptedOrderDetails.class);
+                intent_2.putExtra("Invoice_ID", Integer.parseInt(list_Invoice_ID_accepted_orders.get(position).toString()));
+                startActivity(intent_2);
                 break;
         }
 
@@ -433,19 +439,13 @@ public class StoreActivity extends AppCompatActivity implements TabHost.OnTabCha
         public View getView(int position, View convertView, ViewGroup parent) {
 
             LayoutInflater inflater = (LayoutInflater) getSystemService(LAYOUT_INFLATER_SERVICE);
-            View v = inflater.inflate(R.layout.list_tracking_for_store, parent, false);
+            View v = inflater.inflate(R.layout.list_accepted_order, parent, false);
 
-            TextView mText_list_ProductName = (TextView) v.findViewById(R.id.trackingForStore_text_product_name_val);
-            mText_list_ProductName.setText(list_tracking_productName.get(position).toString());
+            TextView mText_list_order_FirstName = (TextView) v.findViewById(R.id.text_list_order_FirstName_accepted_orders);
+            mText_list_order_FirstName.setText(list_FirstName_accepted_orders.get(position).toString());
 
-            TextView mText_list_Price = (TextView) v.findViewById(R.id.trackingForStore_text_product_price_val);
-            mText_list_Price.setText(list_tracking_Price.get(position).toString());
-
-            TextView mText_list_Quantity = (TextView) v.findViewById(R.id.trackingForStore_text_product_quantity_val);
-            mText_list_Quantity.setText(list_tracking_Quantity.get(position).toString());
-
-            TextView mText_list_Status = (TextView) v.findViewById(R.id.trackingForStore_text_status);
-            mText_list_Status.setText(list_tracking_status.get(position).toString());
+            TextView mText_list_order_LastName = (TextView) v.findViewById(R.id.text_list_order_LastName_accepted_orders);
+            mText_list_order_LastName.setText(list_LastName_accepted_orders.get(position).toString());
 
 
             return v;

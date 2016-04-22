@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="net.rahmony.electronickitchen.ClassActivity.OrderDetails"
+    android:columnCount="1"
+    android:rowCount="3"
+    android:background="@drawable/pattern">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:weightSum="1"
+        android:layout_column="0"
+        android:layout_row="0"
+        android:paddingTop="10dp">
+
+        <net.rahmony.electronickitchen.ClassAssets.FontCustomTextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/product_name"
+            android:layout_weight="0.33"
+            android:textColor="#090505"
+            android:gravity="center" />
+
+        <net.rahmony.electronickitchen.ClassAssets.FontCustomTextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/product_price"
+            android:layout_weight="0.38"
+            android:textColor="#0b0606"
+            android:gravity="center" />
+
+        <net.rahmony.electronickitchen.ClassAssets.FontCustomTextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/product_Quantity"
+            android:layout_weight="0.27"
+            android:textColor="#090505"
+            android:gravity="center"
+            />
+    </LinearLayout>
+
+    <ListView
+        android:layout_width="383dp"
+        android:layout_height="361dp"
+        android:id="@+id/listView_accepted_order_details"
+        android:layout_column="0"
+        android:layout_row="1" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_row="2"
+        android:weightSum="1"
+        android:gravity="center">
+
+        <net.rahmony.electronickitchen.ClassAssets.FontCustomButton
+            android:layout_width="270dp"
+            android:layout_height="match_parent"
+            android:text="@string/OrderDone"
+            android:id="@+id/btn_accepted_order_details_ready_order"
+            android:layout_column="0"
+            android:layout_row="3"
+            android:onClick="onClick"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="#420f6ace"
+            android:textColor="#ffffff"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+</GridLayout>
