@@ -42,8 +42,8 @@ okio/Timeout.class
 android/support/v7/widget/ViewInfoStore.class
 retrofit/http/HEAD.class
 android/support/v7/widget/RecyclerView$RecyclerListener.class
-org/parceler/transfuse/annotations/OnDestroy.class
 android/support/v4/widget/ViewDragHelper.class
+org/parceler/transfuse/annotations/OnDestroy.class
 retrofit/RequestBuilderAction$Field.class
 okio/ByteString.class
 org/parceler/ParcelFactory.class
@@ -800,6 +800,7 @@ android/support/v4/app/FragmentManager.class
 org/parceler/internal/ParcelsGenerator.class
 android/support/v4/view/WindowInsetsCompat.class
 android/support/v4/view/ViewCompatEclairMr1.class
+net/rahmony/electronickitchen/ClassActivity/CustomerTrackingDetailsActivity.class
 org/parceler/guava/collect/GwtTransient.class
 retrofit/http/POST.class
 org/parceler/transfuse/bootstrap/ExistingVariableInjectionBuilder.class

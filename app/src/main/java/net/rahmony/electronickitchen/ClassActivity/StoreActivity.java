@@ -75,11 +75,6 @@ public class StoreActivity extends AppCompatActivity implements TabHost.OnTabCha
     ArrayList list_LastName_accepted_orders = new ArrayList();
     ArrayList list_Invoice_ID_accepted_orders = new ArrayList();
 
-   /* //List of tracking info
-    ArrayList list_tracking_productName = new ArrayList();
-    ArrayList list_tracking_Price = new ArrayList();
-    ArrayList list_tracking_Quantity = new ArrayList();
-    ArrayList list_tracking_status = new ArrayList();*/
 
     TabHost mTab;
     ImageButton mBtnImage_store;

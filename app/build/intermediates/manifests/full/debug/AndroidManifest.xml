@@ -44,6 +44,7 @@
         <activity android:name="net.rahmony.electronickitchen.ClassActivity.ShowReadyOrders" />
         <activity android:name="net.rahmony.electronickitchen.ClassActivity.OrderDetails" />
         <activity android:name="net.rahmony.electronickitchen.ClassActivity.acceptedOrderDetails" />
+        <activity android:name="net.rahmony.electronickitchen.ClassActivity.CustomerTrackingDetailsActivity" />
 
         <meta-data
             android:name="com.google.android.gms.version"

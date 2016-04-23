@@ -91,5 +91,6 @@
     <string name="delivery"> الموافقة على توصيل الطلب </string>
 
     <string name="OrderDone">تــم الإنتهــــاء من الطلب</string>
+    <string name="OrderFromStore">الطلـــب من متجــــر</string>
 
 </resources>

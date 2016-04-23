@@ -68,6 +68,10 @@
     <init>();
 }
 
+-keep class net.rahmony.electronickitchen.ClassActivity.CustomerTrackingDetailsActivity {
+    <init>();
+}
+
 -keep class net.alhazmy13.mediapicker.Image.ImageActivity {
     <init>();
 }

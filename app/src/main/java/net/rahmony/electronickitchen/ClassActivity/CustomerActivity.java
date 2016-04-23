@@ -54,10 +54,8 @@ public class CustomerActivity extends AppCompatActivity implements  AdapterView.
 
 
     //List of tracking info
-    ArrayList list_tracking_productName = new ArrayList();
-    ArrayList list_tracking_Price = new ArrayList();
-    ArrayList list_tracking_Quantity = new ArrayList();
-    ArrayList list_tracking_status = new ArrayList();
+    ArrayList list_tracking_storeName= new ArrayList();
+    ArrayList list_tracking_Invoice_ID = new ArrayList();
 
     /***************************** Retrofit ************************************/
     final Retrofit retrofit = new Retrofit.Builder()
@@ -260,26 +258,18 @@ public class CustomerActivity extends AppCompatActivity implements  AdapterView.
 
                 } else {
                     ArrayList<Cart> arrayList = (ArrayList) response.body();
-                    String[] productName = new String[arrayList.size()];
-                    int[] Price = new int[arrayList.size()];
-                    int[] Quantity = new int[arrayList.size()];
-                    String [] status = new String[arrayList.size()];
+                    String[] storeName = new String[arrayList.size()];
+                    int[] Invoice_ID_trackOrder = new int[arrayList.size()];
                     for (int i = 0; i < arrayList.size(); i++) {
                         if (arrayList != null) {
-                            productName[i] = arrayList.get(i).getProductName();
-                            list_tracking_productName.add(i, arrayList.get(i).getProductName());
-                            Price[i] = arrayList.get(i).getPrice();
-                            list_tracking_Price.add(i, arrayList.get(i).getPrice());
-                            Quantity[i] = arrayList.get(i).getQuantity();
-                            list_tracking_Quantity.add(i, arrayList.get(i).getQuantity());
-                            status[i] = arrayList.get(i).getStatus();
-                            list_tracking_status.add(i, arrayList.get(i).getStatus());
-
-
+                            storeName[i] = arrayList.get(i).getStoreName();
+                            list_tracking_storeName.add(i, arrayList.get(i).getStoreName());
+                            Invoice_ID_trackOrder[i] = arrayList.get(i).getInvoice_ID();
+                            list_tracking_Invoice_ID.add(i, arrayList.get(i).getInvoice_ID());
                         }
 
                     }
-                    myTheardAdapter arr = new myTheardAdapter(getBaseContext(), android.R.layout.simple_list_item_1, productName);
+                    myTheardAdapter arr = new myTheardAdapter(getBaseContext(), android.R.layout.simple_list_item_1, storeName);
                     mListView_trackingOrder.setAdapter(arr);
 
                 }
@@ -290,6 +280,7 @@ public class CustomerActivity extends AppCompatActivity implements  AdapterView.
                 Toast.makeText(getBaseContext(), " Oops! An error occurred  + The Throwble is " + t.getMessage().toString(), Toast.LENGTH_LONG).show();
             }
         });
+        mListView_trackingOrder.setOnItemClickListener(this);
     }
 
     /**
@@ -353,6 +344,12 @@ public class CustomerActivity extends AppCompatActivity implements  AdapterView.
                 intent.putExtra("StoreName", list_storeName.get(position).toString());
                 intent.putExtra("StoreDescription", list_storeDescription.get(position).toString());
                 startActivity(intent);
+                break;
+            case R.id.listView_trackOrder:
+                Intent intent_2 = new Intent(CustomerActivity.this, CustomerTrackingDetailsActivity.class);
+                intent_2.putExtra("Invoice_ID", Integer.parseInt(list_tracking_Invoice_ID.get(position).toString()));
+                startActivity(intent_2);
+
                 break;
         }
 
@@ -428,20 +425,10 @@ public class CustomerActivity extends AppCompatActivity implements  AdapterView.
         public View getView(int position, View convertView, ViewGroup parent) {
 
             LayoutInflater inflater = (LayoutInflater) getSystemService(LAYOUT_INFLATER_SERVICE);
-            View v = inflater.inflate(R.layout.list_tracking, parent, false);
+            View v = inflater.inflate(R.layout.list_tracking_customer, parent, false);
 
-            TextView mText_list_ProductName = (TextView) v.findViewById(R.id.tracking_text_product_name_val);
-            mText_list_ProductName.setText(list_tracking_productName.get(position).toString());
-
-            TextView mText_list_Price = (TextView) v.findViewById(R.id.tracking_text_product_price_val);
-            mText_list_Price.setText(list_tracking_Price.get(position).toString());
-
-            TextView mText_list_Quantity = (TextView) v.findViewById(R.id.tracking_text_product_quantity_val);
-            mText_list_Quantity.setText(list_tracking_Quantity.get(position).toString());
-
-            TextView mText_list_Status = (TextView) v.findViewById(R.id.tracking_text_current_status);
-            mText_list_Status.setText(list_tracking_status.get(position).toString());
-
+            TextView mText_list_StoreName = (TextView) v.findViewById(R.id.text_list_tracking_customer_storeName);
+            mText_list_StoreName.setText(list_tracking_storeName.get(position).toString());
 
             return v;
         }

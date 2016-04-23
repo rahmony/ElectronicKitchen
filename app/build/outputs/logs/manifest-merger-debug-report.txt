@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\Androidprojects\ElectronicKitchen\app\src\main\AndroidManifest.xml:2:1-42:12
+ADDED from D:\Androidprojects\ElectronicKitchen\app\src\main\AndroidManifest.xml:2:1-43:12
 	xmlns:android
 		ADDED from D:\Androidprojects\ElectronicKitchen\app\src\main\AndroidManifest.xml:2:11-69
 	package
@@ -36,7 +36,7 @@ MERGED from [net.alhazmy13.MediaPicker:libary:2.1.0] D:\Androidprojects\Electron
 	android:name
 		ADDED from D:\Androidprojects\ElectronicKitchen\app\src\main\AndroidManifest.xml:12:22-78
 application
-ADDED from D:\Androidprojects\ElectronicKitchen\app\src\main\AndroidManifest.xml:14:5-40:19
+ADDED from D:\Androidprojects\ElectronicKitchen\app\src\main\AndroidManifest.xml:14:5-41:19
 MERGED from [com.github.vajro:MaterialDesignLibrary:1.6] D:\Androidprojects\ElectronicKitchen\app\build\intermediates\exploded-aar\com.github.vajro\MaterialDesignLibrary\1.6\AndroidManifest.xml:11:5-14:19
 MERGED from [com.android.support:support-v4:23.2.1] D:\Androidprojects\ElectronicKitchen\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:appcompat-v7:23.2.1] D:\Androidprojects\ElectronicKitchen\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.2.1\AndroidManifest.xml:25:5-20
@@ -140,9 +140,13 @@ ADDED from D:\Androidprojects\ElectronicKitchen\app\src\main\AndroidManifest.xml
 	android:name
 		ADDED from D:\Androidprojects\ElectronicKitchen\app\src\main\AndroidManifest.xml:38:19-61
 activity#net.rahmony.electronickitchen.ClassActivity.acceptedOrderDetails
-ADDED from D:\Androidprojects\ElectronicKitchen\app\src\main\AndroidManifest.xml:39:9-81
+ADDED from D:\Androidprojects\ElectronicKitchen\app\src\main\AndroidManifest.xml:39:9-72
 	android:name
 		ADDED from D:\Androidprojects\ElectronicKitchen\app\src\main\AndroidManifest.xml:39:19-69
+activity#net.rahmony.electronickitchen.ClassActivity.CustomerTrackingDetailsActivity
+ADDED from D:\Androidprojects\ElectronicKitchen\app\src\main\AndroidManifest.xml:40:9-92
+	android:name
+		ADDED from D:\Androidprojects\ElectronicKitchen\app\src\main\AndroidManifest.xml:40:19-80
 uses-sdk
 INJECTED from D:\Androidprojects\ElectronicKitchen\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:multidex:1.0.1] D:\Androidprojects\ElectronicKitchen\app\build\intermediates\exploded-aar\com.android.support\multidex\1.0.1\AndroidManifest.xml:18:5-42

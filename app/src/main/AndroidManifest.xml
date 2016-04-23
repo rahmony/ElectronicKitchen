@@ -36,7 +36,8 @@
         <activity android:name=".ClassActivity.ReadyOrders" />
         <activity android:name=".ClassActivity.ShowReadyOrders" />
         <activity android:name=".ClassActivity.OrderDetails" />
-        <activity android:name=".ClassActivity.acceptedOrderDetails"></activity>
+        <activity android:name=".ClassActivity.acceptedOrderDetails" />
+        <activity android:name=".ClassActivity.CustomerTrackingDetailsActivity"></activity>
     </application>
 
 </manifest>
