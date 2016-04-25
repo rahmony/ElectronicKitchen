@@ -94,5 +94,6 @@
     <string name="Order_FromStore">الطلـــب من متجــــر</string>
     <string name="Order_Tracking">تتــبع الطلـــــــب</string>
 
+    <string name="Order_From_Store">طلـــب من متجـــر:</string>
 
 </resources>
