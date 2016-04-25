@@ -70,6 +70,7 @@ public class CustomerActivity extends AppCompatActivity implements  AdapterView.
     //Cart Object
     final  Cart cart = new Cart();
 
+
     //Text for There is No Data To Show in Cart
     TextView mTextView_text_cart_no_data;
 
@@ -246,6 +247,9 @@ public class CustomerActivity extends AppCompatActivity implements  AdapterView.
 
         //implementation for List View, list for tracking order .
         mListView_trackingOrder = (ListView) findViewById(R.id.listView_trackOrder);
+
+
+        cart.setID(extra.getInt("ID"));
 
         Call<List<Cart>> trackingOrder = apiService.trackingForCustomer(cart);
         trackingOrder.enqueue(new Callback<List<Cart>>() {

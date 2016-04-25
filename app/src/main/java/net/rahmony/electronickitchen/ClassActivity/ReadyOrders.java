@@ -41,10 +41,13 @@ public class ReadyOrders extends AppCompatActivity   implements AdapterView.OnIt
     // List View in Store To show product
     ListView mListView_ready_orders;
 
-    //Array For getting productName and productPrice
-    ArrayList list_productName = new ArrayList();
-    ArrayList list_productQuantity = new ArrayList();
+    //Cart Object
+    final  Cart cart = new Cart();
 
+
+    //List of tracking info
+    ArrayList list_tracking_storeName= new ArrayList();
+    ArrayList list_tracking_Invoice_ID = new ArrayList();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -52,38 +55,43 @@ public class ReadyOrders extends AppCompatActivity   implements AdapterView.OnIt
         setContentView(R.layout.activity_ready_orders);
 
 
+
+        //Get Extra Object
+        Bundle extra = getIntent().getExtras();
+
+        //implementation for List View, list for tracking order .
         mListView_ready_orders = (ListView) findViewById(R.id.listView_ready_orders);
-        Call<List<Cart>> reg = apiService.trackingForDriver();
 
+        Call<List<Cart>> reg = apiService.trackingForDriver(cart);
         reg.enqueue(new Callback<List<Cart>>() {
-                        @Override
-                        public void onResponse(Response<List<Cart>> response, Retrofit retrofit) {
 
+            @Override
+            public void onResponse(Response<List<Cart>> response, Retrofit retrofit) {
+                if (response.message().equalsIgnoreCase("ok")) {
 
-                            ArrayList<Cart> arrayList = (ArrayList) response.body();
-
-                            String[] productName = new String[arrayList.size()];
-                            String[] productQuantity = new String[arrayList.size()];
-                            for (int i = 0; i < arrayList.size(); i++) {
-                                if (arrayList != null) {
-                                    productName[i] = arrayList.get(i).getProductName();
-                                    list_productName.add(i, arrayList.get(i).getProductName());
-                                    productQuantity[i] = arrayList.get(i).getQuantity() + "";
-                                    list_productQuantity.add(i, arrayList.get(i).getQuantity());
-                                }
-                            }
-                            myAdapter arr = new myAdapter(getBaseContext(), android.R.layout.simple_list_item_1, productName);
-                            mListView_ready_orders.setAdapter(arr);
+                    ArrayList<Cart> arrayList = (ArrayList) response.body();
+                    String[] storeName = new String[arrayList.size()];
+                    int[] Invoice_ID_trackOrder = new int[arrayList.size()];
+                    for (int i = 0; i < arrayList.size(); i++) {
+                        if (arrayList != null) {
+                            storeName[i] = arrayList.get(i).getStoreName();
+                            list_tracking_storeName.add(i, arrayList.get(i).getStoreName());
+                            Invoice_ID_trackOrder[i] = arrayList.get(i).getInvoice_ID();
+                            list_tracking_Invoice_ID.add(i, arrayList.get(i).getInvoice_ID());
                         }
 
-
-                        @Override
-                        public void onFailure(Throwable t) {
-                            Toast.makeText(getBaseContext(), " Oops! An error occurred  + The Throwble is " + t.getMessage().toString(), Toast.LENGTH_LONG).show();
-                        }
                     }
-        );
+                    myAdapter arr = new myAdapter(getBaseContext(), android.R.layout.simple_list_item_1, storeName);
+                    mListView_ready_orders.setAdapter(arr);
 
+                }
+            }
+
+            @Override
+            public void onFailure(Throwable t) {
+                Toast.makeText(getBaseContext(), " Oops! An error occurred  + The Throwble is " + t.getMessage().toString(), Toast.LENGTH_LONG).show();
+            }
+        });
         mListView_ready_orders.setOnItemClickListener(this);
     }
 
@@ -112,12 +120,8 @@ public class ReadyOrders extends AppCompatActivity   implements AdapterView.OnIt
             LayoutInflater inflater = (LayoutInflater) getSystemService(LAYOUT_INFLATER_SERVICE);
             View v = inflater.inflate(R.layout.list_tracking_for_driver, parent, false);
 
-            TextView mText_ProductName = (TextView) v.findViewById(R.id.trackingForDriver_text_product_name_val);
-            mText_ProductName.setText(list_productName.get(position).toString());
-
-            TextView mText_Quantity = (TextView) v.findViewById(R.id.trackingForDriver_text_product_quantity_val);
-            mText_Quantity.setText(list_productQuantity.get(position).toString());
-
+            TextView mText_StoreName = (TextView) v.findViewById(R.id.text_list_tracking_driver_storeName);
+            mText_StoreName.setText(list_tracking_storeName.get(position).toString());
 
             return v;
         }

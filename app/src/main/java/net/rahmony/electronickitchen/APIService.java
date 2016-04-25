@@ -91,9 +91,11 @@ public interface APIService {
     @POST("trackingForCustomer")
     Call<List<Cart>> trackingForCustomer(@Body Cart cart);
 
+    @POST("getInvoiceStatus")
+    Call<Cart> getInvoiceStatus(@Body Cart cart);
 
-    @GET("trackingForDriver")
-    Call<List<Cart>> trackingForDriver();
+    @POST("trackingForDriver")
+    Call<List<Cart>> trackingForDriver(@Body Cart cart);
 
 
 

@@ -17,7 +17,7 @@
             android:layout_width="167dp"
             android:layout_height="25dp"
             android:textAppearance="?android:attr/textAppearanceMedium"
-            android:text="@string/OrderFromStore"
+            android:text="@string/Order_FromStore"
             android:id="@+id/textView2"
             android:layout_gravity="center_horizontal"
             android:gravity="center"
