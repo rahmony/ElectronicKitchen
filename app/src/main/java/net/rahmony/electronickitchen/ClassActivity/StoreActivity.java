@@ -4,6 +4,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.graphics.BitmapFactory;
 import android.os.Bundle;
+import android.os.CountDownTimer;
 import android.support.v7.app.AppCompatActivity;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -282,6 +283,8 @@ public class StoreActivity extends AppCompatActivity implements TabHost.OnTabCha
                 Toast.makeText(getBaseContext(), " Oops! An error occurred  + The Throwble is " + t.getMessage().toString(), Toast.LENGTH_LONG).show();
             }
         });
+
+
 
         mListView_accepted_orders.setOnItemClickListener(this);
     }

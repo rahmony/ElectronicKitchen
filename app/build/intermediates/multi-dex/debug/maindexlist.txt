@@ -31,6 +31,7 @@ org/parceler/transfuse/adapter/ASTVoidType.class
 net/rahmony/electronickitchen/ClassActivity/acceptedOrderDetails$1.class
 android/support/v4/view/MotionEventCompat.class
 android/support/v4/media/MediaBrowserCompat$MediaBrowserServiceCallbackImpl.class
+net/rahmony/electronickitchen/ClassActivity/CustomerTrackingDetailsActivity$1.class
 android/support/v4/view/ViewCompatICSMr1.class
 android/support/annotation/XmlRes.class
 android/support/annotation/BoolRes.class
