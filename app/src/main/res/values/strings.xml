@@ -56,7 +56,7 @@
 
     <string name="ready_orders">الطــلبات المتاحة</string>
 
-    <string name="costumer_name">اســم البـائع</string>
+    <string name="customer_name">اســم الزبــون</string>
     <string name="order_details">تفاصــيل الطـلب:</string>
     <string name="from">مــن:</string>
     <string name="to">إلـى:</string>

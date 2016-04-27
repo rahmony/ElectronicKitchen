@@ -94,7 +94,6 @@ public class CustomerTrackingDetailsActivity extends AppCompatActivity {
                                         break;
 
                                     case "Delivered":
-
                                         mText_customer_tracking_details_current_status.setText("Delivered");
                                         break;
 

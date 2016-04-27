@@ -33,11 +33,11 @@
         <activity android:name=".ClassActivity.Product_Activity" />
         <activity android:name=".ClassActivity.CreateStoreActivity" />
         <activity android:name=".ClassActivity.ShowProductOfStroeActivity" />
-        <activity android:name=".ClassActivity.ReadyOrders" />
-        <activity android:name=".ClassActivity.ShowReadyOrders" />
+        <activity android:name=".ClassActivity.DriverOrdersActivity" />
         <activity android:name=".ClassActivity.OrderDetails" />
         <activity android:name=".ClassActivity.acceptedOrderDetails" />
-        <activity android:name=".ClassActivity.CustomerTrackingDetailsActivity"></activity>
+        <activity android:name=".ClassActivity.CustomerTrackingDetailsActivity" />
+        <activity android:name=".ClassActivity.TrackingForDriverDetailsActivity"></activity>
     </application>
 
 </manifest>

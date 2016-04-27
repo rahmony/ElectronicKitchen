@@ -8,11 +8,11 @@
 -keep class net.rahmony.electronickitchen.ClassActivity.Product_Activity { <init>(); }
 -keep class net.rahmony.electronickitchen.ClassActivity.CreateStoreActivity { <init>(); }
 -keep class net.rahmony.electronickitchen.ClassActivity.ShowProductOfStroeActivity { <init>(); }
--keep class net.rahmony.electronickitchen.ClassActivity.ReadyOrders { <init>(); }
--keep class net.rahmony.electronickitchen.ClassActivity.ShowReadyOrders { <init>(); }
+-keep class net.rahmony.electronickitchen.ClassActivity.DriverOrdersActivity { <init>(); }
 -keep class net.rahmony.electronickitchen.ClassActivity.OrderDetails { <init>(); }
 -keep class net.rahmony.electronickitchen.ClassActivity.acceptedOrderDetails { <init>(); }
 -keep class net.rahmony.electronickitchen.ClassActivity.CustomerTrackingDetailsActivity { <init>(); }
+-keep class net.rahmony.electronickitchen.ClassActivity.TrackingForDriverDetailsActivity { <init>(); }
 -keep class net.alhazmy13.mediapicker.Image.ImageActivity { <init>(); }
 -keep class net.alhazmy13.mediapicker.Video.VideoActivity { <init>(); }
 -keep public class * extends android.app.backup.BackupAgent {

@@ -345,9 +345,9 @@
     <string name="confirm">تـــــأكـيد</string>
     <string name="confirm_order">تـأكيد الطلب</string>
     <string name="costumer_enter">الدخول كزبون</string>
-    <string name="costumer_name">اســم البـائع</string>
     <string name="create_new_product">إنشاء منتج جديد</string>
     <string name="current_status">الحالة الحالية:</string>
+    <string name="customer_name">اســم الزبــون</string>
     <string name="delivery"> الموافقة على توصيل الطلب </string>
     <string name="denial_order">لا أستطيع قبول هذا الطلب</string>
     <string name="driver_enter">الدخول كسائق</string>

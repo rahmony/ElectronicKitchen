@@ -97,6 +97,15 @@ public interface APIService {
     @POST("trackingForDriver")
     Call<List<Cart>> trackingForDriver(@Body Cart cart);
 
+    @POST("trackingForDriverDetails")
+    Call<List<Cart>> trackingForDriverDetails(@Body Cart cart);
+
+
+    @POST("isDriverDelivering")
+    Call<Cart> isDriverDelivering(@Body Cart cart);
+
+    @POST("acceptTrackingForDriverDetails")
+    Call<Cart> acceptTrackingForDriverDetails(@Body Cart cart);
 
 
     /* need to review and amend
