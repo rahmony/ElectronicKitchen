@@ -95,5 +95,6 @@
     <string name="Order_Tracking">تتــبع الطلـــــــب</string>
 
     <string name="Order_From_Store">طلـــب من متجـــر:</string>
+	<string name="restore_password">إستعادة كلمة المرور</string>
 
 </resources>

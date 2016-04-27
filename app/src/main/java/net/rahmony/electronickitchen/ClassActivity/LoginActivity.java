@@ -126,7 +126,7 @@ public class LoginActivity extends AppCompatActivity {
       // *****************************************case if text forgot password CLICKED!**************************************//
             case R.id.text_login_forgot_password:
 
-                Toast.makeText(getBaseContext(), "Unavailable ", Toast.LENGTH_LONG).show();
+                startActivity(new Intent(LoginActivity.this, RestorePasswordActivity.class));
 
                 break;
       //------------------------------------------case for text forgot password  FINISHED!------------------------------------//

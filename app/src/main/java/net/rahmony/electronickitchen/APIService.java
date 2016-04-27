@@ -107,6 +107,8 @@ public interface APIService {
     @POST("acceptTrackingForDriverDetails")
     Call<Cart> acceptTrackingForDriverDetails(@Body Cart cart);
 
+    @POST("forgetPassword")
+    Call<LogInResult> forgetPassword(@Body User user);
 
     /* need to review and amend
     @PUT("items")

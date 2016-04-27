@@ -395,6 +395,7 @@
     <string name="ready"> جاهز للتوصيل </string>
     <string name="ready_orders">الطــلبات المتاحة</string>
     <string name="received">تم الاستلام</string>
+    <string name="restore_password">إستعادة كلمة المرور</string>
     <string name="save">حفظ</string>
     <string name="seller_enter">الدخول كبائع</string>
     <string name="share_location">مشاركة الموقع</string>

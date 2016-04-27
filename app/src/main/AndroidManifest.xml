@@ -37,7 +37,8 @@
         <activity android:name=".ClassActivity.OrderDetails" />
         <activity android:name=".ClassActivity.acceptedOrderDetails" />
         <activity android:name=".ClassActivity.CustomerTrackingDetailsActivity" />
-        <activity android:name=".ClassActivity.TrackingForDriverDetailsActivity"></activity>
+        <activity android:name=".ClassActivity.TrackingForDriverDetailsActivity" />
+        <activity android:name=".ClassActivity.RestorePasswordActivity"></activity>
     </application>
 
 </manifest>
