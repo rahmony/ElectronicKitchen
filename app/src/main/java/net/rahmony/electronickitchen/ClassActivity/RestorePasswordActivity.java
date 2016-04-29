@@ -48,7 +48,7 @@ public class RestorePasswordActivity extends AppCompatActivity {
         mEt_phoneNumber.setOnFocusChangeListener(new View.OnFocusChangeListener() {
             @Override
             public void onFocusChange(View v, boolean hasFocus) {
-                if(!mEt_phoneNumber.getText().toString().matches("/^(009665|9665|\\+9665|05|\\d)(5|0|3|6|4|9|1|8|7)([0-9]{7})$/i")){
+                if(!mEt_phoneNumber.getText().toString().matches("([0-9]{12})")){
                     mEt_phoneNumber.setError("يجب ان يكون رقم الجوال على الصيغة التالية 966xxxxxxxxx");
 
                 }
@@ -78,13 +78,13 @@ public class RestorePasswordActivity extends AppCompatActivity {
 
 
                 if(!mEt_email.getText().toString().matches("^[A-Za-z0-9](([_\\.\\-]?[a-zA-Z0-9]+)*)@([A-Za-z0-9]+)(([\\.\\-]?[a-zA-Z0-9]+)*)\\.([A-Za-z]{2,})$")){
-                    Toast.makeText(getBaseContext(), "Please enter a valid email", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getBaseContext(), "الرجاء ادخال ايميل صحيح", Toast.LENGTH_SHORT).show();
                 }else if(!mEt_password.getText().toString().matches("^(?=.*\\d)(?=.*[a-z])(?=.*[A-Z]).{8,15}$")){
-                    Toast.makeText(getBaseContext(),"Please enter a valid  Password",Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getBaseContext(),"الرجاء ادخال كلمة مرور صحيحة",Toast.LENGTH_SHORT).show();
                 }
                 else if(!mEt_phoneNumber.getText().toString().matches("/^(009665|9665|\\+9665|05|\\d)(5|0|3|6|4|9|1|8|7)([0-9]{7})$/i"))
                 {
-                    Toast.makeText(getBaseContext(), "Please enter a valid phone number", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getBaseContext(), "الرجاء ادخال رقم جوال صحيح", Toast.LENGTH_SHORT).show();
                 }
                 else{
                     Retrofit retrofit = new Retrofit.Builder()
@@ -108,12 +108,12 @@ public class RestorePasswordActivity extends AppCompatActivity {
 
                                             if (response.message().equalsIgnoreCase("ok")) {
 
-                                                Toast.makeText(getBaseContext(), "Done !!", Toast.LENGTH_LONG).show();
+                                                Toast.makeText(getBaseContext(), "تم", Toast.LENGTH_LONG).show();
                                                 finish();
                                             }
 
                                             else
-                                                Toast.makeText(getBaseContext(), "Wrong Email or PhoneNumber !!", Toast.LENGTH_LONG).show();
+                                                Toast.makeText(getBaseContext(), "الايميل او رقم الجوال غير صحيحين", Toast.LENGTH_LONG).show();
 
 
                                         } catch (Exception e) {

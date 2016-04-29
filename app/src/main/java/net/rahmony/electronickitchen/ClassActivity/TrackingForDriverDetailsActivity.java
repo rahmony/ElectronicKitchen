@@ -39,6 +39,7 @@ public class TrackingForDriverDetailsActivity extends AppCompatActivity {
     APIService apiService = retrofit.create(APIService.class);
 
     /***************************************************************************/
+    //List View For Showing Accepted order Details.
 
 
     //Text Views: Store Name, Customer Name

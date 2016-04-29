@@ -173,7 +173,7 @@ public class acceptedOrderDetails extends AppCompatActivity {
                 callAcceptOrder.enqueue(new Callback<Cart>() {
                     @Override
                     public void onResponse(Response<Cart> response, Retrofit retrofit) {
-                        Toast.makeText(getBaseContext(), "Order is now Ready!", Toast.LENGTH_LONG).show();
+                        Toast.makeText(getBaseContext(), "الطلب جاهز الان", Toast.LENGTH_LONG).show();
                         finish();
                     }
                     @Override

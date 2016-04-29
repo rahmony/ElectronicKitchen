@@ -81,12 +81,12 @@ public class CustomerProductActivity extends AppCompatActivity{
                     @Override
                     public void onResponse(Response<Cart> response, Retrofit retrofit) {
                         if(response.message().equalsIgnoreCase("ok")){
-                            Toast.makeText(getBaseContext(), "Order Added!", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(getBaseContext(), "تم اضافة الطلب بنجاح", Toast.LENGTH_SHORT).show();
                             finish();
                         }
                         if(response.message().equalsIgnoreCase("unauthorized")){
 
-                            Toast.makeText(getBaseContext(), "not the same Store!", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(getBaseContext(), "عفوا لا تستطيع الطلب من اكثر من متجر ", Toast.LENGTH_SHORT).show();
 
                         }
                     }

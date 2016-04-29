@@ -65,7 +65,7 @@ public class SignUpActivity extends AppCompatActivity {
         mEt_phone_number.setOnFocusChangeListener(new View.OnFocusChangeListener() {
             @Override
             public void onFocusChange(View v, boolean hasFocus) {
-                if(!mEt_phone_number.getText().toString().matches("/^(009665|9665|\\+9665|05|\\d)(5|0|3|6|4|9|1|8|7)([0-9]{7})$/i")){
+                if(!mEt_phone_number.getText().toString().matches("([0-9]{12})")){
                     mEt_phone_number.setError("يجب ان يكون رقم الجوال على الصيغة التالية 966xxxxxxxxx");
                 }
             }
@@ -119,7 +119,7 @@ public class SignUpActivity extends AppCompatActivity {
                 @Override
                 public void onResponse(Response<Results> response, Retrofit retrofit) {
 
-                    Toast.makeText(getBaseContext(), " user successfully registered ", Toast.LENGTH_LONG).show();
+                    Toast.makeText(getBaseContext(), " تم التسجيل بنجاح", Toast.LENGTH_LONG).show();
                     finish();
                 }
 

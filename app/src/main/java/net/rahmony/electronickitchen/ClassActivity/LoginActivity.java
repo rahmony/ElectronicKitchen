@@ -74,9 +74,9 @@ public class LoginActivity extends AppCompatActivity {
 
 
                 if(!mEt_email.getText().toString().matches("^[A-Za-z0-9](([_\\.\\-]?[a-zA-Z0-9]+)*)@([A-Za-z0-9]+)(([\\.\\-]?[a-zA-Z0-9]+)*)\\.([A-Za-z]{2,})$")){
-                    Toast.makeText(getBaseContext(), "Please enter a valid email", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getBaseContext(), "الرجاء ادخال ايميل صحيح", Toast.LENGTH_SHORT).show();
                 }else if(!mEt_password.getText().toString().matches("^(?=.*\\d)(?=.*[a-z])(?=.*[A-Z]).{8,15}$")){
-                    Toast.makeText(getBaseContext(),"Please enter a valid  Password",Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getBaseContext(),"الرجاء ادخال كلمة مرور صحيحة",Toast.LENGTH_SHORT).show();
                 }
                 else{
                 Retrofit retrofit = new Retrofit.Builder()
@@ -122,7 +122,7 @@ public class LoginActivity extends AppCompatActivity {
                                         }
 
                                         else
-                                            Toast.makeText(getBaseContext(), "Wrong Email or Password !!", Toast.LENGTH_LONG).show();
+                                            Toast.makeText(getBaseContext(), "خطا في الايميل او كلمة المرور !!", Toast.LENGTH_LONG).show();
 
 
                                     } catch (Exception e) {

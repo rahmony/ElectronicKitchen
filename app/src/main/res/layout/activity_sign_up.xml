@@ -72,7 +72,6 @@
             android:layout_marginTop="3dp" />
 
         <net.rahmony.electronickitchen.ClassAssets.FontEditText
-            android:inputType="phone"
             android:layout_width="340dp"
             android:layout_height="wrap_content"
             android:id="@+id/et_phone_number"
@@ -81,7 +80,9 @@
             android:maxLength="50"
             android:hint="@string/phone_number"
             android:gravity="center"
-            android:layout_marginTop="3dp" />
+            android:layout_marginTop="3dp"
+            android:phoneNumber="false"
+            android:inputType="phone" />
 
         <net.rahmony.electronickitchen.ClassAssets.FontEditText
             android:inputType="textShortMessage"
@@ -117,6 +118,15 @@
         android:layout_column="0"
         android:layout_row="2">
 
+        <TextView
+            android:layout_width="81dp"
+            android:layout_height="30dp"
+            android:text="@string/city"
+            android:id="@+id/text_city"
+            android:layout_weight="0.54"
+            android:gravity="center"
+            android:textColor="#000000" />
+
         <RadioGroup
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -125,13 +135,7 @@
             android:weightSum="1"
             android:id="@+id/myRadioGroup">
 
-            <RadioButton
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/makka"
-                android:id="@+id/radioButton_makka"
-                android:textSize="15dp"
-                android:textColor="#000000" />
+
 
             <RadioButton
                 android:layout_width="wrap_content"
@@ -152,16 +156,17 @@
                 android:textColor="#000000"
                 android:layout_marginRight="5dp" />
 
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/makka"
+                android:id="@+id/radioButton_makka"
+                android:textSize="15dp"
+                android:textColor="#000000" />
+
         </RadioGroup>
 
-        <TextView
-            android:layout_width="81dp"
-            android:layout_height="30dp"
-            android:text="@string/city"
-            android:id="@+id/text_city"
-            android:layout_weight="0.54"
-            android:gravity="center"
-            android:textColor="#000000" />
+
 
     </LinearLayout>
 

@@ -409,7 +409,7 @@ public class DriverOrdersActivity extends AppCompatActivity   implements Adapter
                     public void onResponse(Response<Cart> response, Retrofit retrofit) {
                        if(response.message().equalsIgnoreCase("ok")){
 
-                           Toast.makeText(getBaseContext(),"You can't Deliver more than one order at a time!",Toast.LENGTH_LONG).show();
+                           Toast.makeText(getBaseContext(),"لا تستطيع توصيل اكثر من طلب في نفس الوقت",Toast.LENGTH_LONG).show();
                        }else {
                            startActivity(intent);
                        }

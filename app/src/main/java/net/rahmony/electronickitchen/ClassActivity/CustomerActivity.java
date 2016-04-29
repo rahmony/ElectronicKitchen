@@ -321,7 +321,7 @@ public class CustomerActivity extends AppCompatActivity implements  AdapterView.
                     @Override
                     public void onResponse(Response<Cart> response, Retrofit retrofit) {
                         if(response.message().equalsIgnoreCase("ok")){
-                            Toast.makeText(getBaseContext(),"Order Confirmed",Toast.LENGTH_SHORT).show();
+                            Toast.makeText(getBaseContext(),"تم تاكيد الطلب",Toast.LENGTH_SHORT).show();
                             finish();
                         }
                     }
