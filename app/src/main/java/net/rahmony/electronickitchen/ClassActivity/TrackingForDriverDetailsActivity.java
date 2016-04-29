@@ -197,7 +197,7 @@ public class TrackingForDriverDetailsActivity extends AppCompatActivity {
                     @Override
                     public void onResponse(Response<Cart> response, Retrofit retrofit) {
                         if(response.message().equalsIgnoreCase("ok")){
-                            Toast.makeText(getBaseContext(), "you are now Delivering this order!", Toast.LENGTH_LONG).show();
+                            Toast.makeText(getBaseContext(), "انت الان تقوم بتوصيل هذا الطلب", Toast.LENGTH_LONG).show();
                             finish();
                         }
 

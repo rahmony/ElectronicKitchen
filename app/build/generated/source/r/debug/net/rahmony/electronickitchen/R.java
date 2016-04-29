@@ -2684,7 +2684,7 @@ containing a value of this type.
         public static final int middle=0x7f0c0032;
         public static final int mini=0x7f0c0030;
         public static final int multiply=0x7f0c0027;
-        public static final int myRadioGroup=0x7f0c00b8;
+        public static final int myRadioGroup=0x7f0c00b9;
         public static final int navigation_header_container=0x7f0c00db;
         public static final int never=0x7f0c0038;
         public static final int none=0x7f0c0010;
@@ -2698,9 +2698,9 @@ containing a value of this type.
         public static final int progress_horizontal=0x7f0c0007;
         public static final int radio=0x7f0c0056;
         public static final int radioButton_bands_agree=0x7f0c00bd;
-        public static final int radioButton_jeddah=0x7f0c00bb;
-        public static final int radioButton_madina=0x7f0c00ba;
-        public static final int radioButton_makka=0x7f0c00b9;
+        public static final int radioButton_jeddah=0x7f0c00bc;
+        public static final int radioButton_madina=0x7f0c00bb;
+        public static final int radioButton_makka=0x7f0c00ba;
         public static final int red=0x7f0c00d4;
         public static final int right=0x7f0c0024;
         public static final int rootSelector=0x7f0c00d1;
@@ -2766,7 +2766,7 @@ containing a value of this type.
         public static final int text_StoreName=0x7f0c0102;
         public static final int text_app_name=0x7f0c00b1;
         public static final int text_cart_no_data=0x7f0c0076;
-        public static final int text_city=0x7f0c00bc;
+        public static final int text_city=0x7f0c00b8;
         public static final int text_costumer_product_description=0x7f0c007e;
         public static final int text_costumer_product_minus=0x7f0c0081;
         public static final int text_costumer_product_plus=0x7f0c007f;

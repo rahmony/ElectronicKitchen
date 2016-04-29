@@ -1077,6 +1077,7 @@ org/parceler/guava/base/Optional.class
 org/parceler/guava/collect/TreeRangeSet.class
 org/parceler/transfuse/adapter/element/ASTTypeBuilderVisitor.class
 org/parceler/guava/net/package-info.class
+net/rahmony/electronickitchen/ClassActivity/Product_Activity$2.class
 net/rahmony/electronickitchen/ClassActivity/acceptedOrderDetails.class
 android/support/v4/view/NestedScrollingParent.class
 com/google/gson/JsonParseException.class

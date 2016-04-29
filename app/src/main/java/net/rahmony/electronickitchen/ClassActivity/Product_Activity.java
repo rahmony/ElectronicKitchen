@@ -33,6 +33,14 @@ public class Product_Activity extends AppCompatActivity {
         mEt_product_discription = (EditText) findViewById(R.id.et_product_discription);
 
 
+        mEt_product_price.setOnFocusChangeListener(new View.OnFocusChangeListener() {
+            @Override
+            public void onFocusChange(View v, boolean hasFocus) {
+                if(!mEt_product_price.getText().toString().matches("([0-9]{12})")){
+                    mEt_product_price.setError("يجب ان يكون الرقم صحيح");
+                }
+            }
+        });
     }
     public void onClick(View v) {
 
@@ -57,7 +65,7 @@ public class Product_Activity extends AppCompatActivity {
 
             @Override
             public void onResponse(Response<Results> response, Retrofit retrofit) {
-                Toast.makeText(getBaseContext(), " product  successfully added ", Toast.LENGTH_LONG).show();
+                Toast.makeText(getBaseContext(), " تم اضافة المنتج بنجاح", Toast.LENGTH_LONG).show();
                 finish();
             }
 

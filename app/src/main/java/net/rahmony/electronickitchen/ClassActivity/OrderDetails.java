@@ -172,7 +172,7 @@ public class OrderDetails extends AppCompatActivity {
                 callAcceptOrder.enqueue(new Callback<Cart>() {
                     @Override
                     public void onResponse(Response<Cart> response, Retrofit retrofit) {
-                        Toast.makeText(getBaseContext(), "Order Accepted", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(getBaseContext(), "تم قبول الطلب", Toast.LENGTH_SHORT).show();
                         finish();
                     }
                     @Override
@@ -193,7 +193,7 @@ public class OrderDetails extends AppCompatActivity {
                 callDenialOrder.enqueue(new Callback<Cart>() {
                     @Override
                     public void onResponse(Response<Cart> response, Retrofit retrofit) {
-                        Toast.makeText(getBaseContext(), "Order Denied", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(getBaseContext(), "تم رفض الطلب", Toast.LENGTH_SHORT).show();
                         finish();
                     }
                     @Override

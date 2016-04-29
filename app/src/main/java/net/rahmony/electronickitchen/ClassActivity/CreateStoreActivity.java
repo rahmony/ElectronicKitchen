@@ -63,7 +63,7 @@ public class CreateStoreActivity extends AppCompatActivity {
             @Override
             public void onResponse(Response<StoreResult> response, Retrofit retrofit) {
                 if (response.message().equalsIgnoreCase("ok")) {
-                    Toast.makeText(getBaseContext(), " Store Created! ", Toast.LENGTH_LONG).show();
+                    Toast.makeText(getBaseContext(), " تم انشاء المتجر بنجاح ", Toast.LENGTH_LONG).show();
 
                     Intent intent = new Intent(CreateStoreActivity.this, StoreActivity.class);
 
@@ -91,7 +91,7 @@ public class CreateStoreActivity extends AppCompatActivity {
                     startActivity(intent);
                     finish();
                 }if(response.message().equalsIgnoreCase("unauthorized")){
-                    Toast.makeText(getBaseContext(), " Store name existed!", Toast.LENGTH_LONG).show();
+                    Toast.makeText(getBaseContext(), "اسم المتجر موجود سابقا", Toast.LENGTH_LONG).show();
                 }
             }
 

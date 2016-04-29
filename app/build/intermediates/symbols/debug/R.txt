@@ -835,7 +835,7 @@ int id message_scrollView 0x7f0c00e2
 int id middle 0x7f0c0032
 int id mini 0x7f0c0030
 int id multiply 0x7f0c0027
-int id myRadioGroup 0x7f0c00b8
+int id myRadioGroup 0x7f0c00b9
 int id navigation_header_container 0x7f0c00db
 int id never 0x7f0c0038
 int id none 0x7f0c0010
@@ -849,9 +849,9 @@ int id progress_circular 0x7f0c0006
 int id progress_horizontal 0x7f0c0007
 int id radio 0x7f0c0056
 int id radioButton_bands_agree 0x7f0c00bd
-int id radioButton_jeddah 0x7f0c00bb
-int id radioButton_madina 0x7f0c00ba
-int id radioButton_makka 0x7f0c00b9
+int id radioButton_jeddah 0x7f0c00bc
+int id radioButton_madina 0x7f0c00bb
+int id radioButton_makka 0x7f0c00ba
 int id red 0x7f0c00d4
 int id right 0x7f0c0024
 int id rootSelector 0x7f0c00d1
@@ -917,7 +917,7 @@ int id text_StoreDescription 0x7f0c0103
 int id text_StoreName 0x7f0c0102
 int id text_app_name 0x7f0c00b1
 int id text_cart_no_data 0x7f0c0076
-int id text_city 0x7f0c00bc
+int id text_city 0x7f0c00b8
 int id text_costumer_product_description 0x7f0c007e
 int id text_costumer_product_minus 0x7f0c0081
 int id text_costumer_product_plus 0x7f0c007f

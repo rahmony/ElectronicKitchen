@@ -75,7 +75,7 @@ public class MainPageActivity extends AppCompatActivity {
                     @Override
                     public void onResponse(Response<LogInResult> response, Retrofit retrofit) {
                         if (response.message().equalsIgnoreCase("ok")) {
-                            Toast.makeText(getBaseContext(), "Costumer Added!", Toast.LENGTH_LONG).show();
+                            Toast.makeText(getBaseContext(), "تم اضافتك لقائمة الزبائن", Toast.LENGTH_LONG).show();
                         }
                     }
 
@@ -115,7 +115,7 @@ public class MainPageActivity extends AppCompatActivity {
                     @Override
                     public void onResponse(Response<LogInResult> response, Retrofit retrofit) {
                         if(response.message().equalsIgnoreCase("ok")){
-                            Toast.makeText(getBaseContext() , "Seller Added!" , Toast.LENGTH_LONG).show();
+                            Toast.makeText(getBaseContext() , "تم اضافتك لقائمة البائعين" , Toast.LENGTH_LONG).show();
                         }
                     }
 
@@ -180,7 +180,7 @@ public class MainPageActivity extends AppCompatActivity {
 
 
                         } else
-                            Toast.makeText(getBaseContext(), "No response", Toast.LENGTH_LONG).show();
+                            Toast.makeText(getBaseContext(), "لا يوجد رد", Toast.LENGTH_LONG).show();
 
                     }
 
@@ -216,7 +216,7 @@ public class MainPageActivity extends AppCompatActivity {
                     @Override
                     public void onResponse(Response<LogInResult> response, Retrofit retrofit) {
                         if(response.message().equalsIgnoreCase("ok")){
-                            Toast.makeText(getBaseContext() , "Driver Added!" , Toast.LENGTH_LONG).show();
+                            Toast.makeText(getBaseContext() , "تم اضافتك لقائمة السائقين " , Toast.LENGTH_LONG).show();
                         }
                     }
 
