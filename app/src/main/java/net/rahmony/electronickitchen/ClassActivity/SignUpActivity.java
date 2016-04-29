@@ -57,24 +57,24 @@ public class SignUpActivity extends AppCompatActivity {
         mEt_email.setOnFocusChangeListener(new View.OnFocusChangeListener() {
             @Override
             public void onFocusChange(View v, boolean hasFocus) {
-                if(mEt_email.getText().toString().matches("")){
-                    mEt_email.setError("This Field Cannot Be Empty");
+                if(!mEt_email.getText().toString().matches("^[A-Za-z0-9](([_\\.\\-]?[a-zA-Z0-9]+)*)@([A-Za-z0-9]+)(([\\.\\-]?[a-zA-Z0-9]+)*)\\.([A-Za-z]{2,})$")){
+                    mEt_email.setError("الرجاء إدخال إيميل صحيح");
                 }
             }
         });
         mEt_phone_number.setOnFocusChangeListener(new View.OnFocusChangeListener() {
             @Override
             public void onFocusChange(View v, boolean hasFocus) {
-                if(mEt_phone_number.getText().toString().matches("")){
-                    mEt_phone_number.setError("This Field Cannot Be Empty");
+                if(!mEt_phone_number.getText().toString().matches("/^(009665|9665|\\+9665|05|\\d)(5|0|3|6|4|9|1|8|7)([0-9]{7})$/i")){
+                    mEt_phone_number.setError("يجب ان يكون رقم الجوال على الصيغة التالية 966xxxxxxxxx");
                 }
             }
         });
         mEt_password.setOnFocusChangeListener(new View.OnFocusChangeListener() {
             @Override
             public void onFocusChange(View v, boolean hasFocus) {
-                if(mEt_password.getText().toString().matches("")){
-                    mEt_password.setError("This Field Cannot Be Empty");
+                if(!mEt_password.getText().toString().matches("^(?=.*\\d)(?=.*[a-z])(?=.*[A-Z]).{8,15}$")){
+                    mEt_password.setError("يجب ان تكون كلمة المرور 8 خانات وتحتوي على حرف كبير و حرف صغير ورقم واحد على الاقل");
                 }
             }
         });

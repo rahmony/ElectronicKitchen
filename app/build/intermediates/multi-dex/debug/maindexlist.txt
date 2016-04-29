@@ -455,6 +455,7 @@ android/support/annotation/AttrRes.class
 retrofit2/http/OPTIONS.class
 org/parceler/transfuse/listeners/ActivityOnKeyLongPressListener.class
 org/parceler/internal/ParcelerModule.class
+net/rahmony/electronickitchen/ClassActivity/RestorePasswordActivity$2.class
 org/parceler/transfuse/annotations/OnListItemClick.class
 org/parceler/transfuse/annotations/BindProviders.class
 android/support/v4/view/GravityCompat.class
@@ -718,6 +719,7 @@ android/support/v7/widget/RecyclerView$ItemAnimator$ItemAnimatorListener.class
 org/parceler/transfuse/gen/variableBuilder/ProvidesVariableBuilder.class
 org/parceler/transfuse/adapter/classes/ASTClassType.class
 retrofit2/http/Streaming.class
+net/rahmony/electronickitchen/ClassActivity/LoginActivity$3.class
 org/parceler/transfuse/adapter/ASTPrimitiveType.class
 android/support/v4/media/MediaBrowserCompat$ItemCallback.class
 org/parceler/apache/commons/beanutils/PropertyUtils.class
@@ -847,6 +849,7 @@ org/parceler/transfuse/annotations/UIThread.class
 com/google/gson/internal/ConstructorConstructor$1.class
 retrofit2/http/POST.class
 android/support/design/widget/AppBarLayout$Behavior$SavedState.class
+net/rahmony/electronickitchen/ClassActivity/RestorePasswordActivity$4.class
 org/parceler/transfuse/gen/variableBuilder/ProxyVariableBuilder.class
 org/parceler/transfuse/annotations/Activity.class
 android/support/annotation/XmlRes.class
@@ -999,6 +1002,7 @@ org/parceler/transfuse/annotations/ConfigChanges.class
 com/google/gson/internal/bind/DateTypeAdapter$1.class
 org/parceler/guava/primitives/Doubles.class
 net/alhazmy13/mediapicker/Image/ImageActivity$2.class
+net/rahmony/electronickitchen/ClassActivity/RestorePasswordActivity$3.class
 org/parceler/transfuse/gen/InvocationBuilder.class
 org/parceler/transfuse/annotations/Exported.class
 android/support/v7/widget/RecyclerView$LayoutParams.class
@@ -1203,6 +1207,7 @@ org/parceler/guava/collect/ImmutableList.class
 org/parceler/transfuse/gen/invocationBuilder/DefaultInvocationBuilderStrategy.class
 net/alhazmy13/mediapicker/Video/VideoPicker.class
 android/support/v4/widget/ResourceCursorAdapter.class
+net/rahmony/electronickitchen/ClassActivity/LoginActivity$2.class
 android/support/v4/app/ActivityCompatApi23$RequestPermissionsRequestCodeValidator.class
 retrofit/Converter.class
 net/rahmony/electronickitchen/ClassActivity/acceptedOrderDetails$1.class

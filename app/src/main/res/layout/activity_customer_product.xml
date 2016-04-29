@@ -17,7 +17,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:id="@+id/image_costumer_product"
-            android:src="@mipmap/ic_launcher" />
+            android:src="@drawable/foodicon1" />
     </LinearLayout>
 
     <LinearLayout

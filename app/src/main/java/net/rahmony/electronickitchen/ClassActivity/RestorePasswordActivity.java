@@ -36,6 +36,32 @@ public class RestorePasswordActivity extends AppCompatActivity {
         mEt_password = (EditText) findViewById(R.id.et_new_password);
 
 
+        mEt_email.setOnFocusChangeListener(new View.OnFocusChangeListener() {
+            @Override
+            public void onFocusChange(View v, boolean hasFocus) {
+                if(!mEt_email.getText().toString().matches("^[A-Za-z0-9](([_\\.\\-]?[a-zA-Z0-9]+)*)@([A-Za-z0-9]+)(([\\.\\-]?[a-zA-Z0-9]+)*)\\.([A-Za-z]{2,})$")){
+                    mEt_email.setError("الرجاء إدخال إيميل صحيح");
+
+                }
+            }
+        });
+        mEt_phoneNumber.setOnFocusChangeListener(new View.OnFocusChangeListener() {
+            @Override
+            public void onFocusChange(View v, boolean hasFocus) {
+                if(!mEt_phoneNumber.getText().toString().matches("/^(009665|9665|\\+9665|05|\\d)(5|0|3|6|4|9|1|8|7)([0-9]{7})$/i")){
+                    mEt_phoneNumber.setError("يجب ان يكون رقم الجوال على الصيغة التالية 966xxxxxxxxx");
+
+                }
+            }
+        });
+        mEt_password.setOnFocusChangeListener(new View.OnFocusChangeListener() {
+            @Override
+            public void onFocusChange(View v, boolean hasFocus) {
+                if(!mEt_password.getText().toString().matches("^(?=.*\\d)(?=.*[a-z])(?=.*[A-Z]).{8,15}$")) {
+                    mEt_password.setError("يجب ان تكون كلمة المرور 8 خانات وتحتوي على حرف كبير و حرف صغير ورقم واحد على الاقل");
+                }
+            }
+        });
     }
 
 
@@ -51,14 +77,14 @@ public class RestorePasswordActivity extends AppCompatActivity {
 
 
 
-                if(mEt_email.getText().toString().matches("")){
-                    Toast.makeText(getBaseContext(), "Please fill the Email", Toast.LENGTH_SHORT).show();
-                }else if(mEt_password.getText().toString().matches("")){
-                    Toast.makeText(getBaseContext(),"Please fill the Password",Toast.LENGTH_SHORT).show();
+                if(!mEt_email.getText().toString().matches("^[A-Za-z0-9](([_\\.\\-]?[a-zA-Z0-9]+)*)@([A-Za-z0-9]+)(([\\.\\-]?[a-zA-Z0-9]+)*)\\.([A-Za-z]{2,})$")){
+                    Toast.makeText(getBaseContext(), "Please enter a valid email", Toast.LENGTH_SHORT).show();
+                }else if(!mEt_password.getText().toString().matches("^(?=.*\\d)(?=.*[a-z])(?=.*[A-Z]).{8,15}$")){
+                    Toast.makeText(getBaseContext(),"Please enter a valid  Password",Toast.LENGTH_SHORT).show();
                 }
-                else if(mEt_phoneNumber.getText().toString().matches(""))
+                else if(!mEt_phoneNumber.getText().toString().matches("/^(009665|9665|\\+9665|05|\\d)(5|0|3|6|4|9|1|8|7)([0-9]{7})$/i"))
                 {
-                    Toast.makeText(getBaseContext(), "Please fill the phone number", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getBaseContext(), "Please enter a valid phone number", Toast.LENGTH_SHORT).show();
                 }
                 else{
                     Retrofit retrofit = new Retrofit.Builder()
