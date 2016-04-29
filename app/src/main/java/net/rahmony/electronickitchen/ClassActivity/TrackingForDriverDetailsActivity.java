@@ -1,7 +1,10 @@
 package net.rahmony.electronickitchen.ClassActivity;
 
+import android.app.Activity;
 import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
+import android.sax.StartElementListener;
 import android.support.v7.app.AppCompatActivity;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -36,7 +39,6 @@ public class TrackingForDriverDetailsActivity extends AppCompatActivity {
     APIService apiService = retrofit.create(APIService.class);
 
     /***************************************************************************/
-    //List View For Showing Accepted order Details.
 
 
     //Text Views: Store Name, Customer Name
@@ -166,6 +168,8 @@ public class TrackingForDriverDetailsActivity extends AppCompatActivity {
     @Override
     protected void onStop() {
         super.onStop();
+
+
     }
 
 
@@ -198,7 +202,14 @@ public class TrackingForDriverDetailsActivity extends AppCompatActivity {
                     public void onResponse(Response<Cart> response, Retrofit retrofit) {
                         if(response.message().equalsIgnoreCase("ok")){
                             Toast.makeText(getBaseContext(), "you are now Delivering this order!", Toast.LENGTH_LONG).show();
+                            //finish the TrackingDriver Activity
                             finish();
+
+                            //kill the DriverOrders Activity And recreate it
+                            DriverOrdersActivity.DriverOrdersActivity_key_kill.finish();
+
+
+
                         }
 
 
@@ -210,9 +221,12 @@ public class TrackingForDriverDetailsActivity extends AppCompatActivity {
                     }
                 });
 
+
                 break;
         }
 
     }
+
+
 
 }
