@@ -110,6 +110,15 @@ public interface APIService {
     @POST("forgetPassword")
     Call<LogInResult> forgetPassword(@Body User user);
 
+    @POST("changeStoreName")
+    Call<StoreResult> changeStoreName(@Body Store store);
+
+    @POST("changeStoreDescription")
+    Call<StoreResult> changeStoreDescription(@Body Store store);
+
+    @POST("changeProductName")
+    Call<Product> changeProductName(@Body Product product);
+
     /* need to review and amend
     @PUT("items")
     Call<Results> updateItem(@Body User user);

@@ -1,18 +1,26 @@
 package net.rahmony.electronickitchen.ClassActivity;
 
+import android.app.AlertDialog;
+import android.app.DatePickerDialog;
 import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.BitmapFactory;
 import android.os.Bundle;
 import android.os.CountDownTimer;
 import android.support.v7.app.AppCompatActivity;
+import android.text.Layout;
+import android.util.Log;
+import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.TabHost;
 import android.widget.TextView;
@@ -22,6 +30,8 @@ import net.alhazmy13.mediapicker.Image.ImagePicker;
 import net.rahmony.electronickitchen.APIService;
 import net.rahmony.electronickitchen.Data.Cart;
 import net.rahmony.electronickitchen.Data.Product;
+import net.rahmony.electronickitchen.Data.Store;
+import net.rahmony.electronickitchen.Data.StoreResult;
 import net.rahmony.electronickitchen.R;
 
 import java.util.ArrayList;
@@ -65,7 +75,7 @@ public class StoreActivity extends AppCompatActivity implements TabHost.OnTabCha
     //Array For getting productName and productPrice
     ArrayList list_productName = new ArrayList();
     ArrayList list_productPrice = new ArrayList();
-
+    ArrayList list_product_ID = new ArrayList();
     //Array For getting firstName and lastName
     ArrayList list_FirstName = new ArrayList();
     ArrayList list_LastName = new ArrayList();
@@ -80,7 +90,7 @@ public class StoreActivity extends AppCompatActivity implements TabHost.OnTabCha
     TabHost mTab;
     ImageButton mBtnImage_store;
     ImageView mImage_store;
-    TextView mStoreName, mText_store_description;
+    TextView mText_store_name, mText_store_description;
 
     // static final int mCamRequest = 2;
 
@@ -93,8 +103,10 @@ public class StoreActivity extends AppCompatActivity implements TabHost.OnTabCha
      */
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_store);
+
+            setContentView(R.layout.activity_store);
 
         mBtnImage_store = (ImageButton) findViewById(R.id.btnImage_store);
         mImage_store = (ImageView) findViewById(R.id.image_store);
@@ -118,8 +130,8 @@ public class StoreActivity extends AppCompatActivity implements TabHost.OnTabCha
         mTab.addTab(spec);
 
         final Bundle extra = getIntent().getExtras();
-        mStoreName = (TextView) findViewById(R.id.text_store_name);
-        mStoreName.setText(extra.getString("StoreName"));
+        mText_store_name = (TextView) findViewById(R.id.text_store_name);
+        mText_store_name.setText(extra.getString("StoreName"));
         mText_store_description = (TextView) findViewById(R.id.text_store_description);
         mText_store_description.setText(extra.get("StoreDescription").toString());
 
@@ -145,35 +157,39 @@ public class StoreActivity extends AppCompatActivity implements TabHost.OnTabCha
          * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Showing Product ~~~~~~~~~~~~~~~~~~~~~~~~~ *
          */
         //implement List View For Showing Product
-        mListView_product = (ListView) findViewById(R.id.listView_product);
+            mListView_product = (ListView) findViewById(R.id.listView_product);
 
-        product.setStore_ID(extra.getInt("Store_ID"));
-        Call<List<Product>> reg = apiService.getMyProducts(product);
+            product.setStore_ID(extra.getInt("Store_ID"));
+            Call<List<Product>> reg = apiService.getMyProducts(product);
 
-        reg.enqueue(new Callback<List<Product>>() {
-                        @Override
-                        public void onResponse(Response<List<Product>> response, Retrofit retrofit) {
+            reg.enqueue(new Callback<List<Product>>() {
+                            @Override
+                            public void onResponse(Response<List<Product>> response, Retrofit retrofit) {
 
 
-                            ArrayList<Product> arrayList = (ArrayList) response.body();
+                                ArrayList<Product> arrayList = (ArrayList) response.body();
 
-                            String[] productName = new String[arrayList.size()];
-                            String[] productPrice = new String[arrayList.size()];
-                            for (int i = 0; i < arrayList.size(); i++) {
-                                if (arrayList != null) {
-                                    productName[i] = arrayList.get(i).getProductName();
-                                    list_productName.add(i, arrayList.get(i).getProductName());
-                                    productPrice[i] = arrayList.get(i).getPrice() + "";
-                                    list_productPrice.add(i, arrayList.get(i).getPrice());
+                                String[] productName = new String[arrayList.size()];
+                                String[] productPrice = new String[arrayList.size()];
+                                int[] productID = new int[arrayList.size()];
+
+                                for (int i = 0; i < arrayList.size(); i++) {
+                                    if (arrayList != null) {
+                                        productName[i] = arrayList.get(i).getProductName();
+                                        list_productName.add(i, arrayList.get(i).getProductName());
+                                        productPrice[i] = arrayList.get(i).getPrice() + "";
+                                        list_productPrice.add(i, arrayList.get(i).getPrice());
+                                        productID[i] = arrayList.get(i).getProduct_ID();
+                                        list_product_ID.add(i, arrayList.get(i).getProduct_ID());
+                                    }
                                 }
+                                myAdapter arr = new myAdapter(getBaseContext(), android.R.layout.simple_list_item_1, productName);
+                                mListView_product.setAdapter(arr);
                             }
-                            myAdapter arr = new myAdapter(getBaseContext(), android.R.layout.simple_list_item_1, productName);
-                            mListView_product.setAdapter(arr);
-                        }
 
 
-                        @Override
-                        public void onFailure(Throwable t) {
+                            @Override
+                            public void onFailure(Throwable t) {
                             Toast.makeText(getBaseContext(), " Oops! An error occurred  + The Throwble is " + t.getMessage().toString(), Toast.LENGTH_LONG).show();
                         }
                     }
@@ -310,7 +326,7 @@ public class StoreActivity extends AppCompatActivity implements TabHost.OnTabCha
 
         switch (v.getId()){
             case R.id.btnImage_store:
-                Bundle extra = getIntent().getExtras();
+                final Bundle extra = getIntent().getExtras();
                 Intent intent = new Intent(StoreActivity.this, Product_Activity.class).putExtra("Store_ID", extra.getInt("Store_ID"));
                 startActivity(intent);
                 break;
@@ -322,6 +338,122 @@ public class StoreActivity extends AppCompatActivity implements TabHost.OnTabCha
                         .directory(ImagePicker.Directory.DEFAULT)
                         .build();
 
+                break;
+
+            case R.id.text_store_name:
+                AlertDialog.Builder dialog=new AlertDialog.Builder(StoreActivity.this);
+                dialog.setTitle("أدخل اسم المتجر الجديد");
+                final EditText mEt_input = new EditText(StoreActivity.this);
+
+                mEt_input.setText(mText_store_name.getText());
+                mEt_input.setGravity(Gravity.CENTER);
+
+
+                LinearLayout.LayoutParams layoutParams = new  LinearLayout.LayoutParams( LinearLayout.LayoutParams.WRAP_CONTENT,
+                        LinearLayout.LayoutParams.WRAP_CONTENT);
+                mEt_input.setLayoutParams(layoutParams);
+                dialog.setIcon(R.drawable.ic_launcher);
+                dialog.setNegativeButton("تعديل", new DialogInterface.OnClickListener() {
+                    public void onClick(final DialogInterface dialog, int which) {
+
+                        Bundle bundle = getIntent().getExtras();
+                        Store store = new Store();
+                        store.setStoreID(bundle.getInt("Store_ID"));
+                        store.setStoreName(mEt_input.getText().toString());
+                        Call<StoreResult> reg = apiService.changeStoreName(store);
+                        reg.enqueue(new Callback<StoreResult>() {
+                            @Override
+                            public void onResponse(Response<StoreResult> response, Retrofit retrofit) {
+
+                                dialog.cancel();
+                                Toast.makeText(getBaseContext(),"تم تعديل اسم المتجر بنجاح" ,Toast.LENGTH_LONG).show();
+                                finish();
+                                startActivity(new Intent(StoreActivity.this, StoreActivity.class));
+
+
+
+
+                            }
+
+                            @Override
+                            public void onFailure(Throwable t) {
+
+                                Toast.makeText(getBaseContext(),t.getMessage().toString(),Toast.LENGTH_LONG).show();
+                            }
+                        });
+
+                    }
+
+                });
+                dialog.setPositiveButton("الغاء", new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int which) {
+                        dialog.cancel();
+                    }
+
+                });
+                dialog.setView(mEt_input);
+                dialog.show();
+                break;
+
+            case R.id.image_edit:
+                Toast.makeText(getBaseContext(),"لتعديل البيانات فقط اضغط عليها وادخل القيمة الجديدة",Toast.LENGTH_LONG).show();
+
+                break;
+
+            case R.id.text_store_description:
+
+                AlertDialog.Builder dialog_description =new AlertDialog.Builder(StoreActivity.this);
+                dialog_description.setTitle("أدخل الوصف الجديد");
+                
+                final EditText mEt_input_description = new EditText(StoreActivity.this);
+
+                mEt_input_description.setGravity(Gravity.CENTER);
+
+                LinearLayout.LayoutParams layoutParams_description = new  LinearLayout.LayoutParams( LinearLayout.LayoutParams.WRAP_CONTENT,
+                        LinearLayout.LayoutParams.WRAP_CONTENT);
+                mEt_input_description.setText(mText_store_description.getText());
+                
+                mEt_input_description.setLayoutParams(layoutParams_description);
+                
+                dialog_description.setIcon(R.drawable.ic_launcher);
+
+                dialog_description.setNegativeButton("تعديل", new DialogInterface.OnClickListener() {
+                    public void onClick(final DialogInterface dialog, int which) {
+
+                        Bundle bundle = getIntent().getExtras();
+                        Store store = new Store();
+                        store.setStoreID(bundle.getInt("Store_ID"));
+                        
+                        store.setStoreName(mEt_input_description.getText().toString());
+                        
+                        Call<StoreResult> reg = apiService.changeStoreDescription(store);
+                        reg.enqueue(new Callback<StoreResult>() {
+                            @Override
+                            public void onResponse(Response<StoreResult> response, Retrofit retrofit) {
+
+                                dialog.cancel();
+                                Toast.makeText(getBaseContext(),"تم تعديل وصف المتجر بنجاح" ,Toast.LENGTH_LONG).show();
+                                
+                            }
+                            @Override
+                            public void onFailure(Throwable t) {
+
+                                Toast.makeText(getBaseContext(),t.getMessage().toString(),Toast.LENGTH_LONG).show();
+                            }
+                        });
+
+                    }
+
+                });
+                dialog_description.setPositiveButton("الغاء", new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int which) {
+                        dialog.cancel();
+                    }
+
+                });
+                dialog_description.setView(mEt_input_description);
+                dialog_description.show();
+                
                 break;
         }
 
@@ -355,9 +487,81 @@ public class StoreActivity extends AppCompatActivity implements TabHost.OnTabCha
 
     @Override
     public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+        final int mPosition = position;
         switch (parent.getId()){
             case  R.id.listView_product:
-                Toast.makeText(this, list_productName.get(position).toString(), Toast.LENGTH_LONG).show();
+                AlertDialog.Builder dialog=new AlertDialog.Builder(StoreActivity.this);
+                dialog.setTitle("أدخل اسم المنتج وسعره الجديد");
+
+                final EditText mEt_input_productName = new EditText(StoreActivity.this);
+                final EditText mEt_input_price = new EditText(StoreActivity.this);
+
+                mEt_input_productName.setGravity(Gravity.CENTER);
+                mEt_input_price.setGravity(Gravity.CENTER);
+               /* LinearLayout.LayoutParams layoutParams = new  LinearLayout.LayoutParams(LinearLayout.LayoutParams.WRAP_CONTENT,
+                        LinearLayout.LayoutParams.MATCH_PARENT,LinearLayout.VERTICAL);*/
+
+
+
+                LinearLayout linearLayout = new LinearLayout(StoreActivity.this);
+                linearLayout.setOrientation(LinearLayout.VERTICAL);
+                linearLayout.addView(mEt_input_productName);
+                linearLayout.addView(mEt_input_price);
+
+
+                /*mEt_input_productName.setLayoutParams(layoutParams);
+                mEt_input_price.setLayoutParams(layoutParams);
+*/
+                mEt_input_productName.setText(list_productName.get(mPosition).toString());
+                mEt_input_price.setText(list_productPrice.get(mPosition).toString());
+
+                dialog.setIcon(R.drawable.ic_launcher);
+
+                dialog.setNegativeButton("تعديل", new DialogInterface.OnClickListener() {
+                    public void onClick(final DialogInterface dialog, int which) {
+
+
+                        Product product = new Product();
+
+                        product.setProduct_ID(Integer.parseInt(list_product_ID.get(mPosition).toString()));
+                        product.setProductName(mEt_input_productName.getText().toString());
+                        product.setPrice(Integer.parseInt(mEt_input_price.getText().toString()));
+
+                        Call<Product> reg = apiService.changeProductName(product);
+                        reg.enqueue(new Callback<Product>() {
+                            @Override
+                            public void onResponse(Response<Product> response, Retrofit retrofit) {
+
+                                dialog.cancel();
+                                Toast.makeText(getBaseContext(), "تم تعديل اسم المنتج", Toast.LENGTH_LONG).show();
+
+                            }
+
+                            @Override
+                            public void onFailure(Throwable t) {
+
+                                Toast.makeText(getBaseContext(), t.getMessage().toString(), Toast.LENGTH_LONG).show();
+                            }
+                        });
+
+                    }
+
+                });
+                dialog.setPositiveButton("الغاء", new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int which) {
+                        dialog.cancel();
+                    }
+
+                });
+
+
+                dialog.setView(linearLayout);
+                /*dialog.setView(mEt_input_productName);
+                dialog.setView(mEt_input_price);*/
+
+                dialog.show();
+
+
                 break;
             case R.id.listView_store_order:
                 Intent intent_1 = new Intent(StoreActivity.this, OrderDetails.class);

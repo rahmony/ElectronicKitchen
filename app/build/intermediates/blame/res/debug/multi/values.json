@@ -39860,14 +39860,7 @@
                     "endOffset": 49486
                 },
                 "from": {
-                    "file": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\src\\main\\res\\values\\strings.xml",
-                    "position": {
-                        "startLine": 97,
-                        "startColumn": 1,
-                        "startOffset": 4323,
-                        "endColumn": 61,
-                        "endOffset": 4383
-                    }
+                    "file": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\src\\main\\res\\values\\strings.xml"
                 }
             },
             {
@@ -40132,7 +40125,15 @@
                     "endOffset": 51141
                 },
                 "from": {
-                    "file": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\src\\main\\res\\values\\styles_fawzytheme.xml"
+                    "file": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\src\\main\\res\\values\\styles_fawzytheme.xml",
+                    "position": {
+                        "startLine": 37,
+                        "startColumn": 4,
+                        "startOffset": 1937,
+                        "endLine": 42,
+                        "endColumn": 12,
+                        "endOffset": 2403
+                    }
                 }
             },
             {
@@ -40145,7 +40146,15 @@
                     "endOffset": 51418
                 },
                 "from": {
-                    "file": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\src\\main\\res\\values\\styles_fawzytheme.xml"
+                    "file": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\src\\main\\res\\values\\styles_fawzytheme.xml",
+                    "position": {
+                        "startLine": 44,
+                        "startColumn": 4,
+                        "startOffset": 2411,
+                        "endLine": 47,
+                        "endColumn": 12,
+                        "endOffset": 2686
+                    }
                 }
             },
             {
@@ -40158,7 +40167,15 @@
                     "endOffset": 51618
                 },
                 "from": {
-                    "file": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\src\\main\\res\\values\\styles_fawzytheme.xml"
+                    "file": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\src\\main\\res\\values\\styles_fawzytheme.xml",
+                    "position": {
+                        "startLine": 57,
+                        "startColumn": 4,
+                        "startOffset": 3109,
+                        "endLine": 59,
+                        "endColumn": 12,
+                        "endOffset": 3306
+                    }
                 }
             },
             {
@@ -40171,7 +40188,15 @@
                     "endOffset": 51824
                 },
                 "from": {
-                    "file": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\src\\main\\res\\values\\styles_fawzytheme.xml"
+                    "file": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\src\\main\\res\\values\\styles_fawzytheme.xml",
+                    "position": {
+                        "startLine": 71,
+                        "startColumn": 4,
+                        "startOffset": 3920,
+                        "endLine": 73,
+                        "endColumn": 12,
+                        "endOffset": 4123
+                    }
                 }
             },
             {
@@ -41947,7 +41972,15 @@
                     "endOffset": 114372
                 },
                 "from": {
-                    "file": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\src\\main\\res\\values\\styles_fawzytheme.xml"
+                    "file": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\src\\main\\res\\values\\styles_fawzytheme.xml",
+                    "position": {
+                        "startLine": 53,
+                        "startColumn": 4,
+                        "startOffset": 2898,
+                        "endLine": 55,
+                        "endColumn": 12,
+                        "endOffset": 3101
+                    }
                 }
             },
             {
@@ -41960,7 +41993,15 @@
                     "endOffset": 114750
                 },
                 "from": {
-                    "file": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\src\\main\\res\\values\\styles_fawzytheme.xml"
+                    "file": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\src\\main\\res\\values\\styles_fawzytheme.xml",
+                    "position": {
+                        "startLine": 61,
+                        "startColumn": 4,
+                        "startOffset": 3314,
+                        "endLine": 65,
+                        "endColumn": 12,
+                        "endOffset": 3691
+                    }
                 }
             },
             {
@@ -42049,7 +42090,15 @@
                     "endOffset": 122205
                 },
                 "from": {
-                    "file": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\src\\main\\res\\values\\styles_fawzytheme.xml"
+                    "file": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\src\\main\\res\\values\\styles_fawzytheme.xml",
+                    "position": {
+                        "startLine": 49,
+                        "startColumn": 4,
+                        "startOffset": 2694,
+                        "endLine": 51,
+                        "endColumn": 12,
+                        "endOffset": 2890
+                    }
                 }
             },
             {
@@ -42062,7 +42111,15 @@
                     "endOffset": 122413
                 },
                 "from": {
-                    "file": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\src\\main\\res\\values\\styles_fawzytheme.xml"
+                    "file": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\src\\main\\res\\values\\styles_fawzytheme.xml",
+                    "position": {
+                        "startLine": 67,
+                        "startColumn": 4,
+                        "startOffset": 3703,
+                        "endLine": 69,
+                        "endColumn": 12,
+                        "endOffset": 3908
+                    }
                 }
             },
             {
@@ -43346,7 +43403,15 @@
                     "endOffset": 137923
                 },
                 "from": {
-                    "file": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\src\\main\\res\\values\\styles_fawzytheme.xml"
+                    "file": "C:\\Users\\RaHmOnY\\AndroidStudioProjects\\ElectronicKitchen\\app\\src\\main\\res\\values\\styles_fawzytheme.xml",
+                    "position": {
+                        "startLine": 76,
+                        "startColumn": 4,
+                        "startOffset": 4212,
+                        "endLine": 79,
+                        "endColumn": 12,
+                        "endOffset": 4473
+                    }
                 }
             },
             {

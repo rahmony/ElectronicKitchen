@@ -42,6 +42,15 @@
                         android:layout_row="0"
                         android:baselineAligned="true">
 
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/ic_mode_edit_white_24dp"
+                            android:id="@+id/image_edit"
+                            android:onClick="onClick"
+                            android:background="#33b5e5"
+                            android:clickable="true" />
+
                         <net.rahmony.electronickitchen.ClassAssets.FontCustomTextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -51,9 +60,12 @@
                             android:layout_row="1"
                             android:layout_column="1"
                             android:layout_weight="1"
+                            android:clickable="true"
                             android:layout_gravity="center_vertical"
                             android:gravity="center_horizontal"
-                            android:background="#33b5e5" />
+                            android:background="#33b5e5"
+                            android:onClick="onClick"
+                            android:maxLength="60" />
 
                     </LinearLayout>
 
@@ -77,10 +89,12 @@
                             android:layout_row="0"
                             android:autoText="false"
                             android:editable="false"
-                            android:enabled="false"
+                            android:enabled="true"
                             android:gravity="center"
                             android:layout_weight="0.1"
-                            android:maxLength="450" />
+                            android:maxLength="250"
+                            android:onClick="onClick"
+                            android:clickable="true"/>
 
                         <ImageView
                             android:layout_width="100dp"

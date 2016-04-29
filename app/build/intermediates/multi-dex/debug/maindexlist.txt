@@ -300,6 +300,7 @@ net/rahmony/electronickitchen/ClassActivity/Product_Activity$1.class
 org/parceler/transfuse/gen/scopeBuilder/SingletonScopeAspectFactory.class
 retrofit/http/Part.class
 net/rahmony/electronickitchen/ClassActivity/SignUpActivity$2.class
+net/rahmony/electronickitchen/ClassActivity/StoreActivity$8.class
 org/parceler/transfuse/analysis/Analyzer.class
 com/google/gson/internal/ConstructorConstructor.class
 com/bumptech/glide/load/resource/bitmap/TransformationUtils.class
@@ -457,6 +458,7 @@ org/parceler/internal/ParcelerModule.class
 org/parceler/transfuse/annotations/OnListItemClick.class
 org/parceler/transfuse/annotations/BindProviders.class
 android/support/v4/view/GravityCompat.class
+net/rahmony/electronickitchen/ClassActivity/StoreActivity$4.class
 android/support/v4/media/session/PlaybackStateCompatApi22.class
 android/support/v4/media/session/MediaSessionCompat$MediaSessionImplBase.class
 net/rahmony/electronickitchen/Data/Product.class
@@ -674,6 +676,7 @@ retrofit/Platform.class
 org/parceler/transfuse/gen/componentBuilder/MirroredMethodGeneratorFactory.class
 android/support/v4/widget/DrawerLayout$DrawerListener.class
 net/alhazmy13/mediapicker/Video/VideoActivity$1.class
+net/rahmony/electronickitchen/ClassActivity/StoreActivity$6.class
 org/parceler/guava/net/InternetDomainName.class
 android/support/v4/app/FragmentManagerImpl$FragmentTag.class
 com/google/gson/annotations/Until.class
@@ -728,6 +731,7 @@ android/support/design/widget/TabLayout$TabLayoutOnPageChangeListener.class
 com/squareup/okhttp/HttpUrl$1.class
 org/parceler/guava/collect/ImmutableSet.class
 android/support/v7/widget/RecyclerView$SmoothScroller.class
+net/rahmony/electronickitchen/ClassActivity/StoreActivity$9.class
 org/parceler/internal/WriteReferenceVisitor.class
 net/rahmony/electronickitchen/ClassActivity/SignUpActivity$3.class
 com/google/gson/internal/$Gson$Types.class
@@ -802,6 +806,7 @@ org/parceler/transfuse/analysis/module/DefineScopeProcessor.class
 android/support/design/widget/Snackbar$1.class
 org/parceler/guava/collect/ForwardingSortedMap.class
 com/google/gson/internal/bind/TypeAdapters$12.class
+net/rahmony/electronickitchen/R$drawable.class
 android/support/v4/view/ViewCompatKitKat.class
 com/google/gson/FieldAttributes.class
 org/parceler/guava/base/CharMatcher.class
@@ -1025,6 +1030,7 @@ okio/BufferedSource.class
 android/support/v7/widget/RecyclerView$4.class
 com/squareup/okhttp/internal/http/RouteException.class
 org/parceler/transfuse/annotations/UsesPermissions.class
+net/rahmony/electronickitchen/ClassActivity/StoreActivity$7.class
 retrofit/Retrofit$1.class
 org/parceler/transfuse/gen/ClassNamer.class
 com/google/gson/internal/bind/ArrayTypeAdapter.class
@@ -1217,6 +1223,7 @@ org/parceler/transfuse/annotations/OnLowMemory.class
 retrofit2/http/Multipart.class
 org/parceler/guava/collect/TreeRangeSet$ComplementRangesByLowerBound.class
 android/support/v7/graphics/drawable/DrawerArrowDrawable.class
+net/rahmony/electronickitchen/ClassActivity/StoreActivity$5.class
 org/parceler/Parcel.class
 android/support/v7/app/ActionBar$LayoutParams.class
 org/parceler/transfuse/adapter/ASTBase.class
