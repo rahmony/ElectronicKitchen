@@ -124,6 +124,9 @@ public interface APIService {
     @POST("changeProductName")
     Call<Product> changeProductName(@Body Product product);
 
+    @POST("customerReceivedOrder")
+    Call<Cart> customerReceivedOrder(@Body Cart cart);
+
     /* need to review and amend
     @PUT("items")
     Call<Results> updateItem(@Body User user);

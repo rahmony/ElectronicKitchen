@@ -383,6 +383,7 @@
     <string name="order">الطلبات</string>
     <string name="order_details">تفاصــيل الطـلب:</string>
     <string name="order_from">طلـب مـن:</string>
+    <string name="order_received">تــم استـــلام طلبـــي</string>
     <string name="password">كلمة المرور</string>
     <string name="phone_number">رقم الجوال</string>
     <string name="plus">+</string>
