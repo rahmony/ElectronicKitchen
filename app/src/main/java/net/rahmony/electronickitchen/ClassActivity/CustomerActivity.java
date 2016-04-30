@@ -406,28 +406,7 @@ public class CustomerActivity extends AppCompatActivity implements  AdapterView.
                     public void onClick(final DialogInterface dialog, int which) {
 
 						/*
-                        Product product = new Product();
-
-                        product.setProduct_ID(Integer.parseInt(list_product_ID.get(mPosition).toString()));
-                        product.setProductName(mEt_input_productName.getText().toString());
-                        product.setPrice(Integer.parseInt(mEt_input_price.getText().toString()));
-
-                        Call<Product> reg = apiService.changeProductName(product);
-                        reg.enqueue(new Callback<Product>() {
-                            @Override
-                            public void onResponse(Response<Product> response, Retrofit retrofit) {
-
-                                dialog.cancel();
-                                Toast.makeText(getBaseContext(), "تم تعديل الطلب", Toast.LENGTH_LONG).show();
-
-                            }
-
-                            @Override
-                            public void onFailure(Throwable t) {
-
-                                Toast.makeText(getBaseContext(), t.getMessage().toString(), Toast.LENGTH_LONG).show();
-                            }
-                        });
+                        
                       */
                     }
 
