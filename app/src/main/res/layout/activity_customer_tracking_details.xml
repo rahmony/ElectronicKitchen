@@ -3,48 +3,74 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="net.rahmony.electronickitchen.ClassActivity.CustomerTrackingDetailsActivity">
+    tools:context="net.rahmony.electronickitchen.ClassActivity.CustomerTrackingDetailsActivity"
+    android:columnCount="1"
+    android:rowCount="2">
 
-    <FrameLayout
+    <LinearLayout
+        android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
-
-        <requestFocus android:layout_gravity="left|bottom" />
-
-        <requestFocus android:layout_gravity="center" />
-
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="332dp"
-            android:id="@+id/imageView_customer_tracking_details"
-            android:layout_gravity="center" />
-
-        <TextView
-            android:layout_width="233dp"
-            android:layout_height="81dp"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="Large Text"
-            android:id="@+id/text_customer_tracking_details_current_status"
-            android:layout_gravity="center_horizontal|bottom"
-            android:layout_marginRight="50dp" />
-
-        <TextView
-            android:layout_width="147dp"
-            android:layout_height="81dp"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="@string/current_status"
-            android:id="@+id/textView9"
-            android:layout_gravity="right|bottom"
-            android:gravity="center_horizontal" />
+        android:layout_height="55dp"
+        android:background="#8589c1f6">
 
         <TextView
             android:layout_width="176dp"
-            android:layout_height="87dp"
+            android:layout_height="match_parent"
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:text="@string/Order_Tracking"
             android:id="@+id/textView10"
             android:layout_gravity="center_horizontal|top"
             android:gravity="center" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="450dp">
+
+        <requestFocus android:layout_gravity="left|bottom" />
+
+        <requestFocus android:layout_gravity="center" />
+
+        <TextView
+            android:layout_width="169dp"
+            android:layout_height="50dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/current_status"
+            android:id="@+id/textView9"
+            android:layout_gravity="right|bottom"
+            android:gravity="center|center_horizontal"
+            android:layout_marginBottom="90dp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="281dp"
+            android:id="@+id/imageView_customer_tracking_details"
+            android:layout_gravity="center_horizontal|top"
+            android:background="#8589c1f6"
+            android:layout_marginTop="15dp" />
+
+        <TextView
+            android:layout_width="165dp"
+            android:layout_height="50dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Large Text"
+            android:id="@+id/text_customer_tracking_details_current_status"
+            android:layout_gravity="left|bottom"
+            android:gravity="center"
+            android:layout_marginBottom="90dp" />
+
+        <Button
+            android:layout_width="265dp"
+            android:layout_height="51dp"
+            android:text="@string/order_received"
+            android:id="@+id/btn_customer_tracking_details_order_received"
+            android:layout_gravity="center_horizontal|bottom"
+            android:layout_marginBottom="30dp"
+            android:visibility="invisible"
+            android:onClick="onClick"
+            android:clickable="false"
+            android:background="#944984d1" />
 
     </FrameLayout>
+
 </GridLayout>

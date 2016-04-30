@@ -73,12 +73,12 @@ public class LoginActivity extends AppCompatActivity {
 
 
 
-                if(!mEt_email.getText().toString().matches("^[A-Za-z0-9](([_\\.\\-]?[a-zA-Z0-9]+)*)@([A-Za-z0-9]+)(([\\.\\-]?[a-zA-Z0-9]+)*)\\.([A-Za-z]{2,})$")){
+                /*if(!mEt_email.getText().toString().matches("^[A-Za-z0-9](([_\\.\\-]?[a-zA-Z0-9]+)*)@([A-Za-z0-9]+)(([\\.\\-]?[a-zA-Z0-9]+)*)\\.([A-Za-z]{2,})$")){
                     Toast.makeText(getBaseContext(), "الرجاء ادخال ايميل صحيح", Toast.LENGTH_SHORT).show();
                 }else if(!mEt_password.getText().toString().matches("^(?=.*\\d)(?=.*[a-z])(?=.*[A-Z]).{8,15}$")){
                     Toast.makeText(getBaseContext(),"الرجاء ادخال كلمة مرور صحيحة",Toast.LENGTH_SHORT).show();
                 }
-                else{
+                else{*/
                 Retrofit retrofit = new Retrofit.Builder()
                         .baseUrl("http://rahmony.net/api/")
                         .addConverterFactory(GsonConverterFactory.create())
@@ -136,7 +136,7 @@ public class LoginActivity extends AppCompatActivity {
 
                                 }
                             }
-                );}
+                );//}
                 break;
 
       //------------------------------------------case for btn login FINISHED!------------------------------------------------//

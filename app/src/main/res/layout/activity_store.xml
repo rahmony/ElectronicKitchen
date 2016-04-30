@@ -45,7 +45,7 @@
                         <ImageView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:src="@drawable/ic_mode_edit_white_24dp"
+
                             android:id="@+id/image_edit"
                             android:onClick="onClick"
                             android:background="#33b5e5"

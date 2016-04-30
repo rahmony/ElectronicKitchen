@@ -29,6 +29,19 @@
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent">
 
+                <LinearLayout
+                    android:id="@+id/tab3"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:onClick="Tap_1_Onclick"
+                    android:orientation="vertical">
+
+                    <ListView
+                        android:layout_width="wrap_content"
+                        android:layout_height="450dp"
+                        android:id="@+id/listView_trackOrder" />
+                </LinearLayout>
+
                 <GridLayout
                     android:id="@+id/tab2"
                     android:layout_width="fill_parent"
@@ -126,19 +139,6 @@
                         android:layout_width="385dp"
                         android:layout_height="460dp"
                         android:id="@+id/listView_stores" />
-                </LinearLayout>
-
-                <LinearLayout
-                    android:id="@+id/tab3"
-                    android:layout_width="fill_parent"
-                    android:layout_height="fill_parent"
-                    android:onClick="Tap_1_Onclick"
-                    android:orientation="vertical">
-
-                    <ListView
-                        android:layout_width="wrap_content"
-                        android:layout_height="450dp"
-                        android:id="@+id/listView_trackOrder" />
                 </LinearLayout>
 
 

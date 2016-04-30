@@ -25,7 +25,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".ClassActivity.LoginActivity" />
-        <activity android:name=".ClassActivity.SignUpActivity" />
+        <activity android:name=".ClassActivity.SignUpActivity"/>
         <activity android:name=".ClassActivity.CustomerActivity" />
         <activity android:name=".ClassActivity.MainPageActivity" />
         <activity android:name=".ClassActivity.StoreActivity" />
@@ -33,7 +33,7 @@
         <activity android:name=".ClassActivity.Product_Activity" />
         <activity android:name=".ClassActivity.CreateStoreActivity" />
         <activity android:name=".ClassActivity.ShowProductOfStroeActivity" />
-        <activity android:name=".ClassActivity.DriverOrdersActivity" />
+        <activity android:name=".ClassActivity.DriverOrdersActivity"/>
         <activity android:name=".ClassActivity.OrderDetails" />
         <activity android:name=".ClassActivity.acceptedOrderDetails" />
         <activity android:name=".ClassActivity.CustomerTrackingDetailsActivity" />

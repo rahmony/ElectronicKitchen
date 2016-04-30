@@ -321,6 +321,13 @@ public class StoreActivity extends AppCompatActivity implements TabHost.OnTabCha
     }
 
 
+    /**
+     *
+     * ###################################################################################
+     * ************************************ On Click **************************************
+     * ###################################################################################
+     *
+     */
 
     public void onClick(View v) {
 
@@ -498,8 +505,7 @@ public class StoreActivity extends AppCompatActivity implements TabHost.OnTabCha
 
                 mEt_input_productName.setGravity(Gravity.CENTER);
                 mEt_input_price.setGravity(Gravity.CENTER);
-               /* LinearLayout.LayoutParams layoutParams = new  LinearLayout.LayoutParams(LinearLayout.LayoutParams.WRAP_CONTENT,
-                        LinearLayout.LayoutParams.MATCH_PARENT,LinearLayout.VERTICAL);*/
+
 
 
 
@@ -509,9 +515,7 @@ public class StoreActivity extends AppCompatActivity implements TabHost.OnTabCha
                 linearLayout.addView(mEt_input_price);
 
 
-                /*mEt_input_productName.setLayoutParams(layoutParams);
-                mEt_input_price.setLayoutParams(layoutParams);
-*/
+
                 mEt_input_productName.setText(list_productName.get(mPosition).toString());
                 mEt_input_price.setText(list_productPrice.get(mPosition).toString());
 
@@ -556,8 +560,7 @@ public class StoreActivity extends AppCompatActivity implements TabHost.OnTabCha
 
 
                 dialog.setView(linearLayout);
-                /*dialog.setView(mEt_input_productName);
-                dialog.setView(mEt_input_price);*/
+
 
                 dialog.show();
 

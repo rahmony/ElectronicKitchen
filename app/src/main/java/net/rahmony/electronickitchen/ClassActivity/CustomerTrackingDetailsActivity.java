@@ -6,6 +6,7 @@ import android.os.CountDownTimer;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -37,6 +38,9 @@ public class CustomerTrackingDetailsActivity extends AppCompatActivity {
 
 
 
+
+    //Button received
+    Button mBtn_customer_tracking_details_order_received;
 
     //imageView shows the tracking
     ImageView mImageView_customer_tracking_details;
@@ -91,10 +95,18 @@ public class CustomerTrackingDetailsActivity extends AppCompatActivity {
                                     case "Delivering":
                                         mImageView_customer_tracking_details.setImageResource(R.drawable.ic_traker_4);
                                         mText_customer_tracking_details_current_status.setText("Delivering");
+
+
+                                        mBtn_customer_tracking_details_order_received = (Button) findViewById(R.id.btn_customer_tracking_details_order_received);
+                                        mBtn_customer_tracking_details_order_received.setVisibility(View.VISIBLE);
+                                        mBtn_customer_tracking_details_order_received.setClickable(true);
+
                                         break;
 
                                     case "Delivered":
+                                        mImageView_customer_tracking_details.setImageResource(R.drawable.ic_traker_5);
                                         mText_customer_tracking_details_current_status.setText("Delivered");
+
                                         break;
 
                                 }
@@ -112,4 +124,45 @@ public class CustomerTrackingDetailsActivity extends AppCompatActivity {
                     }
         );
     }
+
+
+    /**
+     *
+     * ###################################################################################
+     * ************************************ On Click **************************************
+     * ###################################################################################
+     *
+     */
+    public void onClick(View v){
+        Bundle extra = getIntent().getExtras();
+
+        switch (v.getId()){
+            case R.id.btn_customer_tracking_details_order_received:
+                cart.setInvoice_ID(extra.getInt("Invoice_ID"));
+
+                Call<Cart> reg = apiService.customerReceivedOrder(cart);
+
+                reg.enqueue(new Callback<Cart>() {
+                    @Override
+                    public void onResponse(Response<Cart> response, Retrofit retrofit) {
+                        if(response.message().equalsIgnoreCase("ok")){
+                            Toast.makeText(getBaseContext(), "Your Order is Delivered To You", Toast.LENGTH_LONG).show();
+                            finish();
+                        }
+                    }
+
+                    @Override
+                    public void onFailure(Throwable t) {
+
+                        Toast.makeText(getBaseContext(), " Oops! An error occurred  + The Throwable is " + t.getMessage().toString(), Toast.LENGTH_LONG).show();
+                    }
+                });
+                break;
+
+        }
+
+    }
+
+
+
 }

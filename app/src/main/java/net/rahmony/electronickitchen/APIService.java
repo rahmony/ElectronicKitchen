@@ -100,6 +100,11 @@ public interface APIService {
     @POST("trackingForDriverDetails")
     Call<List<Cart>> trackingForDriverDetails(@Body Cart cart);
 
+    @POST("trackingDeliveringOrder")
+    Call<List<Cart>> trackingDeliveringOrder(@Body Cart cart);
+
+    @POST("getSellerData")
+    Call<Cart> getSellerData(@Body Cart cart);
 
     @POST("isDriverDelivering")
     Call<Cart> isDriverDelivering(@Body Cart cart);
@@ -118,6 +123,9 @@ public interface APIService {
 
     @POST("changeProductName")
     Call<Product> changeProductName(@Body Product product);
+
+    @POST("customerReceivedOrder")
+    Call<Cart> customerReceivedOrder(@Body Cart cart);
 
     /* need to review and amend
 

@@ -10,10 +10,13 @@ public class Cart {
     private int ID;
     private int Store_ID;
     private int Price;
+    private int Seller_ID;
     private String ProductName;
     private String StoreName;
     private String FirstName;
     private String LastName;
+    private String PhoneNumber;
+    private String Address;
     private String Status;
 
 
@@ -64,6 +67,12 @@ public class Cart {
         this.Price = Price;
     }
 
+    public int getSeller_ID() {
+        return Seller_ID;
+    }
+    public void setSeller_ID(int Seller_ID) {
+        this.Seller_ID = Seller_ID;
+    }
 
     public String getProductName() {
         return ProductName;
@@ -91,6 +100,20 @@ public class Cart {
     }
     public void setLastName(String LastName) {
         this.LastName = LastName;
+    }
+
+    public String getPhoneNumber() {
+        return PhoneNumber;
+    }
+    public void setPhoneNumber(String PhoneNumber) {
+        this.PhoneNumber = PhoneNumber;
+    }
+
+    public String getAddress() {
+        return Address;
+    }
+    public void setAddress(String Address) {
+        this.Address = Address;
     }
 
     public String getStatus() {
