@@ -51,29 +51,29 @@ public final class R {
 		public static final int dialog_background = 0x7f020068;
 		public static final int float_button1_shadowp = 0x7f02006a;
 		public static final int float_button_shadow1 = 0x7f02006b;
-		public static final int ic_reloj_max = 0x7f020075;
-		public static final int shadow_down = 0x7f020087;
-		public static final int shadow_right = 0x7f020088;
-		public static final int sprite_check = 0x7f02008f;
+		public static final int ic_reloj_max = 0x7f020076;
+		public static final int shadow_down = 0x7f020088;
+		public static final int shadow_right = 0x7f020089;
+		public static final int sprite_check = 0x7f020090;
 	}
 	public static final class id {
 		public static final int blue = 0x7f0c00de;
 		public static final int button_accept = 0x7f0c00ed;
 		public static final int button_cancel = 0x7f0c00ec;
-		public static final int buttonflat = 0x7f0c011e;
+		public static final int buttonflat = 0x7f0c011d;
 		public static final int contentDialog = 0x7f0c00e9;
 		public static final int contentSelector = 0x7f0c00da;
 		public static final int dialog_rootView = 0x7f0c00e8;
 		public static final int green = 0x7f0c00dd;
 		public static final int message = 0x7f0c00eb;
 		public static final int message_scrollView = 0x7f0c00ea;
-		public static final int number_indicator_spinner_content = 0x7f0c011b;
-		public static final int progressBarCircularIndetermininate = 0x7f0c011c;
+		public static final int number_indicator_spinner_content = 0x7f0c011a;
+		public static final int progressBarCircularIndetermininate = 0x7f0c011b;
 		public static final int red = 0x7f0c00dc;
 		public static final int rootSelector = 0x7f0c00d9;
-		public static final int shape_bacground = 0x7f0c0120;
-		public static final int snackbar = 0x7f0c011d;
-		public static final int text = 0x7f0c0118;
+		public static final int shape_bacground = 0x7f0c011f;
+		public static final int snackbar = 0x7f0c011c;
+		public static final int text = 0x7f0c0117;
 		public static final int title = 0x7f0c0045;
 		public static final int viewColor = 0x7f0c00db;
 	}

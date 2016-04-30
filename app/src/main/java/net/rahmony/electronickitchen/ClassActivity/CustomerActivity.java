@@ -2,15 +2,19 @@
 package net.rahmony.electronickitchen.ClassActivity;
 
 import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.EditText;
+import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.TabHost;
 import android.widget.TextView;
@@ -20,6 +24,7 @@ import net.rahmony.electronickitchen.Data.Cart;
 import net.rahmony.electronickitchen.Data.Store;
 import net.rahmony.electronickitchen.R;
 import java.util.ArrayList;
+import android.app.AlertDialog;
 import java.util.List;
 import retrofit.Call;
 import retrofit.Callback;
@@ -238,7 +243,7 @@ public class CustomerActivity extends AppCompatActivity implements  AdapterView.
             }
         });
 
-
+        mListView_cart.setOnItemClickListener(this);
         /**
          * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ tracking order ~~~~~~~~~~~~~~~~~~~~~~~~~ *
          */
@@ -338,6 +343,7 @@ public class CustomerActivity extends AppCompatActivity implements  AdapterView.
 
     @Override
     public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+        final int mPosition = position;
         Intent intent = new Intent(CustomerActivity.this, ShowProductOfStroeActivity.class);
         Bundle extra = getIntent().getExtras();
 
@@ -355,6 +361,93 @@ public class CustomerActivity extends AppCompatActivity implements  AdapterView.
                 startActivity(intent_2);
 
                 break;
+
+            case R.id.listView_cart :
+                AlertDialog.Builder dialog=new AlertDialog.Builder(CustomerActivity.this);
+                dialog.setTitle("هل تريد التعديل على الطلب ؟");
+
+                final EditText mEt_input_productName = new EditText(CustomerActivity.this);
+                final EditText mEt_input_price = new EditText(CustomerActivity.this);
+                final EditText mEt_input_quantity = new EditText(CustomerActivity.this);
+
+                mEt_input_productName.setGravity(Gravity.CENTER);
+                mEt_input_price.setGravity(Gravity.CENTER);
+                mEt_input_quantity.setGravity(Gravity.CENTER);
+
+
+                mEt_input_productName.setEnabled(false);
+                mEt_input_price.setEnabled(false);
+
+                mEt_input_productName.setClickable(false);
+                mEt_input_price.setClickable(false);
+
+                LinearLayout linearLayout = new LinearLayout(CustomerActivity.this);
+                linearLayout.setOrientation(LinearLayout.VERTICAL);
+                linearLayout.addView(mEt_input_productName);
+                linearLayout.addView(mEt_input_price);
+                linearLayout.addView(mEt_input_quantity);
+
+
+
+                mEt_input_productName.setText(list_productName.get(mPosition).toString());
+                mEt_input_price.setText(list_Price.get(mPosition).toString());
+                mEt_input_quantity.setText(list_Quantity.get(mPosition).toString());
+
+                dialog.setIcon(R.drawable.foodicon1);
+
+                dialog.setNegativeButton("حذف", new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int which) {
+                        dialog.cancel();
+                    }
+
+                });
+
+                dialog.setNeutralButton("تعديل", new DialogInterface.OnClickListener() {
+                    public void onClick(final DialogInterface dialog, int which) {
+
+						/*
+                        Product product = new Product();
+
+                        product.setProduct_ID(Integer.parseInt(list_product_ID.get(mPosition).toString()));
+                        product.setProductName(mEt_input_productName.getText().toString());
+                        product.setPrice(Integer.parseInt(mEt_input_price.getText().toString()));
+
+                        Call<Product> reg = apiService.changeProductName(product);
+                        reg.enqueue(new Callback<Product>() {
+                            @Override
+                            public void onResponse(Response<Product> response, Retrofit retrofit) {
+
+                                dialog.cancel();
+                                Toast.makeText(getBaseContext(), "تم تعديل الطلب", Toast.LENGTH_LONG).show();
+
+                            }
+
+                            @Override
+                            public void onFailure(Throwable t) {
+
+                                Toast.makeText(getBaseContext(), t.getMessage().toString(), Toast.LENGTH_LONG).show();
+                            }
+                        });
+                      */
+                    }
+
+                });
+                dialog.setPositiveButton("الغاء", new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int which) {
+                        dialog.cancel();
+                    }
+
+                });
+
+
+                dialog.setView(linearLayout);
+
+
+                dialog.show();
+
+
+                break;
+
         }
 
     }

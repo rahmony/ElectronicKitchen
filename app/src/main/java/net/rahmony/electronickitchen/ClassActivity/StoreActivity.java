@@ -1,16 +1,12 @@
 package net.rahmony.electronickitchen.ClassActivity;
 
 import android.app.AlertDialog;
-import android.app.DatePickerDialog;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.BitmapFactory;
 import android.os.Bundle;
-import android.os.CountDownTimer;
 import android.support.v7.app.AppCompatActivity;
-import android.text.Layout;
-import android.util.Log;
 import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -359,7 +355,8 @@ public class StoreActivity extends AppCompatActivity implements TabHost.OnTabCha
                 LinearLayout.LayoutParams layoutParams = new  LinearLayout.LayoutParams( LinearLayout.LayoutParams.WRAP_CONTENT,
                         LinearLayout.LayoutParams.WRAP_CONTENT);
                 mEt_input.setLayoutParams(layoutParams);
-                dialog.setIcon(R.drawable.ic_launcher);
+                dialog.setIcon(R.drawable.shop);
+
                 dialog.setNegativeButton("تعديل", new DialogInterface.OnClickListener() {
                     public void onClick(final DialogInterface dialog, int which) {
 
@@ -422,7 +419,7 @@ public class StoreActivity extends AppCompatActivity implements TabHost.OnTabCha
                 
                 mEt_input_description.setLayoutParams(layoutParams_description);
                 
-                dialog_description.setIcon(R.drawable.ic_launcher);
+                dialog_description.setIcon(R.drawable.shop);
 
                 dialog_description.setNegativeButton("تعديل", new DialogInterface.OnClickListener() {
                     public void onClick(final DialogInterface dialog, int which) {
@@ -519,7 +516,7 @@ public class StoreActivity extends AppCompatActivity implements TabHost.OnTabCha
                 mEt_input_productName.setText(list_productName.get(mPosition).toString());
                 mEt_input_price.setText(list_productPrice.get(mPosition).toString());
 
-                dialog.setIcon(R.drawable.ic_launcher);
+                dialog.setIcon(R.drawable.foodicon1);
 
                 dialog.setNegativeButton("تعديل", new DialogInterface.OnClickListener() {
                     public void onClick(final DialogInterface dialog, int which) {
