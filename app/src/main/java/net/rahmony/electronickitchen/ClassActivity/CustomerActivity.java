@@ -21,6 +21,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 import net.rahmony.electronickitchen.APIService;
 import net.rahmony.electronickitchen.Data.Cart;
+import net.rahmony.electronickitchen.Data.Results;
 import net.rahmony.electronickitchen.Data.Store;
 import net.rahmony.electronickitchen.R;
 import java.util.ArrayList;
@@ -56,6 +57,8 @@ public class CustomerActivity extends AppCompatActivity implements  AdapterView.
     ArrayList list_Price = new ArrayList();
     ArrayList list_Quantity = new ArrayList();
     ArrayList list_storeID = new ArrayList();
+    ArrayList list_Invoice_ID = new ArrayList();
+    ArrayList list_Product_ID = new ArrayList();
 
 
     //List of tracking info
@@ -220,6 +223,10 @@ public class CustomerActivity extends AppCompatActivity implements  AdapterView.
                             Quantity[i] = arrayList.get(i).getQuantity();
                             list_Quantity.add(i, arrayList.get(i).getQuantity());
 
+                            list_Invoice_ID.add(i, arrayList.get(i).getInvoice_ID());
+                            list_Product_ID.add(i, arrayList.get(i).getProduct_ID());
+
+
 
                         }
 
@@ -363,7 +370,8 @@ public class CustomerActivity extends AppCompatActivity implements  AdapterView.
                 break;
 
             case R.id.listView_cart :
-                AlertDialog.Builder dialog=new AlertDialog.Builder(CustomerActivity.this);
+
+              final  AlertDialog.Builder dialog=new AlertDialog.Builder(CustomerActivity.this);
                 dialog.setTitle("هل تريد التعديل على الطلب ؟");
 
                 final EditText mEt_input_productName = new EditText(CustomerActivity.this);
@@ -397,16 +405,37 @@ public class CustomerActivity extends AppCompatActivity implements  AdapterView.
 
                 dialog.setNegativeButton("حذف", new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int which) {
-                        dialog.cancel();
-                    }
 
+                        Cart cart = new Cart();
+                        cart.setInvoice_ID(Integer.parseInt(list_Invoice_ID.get(mPosition).toString()));
+                        cart.setProduct_ID(Integer.parseInt(list_Product_ID.get(mPosition).toString()));
+
+                        Call<Cart> deleteProduct = apiService.deleteFromCart(cart);
+                        deleteProduct.enqueue(new Callback<Cart>() {
+                            @Override
+                            public void onResponse(Response<Cart> response, Retrofit retrofit) {
+                                if (response.message().equalsIgnoreCase("ok")) {
+                                    Toast.makeText(getBaseContext(), "تم حذف المنتج من السلة بنجاح", Toast.LENGTH_SHORT).show();
+
+                                }
+                            }
+
+                            @Override
+                            public void onFailure(Throwable t) {
+
+                                Toast.makeText(getBaseContext(), t.getMessage().toString(), Toast.LENGTH_SHORT).show();
+                            }
+                        });
+
+
+                    }
                 });
 
                 dialog.setNeutralButton("تعديل", new DialogInterface.OnClickListener() {
-                    public void onClick(final DialogInterface dialog, int which) {
+                    public void onClick(DialogInterface dialog, int which) {
 
-						/*
-                        
+                         /*
+
                       */
                     }
 
@@ -427,10 +456,10 @@ public class CustomerActivity extends AppCompatActivity implements  AdapterView.
 
                 break;
 
-        }
+
 
     }
-
+    }
 
 
 
