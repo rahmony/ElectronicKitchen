@@ -120,8 +120,7 @@ public interface APIService {
     Call<Product> changeProductName(@Body Product product);
 
     /* need to review and amend
-    @PUT("items")
-    Call<Results> updateItem(@Body User user);
+
 
     @DELETE("items/delete/{id}")
     Call<Results> deleteItem(@Path("id") String id);
