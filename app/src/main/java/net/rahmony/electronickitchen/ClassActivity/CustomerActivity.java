@@ -434,9 +434,34 @@ public class CustomerActivity extends AppCompatActivity implements  AdapterView.
                 dialog.setNeutralButton("تعديل", new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int which) {
 
-                         /*
+                        if (Integer.parseInt(mEt_input_quantity.getText().toString())<1) {
 
-                      */
+                            Toast.makeText(getBaseContext(), "عفوا يجب ان يكون الرقم اكبر من 0" , Toast.LENGTH_SHORT).show();
+                        } else {
+                            Cart cart = new Cart();
+                            cart.setInvoice_ID(Integer.parseInt(list_Invoice_ID.get(mPosition).toString()));
+                            cart.setProduct_ID(Integer.parseInt(list_Product_ID.get(mPosition).toString()));
+                            cart.setQuantity(Integer.parseInt(mEt_input_quantity.getText().toString()));
+
+                            Call<Cart> changeQuantity = apiService.changeQuantity(cart);
+                            changeQuantity.enqueue(new Callback<Cart>() {
+                                @Override
+                                public void onResponse(Response<Cart> response, Retrofit retrofit) {
+                                    if (response.message().equalsIgnoreCase("ok")) {
+                                        Toast.makeText(getBaseContext(), "تم تحديث الكمية", Toast.LENGTH_SHORT).show();
+
+                                    }
+                                }
+
+                                @Override
+                                public void onFailure(Throwable t) {
+
+                                    Toast.makeText(getBaseContext(), t.getMessage().toString(), Toast.LENGTH_SHORT).show();
+                                }
+                            });
+
+
+                        }
                     }
 
                 });
