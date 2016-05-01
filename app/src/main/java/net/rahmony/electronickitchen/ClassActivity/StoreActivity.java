@@ -335,7 +335,7 @@ public class StoreActivity extends AppCompatActivity implements TabHost.OnTabCha
                 break;
             case R.id.image_store:
                 new ImagePicker.Builder(this)
-                        .mode(ImagePicker.Mode.CAMERA)
+                        .mode(ImagePicker.Mode.CAMERA_AND_GALLERY)
                         .extension(ImagePicker.Extension.PNG)
                         .compressLevel(ImagePicker.ComperesLevel.MEDIUM)
                         .directory(ImagePicker.Directory.DEFAULT)
