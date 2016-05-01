@@ -48,6 +48,7 @@ com/google/gson/internal/bind/TypeAdapters$4.class
 android/support/v7/widget/RecyclerView$Adapter.class
 android/support/annotation/DimenRes.class
 com/google/gson/internal/bind/TypeAdapterRuntimeTypeWrapper.class
+android/support/v7/app/AlertDialog.class
 android/support/v4/view/ViewCompat$HCViewCompatImpl.class
 org/parceler/guava/cache/LocalCache$Segment.class
 com/squareup/okhttp/ResponseBody$1.class
@@ -489,6 +490,7 @@ org/parceler/transfuse/gen/variableDecorator/VirtualProxyExpressionDecorator.cla
 org/parceler/guava/collect/Multisets.class
 org/parceler/guava/base/Strings.class
 android/support/design/R$dimen.class
+net/rahmony/electronickitchen/ClassActivity/CustomerActivity$8.class
 org/parceler/internal/ExternalParcelRepositoryTransactionWorker.class
 com/google/gson/internal/bind/TypeAdapters$EnumTypeAdapter.class
 com/google/gson/internal/ConstructorConstructor$5.class
@@ -658,6 +660,7 @@ com/google/gson/internal/bind/TimeTypeAdapter$1.class
 android/support/v7/app/ActionBar$Tab.class
 org/parceler/transfuse/annotations/OnActivityResult.class
 com/google/gson/JsonArray.class
+android/support/v7/app/AppCompatDialog.class
 okio/Source.class
 android/support/design/widget/ValueAnimatorCompat$AnimatorUpdateListener.class
 org/parceler/guava/collect/Maps$EntryFunction$2.class
@@ -1089,6 +1092,7 @@ android/support/v4/view/NestedScrollingParent.class
 com/google/gson/JsonParseException.class
 org/parceler/ParcelFactory.class
 android/support/v4/media/session/PlaybackStateCompat$Builder.class
+android/support/v7/app/AlertDialog$Builder.class
 com/google/android/gms/internal/zzqd.class
 retrofit/RequestBuilder.class
 com/google/gson/internal/bind/CollectionTypeAdapterFactory.class
@@ -1235,6 +1239,7 @@ org/parceler/transfuse/annotations/OnLowMemory.class
 retrofit2/http/Multipart.class
 org/parceler/guava/collect/TreeRangeSet$ComplementRangesByLowerBound.class
 android/support/v7/graphics/drawable/DrawerArrowDrawable.class
+net/rahmony/electronickitchen/ClassActivity/SignUpActivity$5.class
 net/rahmony/electronickitchen/ClassActivity/StoreActivity$5.class
 org/parceler/Parcel.class
 android/support/v7/app/ActionBar$LayoutParams.class

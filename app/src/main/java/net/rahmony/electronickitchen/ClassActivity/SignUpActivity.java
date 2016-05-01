@@ -91,45 +91,69 @@ public class SignUpActivity extends AppCompatActivity {
         switch (v.getId()) {
             case R.id.btn_confirm:
 
+                AlertDialog.Builder dialog=new AlertDialog.Builder(SignUpActivity.this);
+                dialog.setTitle("شروط استخدام التطبيق ");
+                dialog.setMessage("-------------------------\n ------------------------");
+                dialog.setIcon(R.drawable.ic_announcement_black_24dp);
+                dialog.setNegativeButton("موافق",new DialogInterface.OnClickListener(){
+                    public void onClick(DialogInterface dialog, int which) {
 
-                User user = new User();
-            user.setFirstName(mEt_first_name.getText().toString());
-            user.setLastName(mEt_last_name.getText().toString());
-            user.setEmail(mEt_email.getText().toString());
-            user.setPhoneNumber(mEt_phone_number.getText().toString());
-            user.setPassword(mEt_password.getText().toString());
-            user.setAddress(mEt_address.getText().toString());
+                        if (mEt_first_name.getText().toString().isEmpty() || mEt_last_name.getText().toString().isEmpty()|| mEt_email.toString().isEmpty()
+                                || mEt_phone_number.getText().toString().isEmpty() || mEt_password.getText().toString().isEmpty() || mEt_address.toString().isEmpty()) {
 
-            user.setLat(0);
-            user.setLon(0);
+                            Toast.makeText(getBaseContext(),"جميع الحقول مهمه الرجاء التاكد من كتابة القيم بشكل صحيح " , Toast.LENGTH_LONG).show();
 
-            int selectedId = mMyRadioGroup.getCheckedRadioButtonId();
-            if (selectedId == mRadioButton_makka.getId()) {
-                user.setCity("makka");
-            } else if (selectedId == mRadioButton_jeddah.getId()) {
-                user.setCity("jeddah");
-            } else {
-                user.setCity("madina");
-            }
+                        } else {
+                            User user = new User();
+                            user.setFirstName(mEt_first_name.getText().toString());
+                            user.setLastName(mEt_last_name.getText().toString());
+                            user.setEmail(mEt_email.getText().toString());
+                            user.setPhoneNumber(mEt_phone_number.getText().toString());
+                            user.setPassword(mEt_password.getText().toString());
+                            user.setAddress(mEt_address.getText().toString());
+
+                            user.setLat(0);
+                            user.setLon(0);
+
+                            int selectedId = mMyRadioGroup.getCheckedRadioButtonId();
+                            if (selectedId == mRadioButton_makka.getId()) {
+                                user.setCity("makka");
+                            } else if (selectedId == mRadioButton_jeddah.getId()) {
+                                user.setCity("jeddah");
+                            } else {
+                                user.setCity("madina");
+                            }
 
 
-            Call<Results> reg = apiService.signup(user);
+                            Call<Results> reg = apiService.signup(user);
 
-            reg.enqueue(new Callback<Results>() {
+                            reg.enqueue(new Callback<Results>() {
 
-                @Override
-                public void onResponse(Response<Results> response, Retrofit retrofit) {
+                                @Override
+                                public void onResponse(Response<Results> response, Retrofit retrofit) {
 
-                    Toast.makeText(getBaseContext(), " تم التسجيل بنجاح", Toast.LENGTH_LONG).show();
-                    finish();
-                }
+                                    Toast.makeText(getBaseContext(), " تم التسجيل بنجاح", Toast.LENGTH_LONG).show();
+                                    finish();
+                                }
 
-                @Override
-                public void onFailure(Throwable t) {
-                    Toast.makeText(getBaseContext(), " Oops! An error occurred  + The Throwble is " + t.getMessage().toString(), Toast.LENGTH_LONG).show();
+                                @Override
+                                public void onFailure(Throwable t) {
+                                    Toast.makeText(getBaseContext(), " Oops! An error occurred  + The Throwble is " + t.getMessage().toString(), Toast.LENGTH_LONG).show();
 
-                }
-            });
+                                }
+                            });
+                        }
+                    }
+
+                });
+                dialog.setPositiveButton("غير موافق", new DialogInterface.OnClickListener(){
+                    public void onClick(DialogInterface dialog, int which) {
+                        dialog.cancel();
+                    }
+
+                });
+                dialog.show();
+
                 break;
             case R.id.btn_cancel:
 

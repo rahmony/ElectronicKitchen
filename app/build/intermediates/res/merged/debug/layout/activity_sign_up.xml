@@ -186,16 +186,6 @@
             android:layout_row="0"
             android:weightSum="1">
 
-            <RadioButton
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/bands_agree"
-                android:id="@+id/radioButton_bands_agree"
-                android:layout_row="1"
-                android:layout_column="1"
-                android:layout_gravity="center_horizontal"
-                android:textColor="#000000" />
-
             <net.rahmony.electronickitchen.ClassAssets.FontCustomButton
                 android:layout_width="152dp"
                 android:layout_height="50dp"

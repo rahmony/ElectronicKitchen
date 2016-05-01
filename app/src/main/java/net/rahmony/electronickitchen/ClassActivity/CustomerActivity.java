@@ -85,6 +85,10 @@ public class CustomerActivity extends AppCompatActivity implements  AdapterView.
     //Button Confirm Order in Cart
     Button mBtn_confirm_order;
 
+
+
+
+
     /**
      *
      * ###################################################################################
@@ -114,6 +118,8 @@ public class CustomerActivity extends AppCompatActivity implements  AdapterView.
         spec.setIndicator("تتبع الطلب");
         spec.setContent(R.id.tab3);
         mTab.addTab(spec);
+
+
 
     }
 
@@ -397,6 +403,16 @@ public class CustomerActivity extends AppCompatActivity implements  AdapterView.
                 mEt_input_quantity.setGravity(Gravity.CENTER);
 
 
+
+                mEt_input_quantity.setOnFocusChangeListener(new View.OnFocusChangeListener() {
+                    @Override
+                    public void onFocusChange(View v, boolean hasFocus) {
+                        if (!mEt_input_quantity.getText().toString().matches("^(\\d{1,4})?$")) {
+                            mEt_input_quantity.setError("الرجاء ادخال رقم صحيح");
+                        }
+                    }
+                });
+
                 mEt_input_productName.setEnabled(false);
                 mEt_input_price.setEnabled(false);
 
@@ -451,7 +467,11 @@ public class CustomerActivity extends AppCompatActivity implements  AdapterView.
                         if (Integer.parseInt(mEt_input_quantity.getText().toString())<1) {
 
                             Toast.makeText(getBaseContext(), "عفوا يجب ان يكون الرقم اكبر من 0" , Toast.LENGTH_SHORT).show();
-                        } else {
+                        }
+                        else if (!mEt_input_quantity.getText().toString().matches("^(\\d{1,4})?$")) {
+                            mEt_input_quantity.setError("الرجاء ادخال رقم صحيح");
+                        }
+                        else{
                             Cart cart = new Cart();
                             cart.setInvoice_ID(Integer.parseInt(list_Invoice_ID.get(mPosition).toString()));
                             cart.setProduct_ID(Integer.parseInt(list_Product_ID.get(mPosition).toString()));
@@ -499,6 +519,7 @@ public class CustomerActivity extends AppCompatActivity implements  AdapterView.
 
     }
     }
+
 
 
 
