@@ -118,7 +118,6 @@
                     <LinearLayout
                         android:orientation="horizontal"
                         android:layout_width="match_parent"
-                        android:layout_gravity="center_horizontal"
                         android:layout_height="wrap_content">
 
                         <TextView
@@ -126,34 +125,37 @@
                             android:layout_height="wrap_content"
                             android:textAppearance="?android:attr/textAppearanceMedium"
                             android:text="@string/total_quantity"
-                            android:id="@+id/text_quantity" />
+                            android:id="@+id/text_quantity"
+                            android:layout_gravity="center_horizontal"/>
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:textAppearance="?android:attr/textAppearanceMedium"
                             android:text="0"
-                            android:id="@+id/text_quantity_val" />
+                            android:id="@+id/text_quantity_val"
+                            android:layout_gravity="center_horizontal"/>
 
                       </LinearLayout>
                         <LinearLayout
                             android:orientation="horizontal"
                             android:layout_width="match_parent"
-                            android:layout_gravity="center_horizontal"
                             android:layout_height="wrap_content">
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:textAppearance="?android:attr/textAppearanceMedium"
                             android:text="@string/total_price"
-                            android:id="@+id/text_total_price" />
+                            android:id="@+id/text_total_price"
+                            android:layout_gravity="center_horizontal"/>
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:textAppearance="?android:attr/textAppearanceMedium"
                             android:text="0"
-                            android:id="@+id/text_total_price_val" />
+                            android:id="@+id/text_total_price_val"
+                            android:layout_gravity="center_horizontal"/>
 
                         </LinearLayout>
 

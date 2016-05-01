@@ -1221,10 +1221,11 @@ int string store_products 0x7f06007b
 int string stores_browsing 0x7f06007c
 int string title_activity_costumer3 0x7f06007d
 int string title_activity_main_page3 0x7f06008f
-int string title_activity_store3 0x7f060090
+int string title_activity_maps 0x7f060090
+int string title_activity_store3 0x7f060091
 int string to 0x7f06007e
-int string total_price 0x7f060091
-int string total_quantity 0x7f060092
+int string total_price 0x7f060092
+int string total_quantity 0x7f060093
 int string wlecome_msg 0x7f06007f
 int string zero 0x7f060080
 int style ActionBar_Solid_Fawzytheme 0x7f090087

@@ -414,6 +414,7 @@
     <string name="stores_browsing"> المتاجر  </string>
     <string name="title_activity_costumer3">CostumerActivity3</string>
     <string name="title_activity_main_page3" translatable="false">MainPageActivity3</string>
+    <string name="title_activity_maps">Map</string>
     <string name="title_activity_store3" translatable="false">StoreActivity3</string>
     <string name="to">إلـى:</string>
     <string name="total_price">الــســعــر الاجـــمــــالــي : </string>

@@ -3078,10 +3078,11 @@ containing a value of this type.
         public static final int stores_browsing=0x7f06007c;
         public static final int title_activity_costumer3=0x7f06007d;
         public static final int title_activity_main_page3=0x7f06008f;
-        public static final int title_activity_store3=0x7f060090;
+        public static final int title_activity_maps=0x7f060090;
+        public static final int title_activity_store3=0x7f060091;
         public static final int to=0x7f06007e;
-        public static final int total_price=0x7f060091;
-        public static final int total_quantity=0x7f060092;
+        public static final int total_price=0x7f060092;
+        public static final int total_quantity=0x7f060093;
         public static final int wlecome_msg=0x7f06007f;
         public static final int zero=0x7f060080;
     }

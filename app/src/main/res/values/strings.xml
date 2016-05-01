@@ -95,9 +95,10 @@
     <string name="Order_Tracking">تتــبع الطلـــــــب</string>
 
     <string name="Order_From_Store">طلـــب من متجـــر:</string>
-	<string name="restore_password">إستعادة كلمة المرور</string>
+    <string name="restore_password">إستعادة كلمة المرور</string>
     <string name="order_received">تــم استـــلام طلبـــي</string>
-	<string name="total_price">الــســعــر الاجـــمــــالــي : </string>
-	<string name="total_quantity">إجــمــالي الكـــمــيـة : </string>
+    <string name="total_price">الــســعــر الاجـــمــــالــي : </string>
+    <string name="total_quantity">إجــمــالي الكـــمــيـة : </string>
+    <string name="title_activity_maps">Map</string>
 
 </resources>
