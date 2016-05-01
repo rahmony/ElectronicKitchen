@@ -79,8 +79,8 @@ public class CustomerActivity extends AppCompatActivity implements  AdapterView.
     final  Cart cart = new Cart();
 
 
-    //Text for There is No Data To Show in Cart
-    TextView mTextView_text_cart_no_data;
+    //Text for There is No Data To Show in Cart  ||| total price  || total_quantity
+    TextView mTextView_text_cart_no_data  , mText_total_price_val ,  mText_quantity_val  ;
 
     //Button Confirm Order in Cart
     Button mBtn_confirm_order;
@@ -198,6 +198,9 @@ public class CustomerActivity extends AppCompatActivity implements  AdapterView.
 
         //implementation for List View, list for stores, list for cart.
         mListView_cart = (ListView) findViewById(R.id.listView_cart);
+        mText_total_price_val =(TextView)findViewById(R.id.text_total_price_val);
+        mText_quantity_val =(TextView)findViewById(R.id.text_quantity_val);
+
 
         Call<List<Cart>> regCart = apiService.getCart(cart);
         regCart.enqueue(new Callback<List<Cart>>() {
@@ -214,6 +217,8 @@ public class CustomerActivity extends AppCompatActivity implements  AdapterView.
                     int[] Price = new int[arrayList.size()];
                     int[] Quantity = new int[arrayList.size()];
                     int[] Invoice_ID = new int[arrayList.size()];
+                    int total_price = 0;
+                    int total_quantity = 0 ;
                     for (int i = 0; i < arrayList.size(); i++) {
                         if (arrayList != null) {
                             productName[i] = arrayList.get(i).getProductName();
@@ -226,13 +231,22 @@ public class CustomerActivity extends AppCompatActivity implements  AdapterView.
                             list_Invoice_ID.add(i, arrayList.get(i).getInvoice_ID());
                             list_Product_ID.add(i, arrayList.get(i).getProduct_ID());
 
+                            total_price += (Price[i] * Quantity[i]) ;
+                            total_quantity += Quantity[i];
 
 
                         }
 
                     }
+
+
+                    mText_total_price_val.setText(total_price+" ");
+                    mText_quantity_val.setText(total_quantity+" ");
+
                     mySecondAdapter arr = new mySecondAdapter(getBaseContext(), android.R.layout.simple_list_item_1, productName);
                     mListView_cart.setAdapter(arr);
+
+
 
                     //Take The Invoice ID
                     Invoice_ID[0] = arrayList.get(0).getInvoice_ID();

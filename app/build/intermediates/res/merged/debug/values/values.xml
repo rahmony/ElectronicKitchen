@@ -416,6 +416,8 @@
     <string name="title_activity_main_page3" translatable="false">MainPageActivity3</string>
     <string name="title_activity_store3" translatable="false">StoreActivity3</string>
     <string name="to">إلـى:</string>
+    <string name="total_price">الــســعــر الاجـــمــــالــي : </string>
+    <string name="total_quantity">إجــمــالي الكـــمــيـة : </string>
     <string name="wlecome_msg">مرحبا بك في المطبخ الالكتروني</string>
     <string name="zero">0</string>
     <style name="ActionBar.Solid.Fawzytheme" parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">

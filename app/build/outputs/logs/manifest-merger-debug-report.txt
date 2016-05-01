@@ -74,7 +74,7 @@ MERGED from [com.android.support:support-v4:23.2.1] C:\Users\RaHmOnY\AndroidStud
 	android:allowBackup
 		ADDED from C:\Users\RaHmOnY\AndroidStudioProjects\ElectronicKitchen\app\src\main\AndroidManifest.xml:15:9-35
 	android:icon
-		ADDED from C:\Users\RaHmOnY\AndroidStudioProjects\ElectronicKitchen\app\src\main\AndroidManifest.xml:16:9-43
+		ADDED from C:\Users\RaHmOnY\AndroidStudioProjects\ElectronicKitchen\app\src\main\AndroidManifest.xml:16:9-38
 	android:theme
 		ADDED from C:\Users\RaHmOnY\AndroidStudioProjects\ElectronicKitchen\app\src\main\AndroidManifest.xml:19:9-40
 activity#net.rahmony.electronickitchen.ClassActivity.MainActivity
