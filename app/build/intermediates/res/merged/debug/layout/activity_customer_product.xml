@@ -3,8 +3,7 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:columnCount="1"
-    android:rowCount="9"
-    android:background="@drawable/pattern2">
+    android:rowCount="9">
 
     <LinearLayout
         android:orientation="horizontal"
@@ -40,17 +39,18 @@
 
     <LinearLayout
         android:orientation="horizontal"
-        android:layout_width="372dp"
+        android:layout_width="match_parent"
         android:layout_height="51dp"
         android:layout_column="0"
-        android:layout_row="3">
+        android:layout_row="3"
+        android:background="#33b5e5">
 
         <net.rahmony.electronickitchen.ClassAssets.FontCustomTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:text="@string/quantity"
-            android:textColor="#7d0f7bce"
+            android:textColor="#ffffff"
             android:layout_marginLeft="50dp"
             android:layout_marginRight="100dp"
             android:textStyle="bold" />
@@ -59,7 +59,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/plus"
-            android:textColor="#7d0f7bce"
+            android:textColor="#ffffff"
             android:id="@+id/text_costumer_product_plus"
             android:gravity="start"
             android:textSize="25sp"
@@ -72,7 +72,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/one"
-            android:textColor="#7d0f7bce"
+            android:textColor="#ffffff"
             android:id="@+id/text_costumer_quantity_number"
             android:textSize="30sp"
             android:textIsSelectable="false"
@@ -83,7 +83,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/minus"
-            android:textColor="#7d0f7bce"
+            android:textColor="#ffffff"
             android:id="@+id/text_costumer_product_minus"
             android:gravity="end"
             android:textSize="40sp"
@@ -105,7 +105,7 @@
             android:layout_height="65dp"
             android:text="@string/add_to_cart"
             android:id="@+id/btn_add_to_cart"
-            android:background="#7d0f7bce"
+            android:background="#33b5e5"
             android:textColor="#fefcfc"
             android:layout_gravity="bottom|right"
             android:onClick="onClick"
@@ -116,7 +116,7 @@
             android:layout_width="180dp"
             android:layout_height="65dp"
             android:text="@string/cancel"
-            android:background="#7d0f7bce"
+            android:background="#33b5e5"
             android:textColor="#fefcfc"
             android:id="@+id/btn_costumer_product_cancel"
             android:layout_gravity="left|bottom"

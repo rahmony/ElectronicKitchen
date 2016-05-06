@@ -40,25 +40,6 @@ public class LoginActivity extends AppCompatActivity {
         LoginImage = (ImageView) findViewById(R.id.image_logo);
 
 
-
-        mEt_email.setOnFocusChangeListener(new View.OnFocusChangeListener() {
-            @Override
-            public void onFocusChange(View v, boolean hasFocus) {
-                if(!mEt_email.getText().toString().matches("^[A-Za-z0-9](([_\\.\\-]?[a-zA-Z0-9]+)*)@([A-Za-z0-9]+)(([\\.\\-]?[a-zA-Z0-9]+)*)\\.([A-Za-z]{2,})$")){
-                    mEt_email.setError("الرجاء إدخال إيميل صحيح");
-                }
-            }
-        });
-
-        mEt_password.setOnFocusChangeListener(new View.OnFocusChangeListener() {
-            @Override
-            public void onFocusChange(View v, boolean hasFocus) {
-                if(!mEt_password.getText().toString().matches("^(?=.*\\d)(?=.*[a-z])(?=.*[A-Z]).{8,15}$")){
-                    mEt_password.setError("يجب ان تكون كلمة المرور 8 خانات وتحتوي على حرف كبير و حرف صغير ورقم واحد على الاقل");
-                }
-            }
-        });
-
     }
 
        //-----------------------------*************************************************************************************-------------------------//

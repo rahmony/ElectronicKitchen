@@ -4,14 +4,13 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:columnCount="1"
-    android:rowCount="4"
-    android:background="@drawable/pattern2">
+    android:rowCount="4">
 
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="48dp"
         android:layout_gravity="center_horizontal"
-        android:background="#7d0f6ace"
+        android:background="#33b5e5"
         android:layout_column="0"
         android:layout_row="0"
         android:clickable="true">
@@ -191,7 +190,7 @@
                 android:layout_height="50dp"
                 android:text="@string/share_location"
                 android:id="@+id/btn_share_location"
-                android:background="#470e4582"
+                android:background="#33b5e5"
                 android:textColor="#050505"
                 android:layout_row="0"
                 android:layout_column="1"
@@ -213,7 +212,7 @@
                 android:text="@string/confirm"
                 android:textSize="8dp"
                 android:id="@+id/btn_confirm"
-                android:background="#470e4582"
+                android:background="#33b5e5"
                 android:textColor="#050505"
                 android:layout_row="1"
                 android:layout_column="2"
@@ -226,7 +225,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/cancel"
                 android:id="@+id/btn_cancel"
-                android:background="#470e4582"
+                android:background="#33b5e5"
                 android:textColor="#050505"
                 android:layout_row="1"
                 android:layout_column="0"

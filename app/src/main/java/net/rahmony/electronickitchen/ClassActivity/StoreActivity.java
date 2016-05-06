@@ -372,7 +372,7 @@ public class StoreActivity extends AppCompatActivity implements TabHost.OnTabCha
                                 dialog.cancel();
                                 Toast.makeText(getBaseContext(),"تم تعديل اسم المتجر بنجاح" ,Toast.LENGTH_LONG).show();
                                 finish();
-                                startActivity(new Intent(StoreActivity.this, StoreActivity.class));
+
 
 
 

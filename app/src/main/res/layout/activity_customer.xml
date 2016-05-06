@@ -57,7 +57,8 @@
                         android:layout_height="47dp"
                         android:weightSum="1"
                         android:layout_column="0"
-                        android:layout_row="0">
+                        android:layout_row="0"
+                        android:background="#33b5e5">
 
                         <net.rahmony.electronickitchen.ClassAssets.FontCustomTextView
                             android:layout_width="wrap_content"

@@ -37,7 +37,7 @@
                         android:orientation="horizontal"
                         android:layout_width="match_parent"
                         android:layout_height="33dp"
-                        android:background="#7d277bd7"
+                        android:background="#33b5e5"
                         android:layout_column="0"
                         android:layout_row="0"
                         android:baselineAligned="true">
@@ -65,7 +65,8 @@
                             android:gravity="center_horizontal"
                             android:background="#33b5e5"
                             android:onClick="onClick"
-                            android:maxLength="60" />
+                            android:maxLength="60"
+                            android:textColor="#ffffff" />
 
                     </LinearLayout>
 
@@ -145,8 +146,7 @@
                             android:onClick="onClick"
                             android:background="#33b5e5"
                             android:layout_gravity="center_horizontal"
-                            android:layout_marginLeft="60dp"
-                            android:layout_marginRight="30dp" />
+                            android:layout_marginLeft="10dp" />
 
                     </LinearLayout>
 

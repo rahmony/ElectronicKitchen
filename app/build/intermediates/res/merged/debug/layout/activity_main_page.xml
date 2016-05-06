@@ -2,8 +2,7 @@
  <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="fill_parent"
-    android:weightSum="1"
-    android:background="@drawable/pattern">
+    android:weightSum="1">
 
 
     <TextView
@@ -48,7 +47,7 @@
             android:layout_alignParentRight="true"
             android:layout_alignParentEnd="true"
             android:textSize="10sp"
-            android:background="#420f6ace"
+            android:background="#33b5e5"
             android:textColor="#fbf9f9"
             android:layout_gravity="center_horizontal|top"
             android:onClick="onClick"
@@ -67,7 +66,7 @@
             android:layout_alignParentRight="true"
             android:layout_alignParentEnd="true"
             android:textSize="10sp"
-            android:background="#420f6ace"
+            android:background="#33b5e5"
             android:textColor="#ffffff"
             android:layout_gravity="center_horizontal|top"
             android:onClick="onClick"
@@ -85,7 +84,7 @@
             android:layout_alignParentEnd="true"
             android:layout_marginTop="30dp"
             android:textSize="10sp"
-            android:background="#420f6ace"
+            android:background="#33b5e5"
             android:textColor="#fefcfc"
             android:layout_gravity="center"
             android:onClick="onClick"

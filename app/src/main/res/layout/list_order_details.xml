@@ -4,14 +4,13 @@
     android:layout_height="wrap_content"
     android:weightSum="1"
     android:paddingTop="10dp"
-    android:paddingLeft="10dp">
+    android:gravity="center">
 
     <LinearLayout
         android:orientation="horizontal"
-        android:layout_width="365dp"
+        android:layout_width="385dp"
         android:layout_height="30dp"
-        android:background="@drawable/defend"
-        android:layout_weight="5">
+        android:background="#33b5e5">
 
         <LinearLayout
             android:orientation="vertical"
@@ -25,7 +24,8 @@
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="product Name"
                 android:id="@+id/text_list_order_details_ProductName"
-                android:gravity="center" />
+                android:gravity="center"
+                android:textColor="#ffffff" />
         </LinearLayout>
 
         <LinearLayout
@@ -40,7 +40,8 @@
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="Price"
                 android:id="@+id/text_list_order_details_Price"
-                android:gravity="center" />
+                android:gravity="center"
+                android:textColor="#ffffff" />
         </LinearLayout>
 
         <LinearLayout
@@ -56,7 +57,8 @@
                 android:text="Quantity"
                 android:id="@+id/text_list_order_details_Quantity"
                 android:layout_weight="0.35"
-                android:gravity="center" />
+                android:gravity="center"
+                android:textColor="#ffffff" />
         </LinearLayout>
 
     </LinearLayout>

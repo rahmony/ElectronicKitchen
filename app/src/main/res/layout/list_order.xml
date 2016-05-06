@@ -11,7 +11,7 @@
         android:paddingTop="10dp"
         android:paddingLeft="10dp"
         android:layout_weight="0.02"
-        android:background="@drawable/defend">
+        android:background="#33b5e5">
 
         <TextView
             android:layout_width="167dp"

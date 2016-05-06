@@ -11,7 +11,7 @@
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="55dp"
-        android:background="#8589c1f6">
+        android:background="#33b5e5">
 
         <TextView
             android:layout_width="176dp"
@@ -20,7 +20,8 @@
             android:text="@string/Order_Tracking"
             android:id="@+id/textView10"
             android:layout_gravity="center_horizontal|top"
-            android:gravity="center" />
+            android:gravity="center"
+            android:textColor="#ffffff" />
     </LinearLayout>
 
     <FrameLayout
@@ -46,7 +47,7 @@
             android:layout_height="281dp"
             android:id="@+id/imageView_customer_tracking_details"
             android:layout_gravity="center_horizontal|top"
-            android:background="#8589c1f6"
+            android:background="#33b5e5"
             android:layout_marginTop="15dp" />
 
         <TextView

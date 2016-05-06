@@ -5,8 +5,7 @@
     android:weightSum="1"
     android:columnCount="2"
     android:rowCount="3"
-    android:clickable="false"
-    android:background="@drawable/ntitled">
+    android:clickable="false">
 
     <ImageView
         android:layout_width="300dp"
@@ -20,9 +19,9 @@
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="194dp"
+        android:layout_height="175dp"
         android:weightSum="1"
-        android:background="#240b7ac4"
+        android:background="#33b5e5"
         android:layout_column="0"
         android:layout_row="1"
         android:gravity="center">
@@ -34,7 +33,7 @@
             android:textColor="#050505"
             android:hint="@string/email"
             android:layout_gravity="center_horizontal"
-            android:background="#9cfcf8f8"
+            android:background="#daffffff"
             android:gravity="center"
             android:autoText="false"
             android:maxLength="50"
@@ -50,7 +49,7 @@
             android:id="@+id/et_login_password"
             android:layout_gravity="center_horizontal"
             android:gravity="center"
-            android:background="#7dfcf8f8"
+            android:background="#daffffff"
             android:layout_marginTop="10dp"
             android:maxLength="30"
             />
@@ -76,7 +75,7 @@
             android:id="@+id/btn_login"
             android:layout_gravity="center_horizontal"
             android:textSize="7sp"
-            android:background="#150f82ce"
+            android:background="#33b5e5"
             android:textColor="#050505"
             android:enabled="true"
             android:onClick="onClick"

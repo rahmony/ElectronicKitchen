@@ -5,9 +5,7 @@
     android:layout_height="match_parent"
     tools:context=".ClassActivity.DriverOrdersActivity"
     android:columnCount="1"
-    android:rowCount="2"
-    android:background="@drawable/pattern"
-    >
+    android:rowCount="2">
 
     <TabHost
         android:layout_width="match_parent"
@@ -30,6 +28,34 @@
                 android:layout_height="match_parent">
 
                 <LinearLayout
+                    android:id="@+id/tab_driver_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:background="#977fa5ab">
+
+                        <net.rahmony.electronickitchen.ClassAssets.FontCustomTextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="@string/ready_orders"
+                            android:textColor="#ffffff"
+                            android:background="#33b5e5"
+                            android:gravity="center" />
+                    </LinearLayout>
+
+                    <ListView
+                        android:layout_width="match_parent"
+                        android:layout_height="390dp"
+                        android:id="@+id/listView_ready_orders" />
+                </LinearLayout>
+
+                <LinearLayout
                     android:id="@+id/tab_driver_2"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
@@ -45,7 +71,7 @@
                         <net.rahmony.electronickitchen.ClassAssets.FontCustomTextView
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:background="#420f6ace"
+                            android:background="#33b5e5"
                             android:textColor="#ffffff"
                             android:textAppearance="?android:attr/textAppearanceLarge"
                             android:text="@string/order_details"
@@ -64,7 +90,7 @@
                             android:textAppearance="?android:attr/textAppearanceMedium"
                             android:text="@string/from"
                             android:textColor="#ffffff"
-                            android:background="#420f6ace"
+                            android:background="#33b5e5"
                             android:textSize="20sp"
                             android:paddingRight="15dp"
                             android:gravity="center_vertical" />
@@ -102,7 +128,7 @@
                             android:textAppearance="?android:attr/textAppearanceMedium"
                             android:text="@string/to"
                             android:textColor="#ffffff"
-                            android:background="#420f6ace"
+                            android:background="#33b5e5"
                             android:textSize="20sp"
                             android:gravity="center_vertical"
                             android:paddingRight="15dp" />
@@ -134,7 +160,7 @@
                         android:layout_row="5"
                         android:columnCount="2"
                         android:rowCount="2"
-                        android:background="#717cb4c0">
+                        android:background="#33b5e5">
 
                         <LinearLayout
                             android:orientation="horizontal"
@@ -208,34 +234,6 @@
                         android:layout_row="6">
 
                     </FrameLayout>
-                </LinearLayout>
-
-                <LinearLayout
-                    android:id="@+id/tab_driver_1"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="vertical">
-
-                    <LinearLayout
-                        android:orientation="vertical"
-                        android:layout_width="match_parent"
-                        android:layout_height="50dp"
-                        android:background="#977fa5ab">
-
-                        <net.rahmony.electronickitchen.ClassAssets.FontCustomTextView
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:textAppearance="?android:attr/textAppearanceMedium"
-                            android:text="@string/ready_orders"
-                            android:textColor="#ffffff"
-                            android:background="#420f6ace"
-                            android:gravity="center" />
-                    </LinearLayout>
-
-                    <ListView
-                        android:layout_width="match_parent"
-                        android:layout_height="390dp"
-                        android:id="@+id/listView_ready_orders" />
                 </LinearLayout>
 
             </FrameLayout>

@@ -5,8 +5,7 @@
     android:layout_height="match_parent"
     tools:context="net.rahmony.electronickitchen.ClassActivity.OrderDetails"
     android:columnCount="1"
-    android:rowCount="3"
-    android:background="@drawable/pattern">
+    android:rowCount="3">
 
     <LinearLayout
         android:orientation="horizontal"
@@ -15,7 +14,8 @@
         android:weightSum="1"
         android:layout_column="0"
         android:layout_row="0"
-        android:paddingTop="10dp">
+        android:paddingTop="10dp"
+        android:background="#33b5e5">
 
         <net.rahmony.electronickitchen.ClassAssets.FontCustomTextView
             android:layout_width="wrap_content"
@@ -23,7 +23,7 @@
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:text="@string/product_name"
             android:layout_weight="0.33"
-            android:textColor="#090505"
+            android:textColor="#ffffff"
             android:gravity="center" />
 
         <net.rahmony.electronickitchen.ClassAssets.FontCustomTextView
@@ -32,7 +32,7 @@
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:text="@string/product_price"
             android:layout_weight="0.38"
-            android:textColor="#0b0606"
+            android:textColor="#ffffff"
             android:gravity="center" />
 
         <net.rahmony.electronickitchen.ClassAssets.FontCustomTextView
@@ -41,7 +41,7 @@
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:text="@string/product_Quantity"
             android:layout_weight="0.27"
-            android:textColor="#090505"
+            android:textColor="#ffffff"
             android:gravity="center"
             />
     </LinearLayout>
@@ -71,7 +71,7 @@
             android:onClick="onClick"
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"
-            android:background="#420f6ace"
+            android:background="#33b5e5"
             android:textColor="#ffffff"
             android:textStyle="bold"
             android:layout_weight="0.35" />
@@ -82,7 +82,7 @@
             android:text="@string/denial_order"
             android:id="@+id/btn_order_details_denial_order"
             android:onClick="onClick"
-            android:background="#420f6ace"
+            android:background="#33b5e5"
             android:textColor="#ffffff"
             android:textStyle="bold" />
     </LinearLayout>

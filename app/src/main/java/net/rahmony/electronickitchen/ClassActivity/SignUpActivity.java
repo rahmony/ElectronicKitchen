@@ -94,7 +94,7 @@ public class SignUpActivity extends AppCompatActivity {
                 AlertDialog.Builder dialog=new AlertDialog.Builder(SignUpActivity.this);
                 dialog.setTitle("شروط استخدام التطبيق ");
                 dialog.setMessage("-------------------------\n ------------------------");
-                dialog.setIcon(R.drawable.ic_announcement_black_24dp);
+               // dialog.setIcon(R.drawable.ic_announcement_black_24dp);
                 dialog.setNegativeButton("موافق",new DialogInterface.OnClickListener(){
                     public void onClick(DialogInterface dialog, int which) {
 
