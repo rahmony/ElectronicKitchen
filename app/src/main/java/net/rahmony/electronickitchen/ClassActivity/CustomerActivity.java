@@ -6,6 +6,8 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.text.Editable;
+import android.text.TextWatcher;
 import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -403,15 +405,25 @@ public class CustomerActivity extends AppCompatActivity implements  AdapterView.
                 mEt_input_quantity.setGravity(Gravity.CENTER);
 
 
+                mEt_input_quantity.addTextChangedListener(new TextWatcher() {
 
-                mEt_input_quantity.setOnFocusChangeListener(new View.OnFocusChangeListener() {
                     @Override
-                    public void onFocusChange(View v, boolean hasFocus) {
-                        if (!mEt_input_quantity.getText().toString().matches("^(\\d{1,4})?$")) {
+                    public void beforeTextChanged(CharSequence s, int start, int count, int after) {
+
+                    }
+
+                    @Override
+                    public void onTextChanged(CharSequence s, int start, int before, int count) {
+
+                    }
+
+                    @Override
+                    public void afterTextChanged(Editable s) {
+                        if (!mEt_input_quantity.getText().toString().matches("^(\\d{1,4})?$"))
                             mEt_input_quantity.setError("الرجاء ادخال رقم صحيح");
-                        }
                     }
                 });
+
 
                 mEt_input_productName.setEnabled(false);
                 mEt_input_price.setEnabled(false);

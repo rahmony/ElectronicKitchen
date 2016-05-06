@@ -37,7 +37,7 @@
             android:gravity="center"
             android:autoText="false"
             android:maxLength="50"
-            />
+            android:maxLines="1" />
 
         <net.rahmony.electronickitchen.ClassAssets.FontEditText
             android:layout_width="320dp"
@@ -52,7 +52,8 @@
             android:background="#daffffff"
             android:layout_marginTop="10dp"
             android:maxLength="30"
-            />
+            android:maxLines="1"
+            android:maxHeight="1dp" />
 
     </LinearLayout>
 

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="ARABIC">العربية</string>
-    <string name="app_name">Cock For Me</string>
+    <string name="app_name">Electronic Kitchen</string>
     <string name="Hello">Hello</string>
     <string name="accept_order">Accept Order</string>
     <string name="add_to_cart">Add to Cart</string>

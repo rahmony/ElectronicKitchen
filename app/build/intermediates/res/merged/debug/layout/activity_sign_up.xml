@@ -42,7 +42,8 @@
             android:layout_marginTop="5dp"
             android:maxLength="50"
             android:hint="@string/first_name"
-            android:gravity="center" />
+            android:gravity="center"
+            />
 
         <net.rahmony.electronickitchen.ClassAssets.FontEditText
             android:inputType="textPersonName"

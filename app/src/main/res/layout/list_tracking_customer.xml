@@ -3,43 +3,51 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:weightSum="1"
-    android:paddingTop="6dp">
+    android:paddingTop="6dp"
+
+    >
+
 
     <LinearLayout
         android:orientation="vertical"
-        android:layout_width="match_parent"
+        android:layout_width="200dp"
         android:layout_height="40dp"
         android:paddingTop="10dp"
         android:paddingLeft="10dp"
-        android:layout_weight="0.02"
-        android:background="#33b5e5">
+        android:background="#33b5e5"
+        android:weightSum="0.5"
+        >
 
         <TextView
-            android:layout_width="167dp"
+            android:layout_width="151dp"
             android:layout_height="25dp"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:text="@string/Order_FromStore"
             android:id="@+id/textView2"
-            android:layout_gravity="center_horizontal"
-            android:gravity="center"
-            android:textColor="#FFFFFF" />
+            android:textColor="#FFFFFF"
+            android:gravity="center_vertical"
+            android:layout_gravity="center" />
 
     </LinearLayout>
 
     <LinearLayout
         android:orientation="horizontal"
-        android:layout_width="match_parent"
+        android:layout_width="200dp"
         android:layout_height="42dp"
-        android:weightSum="1">
+        android:weightSum="0.5"
+        >
 
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:text="storeName"
             android:id="@+id/text_list_tracking_customer_storeName"
-            android:layout_weight="0.94"
-            android:gravity="center" />
+            android:gravity="center_vertical"
+            android:layout_gravity="center" />
 
     </LinearLayout>
+
+
+
 </LinearLayout>

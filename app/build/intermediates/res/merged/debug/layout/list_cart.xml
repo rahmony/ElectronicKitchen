@@ -31,7 +31,8 @@
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="product Name"
                 android:id="@+id/text_list_cart_ProductName"
-                android:gravity="center" />
+                android:gravity="center"
+                android:textColor="#ffffff" />
         </LinearLayout>
 
 
@@ -47,7 +48,8 @@
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="Price"
                 android:id="@+id/text_list_cart_Price"
-                android:gravity="center" />
+                android:gravity="center"
+                android:textColor="#ffffff" />
         </LinearLayout>
 
 
@@ -65,7 +67,8 @@
                 android:text="Quantity"
                 android:id="@+id/text_list_cart_Quantity"
                 android:layout_weight="0.35"
-                android:gravity="center" />
+                android:gravity="center"
+                android:textColor="#ffffff" />
         </LinearLayout>
 
     </LinearLayout>

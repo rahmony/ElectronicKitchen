@@ -1,20 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="net.rahmony.electronickitchen.test" >
+    package="net.rahmony.electronickitchen.test">
 
-    <uses-sdk
-        android:minSdkVersion="17"
-        android:targetSdkVersion="23" />
-
-    <instrumentation
-        android:name="com.android.test.runner.MultiDexTestRunner"
-        android:functionalTest="false"
-        android:handleProfiling="false"
-        android:label="Tests for net.rahmony.electronickitchen"
-        android:targetPackage="net.rahmony.electronickitchen" />
+    <uses-sdk android:minSdkVersion="17" android:targetSdkVersion="23" />
 
     <application>
         <uses-library android:name="android.test.runner" />
     </application>
 
+    <instrumentation android:name="android.test.InstrumentationTestRunner"
+                     android:targetPackage="net.rahmony.electronickitchen"
+                     android:handleProfiling="false"
+                     android:functionalTest="false"
+                     android:label="Tests for net.rahmony.electronickitchen"/>
 </manifest>

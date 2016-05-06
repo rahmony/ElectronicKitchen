@@ -79,22 +79,22 @@ public class CustomerTrackingDetailsActivity extends AppCompatActivity {
                                 switch (cart.getStatus().toString()) {
                                     case "Confirmed":
                                         mImageView_customer_tracking_details.setImageResource(R.drawable.ic_traker_1);
-                                        mText_customer_tracking_details_current_status.setText("Confirmed");
+                                        mText_customer_tracking_details_current_status.setText("مؤكد");
                                         break;
 
                                     case "Accepted":
                                         mImageView_customer_tracking_details.setImageResource(R.drawable.ic_traker_2);
-                                        mText_customer_tracking_details_current_status.setText("Accepted");
+                                        mText_customer_tracking_details_current_status.setText("مقبول");
                                         break;
 
                                     case "ReadyForDelivery":
                                         mImageView_customer_tracking_details.setImageResource(R.drawable.ic_traker_3);
-                                        mText_customer_tracking_details_current_status.setText("ReadyForDelivery");
+                                        mText_customer_tracking_details_current_status.setText("جاهز لتوصيل");
                                         break;
 
                                     case "Delivering":
                                         mImageView_customer_tracking_details.setImageResource(R.drawable.ic_traker_4);
-                                        mText_customer_tracking_details_current_status.setText("Delivering");
+                                        mText_customer_tracking_details_current_status.setText("جاري التوصيل");
 
 
                                         mBtn_customer_tracking_details_order_received = (Button) findViewById(R.id.btn_customer_tracking_details_order_received);
@@ -105,7 +105,7 @@ public class CustomerTrackingDetailsActivity extends AppCompatActivity {
 
                                     case "Delivered":
                                         mImageView_customer_tracking_details.setImageResource(R.drawable.ic_traker_5);
-                                        mText_customer_tracking_details_current_status.setText("Delivered");
+                                        mText_customer_tracking_details_current_status.setText("تم التوصيل");
 
                                         break;
 

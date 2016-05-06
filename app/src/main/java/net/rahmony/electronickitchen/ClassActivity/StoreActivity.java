@@ -428,7 +428,7 @@ public class StoreActivity extends AppCompatActivity implements TabHost.OnTabCha
                         Store store = new Store();
                         store.setStoreID(bundle.getInt("Store_ID"));
                         
-                        store.setStoreName(mEt_input_description.getText().toString());
+                        store.setStoreDescription(mEt_input_description.getText().toString());
                         
                         Call<StoreResult> reg = apiService.changeStoreDescription(store);
                         reg.enqueue(new Callback<StoreResult>() {

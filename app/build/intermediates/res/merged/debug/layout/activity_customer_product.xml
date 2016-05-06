@@ -107,7 +107,7 @@
             android:id="@+id/btn_add_to_cart"
             android:background="#33b5e5"
             android:textColor="#fefcfc"
-            android:layout_gravity="bottom|right"
+            android:layout_gravity="right|center_vertical"
             android:onClick="onClick"
             android:layout_marginLeft="5dp"
             android:layout_marginRight="10dp" />
@@ -119,7 +119,7 @@
             android:background="#33b5e5"
             android:textColor="#fefcfc"
             android:id="@+id/btn_costumer_product_cancel"
-            android:layout_gravity="left|bottom"
+            android:layout_gravity="left|center_vertical"
             android:onClick="onClick"
             android:layout_marginLeft="7dp"
             android:layout_marginRight="10dp" />
