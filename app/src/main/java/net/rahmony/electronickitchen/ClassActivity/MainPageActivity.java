@@ -25,7 +25,7 @@ import retrofit.Retrofit;
 public class MainPageActivity extends AppCompatActivity {
 
 
-    private TextView mText_welcome ;
+    private TextView mText_name ;
 
 
 
@@ -45,9 +45,8 @@ public class MainPageActivity extends AppCompatActivity {
             Bundle extras = getIntent().getExtras();
 
 
-                mText_welcome = (TextView)findViewById(R.id.text_welcome);
-                String welcome =  mText_welcome.getText().toString();
-                mText_welcome.setText(extras.getString("UserName") + "   " + welcome);
+                mText_name = (TextView)findViewById(R.id.text_name);
+                mText_name.setText(extras.getString("UserName"));
 
     }
     public void onClick(View view){
